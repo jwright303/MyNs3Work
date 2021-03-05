@@ -1,0 +1,14 @@
+digraph "ns3::WifiPhy::GetTxPowerForTransmission"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::WifiPhy::GetTxPower\lForTransmission",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Compute the transmit power (in dBm) for the next transmission."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WifiTxVector::\lGetNssMax",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_tx_vector.html#af513f9b74627b15029ad400d4a5719b7",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WifiPhy::GetPowerDbm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#aa4be2d03be7a0d871f08e5e50d492a9d",tooltip="Get the power of the given power level in dBm."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::WifiTxVector::\lGetTxPowerLevel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_tx_vector.html#a58fb8a2ffee4393957decec8d9ffd996",tooltip=" "];
+}

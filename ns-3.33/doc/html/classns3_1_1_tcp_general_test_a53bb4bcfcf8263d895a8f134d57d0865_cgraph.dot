@@ -1,0 +1,33 @@
+digraph "ns3::TcpGeneralTest::HandleAccept"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::TcpGeneralTest\l::HandleAccept",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Handle an accept connection."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TcpGeneralTest\l::ErrorCloseCb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_general_test.html#a06320f4c0056798fc17a37e6db60b503",tooltip="Error Close Callback."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::TcpGeneralTest\l::ErrorClose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_general_test.html#a7094bdc5082e1d76ef84afb8ee11268f",tooltip="Socket closed with an error."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Socket::GetNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_socket.html#aba642ad4301c1df47befc0aa9afa2e48",tooltip="Return the node this socket is associated with."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::MakeCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#af1dde3c04374147fca0cfe3b0766d664",tooltip="Build Callbacks for class method members which take varying numbers of arguments and potentially retu..."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::TcpGeneralTest\l::NormalCloseCb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_general_test.html#abae34b473c7370e0e7c65c985526ef76",tooltip="Normal Close Callback."];
+  Node6 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::TcpGeneralTest\l::NormalClose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_general_test.html#a38d972b53fbdb443df17121b9a6a31b3",tooltip="Socket closed normally."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::TcpGeneralTest\l::ReceivePacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_general_test.html#aa948f005f343ea14a3c563e2d562344b",tooltip="Packet received."];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::Packet::GetSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet.html#afff7cb1ff518ee6dc0d424e10a5ad6ec",tooltip="Returns the the size in bytes of the packet (including the zero-filled initial payload)."];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::Buffer::GetSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer.html#a60c9172d2b102f8856c81b2126c8b209",tooltip=" "];
+  Node8 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::Socket::RecvFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_socket.html#af22378d7af9a2745a9eada20210da215",tooltip="Read a single packet from the socket and retrieve the sender address."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::Socket::SetCloseCallbacks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_socket.html#acac93d69d477332371fe83397ed8beeb",tooltip="Detect socket recv() events such as graceful shutdown or error."];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::Socket::SetRecvCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_socket.html#a243f7835ef1a85f9270fd3577e3a40da",tooltip="Notify application when new data is available to be read."];
+}

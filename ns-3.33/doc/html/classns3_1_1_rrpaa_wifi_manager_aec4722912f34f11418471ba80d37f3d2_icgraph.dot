@@ -1,0 +1,18 @@
+digraph "ns3::RrpaaWifiManager::InitThresholds"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::RrpaaWifiManager\l::InitThresholds",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Initialize the thresholds internal list for the given station."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::RrpaaWifiManager\l::CheckInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrpaa_wifi_manager.html#a37fd1f9711566d9def5f31c966a89bb5",tooltip="Check for initializations."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::RrpaaWifiManager\l::DoGetDataTxVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrpaa_wifi_manager.html#add26dac79b43d5c0114ba30e8cb29a9e",tooltip=" "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::RrpaaWifiManager\l::DoNeedRts",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrpaa_wifi_manager.html#a29c12382e12bf7841a2ebb0b69ec358f",tooltip=" "];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::RrpaaWifiManager\l::DoReportDataFailed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrpaa_wifi_manager.html#a1eaf934bbd61fba16475071bd67a6064",tooltip="This method is a pure virtual method that must be implemented by the sub-class."];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::RrpaaWifiManager\l::DoReportDataOk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrpaa_wifi_manager.html#a0d58aac0852cc1292c35d4a400e660ed",tooltip="This method is a pure virtual method that must be implemented by the sub-class."];
+}

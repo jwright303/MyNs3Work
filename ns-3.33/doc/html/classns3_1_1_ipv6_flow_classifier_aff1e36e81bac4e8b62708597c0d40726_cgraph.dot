@@ -1,0 +1,18 @@
+digraph "ns3::Ipv6FlowClassifier::SerializeToXmlStream"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Ipv6FlowClassifier\l::SerializeToXmlStream",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Serializes the results to an std::ostream in XML format."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="check-style.indent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacecheck-style.html#a2d6f9f432f34c4705db87ddfcb13405e",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="check-style.remove\l_trailing_whitespace\l_changes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacecheck-style.html#a2c3b5d33c0b17e299351caf642937eb3",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="check-style.parse_patchset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacecheck-style.html#a00ffe9f6b7678b83b1f89d171b30b89e",tooltip=" "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="check-style.uncrustify\l_config_file",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacecheck-style.html#a290307e84894e2842fa75b203b2c2e67",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::FlowClassifier\l::Indent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_flow_classifier.html#a1ef82da84f6f40ff32ea83d78f6b04b2",tooltip="Add a number of spaces for indentation purposes."];
+}

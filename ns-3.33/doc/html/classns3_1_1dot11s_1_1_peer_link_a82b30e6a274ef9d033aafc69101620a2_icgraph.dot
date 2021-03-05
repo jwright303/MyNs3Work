@@ -1,0 +1,47 @@
+digraph "ns3::dot11s::PeerLink::SendPeerLinkClose"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::dot11s::PeerLink\l::SendPeerLinkClose",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::dot11s::PeerLink\l::StateMachine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dot11s_1_1_peer_link.html#a4cc26e7fdbef0daafd1f6cc7d89fdd01",tooltip="State transition."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::dot11s::PeerLink\l::BeaconLoss",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dot11s_1_1_peer_link.html#a70cf99acca46134ddf0f1b6c5baf76f5",tooltip="Several successive beacons were lost, close link."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::dot11s::PeerLink\l::SetBeaconInformation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dot11s_1_1_peer_link.html#a51f0de2b9bfd67d0f720e9a89d15912b",tooltip="Process beacon received from peer."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::dot11s::PeerLink\l::Close",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dot11s_1_1_peer_link.html#a59ff6efe109654ba276b0832d5679c74",tooltip="Close link."];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::dot11s::PeerLink\l::ConfirmAccept",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dot11s_1_1_peer_link.html#ab96b1b9bcf9dfbc1aec1f16bde2055cb",tooltip="Confirm accept."];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::dot11s::PeerLink\l::ConfirmReject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dot11s_1_1_peer_link.html#a8378fb3eb32c4dcfee9bc090777ba8de",tooltip="Confirm reject."];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::dot11s::PeerLink\l::ConfirmTimeout",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dot11s_1_1_peer_link.html#a61d3100763f4a9b377571248199b0ff5",tooltip="The number of interface I am associated with."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::dot11s::PeerLink\l::SetConfirmTimer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dot11s_1_1_peer_link.html#ab7f793f0d95207a35f9f670aa86ea414",tooltip=" "];
+  Node9 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::dot11s::PeerLink\l::HoldingTimeout",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dot11s_1_1_peer_link.html#aca3f4d3e0cd9305f88f968aa8c5dcadd",tooltip="The number of interface I am associated with."];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::dot11s::PeerLink\l::SetHoldingTimer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dot11s_1_1_peer_link.html#a270a9aa7945fa680b2c03e5b5d20f3c0",tooltip=" "];
+  Node11 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::dot11s::PeerLink\l::MLMEActivePeerLinkOpen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dot11s_1_1_peer_link.html#a11876ce24c46d3c6ae49d79aa96b4677",tooltip="MLME-ActivePeerLinkOpen.request."];
+  Node2 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::dot11s::PeerLink\l::MLMECancelPeerLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dot11s_1_1_peer_link.html#a71779c31a14f73f2d464d9345cbd4d8c",tooltip="MLME-CancelPeerLink.request."];
+  Node2 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::dot11s::PeerLink\l::MLMEPeeringRequestReject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dot11s_1_1_peer_link.html#a6f1d4e6ace9f5a3538a42f86ef82dd50",tooltip="MLME-PeeringRequestReject."];
+  Node2 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::dot11s::PeerLink\l::OpenAccept",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dot11s_1_1_peer_link.html#a288bbe52d4761c8e41fb35b07dd5d868",tooltip="Accept open link."];
+  Node2 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::dot11s::PeerLink\l::OpenReject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dot11s_1_1_peer_link.html#ab26cafb6df6ccdc8407e867f39a685ed",tooltip="Reject open link."];
+  Node2 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::dot11s::PeerLink\l::RetryTimeout",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dot11s_1_1_peer_link.html#a36d427d1e395c27c7b7b577d6dad4c63",tooltip="The number of interface I am associated with."];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::dot11s::PeerLink\l::SetRetryTimer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dot11s_1_1_peer_link.html#a427403516dd5b94b100d6e924d230146",tooltip=" "];
+  Node18 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ns3::dot11s::PeerLink\l::TransmissionFailure",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dot11s_1_1_peer_link.html#a311a9748947db5753d6631bacb9e0895",tooltip="Callback type for MLME-SignalPeerLinkStatus event."];
+}

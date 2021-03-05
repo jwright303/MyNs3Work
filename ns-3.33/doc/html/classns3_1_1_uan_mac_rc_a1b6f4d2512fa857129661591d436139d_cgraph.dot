@@ -1,0 +1,28 @@
+digraph "ns3::UanMacRc::CreateRtsHeader"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::UanMacRc::CreateRts\lHeader",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Create the RTS header from a Reservation."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Reservation::GetFrameNo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_reservation.html#a7f8656060f429ea6ea8f2b5ec0d215f9",tooltip="Get the frame number."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Reservation::GetLength",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_reservation.html#a27e0406a884ba569ef16ca4a184b9147",tooltip="Get the total length of the Reservation."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Reservation::GetNoFrames",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_reservation.html#a0ded23bc58607cabfb83d4efc97024b0",tooltip="Get the number of frames in this Reservation."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Reservation::GetRetryNo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_reservation.html#aaeaa46a827cab951a557e74ab29878ba",tooltip="Get the retry number."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Reservation::GetTimestamp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_reservation.html#a52fd9de539415da7cc61bf8e63a202c3",tooltip="Get the timestamp for the n'th RTS."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::UanHeaderRcRts\l::SetFrameNo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_header_rc_rts.html#a3f46221d5f2b787266b640f2bfa2066c",tooltip="Set the frame number."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::UanHeaderRcRts\l::SetLength",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_header_rc_rts.html#af4af5cf14a3c3878d9c4bb3d24a52ee9",tooltip="Set the number of data bytes in the reservation."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::UanHeaderRcRts\l::SetNoFrames",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_header_rc_rts.html#aef080414f27301779f3a98810e7a1d33",tooltip="Set the number of data frames included in this reservation request."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::UanHeaderRcRts\l::SetRetryNo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_header_rc_rts.html#acce912b3143899c8e34d114e09ca4601",tooltip="Set the retry number of this RTS packet."];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::UanHeaderRcRts\l::SetTimeStamp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_header_rc_rts.html#a4fd7ebe58baeb9a5b2fa55e3f511812c",tooltip="Set RTS transmission time."];
+}

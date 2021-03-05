@@ -1,0 +1,48 @@
+digraph "ns3::Application::DoDispose"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Application::DoDispose",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Destructor implementation."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ThreeGppHttpClient\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_client.html#a7d6c1e0b0c38303279873ac892af5a02",tooltip="Destructor implementation."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ThreeGppHttpServer\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_server.html#a1c01eeb4275ba83b0c3e9ca5ae26a0ef",tooltip="Destructor implementation."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Ping6::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ping6.html#a455f7e0d45e50d6bfaa2fdf8812f5af4",tooltip="Dispose this object;."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Radvd::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_radvd.html#aeeb3bca9545ac42f2795fa9c047319f4",tooltip="Dispose the instance."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Sender::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sender.html#a9ddb29835be7b06251ee1c48a40cb752",tooltip="Destructor implementation."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::BulkSendApplication\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_bulk_send_application.html#a9a9a02d7f92d686e9db82f0ef950a9ff",tooltip="Destructor implementation."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::OnOffApplication\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_on_off_application.html#a2f40033ee778880bc21fd73339f38147",tooltip="Destructor implementation."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::PacketSink::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet_sink.html#a00aee3d4e6a589e9e17a2c75f7e0c710",tooltip="Destructor implementation."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::UdpClient::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_udp_client.html#a414e67a17b0d38c0567a6ffe9a3cb1a3",tooltip="Destructor implementation."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::UdpEchoClient\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_udp_echo_client.html#ab2c8649b6fe1db561db51ac2a2910cc6",tooltip="Destructor implementation."];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::UdpEchoServer\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_udp_echo_server.html#a4991a903cb822d78729c73e044705bc9",tooltip="Destructor implementation."];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::UdpServer::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_udp_server.html#ad71ef84dbd09cd3356c007cbfecf660e",tooltip="Destructor implementation."];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::UdpTraceClient\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_udp_trace_client.html#aaf10979a3843bb8dd964c31baaa6e000",tooltip="Destructor implementation."];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::DhcpClient::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dhcp_client.html#a638c060f9b057b6fccc11360551725db",tooltip="Destructor implementation."];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::DhcpServer::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dhcp_server.html#a0c80cb2ad0bf00498503945059419155",tooltip="Destructor implementation."];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::V4Ping::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_v4_ping.html#a78c38c5ceb8df123483c27421e2257ad",tooltip="Destructor implementation."];
+  Node1 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::V4TraceRoute::\lDoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_v4_trace_route.html#a6b7f169d4a3d5bbf4ae0228f73f327cf",tooltip="Destructor implementation."];
+  Node1 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ns3::PacketSocketClient\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet_socket_client.html#a2a3799f42514d3ca607143add4cab8c2",tooltip="Destructor implementation."];
+  Node1 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="ns3::PacketSocketServer\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet_socket_server.html#a2958bd54bb9a6c8d1ece84b0c54228bb",tooltip="Destructor implementation."];
+  Node1 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="ns3::BsmApplication\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_bsm_application.html#ac3e2c412d85bd266a9da9bf56c6e418a",tooltip="Destructor implementation."];
+}

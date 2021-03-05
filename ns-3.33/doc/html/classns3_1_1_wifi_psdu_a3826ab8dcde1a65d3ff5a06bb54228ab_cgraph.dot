@@ -1,0 +1,12 @@
+digraph "ns3::WifiPsdu::Print"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::WifiPsdu::Print",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Print the PSDU contents."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WifiPsdu::GetNMpdus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_psdu.html#a30baad46ffbfaacca2e4f8afe9519008",tooltip="Return the number of MPDUs constituting the PSDU."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WifiPsdu::IsAggregate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_psdu.html#a8d744249b5dce6681e70abd19637ef44",tooltip="Return true if the PSDU is an S-MPDU or A-MPDU."];
+}

@@ -1,0 +1,12 @@
+digraph "ns3::SpectrumValue::Add"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::SpectrumValue::Add",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Add a SpectrumValue (element to element addition)"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::SpectrumValue\l::operator+=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_spectrum_value.html#af29959e007903c4a30ead65ec02dded9",tooltip="Add the Right Hand Side of the operator to *this, component by component."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SpectrumValue\l::Subtract",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_spectrum_value.html#adb05d2e4648df697a996c62c9815e3b0",tooltip="Subtracts a flat value to all the current elements."];
+}

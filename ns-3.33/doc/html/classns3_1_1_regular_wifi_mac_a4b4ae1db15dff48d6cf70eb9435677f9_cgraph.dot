@@ -1,0 +1,12 @@
+digraph "ns3::RegularWifiMac::SetBkBlockAckInactivityTimeout"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::RegularWifiMac\l::SetBkBlockAckInactivityTimeout",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set BK block ack inactivity timeout."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::RegularWifiMac\l::GetBKQueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_regular_wifi_mac.html#a54315bf664541f02a2da1b5bb6988c2c",tooltip="Accessor for the AC_BK channel access function."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::QosTxop::SetBlockAck\lInactivityTimeout",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_qos_txop.html#ad4d63aac7ad4861332f75ba9c31c20c9",tooltip="Set the BlockAck inactivity timeout."];
+}

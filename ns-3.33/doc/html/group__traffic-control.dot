@@ -1,0 +1,15 @@
+digraph "Traffic-control"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node3 [label="ARP protocol.",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__arp.html",tooltip="The ARP protocol and its associated tables are responsible for the IPv4 - MAC address translation."];
+  Node4 [label="IPv4 classes and sub\l-modules",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__ipv4.html",tooltip=" "];
+  Node5 [label="IPv6 classes and sub\l-modules",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__ipv6.html",tooltip=" "];
+  Node2 [label="traffic-control module\l tests",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__traffic-control-test.html",tooltip=" "];
+  Node1 [label="Traffic-control",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="The Traffic Control layer aims at introducing an equivalent of the Linux Traffic Control infrastructu..."];
+  Node1->Node2 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, label="ns3::ArpQueueDiscItem", color="orange", dir="none", style="dashed"];
+  Node1->Node4 [shape=plaintext, label="ns3::Ipv4PacketFilter\nns3::Ipv4QueueDiscItem", color="orange", dir="none", style="dashed"];
+  Node1->Node5 [shape=plaintext, label="ns3::Ipv6PacketFilter\nns3::Ipv6QueueDiscItem", color="orange", dir="none", style="dashed"];
+}

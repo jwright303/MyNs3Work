@@ -1,0 +1,12 @@
+digraph "ns3::DhcpHelper::InstallDhcpClientPriv"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::DhcpHelper::Install\lDhcpClientPriv",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Function to install DHCP client on a node."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::DhcpHelper::Install\lDhcpClient",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dhcp_helper.html#a79339a359fbd1501dd9b6d4fccc83acd",tooltip="Install DHCP client of a nodes / NetDevice."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="DhcpTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dhcp_test_case.html#ac3d1034cf3b85bd4ecd2bc0bf2345e29",tooltip="Implementation to actually run this TestCase."];
+}

@@ -1,0 +1,17 @@
+digraph "src/core/model/global-value.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/core/model/global\l-value.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ns3::GlobalValue declaration."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="src/core/model/command\l-line.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$command-line_8cc.html",tooltip="ns3::CommandLine implementation."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="src/core/model/config.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$config_8cc.html",tooltip="ns3::Config implementations."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="src/core/model/global\l-value.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$global-value_8cc.html",tooltip="ns3::GlobalValue implementation."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="src/core/model/rng\l-seed-manager.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rng-seed-manager_8cc.html",tooltip="ns3::RngSeedManager implementation."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="src/core/model/simulator.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$simulator_8cc.html",tooltip="ns3::Simulator implementation, as well as implementation pointer, global scheduler implementation."];
+}

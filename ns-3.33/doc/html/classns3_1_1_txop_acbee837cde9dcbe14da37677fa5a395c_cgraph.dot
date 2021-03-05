@@ -1,0 +1,44 @@
+digraph "ns3::Txop::GetFragmentPacket"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Txop::GetFragmentPacket",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the next fragment from the packet with appropriate Wifi header for the fragment."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Txop::GetFragmentOffset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_txop.html#af8ed1fa9ec5f8a221297a1d010babc62",tooltip="Calculate the offset for the current fragment."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WifiMacHeader\l::GetAddr1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_header.html#aa1c4acbda4ace9f7a920c97d71bdd097",tooltip="Return the address in the Address 1 field."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::WifiRemoteStationManager\l::GetFragmentOffset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#a3bc4865736b8b3a8f593325bb2bdb655",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::WifiRemoteStationManager\l::GetFragmentationThreshold",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#a8b9aabd58f7b147bc55ffac435f8bace",tooltip="Return the fragmentation threshold."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::WifiRemoteStationManager\l::DoGetFragmentationThreshold",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#a336c9cf2456c7f4e51ce39b41c1993af",tooltip="Return the current fragmentation threshold."];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::WifiRemoteStationManager\l::GetNFragments",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#ad4066ed9b850369a473d3d93c871bb07",tooltip="Return the number of fragments needed for the given packet."];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::WifiMacHeader\l::GetSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_header.html#a5330ccda676bc7348bc633acc67df8fc",tooltip="Return the size of the WifiMacHeader in octets."];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::Txop::GetFragmentSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_txop.html#a9fd35597acbedb945f9b61c4fbe55b06",tooltip="Calculate the size of the current fragment."];
+  Node9 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::WifiRemoteStationManager\l::GetFragmentSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#ae646308621e90ca3ae6ca6de3540cff2",tooltip=" "];
+  Node10 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::Txop::IsLastFragment",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_txop.html#a444d3edd92ae0b70b95f0be836050eea",tooltip="Check if the current fragment is the last fragment."];
+  Node11 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::WifiRemoteStationManager\l::IsLastFragment",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#af88757b4d170e2aa444f8922c3b90503",tooltip=" "];
+  Node12 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::WifiMacHeader\l::SetFragmentNumber",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_header.html#ad11306bd3a2edf81346a14a9c4fe7388",tooltip="Set the fragment number of the header."];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::WifiMacHeader\l::SetMoreFragments",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_header.html#abf2c196274eaa8ae637cab1730fe9e8a",tooltip="Set the More Fragment bit in the Frame Control field."];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::WifiMacHeader\l::SetNoMoreFragments",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_header.html#a3898df5358df4247926b74175f2789c3",tooltip="Un-set the More Fragment bit in the Frame Control Field."];
+}

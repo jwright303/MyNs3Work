@@ -1,0 +1,12 @@
+digraph "ns3::EpcX2HandoverRequestAckHeader::GetNewEnbUeX2apId"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::EpcX2HandoverRequest\lAckHeader::GetNewEnbUeX2apId",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get new ENB UE X2 AP ID function."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::EpcX2::RecvFromX2cSocket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_epc_x2.html#a72bf05af65397dab7bc65df72bb09ebf",tooltip="Method to be assigned to the recv callback of the X2-C (X2 Control Plane) socket."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::EpcX2::AddX2Interface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_epc_x2.html#a4bcd4423802914da0356051ecf79d2f1",tooltip="Add an X2 interface to this EPC X2 entity."];
+}

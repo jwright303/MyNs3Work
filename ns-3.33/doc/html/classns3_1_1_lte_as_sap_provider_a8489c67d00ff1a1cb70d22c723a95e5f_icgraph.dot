@@ -1,0 +1,10 @@
+digraph "ns3::LteAsSapProvider::ForceCampedOnEnb"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LteAsSapProvider\l::ForceCampedOnEnb",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Force the RRC entity to stay camped on a certain eNodeB."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::EpcUeNas::Connect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_epc_ue_nas.html#aaddbb0f28f2b0ea4a9b1289d713598a3",tooltip="Causes NAS to tell AS to camp to a specific cell and go to ACTIVE state."];
+}

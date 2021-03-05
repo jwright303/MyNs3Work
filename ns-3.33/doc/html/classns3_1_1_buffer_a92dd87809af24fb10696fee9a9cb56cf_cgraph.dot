@@ -1,0 +1,23 @@
+digraph "ns3::Buffer::AddAtEnd"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Buffer::AddAtEnd",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Buffer::CheckInternal\lState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer.html#a200897ee202518b0d2bf91ead4e82be9",tooltip="Checks the internal buffer structures consistency."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Buffer::Create",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer.html#a340c9888e35cf55d024808adfbd75913",tooltip="Create a buffer data storage."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Buffer::Allocate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer.html#a7bbfa888d618a79ee413fe01a7b4ff68",tooltip="Allocate a buffer data storage."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Buffer::Deallocate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer.html#a5cf2847bcc22da58cfa7e3a6b0279a01",tooltip="Deallocate the buffer memory."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Buffer::GetInternalEnd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer.html#a731af66f8b400041115cdfb5dbd880b2",tooltip="Get the buffer end position."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Buffer::GetInternalSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer.html#a1042168f1f6f3b24ad08a668662ab373",tooltip="Get the buffer real size."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::Buffer::Recycle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer.html#aa14d4354b6de0c9d6044805f6503ecd2",tooltip="Recycle the buffer memory."];
+  Node8 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

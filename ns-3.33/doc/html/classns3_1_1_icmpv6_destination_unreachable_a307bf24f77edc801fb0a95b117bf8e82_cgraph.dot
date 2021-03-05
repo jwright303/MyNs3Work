@@ -1,0 +1,44 @@
+digraph "ns3::Icmpv6DestinationUnreachable::Serialize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Icmpv6DestinationUnreachable\l::Serialize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Serialize the packet."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Buffer::Iterator\l::CalculateIpChecksum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer_1_1_iterator.html#a3c7784ed3f45948da2cf8754ad1606d5",tooltip="Calculate the checksum."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Packet::CopyData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet.html#a5bafd70ccf970b10524e2d61afd39dc1",tooltip="Copy the packet contents to a byte buffer."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Buffer::CopyData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer.html#a767c8ec06a1307b569b9a5996dcacf91",tooltip="Copy the specified amount of data from the buffer to the given output stream."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Icmpv6Header::\lGetChecksum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_header.html#a52f8e7426d0857236930abb7768484f5",tooltip="Get the checksum."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Icmpv6Header::\lGetCode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_header.html#a13d8f4dc5f9674af6a0fa15bf4b49d9a",tooltip="Get the code field."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Buffer::Iterator\l::GetSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer_1_1_iterator.html#ad899ca5750197ea53242f7c84d66224a",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::Packet::GetSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet.html#afff7cb1ff518ee6dc0d424e10a5ad6ec",tooltip="Returns the the size in bytes of the packet (including the zero-filled initial payload)."];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::Buffer::GetSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer.html#a60c9172d2b102f8856c81b2126c8b209",tooltip=" "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::Icmpv6Header::\lGetType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_header.html#a34dd3bf798288e87e54ef2a2f8fd89ce",tooltip="Get the type field."];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::Buffer::Iterator\l::Next",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer_1_1_iterator.html#a5eaa564bdc98d063b7e94b1768aeed6b",tooltip="go forward by one byte"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="visualizer.core.start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacevisualizer_1_1core.html#a2a35e5d8a34af358b508dac8635754e0",tooltip=" "];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="visualizer.base.load\l_plugins",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacevisualizer_1_1base.html#ad171497a5ff1afe0a73bedaebf35448f",tooltip=" "];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="visualizer.base.register\l_plugin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacevisualizer_1_1base.html#a6b0ffcff1e17ec4027496f50177e5b9e",tooltip=" "];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::Buffer::Iterator\l::Write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer_1_1_iterator.html#a087b4e6b5d038544c750c741e8932d69",tooltip=" "];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::Buffer::Iterator\l::WriteHtonU16",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer_1_1_iterator.html#a97ea9c86cfe87b516efc28faa7dfdf21",tooltip=" "];
+  Node1 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::Buffer::Iterator\l::WriteHtonU32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer_1_1_iterator.html#ac8a95d099acc1fa0e699200b4de82173",tooltip=" "];
+  Node1 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::Buffer::Iterator\l::WriteU16",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer_1_1_iterator.html#a67fdfa2b4295a6f807b9670c7c8e4c0b",tooltip=" "];
+  Node1 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ns3::Buffer::Iterator\l::WriteU8",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer_1_1_iterator.html#a3c7bacca6cbb821c9d14fa4626b7ae16",tooltip=" "];
+}

@@ -1,0 +1,12 @@
+digraph "ns3::operator&lt;&lt;"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::operator\<\<",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="output stream output operator"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::VhtCapabilities\l::GetSupportedMcsAndNssSet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_vht_capabilities.html#ab8d44faddd62b362704ec28a4db96eaa",tooltip="Return the MCS and NSS field in the VHT Capabilities information element."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::VhtCapabilities\l::GetVhtCapabilitiesInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_vht_capabilities.html#abf0cb789c3cd93ecd56b6faa5156665f",tooltip="Return the VHT Capabilities Info field in the VHT Capabilities information element."];
+}

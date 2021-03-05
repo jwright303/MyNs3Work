@@ -1,0 +1,57 @@
+digraph "ns3::WifiPhyStateHelper::GetState"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::WifiPhyStateHelper\l::GetState",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Return the current state of WifiPhy."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WifiPhyStateHelper\l::GetDelayUntilIdle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#a1a1e8ff63bcbb3cf1522c5f5ee4f3eb3",tooltip="Return the time before the state is back to IDLE."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WifiPhyStateHelper\l::IsStateCcaBusy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#a12aacf4bb0e80f0cc285e54c36d92f0e",tooltip="Check whether the current state is CCA busy."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::WifiPhyStateHelper\l::DoSwitchFromRx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#a1f57e08c21efb84c6a34a832c19966d8",tooltip="Switch the state from RX."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::WifiPhyStateHelper\l::SwitchFromRxAbort",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#a943093847761067740ea812b19a16773",tooltip="Abort current reception."];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::WifiPhyStateHelper\l::SwitchFromRxEndError",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#acf3604274f1de290f21bdf9f3a5f4a87",tooltip="Switch from RX after the reception failed."];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::WifiPhyStateHelper\l::SwitchFromRxEndOk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#a167e72313c4ec128865c46e55fe9e4b2",tooltip="Switch from RX after the reception was successful."];
+  Node3 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::WifiPhyStateHelper\l::SwitchToRx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#a0f2fc8bb8c61f94606b318bfc78b9003",tooltip="Switch state to RX for the given duration."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::WifiPhyStateHelper\l::IsStateIdle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#ae36ef11b1ea414bcf9092ce3a6ba8bcc",tooltip="Check whether the current state is IDLE."];
+  Node9 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::WifiPhyStateHelper\l::IsStateOff",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#a30655b99a7575eba3faac7f980c61fd3",tooltip="Check whether the current state is OFF."];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::WifiPhyStateHelper\l::SwitchFromOff",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#a2a7616c7cb18a5ef27285787a4fb2e5f",tooltip="Switch from off mode."];
+  Node10 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::WifiPhyStateHelper\l::SwitchToOff",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#acb2511cbb9040e3783bb890f4d3b65d8",tooltip="Switch to off mode."];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::WifiPhyStateHelper\l::IsStateRx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#a38ea1c96882ec0a0e04d531e3c0ecb1b",tooltip="Check whether the current state is RX."];
+  Node13 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::WifiPhyStateHelper\l::IsStateSleep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#a0b975ab4c38428094b97c73c713a7287",tooltip="Check whether the current state is SLEEP."];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::WifiPhyStateHelper\l::SwitchFromSleep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#adfa6b4ce47455491dbbd82a97b601cfb",tooltip="Switch from sleep mode."];
+  Node14 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::WifiPhyStateHelper\l::SwitchToSleep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#adf92a7cf71fe546d59f10e8308a10df2",tooltip="Switch to sleep mode."];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::WifiPhyStateHelper\l::IsStateSwitching",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#aa1d33587cdc6480ff6d5bf9eb8abc27b",tooltip="Check whether the current state is SWITCHING."];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::WifiPhyStateHelper\l::SwitchToChannelSwitching",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#a4c14c3353b20a14934e20ece92bf411a",tooltip="Switch state to channel switching for the given duration."];
+  Node1 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ns3::WifiPhyStateHelper\l::IsStateTx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#a384a663170eebadd8a283504007b15ce",tooltip="Check whether the current state is TX."];
+  Node1 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="ns3::WifiPhyStateHelper\l::SwitchMaybeToCcaBusy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#ad9963e635d1ce21687f75a4908932be8",tooltip="Switch to CCA busy."];
+  Node1 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="ns3::WifiPhyStateHelper\l::SwitchToTx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#a8970100c892b927f0daac3f5f39cb205",tooltip="Switch state to TX for the given duration."];
+}

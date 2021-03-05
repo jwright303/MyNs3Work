@@ -1,0 +1,10 @@
+digraph "ns3::LteFfrAlgorithm::SetFrCellTypeId"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LteFfrAlgorithm\l::SetFrCellTypeId",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteFfrAlgorithm\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ffr_algorithm.html#a10648d4cc814a88bf707052bc7f2a4ca",tooltip="Get the type ID."];
+}

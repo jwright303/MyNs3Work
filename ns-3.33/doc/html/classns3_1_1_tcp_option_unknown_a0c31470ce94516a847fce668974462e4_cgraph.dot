@@ -1,0 +1,16 @@
+digraph "ns3::TcpOptionUnknown::Serialize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::TcpOptionUnknown\l::Serialize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Serialize the Option to a buffer iterator."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TcpOptionUnknown\l::GetKind",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_option_unknown.html#a1b2585b2b660162f6f5c3b543375199c",tooltip="Get the ‘kind’ (as in RFC 793) of this option."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::TcpOptionUnknown\l::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_option_unknown.html#aa367456522bb5347e0080ccf0fa6979d",tooltip="Returns number of bytes required for Option serialization."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Buffer::Iterator\l::Write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer_1_1_iterator.html#a087b4e6b5d038544c750c741e8932d69",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Buffer::Iterator\l::WriteU8",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer_1_1_iterator.html#a3c7bacca6cbb821c9d14fa4626b7ae16",tooltip=" "];
+}

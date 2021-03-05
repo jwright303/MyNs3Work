@@ -1,0 +1,20 @@
+digraph "ns3::LteSpectrumValueHelper::CreateNoisePowerSpectralDensity"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LteSpectrumValueHelper\l::CreateNoisePowerSpectralDensity",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="create a SpectrumValue that models the power spectral density of AWGN"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ComputeSnr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$three-gpp-channel-example_8cc.html#a18e3933f3dbc781dd3c2e55d8fb10f47",tooltip="Compute the average SNR."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LteEnbPhy::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_phy.html#a404572fbc4d6948034038b91bf450877",tooltip="Initialize() implementation."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::LteUePhy::DoSetDlBandwidth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_phy.html#a170bf6709759089d0ebc7961acf065c8",tooltip="Set DL bandwidth function."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::LteUePhy::DoStartCell\lSearch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_phy.html#a56e7d7a21b8d52d61e1578649c5ca36c",tooltip="Start the cell search function."];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::LteUePhy::DoSynchronize\lWithEnb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_phy.html#a73eff1d7da65749d46e20c64fd7ebfa8",tooltip="Synchronize with ENB function."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::LteUePhy::DoSynchronize\lWithEnb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_phy.html#a7a4dbda1a66c2113bb35b4fd7d710b4e",tooltip="Synchronize with ENB function."];
+}

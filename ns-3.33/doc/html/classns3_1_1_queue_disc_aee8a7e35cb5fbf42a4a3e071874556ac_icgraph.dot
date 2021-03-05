@@ -1,0 +1,20 @@
+digraph "ns3::QueueDisc::Mark"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::QueueDisc::Mark",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Marks the given packet and, if successful, updates the counters associated with the given reason."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::QueueDisc::QueueDisc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#a37a858c1d430e3b11cf289c493426d11",tooltip="Constructor."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::CobaltQueueDisc\l::CobaltShouldDrop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_cobalt_queue_disc.html#a59935fe3ec6a23ff7b55cd298fc4cc80",tooltip="Called to decide whether the current packet should be dropped based on decisions taken by Blue and Co..."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::CobaltQueueDisc\l::DoDequeue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_cobalt_queue_disc.html#a1c62d3ba0ac9ff28b4779337ef0c36f7",tooltip="This function actually extracts a packet from the queue disc."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::CoDelQueueDisc\l::DoDequeue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_co_del_queue_disc.html#a6128cb8655b87b67f04424c68058e751",tooltip="Remove a packet from queue based on the current state If we are in dropping state,..."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::PieQueueDisc::\lDoEnqueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pie_queue_disc.html#a583c0ac9ca43810a32af239e23e31614",tooltip="This function actually enqueues a packet into the queue disc."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::RedQueueDisc::\lDoEnqueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_red_queue_disc.html#ae0be138c29bf158336a7a74a90790c2a",tooltip="This function actually enqueues a packet into the queue disc."];
+}

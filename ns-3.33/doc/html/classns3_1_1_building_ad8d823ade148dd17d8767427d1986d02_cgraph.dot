@@ -1,0 +1,54 @@
+digraph "ns3::Building::GetTypeId"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Building::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Building::GetBoundaries",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_building.html#a94fddaf2b07de0ff4c3beb6253715cfd",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Building::GetBuildingType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_building.html#a4e87e465dda4318b56d08ff58d0050e9",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Building::GetExtWallsType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_building.html#a27360da467311f32da185b59543673ad",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Building::GetId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_building.html#a3895c5e9f16b51f91d1e3523c1192b56",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Building::GetNFloors",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_building.html#a448691f6f7065e11f8857a73c09d765e",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Building::GetNRoomsX",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_building.html#ac157c1f9978d87df6ebd9ac63d4739e2",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::Building::GetNRoomsY",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_building.html#a0f944df8a9a8657fe67328c5afe4d092",tooltip=" "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::MakeBoxAccessor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__attribute___box.html#ga77bfa582dba6eed2ebf3750910aebdde",tooltip="Create an AttributeAccessor for a class data member, or a lone class get functor or set method."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::MakeBoxChecker",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__attribute___box.html#gabf9d856080a9edca5442d43501b0ba78",tooltip=" "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::MakeEnumAccessor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__attribute___enum.html#gafb1266e2079bcee99714aa9575b9270d",tooltip="Create an AttributeAccessor for a class data member, or a lone class get functor or set method."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::MakeEnumChecker",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#a657c5b8b26adf9b07deb4701d5e27169",tooltip="Make an EnumChecker pre-configured with a set of allowed values by name."];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::MakeUintegerAccessor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__attribute___uinteger.html#gab877334ef73a924b42b65179d87d7244",tooltip="Create an AttributeAccessor for a class data member, or a lone class get functor or set method."];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::Building::SetBoundaries",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_building.html#a4b69659f05a983f06e33e7db62415915",tooltip="Set the boundaries of the building."];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::Building::SetBuildingType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_building.html#a2f193ed27d25ed8bf29962d3c7d77204",tooltip=" "];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::Building::SetExtWallsType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_building.html#a8084b2aafb9ca8bcb775fad0319d42e8",tooltip=" "];
+  Node1 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::Building::SetNFloors",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_building.html#ae9f97075b5c8bf4685703e30ed049791",tooltip=" "];
+  Node1 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::Building::SetNRoomsX",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_building.html#a60eac680f1059fb9d883a659607e2fae",tooltip=" "];
+  Node1 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ns3::Building::SetNRoomsY",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_building.html#a9103ee5b5edf013624d7e18422c4ba06",tooltip=" "];
+  Node1 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="ns3::TypeId::SetParent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#abaaca67ab7d2471067e7c275df0f7309",tooltip="Set the parent TypeId."];
+  Node20 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="ns3::Singleton\< IidManager\l \>::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_singleton.html#a80a2cd3c25a27ea72add7a9f7a141ffa",tooltip="Get a pointer to the singleton instance."];
+  Node20 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="ns3::TypeId::GetUid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#a429535085325d6f926724771446d9047",tooltip="Get the internal id of this TypeId."];
+  Node20 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="ns3::IidManager::SetParent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_iid_manager.html#a4042931260554c907699367b6811426f",tooltip="Set the parent of a type id."];
+  Node23 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="ns3::IidManager::LookupInformation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_iid_manager.html#a84af06b798b21fa700469a3ac5f65f3f",tooltip="Retrieve the information record for a type."];
+}

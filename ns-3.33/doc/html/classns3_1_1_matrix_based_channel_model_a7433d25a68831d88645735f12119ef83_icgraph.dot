@@ -1,0 +1,14 @@
+digraph "ns3::MatrixBasedChannelModel::GetKey"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::MatrixBasedChannelModel\l::GetKey",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Calculate the channel key using the Cantor function."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ThreeGppChannelModel\l::GetChannel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_channel_model.html#a5a406c78416046c228d628935b8ef0f8",tooltip="Looks for the channel matrix associated to the aMob and bMob pair in m_channelMap."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ThreeGppSpectrumPropagation\lLossModel::GetLongTerm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_spectrum_propagation_loss_model.html#a1394cf5856841e8a6f91e3d623a6fcdb",tooltip="Looks for the long term component in m_longTermMap."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ThreeGppSpectrumPropagation\lLossModel::DoCalcRxPowerSpectralDensity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_spectrum_propagation_loss_model.html#af4115f4fb10701dabbd364be8b49e913",tooltip="Computes the received PSD."];
+}

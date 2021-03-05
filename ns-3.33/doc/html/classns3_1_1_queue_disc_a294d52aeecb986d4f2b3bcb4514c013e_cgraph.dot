@@ -1,0 +1,12 @@
+digraph "ns3::QueueDisc::Transmit"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::QueueDisc::Transmit",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Modelled after the Linux function sch_direct_xmit (net/sched/sch_generic.c) Sends a packet to the dev..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::QueueDisc::GetNPackets",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#a9b5a4899a463e6a926b18c2bf7f71d00",tooltip="Get the number of packets stored by the queue disc."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::QueueDisc::Requeue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#a45cd8fdd2469b9e9d7551af22cfdb1a2",tooltip="Modelled after the Linux function dev_requeue_skb (net/sched/sch_generic.c) Requeues a packet whose t..."];
+}

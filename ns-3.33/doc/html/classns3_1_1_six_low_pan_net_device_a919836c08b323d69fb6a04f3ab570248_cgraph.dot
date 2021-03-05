@@ -1,0 +1,18 @@
+digraph "ns3::SixLowPanNetDevice::Get16MacFrom48Mac"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::SixLowPanNetDevice\l::Get16MacFrom48Mac",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get a Mac16 from its Mac48 pseudo-MAC."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Mac16Address::\lCopyFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac16_address.html#aaffb29efb8e2c61e2e844c1634a2f1d4",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Address::CopyTo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_address.html#ad4134d0978220e8d2920c27dc13cb320",tooltip="Copy the address bytes into a buffer."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Mac48Address::\lIsMatchingType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac48_address.html#a55cc1e3c6aa63fd1a4f8f7d9be4ae182",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Mac48Address::\lGetType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac48_address.html#a5d365853b58b7acb2cc1cf905115891b",tooltip="Return the Type of address."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Address::Register",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_address.html#a75d239c79bb3c39d64a8db4f2d3d9b20",tooltip="Allocate a new type id for a new type of address."];
+}

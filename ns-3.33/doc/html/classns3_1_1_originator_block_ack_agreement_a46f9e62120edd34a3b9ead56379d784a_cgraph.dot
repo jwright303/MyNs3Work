@@ -1,0 +1,29 @@
+digraph "ns3::OriginatorBlockAckAgreement::NotifyTransmittedMpdu"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::OriginatorBlockAckAgreement\l::NotifyTransmittedMpdu",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Advance the transmit window so as to include the transmitted MPDU, if the latter is not an old packet..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::BlockAckWindow\l::Advance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_window.html#a5b9251c6163090e5751819fa3baa6710",tooltip="Advance the current winStart by the given number of positions."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::BlockAckWindow\l::Reset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_window.html#a07353e10e9876c6f3e310e8696b7f4ed",tooltip="Reset the window by clearing all the elements and setting winStart to the given value."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::BlockAckWindow\l::Init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_window.html#adb6893143136ff776615557026b4c295",tooltip="Initialize the window with the given starting sequence number and size."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::OriginatorBlockAckAgreement\l::AdvanceTxWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_originator_block_ack_agreement.html#a3db399f9c86d469688d2742f7acda443",tooltip="Advance the transmit window so that the starting sequence number is the nearest unacknowledged MPDU."];
+  Node5 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::BlockAckWindow::At",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_window.html#ae55f3ebd7abd264d2680940f1a1ff798",tooltip="Get a reference to the element in the window having the given distance from the current winStart."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::OriginatorBlockAckAgreement\l::GetDistance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_originator_block_ack_agreement.html#ab33cb13eaeac16e18a84fff27b1e0dbb",tooltip="Get the distance between the current starting sequence number and the given sequence number."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::OriginatorBlockAckAgreement\l::GetStartingSequence",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_originator_block_ack_agreement.html#a71138fdae2b41a8a99f62195d9167975",tooltip="Return the starting sequence number of the transmit window, if a transmit window has been initialized..."];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::BlockAckWindow\l::GetWinSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_window.html#a583d4d55d9e51f115ea2f64fb8b28fa2",tooltip="Get the window size."];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::BlockAckWindow\l::GetWinStart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_window.html#a7d441c6a6b4824230d14237500be65bc",tooltip="Get the current winStart value."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

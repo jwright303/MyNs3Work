@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ns3::MacLow::CfAckInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_mac_low_1_1_cf_ack_info.html",tooltip="A struct that holds information about Ack piggybacking (CF-Ack)."];
+}

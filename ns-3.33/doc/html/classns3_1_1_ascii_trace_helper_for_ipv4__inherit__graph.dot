@@ -1,0 +1,9 @@
+digraph "ns3::AsciiTraceHelperForIpv4"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ns3::AsciiTraceHelperForIpv4",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Base class providing common user-level ascii trace operations for helpers representing IPv4 protocols..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::InternetStackHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_internet_stack_helper.html",tooltip="aggregate IP/TCP/UDP functionality to existing Nodes."];
+}

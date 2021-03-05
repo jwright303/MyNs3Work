@@ -1,0 +1,19 @@
+digraph "IPv6 classes and sub-modules"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node7 [label="Socket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__socket.html",tooltip=" "];
+  Node5 [label="Address",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__address.html",tooltip="Network Address abstractions, including MAC, IPv4 and IPv6."];
+  Node3 [label="ICMPv6 protocol and\l associated headers.",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__icmpv6.html",tooltip=" "];
+  Node1 [label="IPv6 classes and sub\l-modules",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node6 [label="Traffic-control",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__traffic-control.html",tooltip="The Traffic Control layer aims at introducing an equivalent of the Linux Traffic Control infrastructu..."];
+  Node4 [label="IPV6 Header extension\l system.",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__ipv6_header_ext.html",tooltip=" "];
+  Node2 [label="Internet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__internet.html",tooltip="This section documents the API of the ns-3 internet module."];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node4 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node5 [shape=plaintext, label="ns3::Ipv6AddressGenerator\nns3::Ipv6InterfaceAddress", color="orange", dir="none", style="dashed"];
+  Node1->Node6 [shape=plaintext, label="ns3::Ipv6PacketFilter\nns3::Ipv6QueueDiscItem", color="orange", dir="none", style="dashed"];
+  Node1->Node7 [shape=plaintext, label="ns3::Ipv6RawSocketFactory\nns3::Ipv6RawSocketFactoryImpl\nns3::Ipv6RawSocketImpl", color="orange", dir="none", style="dashed"];
+}

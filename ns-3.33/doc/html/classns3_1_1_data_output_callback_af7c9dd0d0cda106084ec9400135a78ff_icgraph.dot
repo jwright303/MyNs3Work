@@ -1,0 +1,12 @@
+digraph "ns3::DataOutputCallback::OutputSingleton"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::DataOutputCallback\l::OutputSingleton",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Associates the integer value with the variable name for a specific output format."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::CounterCalculator\l::Output",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_counter_calculator.html#a12b41ed4c146b0dfb7a57f91d5d9cd45",tooltip="Outputs the data based on the provided callback."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::TimeMinMaxAvgTotalCalculator\l::Output",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time_min_max_avg_total_calculator.html#a9aaa0535ada322a693f0f3a13d16581e",tooltip="Outputs data based on the provided callback."];
+}

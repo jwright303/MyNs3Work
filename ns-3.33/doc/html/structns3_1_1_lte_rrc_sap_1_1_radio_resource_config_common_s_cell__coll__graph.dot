@@ -1,0 +1,24 @@
+digraph "ns3::LteRrcSap::RadioResourceConfigCommonSCell"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::LteRrcSap::RadioResource\lConfigCommonSCell",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="RadioResourceConfigCommonSCell."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ulConfiguration" ,fontname="Helvetica"];
+  Node2 [label="ns3::LteRrcSap::UlConfiguration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_ul_configuration.html",tooltip="UlConfiguration structure."];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" soundingRsUlConfigCommon" ,fontname="Helvetica"];
+  Node3 [label="ns3::LteRrcSap::Sounding\lRsUlConfigCommon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_sounding_rs_ul_config_common.html",tooltip="SoundingRsUlConfigCommon structure."];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" prachConfigSCell" ,fontname="Helvetica"];
+  Node4 [label="ns3::LteRrcSap::PrachConfig\lSCell",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_prach_config_s_cell.html",tooltip="PrachConfigSCell structure."];
+  Node5 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ulPowerControlCommonSCell" ,fontname="Helvetica"];
+  Node5 [label="ns3::LteRrcSap::UlPowerControl\lCommonSCell",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_ul_power_control_common_s_cell.html",tooltip="UlPowerControlCommonSCell structure."];
+  Node6 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ulFreqInfo" ,fontname="Helvetica"];
+  Node6 [label="ns3::LteRrcSap::FreqInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_freq_info.html",tooltip="FreqInfo structure."];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" nonUlConfiguration" ,fontname="Helvetica"];
+  Node7 [label="ns3::LteRrcSap::NonUlConfiguration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_non_ul_configuration.html",tooltip="NonUlConfiguration structure."];
+  Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" pdschConfigCommon" ,fontname="Helvetica"];
+  Node8 [label="ns3::LteRrcSap::PdschConfig\lCommon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_pdsch_config_common.html",tooltip="PdschConfigCommon structure."];
+  Node9 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" antennaInfoCommon" ,fontname="Helvetica"];
+  Node9 [label="ns3::LteRrcSap::AntennaInfo\lCommon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_antenna_info_common.html",tooltip="AntennaInfoCommon structure."];
+}

@@ -1,0 +1,20 @@
+digraph "Debugging tools"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node5 [label="Logging",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__logging.html",tooltip="Logging functions and macros."];
+  Node7 [label="NS_BUILD_PROFILE macros\l test suite",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__build-profile-tests.html",tooltip=" "];
+  Node6 [label="Core module tests",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__core-tests.html",tooltip="TestSuites for the Core module."];
+  Node1 [label="Debugging tools",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Assertions, breakpoints, logging, and abnormal program termination."];
+  Node3 [label="Assertions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__assert.html",tooltip="Assert functions and macros."];
+  Node4 [label="Breakpoints",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__breakpoint.html",tooltip="Trigger a debugger breakpoint."];
+  Node2 [label="Core",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__core.html",tooltip="The \"core\" module contains:"];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node4 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node5 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node2 [shape=plaintext, label="ns3::ShowProgress", color="orange", dir="none", style="dashed"];
+  Node1->Node6 [shape=plaintext, label="build-profile-test\l-suite.cc", color="darkgreen", dir="none", style="dashed"];
+  Node1->Node7 [shape=plaintext, label="build-profile-test\l-suite.cc", color="darkgreen", dir="none", style="dashed"];
+}

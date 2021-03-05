@@ -1,0 +1,10 @@
+digraph "ns3::PacketSinkHelper::InstallPriv"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::PacketSinkHelper\l::InstallPriv",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Install an ns3::PacketSink on the node configured with all the attributes set with SetAttribute."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PacketSinkHelper\l::Install",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet_sink_helper.html#a7a4a00f1c774c1c38939fc636cd230ff",tooltip="Install an ns3::PacketSinkApplication on each node of the input container configured with all the att..."];
+}

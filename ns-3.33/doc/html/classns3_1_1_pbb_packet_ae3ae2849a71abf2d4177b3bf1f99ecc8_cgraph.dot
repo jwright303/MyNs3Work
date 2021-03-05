@@ -1,0 +1,39 @@
+digraph "ns3::PbbPacket::Serialize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::PbbPacket::Serialize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Serializes this packet into the specified buffer."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PbbPacket::GetSequence\lNumber",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_packet.html#a86fc97337ab918fab8930ece39148d45",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::PbbPacket::HasSequence\lNumber",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_packet.html#a7a42b00f92e476df6233adf9e79a22f0",tooltip="Tests whether or not this packet has a sequence number."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::PbbPacket::MessageBegin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_packet.html#a78d131c19a9179e3e48427ae35705dc1",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::PbbPacket::MessageEnd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_packet.html#a216fc11ab7b3cb96b5565f05b63b4e96",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::PbbTlvBlock::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_tlv_block.html#a251afa54b90bfed7efa465003f49de40",tooltip="Serializes this block into the specified buffer."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::PbbTlvBlock::Begin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_tlv_block.html#acba5eb3e92a600a4efcd087cee4d0768",tooltip=" "];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::PbbTlvBlock::Empty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_tlv_block.html#a6cadf903dec04a5fd93bc67a63240428",tooltip=" "];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::PbbTlvBlock::End",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_tlv_block.html#a5c9d6c71ab0e3776ee45835b699aae20",tooltip=" "];
+  Node6 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="visualizer.core.start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacevisualizer_1_1core.html#a2a35e5d8a34af358b508dac8635754e0",tooltip=" "];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="visualizer.base.load\l_plugins",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacevisualizer_1_1base.html#ad171497a5ff1afe0a73bedaebf35448f",tooltip=" "];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="visualizer.base.register\l_plugin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacevisualizer_1_1base.html#a6b0ffcff1e17ec4027496f50177e5b9e",tooltip=" "];
+  Node6 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::Buffer::Iterator\l::WriteHtonU16",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer_1_1_iterator.html#a97ea9c86cfe87b516efc28faa7dfdf21",tooltip=" "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::PbbPacket::TlvEmpty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_packet.html#aeb8f19e278b386a82dae89fc2b067e93",tooltip=" "];
+  Node14 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::Buffer::Iterator\l::WriteU8",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer_1_1_iterator.html#a3c7bacca6cbb821c9d14fa4626b7ae16",tooltip=" "];
+}

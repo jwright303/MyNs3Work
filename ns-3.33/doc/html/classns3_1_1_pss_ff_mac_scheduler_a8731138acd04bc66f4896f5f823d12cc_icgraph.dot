@@ -1,0 +1,10 @@
+digraph "ns3::PssFfMacScheduler::UpdateUlRlcBufferInfo"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::PssFfMacScheduler\l::UpdateUlRlcBufferInfo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Update UL RLC buffer info function."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PssFfMacScheduler\l::DoSchedUlTriggerReq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pss_ff_mac_scheduler.html#a9179ed7943c4bc8cd4c6cdc4e35a8cb7",tooltip="Sched UL trigger request function."];
+}

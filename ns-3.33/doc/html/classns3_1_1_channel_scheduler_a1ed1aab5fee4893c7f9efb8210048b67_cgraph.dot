@@ -1,0 +1,16 @@
+digraph "ns3::ChannelScheduler::StopSch"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::ChannelScheduler\l::StopSch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ChannelManager\l::IsCch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_channel_manager.html#a3d68a3f8099eaa381bdfddac4b7ccfa6",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ChannelScheduler\l::IsChannelAccessAssigned",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_channel_scheduler.html#ab9009fa7d18e3b2ea60ade2e42dd7b29",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ChannelScheduler\l::GetAssignedAccessType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_channel_scheduler.html#a422ee6bde4c904f644facb94783e7e32",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::ChannelScheduler\l::ReleaseAccess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_channel_scheduler.html#acf0f97227d2908378394504bc8f615e9",tooltip=" "];
+}

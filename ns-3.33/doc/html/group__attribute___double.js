@@ -1,0 +1,21 @@
+var group__attribute___double =
+[
+    [ "double.cc", "double_8cc.html", null ],
+    [ "double.h", "double_8h.html", null ],
+    [ "DoubleChecker", "classns3_1_1_double_checker.html", null ],
+    [ "DoubleValue", "classns3_1_1_double_value.html", [
+      [ "DoubleValue", "classns3_1_1_double_value.html#a1edb09b3bb71027cb7a1e9f9c8ab8fae", null ],
+      [ "DoubleValue", "classns3_1_1_double_value.html#a198e664a5a411a95b7d742033b8733d2", null ],
+      [ "Copy", "classns3_1_1_double_value.html#aa86a666b6de2a7997734230e7a817431", null ],
+      [ "DeserializeFromString", "classns3_1_1_double_value.html#a47526e843d203df6c2a75936cd65bbdf", null ],
+      [ "Get", "classns3_1_1_double_value.html#a251a68a5da229923e4cc2d50b6062222", null ],
+      [ "GetAccessor", "classns3_1_1_double_value.html#a2ce548edffbee92f883722e529aca215", null ],
+      [ "SerializeToString", "classns3_1_1_double_value.html#a21162db173d4808d5af6dbe0e8712073", null ],
+      [ "Set", "classns3_1_1_double_value.html#a149c038453e16d11d7b6dab57ec3c6e4", null ],
+      [ "m_value", "classns3_1_1_double_value.html#a718a14df8f2874808827888f37281059", null ]
+    ] ],
+    [ "MakeDoubleAccessor", "group__attribute___double.html#gaef08ccdef7ff644dc39aa7b24a2f740f", null ],
+    [ "MakeDoubleAccessor", "group__attribute___double.html#ga2e3d84a1fa58459724edcfe5cb8594cd", null ],
+    [ "MakeDoubleChecker", "group__attribute___double.html#gace03ae9f889a7a79d87e3a4352a37099", null ],
+    [ "MakeDoubleChecker", "group__attribute___double.html#ga61fb0db268a6e0ea9b34e6aa2599a8c0", null ]
+];

@@ -1,0 +1,50 @@
+digraph "ns3::MgtProbeResponseHeader::GetSerializedSize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::MgtProbeResponseHeader\l::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::CfParameterSet\l::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_cf_parameter_set.html#a48d0b63b20d29448367262272fa30960",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WifiInformationElement\l::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_information_element.html#a1e40d7d7a90f9c6d383223c26a977dc3",tooltip="Get the size of the serialized IE including Element ID and length fields."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::WifiInformationElement\l::GetInformationFieldSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_information_element.html#a04af58633c58364e6b8d0ae2a7d777b2",tooltip="Length of serialized information (i.e., the length of the body of the IE, not including the Element I..."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::DsssParameterSet\l::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dsss_parameter_set.html#a9911c98a103a8b7000ec5cdc8713ef35",tooltip=" "];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::EdcaParameterSet\l::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_edca_parameter_set.html#a4f8bcc0fa87ea089beb34453d66278f3",tooltip=" "];
+  Node6 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::ErpInformation\l::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_erp_information.html#a5888988760b9d20054a7d9f5b5e2d92b",tooltip=" "];
+  Node7 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::ExtendedCapabilities\l::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_extended_capabilities.html#a835d4f4e0409877dbda84362f89e945d",tooltip=" "];
+  Node8 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::HeCapabilities\l::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_he_capabilities.html#acaf56a62b973824e6f98aec4c078201c",tooltip=" "];
+  Node9 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::HeOperation::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_he_operation.html#a62ee7db5c64122ce94151d0307c3ac4a",tooltip=" "];
+  Node10 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::HtCapabilities\l::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ht_capabilities.html#aa852839eb632f943fdc52a6a0359ba5f",tooltip=" "];
+  Node11 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::HtOperation::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ht_operation.html#a5c5633a3116ee58f9e2962b470e09997",tooltip=" "];
+  Node12 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::ExtendedSupportedRates\lIE::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_extended_supported_rates_i_e.html#a80e6ac14f42780bd2568a91c58db9318",tooltip=" "];
+  Node13 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::VhtCapabilities\l::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_vht_capabilities.html#aefd4e902dacc6a9703cedb8e886cc8b5",tooltip=" "];
+  Node14 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::VhtOperation::\lGetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_vht_operation.html#a89ea044824dd5732f33f9e9dcfa2e863",tooltip=" "];
+  Node15 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::CapabilityInformation\l::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_capability_information.html#ae68b36c3e824e16417954e748b71618f",tooltip="Return the serialized size of capability information."];
+}

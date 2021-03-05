@@ -1,0 +1,18 @@
+digraph "ns3::BufferSizeLevelBsr::BufferSize2BsrId"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::BufferSizeLevelBsr\l::BufferSize2BsrId",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Convert Buffer size to BSR ID."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::NoOpComponentCarrier\lManager::DoUlReceiveMacCe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_no_op_component_carrier_manager.html#aace5e57bfe4f27ece0d270137479d54f",tooltip="Forwards uplink BSR to CCM, called by MAC through CCM SAP interface."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::RrComponentCarrierManager\l::DoUlReceiveMacCe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rr_component_carrier_manager.html#a1b7ed25671044776fb53d6ddceb4f07c",tooltip="Forwards uplink BSR to CCM, called by MAC through CCM SAP interface."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::LteUeMac::SendReport\lBufferStatus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_mac.html#ad3688008bb09f75879e9e6348e687ac5",tooltip="Send report buffer status."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::LteUeMac::DoSubframe\lIndication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_mac.html#a1dee6aa86c7d323a4db1b76bdb94c0b6",tooltip="Forwarded from LteUePhySapUser: trigger the start from a new frame."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::UeMemberLteUePhySap\lUser::SubframeIndication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_member_lte_ue_phy_sap_user.html#a56aa45c70f78a51cf33d825414d37fa5",tooltip="Trigger the start from a new frame (input from Phy layer)"];
+}

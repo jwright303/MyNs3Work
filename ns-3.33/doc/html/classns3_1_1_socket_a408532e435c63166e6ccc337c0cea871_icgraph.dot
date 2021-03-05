@@ -1,0 +1,18 @@
+digraph "ns3::Socket::SetAcceptCallback"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Socket::SetAcceptCallback",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Accept connection requests from remote hosts."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="DualStackTestCase::\lDoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dual_stack_test_case.html#a56472b295c6821c1380df84b130e6399",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ThreeGppHttpServer\l::StartApplication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_server.html#a544fd4b36563a365fbd7013dc88c3bf0",tooltip="Application specific startup code."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::PacketSink::StartApplication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet_sink.html#a45449bbaa6fb20caed62418f029d79d6",tooltip="Application specific startup code."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::ThreeGppHttpServer\l::StopApplication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_server.html#a569b8e715248f9b305f67a581bd51628",tooltip="Application specific shutdown code."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::ThreeGppHttpServer\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_server.html#a1c01eeb4275ba83b0c3e9ca5ae26a0ef",tooltip="Destructor implementation."];
+}

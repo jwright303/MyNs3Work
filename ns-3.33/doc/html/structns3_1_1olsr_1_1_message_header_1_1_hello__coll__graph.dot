@@ -1,0 +1,20 @@
+digraph "ns3::olsr::MessageHeader::Hello"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ns3::olsr::MessageHeader\l::Hello",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="HELLO Message Format."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" linkMessages" ,fontname="Helvetica"];
+  Node2 [label="std::vector\< ns3::olsr\l::MessageHeader::Hello\l::LinkMessage \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node3 [label="ns3::olsr::MessageHeader\l::Hello::LinkMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1olsr_1_1_message_header_1_1_hello_1_1_link_message.html",tooltip="Link message item."];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" neighborInterfaceAddresses" ,fontname="Helvetica"];
+  Node4 [label="std::vector\< ns3::Ipv4Address \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node5 [label="ns3::Ipv4Address",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_address.html",tooltip="Ipv4 addresses are stored in host order in this class."];
+  Node6 -> Node4 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::Ipv4Address \>" ,fontname="Helvetica"];
+  Node6 [label="std::vector\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node7 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node2 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::olsr::MessageHeader\l::Hello::LinkMessage \>" ,fontname="Helvetica"];
+}

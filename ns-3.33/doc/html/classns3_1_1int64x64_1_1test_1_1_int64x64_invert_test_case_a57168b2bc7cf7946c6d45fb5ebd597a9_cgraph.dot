@@ -1,0 +1,33 @@
+digraph "ns3::int64x64::test::Int64x64InvertTestCase::DoRun"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::int64x64::test\l::Int64x64InvertTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::int64x64::test\l::Int64x64InvertTestCase\l::Check",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1int64x64_1_1test_1_1_int64x64_invert_test_case.html#ae32039c08b1c09f57e3c3f428ca180fb",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::int64x64::test\l::Int64x64InvertTestCase\l::CheckCase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1int64x64_1_1test_1_1_int64x64_invert_test_case.html#a098f4f701e9c430489ef2c9fa59eb843",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Abs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__highprec.html#gabf87260a0ba68d152ae95568b2ef58fe",tooltip="Absolute value."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::TestCase::GetName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_test_case.html#ae3b2b294f9104f53e66e5c27d34a5a98",tooltip=" "];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::TestCase::GetParent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_test_case.html#a8fe1e18cff0ca8e62e6f9f8125cc628e",tooltip="Get the parent of this TestCsse."];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::int64x64_t::Invert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1int64x64__t.html#ae2dd3639e165b3a6d2f6038f3c190e73",tooltip="Compute the inverse of an integer value."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::int64x64_t::int64x64_t",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1int64x64__t.html#afa0ced8e10b8202510b7a317516d81e2",tooltip="Default constructor."];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::int64x64_t::GetHigh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1int64x64__t.html#a94b61a40bcecf4d3f079d19056712121",tooltip="Get the integer portion."];
+  Node7 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::int64x64_t::MulByInvert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1int64x64__t.html#a57c020ccad8624bebf8f1ab8f6bb1e6e",tooltip="Multiply this value by a Q0.128 value, presumably representing an inverse, completing a division oper..."];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::int64x64_t::UmulByInvert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1int64x64__t.html#a6dfa79f7e54b1abb53c80724a73276af",tooltip="Unsigned multiplication of Q64.64 and Q0.128 values."];
+  Node7 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::int64x64_t::Udiv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1int64x64__t.html#a5496d89f106271bc4c484ff421d120b4",tooltip="Unsigned division of Q64.64 values."];
+  Node2 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

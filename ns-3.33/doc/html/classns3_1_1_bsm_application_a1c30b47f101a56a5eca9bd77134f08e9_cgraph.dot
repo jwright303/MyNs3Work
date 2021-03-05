@@ -1,0 +1,24 @@
+digraph "ns3::BsmApplication::AssignStreams"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::BsmApplication\l::AssignStreams",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Assign a fixed random variable stream number to the random variables used by this model."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::RandomVariableStream\l::SetStream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_variable_stream.html#add11aaf975607746b7e271d300659a94",tooltip="Specifies the stream number for the RngStream."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::RngSeedManager\l::GetNextStreamIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rng_seed_manager.html#ac109366285260eb4c1e124862d2fd4ad",tooltip="Get the next automatically assigned stream index."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::RngSeedManager\l::GetRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rng_seed_manager.html#afaf1b845d2523df05ca341a930de24b3",tooltip="Get the current run number."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::UintegerValue::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uinteger_value.html#a82f7ad2ff90cfebf9f6292bb6ace0a05",tooltip=" "];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::GlobalValue::GetValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_value.html#a48a99242193fb69609a17332733e8600",tooltip="Get the value."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::StringValue::Set",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_string_value.html#a17693012c6f2c52875e0d631fbf40155",tooltip="Set the value."];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::RngSeedManager\l::GetSeed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rng_seed_manager.html#a09f2d185f02aac599cd5a244c4b73ba5",tooltip="Get the current seed value which will be used by all subsequently instantiated RandomVariableStream o..."];
+  Node8 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

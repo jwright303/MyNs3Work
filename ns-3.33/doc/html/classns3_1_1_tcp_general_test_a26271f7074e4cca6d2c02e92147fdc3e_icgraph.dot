@@ -1,0 +1,14 @@
+digraph "ns3::TcpGeneralTest::SetDelAckMaxCount"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::TcpGeneralTest\l::SetDelAckMaxCount",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Forcefully set the delayed acknowledgement count."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="TcpLinuxRenoSSTest\l::ConfigureProperties",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_linux_reno_s_s_test.html#a835676292984b47038d4e6c7b0b68562",tooltip="Change the configuration of the socket properties."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="TcpLinuxRenoCongAvoidTest\l::ConfigureProperties",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_linux_reno_cong_avoid_test.html#abb30c8eaff76150589ce1394536b7f75",tooltip="Change the configuration of the socket properties."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TcpPacingTest::Configure\lProperties",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_pacing_test.html#a415a062e3b86ca76efc0c47692926340",tooltip="Change the configuration of the socket properties."];
+}

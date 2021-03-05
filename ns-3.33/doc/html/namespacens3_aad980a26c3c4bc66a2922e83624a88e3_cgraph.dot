@@ -1,0 +1,14 @@
+digraph "ns3::operator&lt;&lt;"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::operator\<\<",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Stream insertion operator."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Ipv6InterfaceAddress\l::GetAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_interface_address.html#a2cefaa3c66694e103da53cc784ba46bf",tooltip="Get the IPv6 address."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Ipv6InterfaceAddress\l::GetPrefix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_interface_address.html#a54abd854c70042473193466aebfa0b78",tooltip="Get the IPv6 prefix."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Ipv6InterfaceAddress\l::GetScope",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_interface_address.html#a4485ddce4365f878d4078bb9ea78b290",tooltip="Get address scope."];
+}

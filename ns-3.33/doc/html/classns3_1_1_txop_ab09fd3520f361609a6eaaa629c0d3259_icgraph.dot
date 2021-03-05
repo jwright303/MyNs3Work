@@ -1,0 +1,43 @@
+digraph "ns3::Txop::SetWifiRemoteStationManager"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Txop::SetWifiRemote\lStationManager",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set WifiRemoteStationsManager this Txop is associated to."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::QosTxop::SetWifiRemote\lStationManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_qos_txop.html#a8ab750cc0b76ad1295c86888114f3249",tooltip="Set WifiRemoteStationsManager this Txop is associated to."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ApWifiMac::SetWifiRemote\lStationManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#a48f2d48339002a995dadded6087d898e",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::RegularWifiMac\l::SetWifiRemoteStationManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_regular_wifi_mac.html#a2519a6cbda45d3fd449d41c5f889d42b",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::WaveHelper::Install",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wave_helper.html#a31155675aae4cc3ca5320664f15a967d",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="WaveNetDeviceExample\l::CreateWaveNodes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wave_net_device_example.html#a825285810121c865230f6fafe6428081",tooltip="Create WAVE nodes function."];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="TestCaseHelper::CreatWave\lDevice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_case_helper.html#a24337801fa036883111fa1968606b57e",tooltip="Create WAVE device function."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ChannelRoutingTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_channel_routing_test_case.html#ab0f86da402dbe311e3ebb5915ffe7e85",tooltip="Implementation to actually run this TestCase."];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ChannelAccessTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_channel_access_test_case.html#ad3169383a172cbaf1ed6b94adbe9d33a",tooltip="Implementation to actually run this TestCase."];
+  Node7 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="AnnexC_TestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_annex_c___test_case.html#a7b68ef07f88bcfece999dafba55020fa",tooltip="Implementation to actually run this TestCase."];
+  Node5 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::WaveHelper::Install",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wave_helper.html#aa26286a649f48cf59d323ff0009ceced",tooltip=" "];
+  Node5 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="VanetRoutingExperiment\l::SetupAdhocDevices",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_vanet_routing_experiment.html#a8de4279cfaf91886970596e9ba8a4a75",tooltip="Set up the adhoc devices."];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="VanetRoutingExperiment\l::ConfigureChannels",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_vanet_routing_experiment.html#adcb4d2d4146919dc6f2cbdc183068e6a",tooltip="Configure channels."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::StaWifiMac::SetWifi\lRemoteStationManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_sta_wifi_mac.html#a8673adeb61638809f95d1e9e875f7b98",tooltip="Set up WifiRemoteStationManager associated with this StaWifiMac."];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="AmpduAggregationTest\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ampdu_aggregation_test.html#a7414dc8d4dd982ab4c1eaadb5b2c693d",tooltip="Implementation to actually run this TestCase."];
+  Node14 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="TwoLevelAggregationTest\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_two_level_aggregation_test.html#a40c6f5f8be6c48673d0bfd218d95afe0",tooltip="Implementation to actually run this TestCase."];
+  Node14 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="HeAggregationTest::\lDoRunSubTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_he_aggregation_test.html#a2a6873db3bb78489db82a54591b429f3",tooltip="Run test for a given buffer size."];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="HeAggregationTest::\lDoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_he_aggregation_test.html#a064486621a42555204608de0af51006c",tooltip="Implementation to actually run this TestCase."];
+}

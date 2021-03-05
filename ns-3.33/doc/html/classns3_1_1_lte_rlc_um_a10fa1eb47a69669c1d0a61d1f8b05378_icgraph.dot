@@ -1,0 +1,14 @@
+digraph "ns3::LteRlcUm::DoReportBufferStatus"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LteRlcUm::DoReportBuffer\lStatus",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Report buffer status."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteRlcUm::DoTransmit\lPdcpPdu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_rlc_um.html#ac7e23317792e8464ac9feafdcd7e1f74",tooltip="RLC SAP."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LteRlcUm::ExpireRbs\lTimer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_rlc_um.html#aaec66683c9a4e4b40965f0d85a3ce338",tooltip="Expire RBS timer."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::LteRlcUm::DoNotifyTx\lOpportunity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_rlc_um.html#a8d744cea1946d4fe5ecaaf867e51d19a",tooltip="MAC SAP."];
+}

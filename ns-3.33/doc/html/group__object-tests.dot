@@ -1,0 +1,12 @@
+digraph "Object test suite"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node1 [label="Object test suite",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 [label="Core module tests",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__core-tests.html",tooltip="TestSuites for the Core module."];
+  Node3 [label="Object",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__object.html",tooltip="Base classes which provide memory management and object aggregation."];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node2 [shape=plaintext, label="object-test-suite.cc\ntype-traits-test-suite.cc", color="darkgreen", dir="none", style="dashed"];
+  Node1->Node3 [shape=plaintext, label="object-test-suite.cc\ntype-traits-test-suite.cc", color="darkgreen", dir="none", style="dashed"];
+}

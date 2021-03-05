@@ -1,0 +1,24 @@
+digraph "ns3::EnbMacMemberLteEnbPhySapUser::SubframeIndication"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::EnbMacMemberLteEnbPhy\lSapUser::SubframeIndication",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Trigger the start from a new frame (input from Phy layer)"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteEnbMac::DoSubframe\lIndication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_mac.html#ab26bc2757b329ea602410c1ae039b3be",tooltip="Subrame Indication function."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LteEnbCmacSapUser\l::AllocateTemporaryCellRnti",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_cmac_sap_user.html#af022be8bca9d5d9969d9aced42a8793d",tooltip="request the allocation of a Temporary C-RNTI"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::FfMacSchedSapProvider\l::SchedDlCqiInfoReq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ff_mac_sched_sap_provider.html#afd94faa752236ee832abdb53f937411b",tooltip="SCHED_DL_CQI_INFO_REQ."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::FfMacSchedSapProvider\l::SchedDlRachInfoReq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ff_mac_sched_sap_provider.html#af3f033e0a6d29036006e93cf302ea48a",tooltip="SCHED_DL_RACH_INFO_REQ."];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::FfMacSchedSapProvider\l::SchedDlTriggerReq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ff_mac_sched_sap_provider.html#ae19ae1b9332c0f9b78f616a340b93955",tooltip="SCHED_DL_TRIGGER_REQ."];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::FfMacSchedSapProvider\l::SchedUlCqiInfoReq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ff_mac_sched_sap_provider.html#aad26098eb7e7317f2d8287f11ab348d8",tooltip="SCHED_UL_CQI_INFO_REQ."];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::FfMacSchedSapProvider\l::SchedUlMacCtrlInfoReq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ff_mac_sched_sap_provider.html#a00fdc735b5f273ce448bd465097e1370",tooltip="SCHED_UL_MAC_CTRL_INFO_REQ."];
+  Node2 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::FfMacSchedSapProvider\l::SchedUlTriggerReq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ff_mac_sched_sap_provider.html#a7bd978ea17a587a1626ef684be006c04",tooltip="SCHED_UL_TRIGGER_REQ."];
+}

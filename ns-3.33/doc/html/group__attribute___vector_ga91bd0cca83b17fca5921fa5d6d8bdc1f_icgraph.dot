@@ -1,0 +1,10 @@
+digraph "ns3::MakeVectorAccessor"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::MakeVectorAccessor",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Create an AttributeAccessor for a class data member, or a lone class get functor or set method."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::MobilityModel\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mobility_model.html#a3d1346ba74cc805812fac131070ba439",tooltip="Register this type with the TypeId system."];
+}

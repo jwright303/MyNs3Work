@@ -1,0 +1,12 @@
+digraph "ns3::LteEnbCmacSapUser::RrcConfigurationUpdateInd"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LteEnbCmacSapUser\l::RrcConfigurationUpdateInd",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Notify the RRC of a UE config updated requested by the MAC (normally, by the scheduler)"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteEnbMac::DoCsched\lUeConfigUpdateInd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_mac.html#ab0a026f47edbdc942be527ac21a7344f",tooltip="CSched UE Config Update Indication function."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::EnbMacMemberFfMacCsched\lSapUser::CschedUeConfigUpdateInd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_enb_mac_member_ff_mac_csched_sap_user.html#a14a09988be135f762ec17dbdd2a30fa9",tooltip="CSCHED_UE_UPDATE_IND."];
+}

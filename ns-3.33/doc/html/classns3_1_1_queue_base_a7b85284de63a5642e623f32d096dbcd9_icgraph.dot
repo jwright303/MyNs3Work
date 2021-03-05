@@ -1,0 +1,30 @@
+digraph "ns3::QueueBase::AppendItemTypeIfNotPresent"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::QueueBase::AppendItem\lTypeIfNotPresent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Append the item type to the provided type ID if the latter does not end with '>'."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TrafficControlHelper\l::AddInternalQueues",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_traffic_control_helper.html#ab66b78748c0e05098d10fc0d1b6e19bb",tooltip="Helper function used to add the given number of internal queues (of the given type and with the given..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="experiment",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cobalt-vs-codel_8cc.html#a6397b590e75a0f7841fcfa02a2ea7611",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::DataCollector\l::DescribeRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_data_collector.html#acbe01ba4bbd08201837d89f4d9f70c8d",tooltip="Provide specific parameters to the DataCollector."];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="PrintPsr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$wifi-phy-test_8cc.html#a42c1d9e27262bb5d89d810ed801256a4",tooltip=" "];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="PrintPsrVsCollisionInterval",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$wifi-phy-test_8cc.html#aab44d6a0275b5772fc749d381feea8ab",tooltip=" "];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="PrintPsrVsDistance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$wifi-phy-test_8cc.html#abd961820fb9558c644885450fb13fb6d",tooltip=" "];
+  Node3 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="PrintSizeVsRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$wifi-phy-test_8cc.html#ad67fa807e9515a1be5f27713480d1687",tooltip=" "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::CsmaHelper::SetQueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_csma_helper.html#abbe9eaa7f42523da7a97682378da8982",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::SimpleNetDeviceHelper\l::SetQueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_net_device_helper.html#ab973e9e806fc38d869ffc2f78a1daa9e",tooltip="Each net device must have a queue to pass packets through."];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="TcFlowControlTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tc_flow_control_test_case.html#a671ac2565d04fd5618e2743289d1b707",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::PointToPointHelper\l::SetQueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_point_to_point_helper.html#a546a5c9ae3c9eab0ea98b25fd41e3c95",tooltip="Each point to point net device must have a queue to pass packets through."];
+}

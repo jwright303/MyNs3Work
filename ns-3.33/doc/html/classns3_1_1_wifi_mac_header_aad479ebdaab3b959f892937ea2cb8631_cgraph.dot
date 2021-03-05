@@ -1,0 +1,22 @@
+digraph "ns3::WifiMacHeader::Serialize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::WifiMacHeader\l::Serialize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WifiMacHeader\l::GetFrameControl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_header.html#a79ad6f59e90488a8f30a1d2815425d91",tooltip="Return the raw Frame Control field."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WifiMacHeader\l::GetQosControl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_header.html#a72009be8662d909c992523b6e221e599",tooltip="Return the raw QoS Control field."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::WifiMacHeader\l::GetSequenceControl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_header.html#ad4af293cb29d73a7661a93099e363b56",tooltip="Return the raw Sequence Control field."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Buffer::Iterator\l::WriteHtolsbU16",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer_1_1_iterator.html#a2e89a2939c01994a490d6f0be22770a1",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::WriteTo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#abe3cb0173e87a3f7e2e414358c0a08bf",tooltip="Write an Ipv4Address to a Buffer."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Ipv4Address::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_address.html#a154da9b1ff6eb451dc4840613fe43e73",tooltip="Get the host-order 32-bit IP address."];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::Buffer::Iterator\l::WriteHtonU32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer_1_1_iterator.html#ac8a95d099acc1fa0e699200b4de82173",tooltip=" "];
+}

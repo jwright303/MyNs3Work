@@ -1,0 +1,34 @@
+digraph "ns3::Ipv4::GetTypeId"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Ipv4::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the type ID."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Ipv4::GetIpForward",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4.html#ac6803a68ed412d4aae3108afc2afd890",tooltip="Get the IP forwarding state."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::UdpSocket::GetMtuDiscover",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_udp_socket.html#abd9c668464d5f89f17780fcd932777c2",tooltip="Get the MTU discover capability."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Ipv4::GetWeakEsModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4.html#a3d9882e80ef4e0e2375d89037f3ab5e1",tooltip="Get the Weak Es Model status."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::MakeBooleanAccessor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__attribute___boolean.html#ga96f46e6b949abfa2cb801d5d33d8bcc7",tooltip="Create an AttributeAccessor for a class data member, or a lone class get functor or set method."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::MakeBooleanChecker",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__attribute___boolean.html#ga0be9dca06b271bca59b2c135178e1c10",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Ipv4::SetIpForward",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4.html#a12decc8332283f56ba59b0aacb3498ca",tooltip="Set or unset the IP forwarding state."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::UdpSocket::SetMtuDiscover",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_udp_socket.html#ae3f06fb2459a7c09f91068905a063a6a",tooltip="Set the MTU discover capability."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::TypeId::SetParent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#abaaca67ab7d2471067e7c275df0f7309",tooltip="Set the parent TypeId."];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::Singleton\< IidManager\l \>::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_singleton.html#a80a2cd3c25a27ea72add7a9f7a141ffa",tooltip="Get a pointer to the singleton instance."];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::TypeId::GetUid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#a429535085325d6f926724771446d9047",tooltip="Get the internal id of this TypeId."];
+  Node9 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::IidManager::SetParent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_iid_manager.html#a4042931260554c907699367b6811426f",tooltip="Set the parent of a type id."];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::IidManager::LookupInformation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_iid_manager.html#a84af06b798b21fa700469a3ac5f65f3f",tooltip="Retrieve the information record for a type."];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::Ipv4::SetWeakEsModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4.html#a3bdaf12fbfaca276c1a60a3a7cd9b68c",tooltip="Set or unset the Weak Es Model."];
+}

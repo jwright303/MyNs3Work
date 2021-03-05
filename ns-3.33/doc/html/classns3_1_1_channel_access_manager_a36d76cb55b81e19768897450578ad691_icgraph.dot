@@ -1,0 +1,10 @@
+digraph "ns3::ChannelAccessManager::NotifyOnNow"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::ChannelAccessManager\l::NotifyOnNow",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Notify the Txop that the device has been resumed from off mode."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PhyListener::NotifyOn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_phy_listener.html#a10774d8c3178bca3eec35917ea164b0e",tooltip="Notify listeners that we went to switch on."];
+}

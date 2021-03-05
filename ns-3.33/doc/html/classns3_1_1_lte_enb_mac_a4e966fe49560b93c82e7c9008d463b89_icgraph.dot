@@ -1,0 +1,10 @@
+digraph "ns3::LteEnbMac::DoCschedUeConfigCnf"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LteEnbMac::DoCsched\lUeConfigCnf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CSched UE Config configure function."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::EnbMacMemberFfMacCsched\lSapUser::CschedUeConfigCnf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_enb_mac_member_ff_mac_csched_sap_user.html#a8b0790565c42c1c8659a270cea7d6ff1",tooltip="CSCHED_UE_CONFIG_CNF."];
+}

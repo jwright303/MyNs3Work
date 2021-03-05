@@ -1,0 +1,10 @@
+digraph "ns3::BlockAckAgreement::GetBufferSize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::BlockAckAgreement\l::GetBufferSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Return the buffer size."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::BlockAckAgreement\l::GetWinEnd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_agreement.html#a09f4003dae826a0a955fc9047527dc4e",tooltip="Return the last sequence number covered by the ack window."];
+}

@@ -1,0 +1,14 @@
+digraph "ns3::LteUePhy::InitializeRlfParams"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LteUePhy::Initialize\lRlfParams",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Initialize radio link failure parameters."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteUePhy::DoNotifyConnection\lSuccessful",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_phy.html#a2a678876ba74cc629d8cebf985022687",tooltip="Notify PHY about the successful RRC connection establishment."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::UeMemberLteUePhySap\lProvider::NotifyConnectionSuccessful",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_member_lte_ue_phy_sap_provider.html#a991a34b52c8332a0a8713939fec28a72",tooltip="Notify PHY about the successful RRC connection establishment."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::LteUePhy::DoResetRlf\lParams",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_phy.html#a9a85298f392799f4b1fca7adf9054745",tooltip="Reset radio link failure parameters."];
+}

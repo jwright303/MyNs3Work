@@ -1,0 +1,14 @@
+digraph "ns3::AsciiTraceHelperForIpv4::EnableAsciiIpv4Impl"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::AsciiTraceHelperFor\lIpv4::EnableAsciiIpv4Impl",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Enable ascii trace output on the Ipv4 and interface pair specified by a global node-id (of a previous..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Ipv4InterfaceContainer\l::Begin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_interface_container.html#a9ecffb4d897fb5f1afc70e0a6df24470",tooltip="Get an iterator which refers to the first pair in the container."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::AsciiTraceHelperFor\lIpv4::EnableAsciiIpv4Internal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ascii_trace_helper_for_ipv4.html#afe9e8a865d66140f0b2b42b5381b437d",tooltip="Enable ascii trace output on the indicated Ipv4 and interface pair."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Ipv4InterfaceContainer::End",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_interface_container.html#aa6c67d65e9c0217260f46feb6930d722",tooltip="Get an iterator which indicates past-the-last Node in the container."];
+}

@@ -1,0 +1,16 @@
+digraph "TimestampTag::GetTimestamp"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="TimestampTag::GetTimestamp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="TimestampTag::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_timestamp_tag.html#a16dd5cf72115c3d6a64915b9074b539e",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="TimestampTag::GetInstance\lTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_timestamp_tag.html#a075999eacddc8139dde41350836aa9bd",tooltip="Get the most derived TypeId for this Object."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Receiver::Receive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_receiver.html#a73ca029ca3770da94ad852df1afe9b64",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Receiver::StartApplication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_receiver.html#a851b0ffffb76526c5c6d0506f0008fe1",tooltip="Application specific startup code."];
+}

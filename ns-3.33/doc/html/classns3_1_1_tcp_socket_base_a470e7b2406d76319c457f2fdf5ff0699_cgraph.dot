@@ -1,0 +1,20 @@
+digraph "ns3::TcpSocketBase::AddOptionSackPermitted"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::TcpSocketBase\l::AddOptionSackPermitted",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Add the SACK PERMITTED option to the header."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TcpHeader::AppendOption",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_header.html#aa5de13df3dd5cb87d63c428e5dcc3425",tooltip="Append an option to the TCP header."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::TcpOption::GetKind",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_option.html#a29376dfd9504f5dd47dbad652caf04f7",tooltip="Get the ‘kind’ (as in RFC 793) of this option."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::TcpOption::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_option.html#ac6c6b5d8905ffc2fdbe99448474c08da",tooltip="Returns number of bytes required for Option serialization."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::TcpOption::IsKindKnown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_option.html#aa4227e120fb09b89b6f088b19529344c",tooltip="Check if the option is implemented."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::TcpHeader::GetFlags",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_header.html#adae57f746870a94c0fe4181c87368b62",tooltip="Get the flags."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Node::GetId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_node.html#a2ed8663077afcb8db519296b0ada6355",tooltip=" "];
+}

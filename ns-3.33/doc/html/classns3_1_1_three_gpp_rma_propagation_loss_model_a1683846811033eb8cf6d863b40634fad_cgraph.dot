@@ -1,0 +1,16 @@
+digraph "ns3::ThreeGppRmaPropagationLossModel::GetShadowingStd"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::ThreeGppRmaPropagation\lLossModel::GetShadowingStd",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Returns the shadow fading standard deviation."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ThreeGppPropagation\lLossModel::Calculate2dDistance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_propagation_loss_model.html#a4ff4d2e1f896a2f82db24de9899980a8",tooltip="Computes the 2D distance between two 3D vectors."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ThreeGppRmaPropagation\lLossModel::GetBpDistance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_rma_propagation_loss_model.html#ad574281f5b47e13ed5fdddbacf4bab7e",tooltip="Computes the breakpoint distance for the RMa scenario."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::MobilityModel\l::GetPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mobility_model.html#aee61a90f5598aea280747cf96f3ee853",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::MobilityModel\l::DoGetPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mobility_model.html#a518f70bd8cb78d0031f9a26572434c34",tooltip=" "];
+}

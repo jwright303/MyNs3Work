@@ -1,0 +1,18 @@
+digraph "ns3::Ipv4AddressGeneratorImpl"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Ipv4AddressGeneratorImpl",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Implementation class of Ipv4AddressGenerator This generator assigns addresses sequentially from a pro..."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_entries" ,fontname="Helvetica"];
+  Node2 [label="std::list\< ns3::Ipv4Address\lGeneratorImpl::Entry \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node3 [label="ns3::Ipv4AddressGenerator\lImpl::Entry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_address_generator_impl_1_1_entry.html",tooltip="This class holds the allocated addresses."];
+  Node4 -> Node2 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::Ipv4AddressGenerator\lImpl::Entry \>" ,fontname="Helvetica"];
+  Node4 [label="std::list\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node5 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_netTable" ,fontname="Helvetica"];
+  Node6 [label="ns3::Ipv4AddressGenerator\lImpl::NetworkState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_address_generator_impl_1_1_network_state.html",tooltip="This class holds the state for a given network."];
+}

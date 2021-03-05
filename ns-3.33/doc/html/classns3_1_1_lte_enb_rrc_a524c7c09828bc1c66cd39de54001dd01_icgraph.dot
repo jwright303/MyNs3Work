@@ -1,0 +1,14 @@
+digraph "ns3::LteEnbRrc::AddUe"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LteEnbRrc::AddUe",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Allocate a new RNTI for a new UE."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteEnbRrc::DoAllocate\lTemporaryCellRnti",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_rrc.html#adc904dd5bf00926b962d7cde4ce114d1",tooltip="Allocate temporary cell RNTI function."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::EnbRrcMemberLteEnbCmac\lSapUser::AllocateTemporaryCellRnti",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_enb_rrc_member_lte_enb_cmac_sap_user.html#a1351a4b6fc3e5efc4b5a6b3c4d2e7dd3",tooltip="request the allocation of a Temporary C-RNTI"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::LteEnbRrc::DoRecvHandover\lRequest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_rrc.html#a26c697a526a9538f8778481f7cf08906",tooltip="Receive handover request function."];
+}

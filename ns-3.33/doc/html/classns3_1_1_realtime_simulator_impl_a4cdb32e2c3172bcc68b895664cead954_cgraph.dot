@@ -1,0 +1,10 @@
+digraph "ns3::RealtimeSimulatorImpl::Cancel"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::RealtimeSimulatorImpl\l::Cancel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set the cancel bit on this event: the event's associated function will not be invoked when it expires..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::RealtimeSimulatorImpl\l::IsExpired",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_realtime_simulator_impl.html#aff813e6c1cb5871d12a7ab481b41cfe7",tooltip="Check if an event has already run or been cancelled."];
+}

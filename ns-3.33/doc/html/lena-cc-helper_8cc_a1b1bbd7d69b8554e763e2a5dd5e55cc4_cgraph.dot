@@ -1,0 +1,18 @@
+digraph "Print"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Print",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ComponentCarrier\l::GetDlBandwidth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_component_carrier.html#a3814cc695e760d49d5d602cdc6a5dbea",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ComponentCarrier\l::GetDlEarfcn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_component_carrier.html#a20f33e0d00c99a21f253a617a0c5fb49",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ComponentCarrier\l::GetUlBandwidth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_component_carrier.html#a22b5abe9a815a6ad730270352307770f",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::ComponentCarrier\l::GetUlEarfcn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_component_carrier.html#aa15f0890e642f5b81c2f97773f28ef55",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::ComponentCarrier\l::IsPrimary",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_component_carrier.html#abb7f79bfe79ec327c5a153aaf2e8e5f2",tooltip="Checks if the carrier is the primary carrier."];
+}

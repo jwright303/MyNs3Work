@@ -1,0 +1,23 @@
+digraph "ns3::MakeUintegerChecker"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::MakeUintegerChecker",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Make a checker with a minimum value."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::internal::MakeUinteger\lChecker",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__attribute___uinteger.html#ga4b15bd1dbc7f165db34704f333c6b005",tooltip="Make an Uinteger attribute checker with embedded numeric type name."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Copy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#a952d99f6d759fee74dda19f308451bc1",tooltip="Return a deep copy of a Ptr."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::PeekPointer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#af2a7557fe9afdd98d8f6f8f6e412cf5a",tooltip=" "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Create",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__ptr.html#ga086d8d4a76485a155f0408b85dcebede",tooltip="Create class instances by constructors with varying numbers of arguments and return them by Ptr."];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::UintegerValue::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uinteger_value.html#a82f7ad2ff90cfebf9f6292bb6ace0a05",tooltip=" "];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::max",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#a548291fa9e4e7d6a57814dfcbbebce9b",tooltip=" "];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::min",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#a66840605409c3caeff0d2a728b68dc6d",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,10 @@
+digraph "ns3::RrcConnectionReestablishmentCompleteHeader::GetMessage"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::RrcConnectionReestablishment\lCompleteHeader::GetMessage",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Returns a RrcConnectionReestablishmentComplete IE from the values in the class attributes."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteEnbRrcProtocolReal\l::DoReceivePdcpSdu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_rrc_protocol_real.html#a6fc5f1a1a4bc595550e4adb0bb5b02ef",tooltip="Receive PDCP SDU function."];
+}

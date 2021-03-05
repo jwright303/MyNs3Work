@@ -1,0 +1,14 @@
+digraph "ns3::Icmpv6L4Protocol::CreateCache"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Icmpv6L4Protocol\l::CreateCache",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Create a neighbor cache."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::NdiscCache::Flush",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ndisc_cache.html#a2ff148596a97706775544a0597669dfa",tooltip="Flush the cache."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::MakeCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#af1dde3c04374147fca0cfe3b0766d664",tooltip="Build Callbacks for class method members which take varying numbers of arguments and potentially retu..."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::NdiscCache::SetDevice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ndisc_cache.html#a13fb5fbb43fc72769ea25a7195187466",tooltip="Set the device and interface."];
+}

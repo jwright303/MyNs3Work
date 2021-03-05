@@ -1,0 +1,36 @@
+digraph "ns3::dot11s::PeerManagementProtocolMac::UpdateOutcomingFrame"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::dot11s::PeerManagement\lProtocolMac::UpdateOutcomingFrame",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="This method appears to test a few conditions."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WifiMacHeader\l::GetAddr1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_header.html#aa1c4acbda4ace9f7a920c97d71bdd097",tooltip="Return the address in the Address 1 field."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WifiActionHeader\l::GetCategory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_action_header.html#a6770270aecf8921377529d1c16cc10f2",tooltip="Return the category value."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::WifiMacHeader\l::IsAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_header.html#a940491cedf184f20c615215d7b15746a",tooltip="Return true if the header is an Action header."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::WifiMacHeader\l::GetType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_header.html#ac602baa163798e5da4945338dd5ef9b5",tooltip="Return the type (enum WifiMacType)"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Mac48Address::\lIsGroup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac48_address.html#a56fbd59ebf507db02609a1e77c7c4656",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Packet::PeekHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet.html#acc152757db7d44974640b089335b7003",tooltip="Deserialize but does not remove the header from the internal buffer."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::Buffer::Begin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer.html#acb977a0179de9abe4e295ce22023b4ca",tooltip=" "];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::Buffer::CheckInternal\lState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer.html#a200897ee202518b0d2bf91ead4e82be9",tooltip="Checks the internal buffer structures consistency."];
+  Node7 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::Header::Deserialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_header.html#a78be9400bb66b2a8543606f395ef5396",tooltip=" "];
+  Node7 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::ObjectBase::GetInstance\lTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html#abe5b43a6f5b99a92a4c3122db31f06fb",tooltip="Get the most derived TypeId for this Object."];
+  Node7 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::TypeId::GetName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#abc4965475a579c2afdc668d7a7d58374",tooltip="Get the name."];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::Singleton\< IidManager\l \>::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_singleton.html#a80a2cd3c25a27ea72add7a9f7a141ffa",tooltip="Get a pointer to the singleton instance."];
+  Node12 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::IidManager::GetName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_iid_manager.html#a6658aaa8120efd885e98addb76a6f1d4",tooltip="Get the name of a type id."];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::IidManager::LookupInformation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_iid_manager.html#a84af06b798b21fa700469a3ac5f65f3f",tooltip="Retrieve the information record for a type."];
+}

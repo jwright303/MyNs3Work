@@ -1,0 +1,24 @@
+digraph "TestCounter::ConnectTraces"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="TestCounter::ConnectTraces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Connect private methods to the queue disc traces."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::MakeCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#af1dde3c04374147fca0cfe3b0766d664",tooltip="Build Callbacks for class method members which take varying numbers of arguments and potentially retu..."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="TestCounter::PacketDad",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_counter.html#a28fc4b6d18523c8464560b2944a77858",tooltip="Update statistics after a packet has been dropped after dequeue."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TestCounter::PacketDbe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_counter.html#a649d22d2e8ba9b631f72cb72320c2ecb",tooltip="Update statistics after a packet has been dropped before enqueue."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="TestCounter::PacketDequeued",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_counter.html#a24c494a8a4caab0b60ef769cb0a1c6bc",tooltip="Update statistics after a packet has been dequeued."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="TestCounter::PacketEnqueued",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_counter.html#a760c19ff9da22d3b1f64931f49b58d5b",tooltip="Update statistics after a packet has been enqueued."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::ObjectBase::TraceConnect\lWithoutContext",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html#a1be45f6fd561e75dcac9dfa81b2b81e4",tooltip="Connect a TraceSource to a Callback without a context."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::ObjectBase::GetInstance\lTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html#abe5b43a6f5b99a92a4c3122db31f06fb",tooltip="Get the most derived TypeId for this Object."];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::TypeId::LookupTrace\lSourceByName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#a9a07e9b925ebf9257c9f4f0732901502",tooltip="Find a TraceSource by name."];
+}

@@ -1,0 +1,45 @@
+digraph "ns3::Ipv6Address::MakeAutoconfiguredLinkLocalAddress"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Ipv6Address::MakeAutoconfigured\lLinkLocalAddress",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Make the autoconfigured link-local IPv6 address from a Mac address."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Mac16Address::\lConvertFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac16_address.html#a6822cde696a7be24782dc8e1de2f1449",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Mac16Address::\lGetType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac16_address.html#a0cf82ff2c102274ac243b24f95992680",tooltip="Return the Type of address."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Address::Register",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_address.html#a75d239c79bb3c39d64a8db4f2d3d9b20",tooltip="Allocate a new type id for a new type of address."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Mac48Address::\lConvertFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac48_address.html#a911ce13603a9ef837545a032b6523ae4",tooltip=" "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Mac48Address::\lGetType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac48_address.html#a5d365853b58b7acb2cc1cf905115891b",tooltip="Return the Type of address."];
+  Node6 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Mac64Address::\lConvertFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac64_address.html#a9d73aef28cf6b6edf423b418ce014b10",tooltip=" "];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::Mac64Address::\lGetType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac64_address.html#aa84ce4d8d0d5b5454778b54757abfaa3",tooltip="Return the Type of address."];
+  Node8 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::Mac8Address::ConvertFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac8_address.html#a60c112506434f766f06b548c2b853d30",tooltip="Convert a generic address to a Mac8Address."];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::Mac8Address::IsMatchingType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac8_address.html#a6d6d87013c99c897b9c5f7eadd697eb2",tooltip="Check that a generic Address is compatible with Mac8Address."];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::Mac8Address::GetType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac8_address.html#a8f3e301d85f104d306af94d3e2b67158",tooltip="Get the Mac8Address type."];
+  Node11 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::Ipv6Address::GetAny",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_address.html#a2783e8badfc98c8b0a8508bba6e1b91e",tooltip="Get the \"any\" (::) Ipv6Address."];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::Ipv6Address::IsAny",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_address.html#aaacafa8d26946a16a5688777b696277a",tooltip="If the IPv6 address is the \"Any\" address."];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::Mac16Address::\lIsMatchingType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac16_address.html#a2d7aa9e24afc8e02a25ab449b0b99b1f",tooltip=" "];
+  Node14 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::Mac48Address::\lIsMatchingType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac48_address.html#a55cc1e3c6aa63fd1a4f8f7d9be4ae182",tooltip=" "];
+  Node15 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::Mac64Address::\lIsMatchingType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac64_address.html#a50014d1350f72b89857f0262be927073",tooltip=" "];
+  Node16 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

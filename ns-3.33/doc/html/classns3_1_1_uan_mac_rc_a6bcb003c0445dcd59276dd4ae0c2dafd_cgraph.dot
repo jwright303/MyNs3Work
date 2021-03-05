@@ -1,0 +1,14 @@
+digraph "ns3::UanMacRc::UanMacRc"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::UanMacRc::UanMacRc",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Default constructor."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::UanHeaderCommon\l::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_header_common.html#a6b7479e4d56e1178ff82c6af393da2ba",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::UanHeaderRcCtsGlobal\l::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_header_rc_cts_global.html#acaf41da6e80c8f80ad7e20da0bd65430",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::UanHeaderRcCts\l::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_header_rc_cts.html#a50b4483508f660c478c6ae20e47fe5f1",tooltip=" "];
+}

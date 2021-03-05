@@ -1,0 +1,12 @@
+digraph "ns3::LteFfrEnhancedAlgorithm::DoReportUlCqiInfo"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::LteFfrEnhancedAlgorithm\l::DoReportUlCqiInfo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DoReportUlCqiInfo."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteFfConverter\l::fpS11dot3toDouble",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ff_converter.html#aa5d8c2a8f988dbd63da91818c18666eb",tooltip="Convert from fixed point S11.3 notation to double."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LteFfrEnhancedAlgorithm\l::GetCqiFromSpectralEfficiency",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ffr_enhanced_algorithm.html#aa72c07ec45c605f8d44d751e9b9b6280",tooltip="Get CQI from spectral efficiency."];
+}

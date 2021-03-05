@@ -1,0 +1,30 @@
+digraph "ns3::TcpSocketState::GetCwndInSegments"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::TcpSocketState\l::GetCwndInSegments",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get cwnd in segments rather than bytes."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TcpHighSpeed::\lCongestionAvoidance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_high_speed.html#ab241f8400ad52cff3e2f04ed8d00983c",tooltip="Congestion avoidance of TcpHighSpeed."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::TcpScalable::Congestion\lAvoidance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_scalable.html#aa0c22097e0628f16f321d79addc58976",tooltip="Congestion avoidance of TcpScalable (Equation 1)"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::TcpHybla::Congestion\lAvoidance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_hybla.html#afcf4c3e08d71973d116eb2f9eaf1bdcf",tooltip="NewReno congestion avoidance."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::TcpIllinois::Increase\lWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_illinois.html#aed96b4a9fcf68ca3c290e4e7114d13c7",tooltip="Adjust cwnd following Illinois congestion avoidance algorithm."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::TcpVegas::IncreaseWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_vegas.html#ae80e9ac677116dada43dacda0f98a8b6",tooltip="Adjust cwnd following Vegas linear increase/decrease algorithm."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::TcpVeno::IncreaseWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_veno.html#a5865787a20ea7c2c8beee2df5cefcdaa",tooltip="Adjust cwnd following Veno additive increase algorithm."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::TcpYeah::IncreaseWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_yeah.html#aa1efa60adbcb1dfad8d188deef7ed2ea",tooltip="Adjust cwnd following YeAH dual-mode algorithm."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::TcpBic::Update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_bic.html#a900818048f6876e8b38f9d9b8257f631",tooltip="Bic window update after a new ack received."];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::TcpBic::IncreaseWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_bic.html#a9dbe81be07cbfc1cd16af03deb9ccc34",tooltip="Congestion avoidance algorithm implementation."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::TcpCubic::Update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_cubic.html#a1676df929585823efe488c35448c69e4",tooltip="Cubic window update after a new ack received."];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::TcpCubic::IncreaseWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_cubic.html#a34659bfac2129d0c100d96e8ce7b24cd",tooltip="Congestion avoidance algorithm implementation."];
+}

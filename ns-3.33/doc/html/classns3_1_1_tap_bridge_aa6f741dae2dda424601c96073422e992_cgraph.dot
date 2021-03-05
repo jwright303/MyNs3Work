@@ -1,0 +1,10 @@
+digraph "ns3::TapBridge::~TapBridge"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::TapBridge::~TapBridge",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TapBridge::StopTapDevice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tap_bridge.html#a0daf7557c160441a6bf45b4915bc93c3",tooltip="Tear down the device."];
+}

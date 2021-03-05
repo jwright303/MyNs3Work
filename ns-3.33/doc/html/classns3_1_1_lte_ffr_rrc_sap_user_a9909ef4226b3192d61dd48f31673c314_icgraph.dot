@@ -1,0 +1,22 @@
+digraph "ns3::LteFfrRrcSapUser::SetPdschConfigDedicated"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LteFfrRrcSapUser\l::SetPdschConfigDedicated",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Instruct the eNodeB RRC entity to perform RrcConnectionReconfiguration to inform UE about new PdschCo..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteFfrDistributedAlgorithm\l::DoReportUeMeas",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ffr_distributed_algorithm.html#ab56de39fead05b50d0528f2b5404a692",tooltip="Implementation of LteFfrRrcSapProvider::ReportUeMeas."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LteFfrEnhancedAlgorithm\l::DoReportUeMeas",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ffr_enhanced_algorithm.html#aa6e396be06520a9b56418c3ad850fd42",tooltip="Implementation of LteFfrRrcSapProvider::ReportUeMeas."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::LteFfrSoftAlgorithm\l::DoReportUeMeas",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ffr_soft_algorithm.html#a81d3715fb7a7a8fe3ba4dc9770d17a70",tooltip="Implementation of LteFfrRrcSapProvider::ReportUeMeas."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::LteFrSoftAlgorithm\l::DoReportUeMeas",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_fr_soft_algorithm.html#ae5a72e11871c5b148a3ba2053642c059",tooltip="Implementation of LteFfrRrcSapProvider::ReportUeMeas."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::LteFrStrictAlgorithm\l::DoReportUeMeas",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_fr_strict_algorithm.html#aff1c8467dcf54fd375a7c501ee4a55ca",tooltip="Implementation of LteFfrRrcSapProvider::ReportUeMeas."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::LteFfrSimple::\lUpdatePdschConfigDedicated",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ffr_simple.html#afb8f24c4148fd2b27dea426e286a92f8",tooltip="Update PDSCH config dedicated function."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::LteFfrSimple::\lDoReportUeMeas",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ffr_simple.html#a91ba3cb67b4c02bfba9fc284e2cc0bd4",tooltip="Implementation of LteFfrRrcSapProvider::ReportUeMeas."];
+}

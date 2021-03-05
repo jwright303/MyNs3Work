@@ -1,0 +1,10 @@
+digraph "ns3::LteUeRrc::LeaveConnectedMode"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LteUeRrc::LeaveConnectedMode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Leave connected mode method Resets the UE back to an appropiate state depending on the nature of caus..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteUeRrc::DoDisconnect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_rrc.html#a19261f50e28cce9c61d12c205d45a651",tooltip="Disconnect function."];
+}

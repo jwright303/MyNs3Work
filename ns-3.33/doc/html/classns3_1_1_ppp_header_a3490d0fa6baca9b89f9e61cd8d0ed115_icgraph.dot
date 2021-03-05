@@ -1,0 +1,12 @@
+digraph "ns3::PppHeader::SetProtocol"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::PppHeader::SetProtocol",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set the protocol type carried by this PPP packet."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PointToPointNetDevice\l::AddHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_point_to_point_net_device.html#a041de407f1f7fac39ba2c961f857fedb",tooltip="Adds the necessary headers and trailers to a packet of data in order to respect the protocol implemen..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::PointToPointNetDevice\l::Send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_point_to_point_net_device.html#ad084e76d4a07b0818f1de9d188aa447e",tooltip=" "];
+}

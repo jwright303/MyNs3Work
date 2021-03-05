@@ -1,0 +1,10 @@
+digraph "INetStack::if_receive_packet"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="INetStack::if_receive\l_packet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Deliver complete packet to the NSC network stack."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::NscTcpL4Protocol\l::Receive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_nsc_tcp_l4_protocol.html#a6e7e849a94635f93115ce30fdacb469d",tooltip="Called from lower-level layers to send the packet up in the stack."];
+}

@@ -1,0 +1,17 @@
+digraph "TimeSimpleTestCase::TestMultiplication"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="TimeSimpleTestCase\l::TestMultiplication",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Helper function to handle boilerplate code for multiplication tests."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="TimeSimpleTestCase\l::TestMultiplicationByDecimal\lTypes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_time_simple_test_case.html#a288e6b7dbc0e8ccd7c4370676bb32c9e",tooltip="Test multiplying a Time instance by various decimal types."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="TimeSimpleTestCase\l::DoTimeOperations",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_time_simple_test_case.html#af63226fbe49f93a7a09fa6a573e938de",tooltip="Tests the Time Operations."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TimeSimpleTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_time_simple_test_case.html#a4420daddc0f37503638626397ec83f41",tooltip="Runs the Simple Time test case."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="TimeSimpleTestCase\l::TestMultiplicationByInteger\lTypes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_time_simple_test_case.html#a2b809b8be9c42c56d1e07de52dbe9bca",tooltip="Test multiplying a Time instance by various integer types."];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,27 @@
+digraph "StaticInformation"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="StaticInformation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Gather aggregation and configuration path information from registered types."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_output" ,fontname="Helvetica"];
+  Node2 [label="std::vector\< std::pair\l\< TypeId, std::string \> \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< std::pair\< TypeId,\l std::string \> \>" ,fontname="Helvetica"];
+  Node3 [label="std::vector\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node4 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_aggregates" ,fontname="Helvetica"];
+  Node5 [label="std::vector\< std::pair\l\< TypeId, TypeId \> \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node5 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< std::pair\< TypeId,\l TypeId \> \>" ,fontname="Helvetica"];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_alreadyProcessed" ,fontname="Helvetica"];
+  Node6 [label="std::vector\< TypeId \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node6 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< TypeId \>" ,fontname="Helvetica"];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_currentPath\nm_noTids" ,fontname="Helvetica"];
+  Node7 [label="std::vector\< std::string \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node8 [label="std::string",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="std::basic_string\<\l Char \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node7 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< std::string \>" ,fontname="Helvetica"];
+}

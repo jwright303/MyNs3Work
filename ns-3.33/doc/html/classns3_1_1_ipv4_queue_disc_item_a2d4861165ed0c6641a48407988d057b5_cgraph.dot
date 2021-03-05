@@ -1,0 +1,50 @@
+digraph "ns3::Ipv4QueueDiscItem::Hash"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Ipv4QueueDiscItem\l::Hash",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Computes the hash of the packet's 5-tuple."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Ipv4Header::GetDestination",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_header.html#a85daf48f0effc6bce6cb5c66bf4e1576",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::TcpHeader::GetDestinationPort",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_header.html#a4677ee14080d214b05b4b8cce9d82efc",tooltip="Get the destination port."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::UdpHeader::GetDestinationPort",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_udp_header.html#ad368e86767f342d3a0fa3831fadade64",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Ipv4Header::GetFragment\lOffset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_header.html#a4fea9bed2db318e8884fa5f3f7621396",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::QueueItem::GetPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_item.html#a7153f2c3e592aeae65ed329f51ffd436",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Ipv4Header::GetProtocol",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_header.html#aaf3abd54e2860340d02ca53516ea3b96",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::Ipv4Header::GetSource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_header.html#a542b0328f3ab54ae39d56cdc24f8403f",tooltip=" "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::TcpHeader::GetSourcePort",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_header.html#accceca9f318a9adfceff0769af1400e0",tooltip="Get the source port."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::UdpHeader::GetSourcePort",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_udp_header.html#a4098dcf81f70cf995177318b1f7ef580",tooltip=" "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::Hash32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__hash.html#ga0e5d678e6539711ec539868398a0a505",tooltip="Compute 32-bit hash of a byte buffer, using the default hash function."];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::Hasher::GetHash32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_hasher.html#a3d194d6c66ea950b9a89d3465f913012",tooltip="Compute 32-bit hash of a byte buffer."];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::Packet::PeekHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet.html#acc152757db7d44974640b089335b7003",tooltip="Deserialize but does not remove the header from the internal buffer."];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::Buffer::Begin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer.html#acb977a0179de9abe4e295ce22023b4ca",tooltip=" "];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::Buffer::CheckInternal\lState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer.html#a200897ee202518b0d2bf91ead4e82be9",tooltip="Checks the internal buffer structures consistency."];
+  Node13 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::Header::Deserialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_header.html#a78be9400bb66b2a8543606f395ef5396",tooltip=" "];
+  Node13 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::ObjectBase::GetInstance\lTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html#abe5b43a6f5b99a92a4c3122db31f06fb",tooltip="Get the most derived TypeId for this Object."];
+  Node13 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::TypeId::GetName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#abc4965475a579c2afdc668d7a7d58374",tooltip="Get the name."];
+  Node18 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ns3::Singleton\< IidManager\l \>::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_singleton.html#a80a2cd3c25a27ea72add7a9f7a141ffa",tooltip="Get a pointer to the singleton instance."];
+  Node18 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="ns3::IidManager::GetName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_iid_manager.html#a6658aaa8120efd885e98addb76a6f1d4",tooltip="Get the name of a type id."];
+  Node20 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="ns3::IidManager::LookupInformation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_iid_manager.html#a84af06b798b21fa700469a3ac5f65f3f",tooltip="Retrieve the information record for a type."];
+  Node1 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="ns3::Ipv4Address::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_address.html#aab62842fa20761be56ad5d20c207cef5",tooltip="Serialize this address to a 4-byte buffer."];
+}

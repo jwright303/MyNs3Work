@@ -1,0 +1,12 @@
+digraph "ns3::Sum"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Sum",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ComputeSnr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$three-gpp-v2v-channel-example_8cc.html#af299d2795bf43412a3164aa0a461127f",tooltip="Compute the average SNR."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LteInterference\l::StartRx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_interference.html#ac22640d17df2793412cf169fb4768e90",tooltip="Notify that the PHY is starting a RX attempt."];
+}

@@ -1,0 +1,10 @@
+digraph "ns3::TcpL4Protocol::CreateSocket"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::TcpL4Protocol\l::CreateSocket",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Create a TCP socket using the TypeId set by SocketType attribute."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TcpL4Protocol\l::CreateSocket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_l4_protocol.html#ae5d3e3fd9fa44cc80d3ae5f62e4dfb82",tooltip="Create a TCP socket using the specified congestion control algorithm."];
+}

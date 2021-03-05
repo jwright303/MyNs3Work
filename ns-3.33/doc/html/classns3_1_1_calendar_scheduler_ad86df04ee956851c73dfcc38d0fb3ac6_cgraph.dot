@@ -1,0 +1,31 @@
+digraph "ns3::CalendarScheduler::RemoveNext"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::CalendarScheduler\l::RemoveNext",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Remove the earliest event from the event list."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::CalendarScheduler\l::DoRemoveNext",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_calendar_scheduler.html#a42c114e7a4bb68943b63fa9dfc841610",tooltip="Remove the earliest event."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::CalendarScheduler\l::Hash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_calendar_scheduler.html#a51f1a1745f932881c83eb4c21891da2a",tooltip="Hash the dimensionless time to a bucket."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::CalendarScheduler\l::IsEmpty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_calendar_scheduler.html#a35d435f80c16dded551078157a7a276c",tooltip="Test if the schedule is empty."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::CalendarScheduler\l::ResizeDown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_calendar_scheduler.html#ad177bb1ae48629ed93d2ffc55aa52312",tooltip="Halve the number of buckets if necessary."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::CalendarScheduler\l::Resize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_calendar_scheduler.html#ab626f95ab5482e5e6e2a9d5f74363d6c",tooltip="Resize to a new number of buckets, with automatically computed width."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::CalendarScheduler\l::CalculateNewWidth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_calendar_scheduler.html#a259100bf1a7128f6bfd27edfc2acd089",tooltip="Compute the new bucket size, based on up to the first 25 entries."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::CalendarScheduler\l::DoInsert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_calendar_scheduler.html#a89cf4c06b7763187a0155320013cf1d1",tooltip="Insert a new event in to the correct bucket."];
+  Node8 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::CalendarScheduler\l::DoResize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_calendar_scheduler.html#a9c7a10fd444508c2dd8034cb49e21b7d",tooltip="Resize the number of buckets and width."];
+  Node9 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::CalendarScheduler\l::Init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_calendar_scheduler.html#a3bf6cdaed8ea65882707fe6eba13eedf",tooltip="Initialize the calendar queue."];
+  Node10 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

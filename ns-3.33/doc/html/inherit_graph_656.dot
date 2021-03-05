@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ns3::MicrowaveOvenSpectrum\lModel5MhzInitializer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_microwave_oven_spectrum_model5_mhz_initializer.html",tooltip="Init a static class containing the MWO #2 model (5Mhz)"];
+}

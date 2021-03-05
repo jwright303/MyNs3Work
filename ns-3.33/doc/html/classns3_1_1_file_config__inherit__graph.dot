@@ -1,0 +1,18 @@
+digraph "ns3::FileConfig"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::FileConfig",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="base class for ConfigStore classes using files"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::NoneFileConfig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_none_file_config.html",tooltip="A dummy class (does nothing)"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::RawTextConfigLoad",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_raw_text_config_load.html",tooltip="A class to enable loading of configuration store from a raw text file."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::RawTextConfigSave",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_raw_text_config_save.html",tooltip="A class to enable saving of configuration store in a raw text file."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::XmlConfigLoad",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_xml_config_load.html",tooltip="A class to enable loading of configuration store from an XML file."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::XmlConfigSave",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_xml_config_save.html",tooltip="A class to enable saving of configuration store in an XML file."];
+}

@@ -1,0 +1,16 @@
+digraph "ns3::UanNetDevice::SetAddress"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::UanNetDevice::\lSetAddress",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set the address of this interface."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Mac8Address::ConvertFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac8_address.html#a60c112506434f766f06b548c2b853d30",tooltip="Convert a generic address to a Mac8Address."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Mac8Address::IsMatchingType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac8_address.html#a6d6d87013c99c897b9c5f7eadd697eb2",tooltip="Check that a generic Address is compatible with Mac8Address."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Mac8Address::GetType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac8_address.html#a8f3e301d85f104d306af94d3e2b67158",tooltip="Get the Mac8Address type."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Address::Register",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_address.html#a75d239c79bb3c39d64a8db4f2d3d9b20",tooltip="Allocate a new type id for a new type of address."];
+}

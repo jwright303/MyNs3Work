@@ -1,0 +1,12 @@
+digraph "ns3::DlFramePrefixIe::GetSize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::DlFramePrefixIe\l::GetSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get size field."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::OfdmDownlinkFramePrefix\l::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ofdm_downlink_frame_prefix.html#a6cad0405e3da48f685686506cf7ffad1",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::OfdmDownlinkFramePrefix\l::Deserialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ofdm_downlink_frame_prefix.html#af73288c0b2ca162f5006cfc44b27e762",tooltip=" "];
+}

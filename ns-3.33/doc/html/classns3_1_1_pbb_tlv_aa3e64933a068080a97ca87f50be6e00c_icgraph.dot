@@ -1,0 +1,14 @@
+digraph "ns3::PbbTlv::IsMultivalue"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::PbbTlv::IsMultivalue",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Check the multivalue parameter."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PbbAddressTlv\l::IsMultivalue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_address_tlv.html#a2cdf981cf75faec8658998dd2d2ed786",tooltip="Tests whether or not this address TLV is \"multivalue\"."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::PbbTlv::Print",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_tlv.html#ae4fd884363190b9e59d4b489bf907630",tooltip="Pretty-prints the contents of this TLV, with specified indentation."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::PbbTlv::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_tlv.html#a6bc1c7acb0a5ccd51e616d5c231587c1",tooltip="Serializes this TLV into the specified buffer."];
+}

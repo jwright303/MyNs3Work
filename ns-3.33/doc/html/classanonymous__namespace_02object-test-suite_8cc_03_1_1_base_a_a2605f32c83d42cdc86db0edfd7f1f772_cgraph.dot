@@ -1,0 +1,26 @@
+digraph "anonymous_namespace{object-test-suite::cc}::BaseA::GetTypeId"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="anonymous_namespace\l\{object-test-suite::\lcc\}::BaseA::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Register this type."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TypeId::AddConstructor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#a06aaf693dc4dbe69b805d942c893ee64",tooltip="Record in this TypeId the fact that the default constructor is accessible."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::TypeId::HideFromDocumentation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#aa77c94c80d8c942a0da0db2de637fc14",tooltip="Hide this TypeId from documentation."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Singleton\< IidManager\l \>::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_singleton.html#a80a2cd3c25a27ea72add7a9f7a141ffa",tooltip="Get a pointer to the singleton instance."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::IidManager::HideFrom\lDocumentation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_iid_manager.html#a62df70ccf35b9bfe34c5bc4af70d7e9d",tooltip="Mark this type id to be excluded from documentation."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::IidManager::LookupInformation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_iid_manager.html#a84af06b798b21fa700469a3ac5f65f3f",tooltip="Retrieve the information record for a type."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::TypeId::SetParent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#abaaca67ab7d2471067e7c275df0f7309",tooltip="Set the parent TypeId."];
+  Node7 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::TypeId::GetUid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#a429535085325d6f926724771446d9047",tooltip="Get the internal id of this TypeId."];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::IidManager::SetParent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_iid_manager.html#a4042931260554c907699367b6811426f",tooltip="Set the parent of a type id."];
+  Node9 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

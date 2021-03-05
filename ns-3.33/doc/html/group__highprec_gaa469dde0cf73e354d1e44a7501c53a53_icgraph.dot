@@ -1,0 +1,10 @@
+digraph "ns3::ReadHiDigits"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::ReadHiDigits",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Read the integer portion of a number from a string containing just the integral digits (no decimal po..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::operator\>\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__highprec.html#gabf6ecbf5acccc352c1b1c0835cac66f2",tooltip="Input streamer for int64x64_t."];
+}

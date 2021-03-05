@@ -1,0 +1,10 @@
+digraph "ns3::PbbMessage::AddressBlockClear"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::PbbMessage::Address\lBlockClear",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Removes all address blocks from this message."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PbbMessage::~PbbMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_message.html#a99015fd438754fa9deb2963cd42b65d4",tooltip=" "];
+}

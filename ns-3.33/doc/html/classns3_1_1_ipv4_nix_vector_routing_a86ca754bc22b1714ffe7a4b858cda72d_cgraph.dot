@@ -1,0 +1,20 @@
+digraph "ns3::Ipv4NixVectorRouting::BuildNixVectorLocal"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Ipv4NixVectorRouting\l::BuildNixVectorLocal",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Special variation of BuildNixVector for when a node is sending to itself."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::NixVector::AddNeighbor\lIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_nix_vector.html#a04e4e8bdfa043b0d4b6143c324cbae60",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::NixVector::BitCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_nix_vector.html#abfcb040e5ff8a644c7f5d1b3503f8187",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Node::GetDevice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_node.html#ad5e10d46d12a255573c53d5db0fc043b",tooltip="Retrieve the index-th NetDevice associated to this node."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Node::GetId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_node.html#a2ed8663077afcb8db519296b0ada6355",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Ipv4InterfaceAddress\l::GetLocal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_interface_address.html#a6d04c0c9e2a4ab8a9d73c5edf7a93072",tooltip="Get the local address."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Node::GetNDevices",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_node.html#ab160c405a94d258f6fc5e4e3fd33cecd",tooltip=" "];
+}

@@ -1,0 +1,34 @@
+digraph "ns3::TcpOption"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::TcpOption",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Base class for all kinds of TCP options."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Object",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object.html",tooltip="A base class which provides memory management and object aggregation."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SimpleRefCount\l\< Object, ObjectBase,\l ObjectDeleter \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ref_count.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ObjectBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html",tooltip="Anchor the ns-3 type and attribute system."];
+  Node5 -> Node3 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Object, ObjectBase,\l ObjectDeleter \>" ,fontname="Helvetica"];
+  Node5 [label="ns3::SimpleRefCount\l\< T, PARENT, DELETER \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ref_count.html",tooltip="A template-based reference counting class."];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::empty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1empty.html",tooltip="make Callback use a separate empty type"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::TcpOptionEnd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_option_end.html",tooltip="Defines the TCP option of kind 0 (end of option list) as in RFC 793"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::TcpOptionMSS",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_option_m_s_s.html",tooltip="Defines the TCP option of kind 2 (maximum segment size) as in RFC 793"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::TcpOptionNOP",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_option_n_o_p.html",tooltip="Defines the TCP option of kind 1 (no operation) as in RFC 793"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::TcpOptionSack",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_option_sack.html",tooltip="Defines the TCP option of kind 5 (selective acknowledgment option) as in RFC 2018"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::TcpOptionSackPermitted",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_option_sack_permitted.html",tooltip="Defines the TCP option of kind 4 (selective acknowledgment permitted option) as in RFC 2018"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::TcpOptionTS",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_option_t_s.html",tooltip="Defines the TCP option of kind 8 (timestamp option) as in RFC 1323"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::TcpOptionUnknown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_option_unknown.html",tooltip="An unknown TCP option."];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::TcpOptionWinScale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_option_win_scale.html",tooltip="Defines the TCP option of kind 3 (window scale option) as in RFC 1323"];
+}

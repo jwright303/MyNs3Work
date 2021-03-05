@@ -1,0 +1,16 @@
+digraph "ns3::Ipv6AddressGenerator::Init"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Ipv6AddressGenerator\l::Init",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Initialise the base network and interfaceId for the generator."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::CsmaStarHelper\l::AssignIpv6Addresses",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_csma_star_helper.html#a0ff467c2d76ed22673aa7b16e319ab7b",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::PointToPointDumbbell\lHelper::AssignIpv6Addresses",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_point_to_point_dumbbell_helper.html#ad8dfcb5147e9b4eddc9460780f96628c",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::PointToPointGridHelper\l::AssignIpv6Addresses",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_point_to_point_grid_helper.html#a14989a2160bb0fe95af28cc59f1fd4ef",tooltip="Assigns Ipv6 addresses to all the row and column interfaces."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::PointToPointStarHelper\l::AssignIpv6Addresses",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_point_to_point_star_helper.html#a9a3381195fbbba9e1e5f1e3213270e48",tooltip=" "];
+}

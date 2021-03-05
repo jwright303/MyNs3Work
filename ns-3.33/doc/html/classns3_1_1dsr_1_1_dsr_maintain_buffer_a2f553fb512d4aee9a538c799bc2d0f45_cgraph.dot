@@ -1,0 +1,20 @@
+digraph "ns3::dsr::DsrMaintainBuffer::AllEqual"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::dsr::DsrMaintainBuffer\l::AllEqual",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Verify if all the elements in the maintenance buffer entry is the same."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::dsr::DsrMaintainBuff\lEntry::GetAckId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dsr_1_1_dsr_maintain_buff_entry.html#a9563ba8eca5cd5c6509e2e760ec94acd",tooltip="Get acknowledge ID."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::dsr::DsrMaintainBuff\lEntry::GetDst",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dsr_1_1_dsr_maintain_buff_entry.html#aee58cc2d1b51ec292a520a91e699f31c",tooltip="Get destination address."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::dsr::DsrMaintainBuff\lEntry::GetNextHop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dsr_1_1_dsr_maintain_buff_entry.html#abf4c613f5a06a45e62e6d78573098bea",tooltip="Get next hop of entry."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::dsr::DsrMaintainBuff\lEntry::GetOurAdd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dsr_1_1_dsr_maintain_buff_entry.html#a991891f099ed09af9924eec958a2e402",tooltip="Get local address of entry."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::dsr::DsrMaintainBuff\lEntry::GetSegsLeft",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dsr_1_1_dsr_maintain_buff_entry.html#a01131ac927e107cdf1a6f7c978592df6",tooltip="Get segments left."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::dsr::DsrMaintainBuff\lEntry::GetSrc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dsr_1_1_dsr_maintain_buff_entry.html#a2cc2c004c227083051fab85f184d272c",tooltip="Get source address."];
+}

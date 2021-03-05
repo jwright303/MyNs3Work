@@ -1,0 +1,12 @@
+digraph "ns3::ThreeGppChannelModel::GetThreeGppTable"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::ThreeGppChannelModel\l::GetThreeGppTable",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the parameters needed to apply the channel generation procedure."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ThreeGppChannelModel\l::GetNewChannel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_channel_model.html#aa7e888a5acb860f01a1ad83634876ade",tooltip="Compute the channel matrix between two devices using the procedure described in 3GPP TR 38...."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ThreeGppChannelModel\l::GetChannel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_channel_model.html#a5a406c78416046c228d628935b8ef0f8",tooltip="Looks for the channel matrix associated to the aMob and bMob pair in m_channelMap."];
+}

@@ -1,0 +1,10 @@
+digraph "ns3::PropagationDelayModel::DoAssignStreams"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::PropagationDelayModel\l::DoAssignStreams",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Subclasses must implement this; those not using random variables can return zero."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PropagationDelayModel\l::AssignStreams",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_propagation_delay_model.html#aad7f56f8231d69db5d1378e0765fe4b5",tooltip="If this delay model uses objects of type RandomVariableStream, set the stream numbers to the integers..."];
+}

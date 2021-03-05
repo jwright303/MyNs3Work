@@ -1,0 +1,9 @@
+digraph "MakeEvent from Function Pointers."
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node1 [label="MakeEvent from Function\l Pointers.",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Create EventImpl instances from function pointers which take varying numbers of arguments."];
+  Node2 [label="Events",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__events.html",tooltip=" "];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+}

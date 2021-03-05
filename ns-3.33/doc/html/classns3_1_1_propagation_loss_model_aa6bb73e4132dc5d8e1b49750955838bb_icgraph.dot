@@ -1,0 +1,43 @@
+digraph "ns3::PropagationLossModel::DoCalcRxPower"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::PropagationLossModel\l::DoCalcRxPower",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Returns the Rx Power taking into account only the particular PropagationLossModel."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PropagationLossModel\l::CalcRxPower",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_propagation_loss_model.html#a962c62e339e9890f70ea5bb87a12b075",tooltip="Returns the Rx Power taking into account all the PropagationLossModel(s) chained to the current one."];
+  Node2 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ComputeSnr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$three-gpp-v2v-channel-example_8cc.html#af299d2795bf43412a3164aa0a461127f",tooltip="Compute the average SNR."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="MatrixPropagationLossModel\lTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_matrix_propagation_loss_model_test_case.html#a31340c08bcf36d34a1734784cd376ae3",tooltip="Implementation to actually run this TestCase."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThreeGppV2vUrbanPropagation\lLossModelTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_v2v_urban_propagation_loss_model_test_case.html#affde3e2153502acdac434e169d7399f8",tooltip="Build the simulation scenario and run the tests."];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThreeGppV2vHighwayPropagation\lLossModelTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_v2v_highway_propagation_loss_model_test_case.html#a1a427594242f97fc5a7bebce9fe1b8bd",tooltip="Build the simulation scenario and run the tests."];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThreeGppShadowingTestCase\l::EvaluateLoss",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_shadowing_test_case.html#a41d078a66156fb2bfe5b7aa8ff02042b",tooltip="Compute the propagation loss."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ThreeGppShadowingTestCase\l::RunTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_shadowing_test_case.html#aca35b24cf1e8b577cdc973153e828b99",tooltip="Run the experiment."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ThreeGppShadowingTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_shadowing_test_case.html#a84cee9c85c74aeff5f51621a393d48c6",tooltip="Implementation to actually run this TestCase."];
+  Node2 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="JakesPropagationExample\l::Next",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_jakes_propagation_example.html#a36fd2bb995aace95f298c53ca25a7c32",tooltip="Next function."];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="JakesPropagationExample\l::JakesPropagationExample",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_jakes_propagation_example.html#aecb2c5ae4d1b8545fdf9d4cf92365a0e",tooltip=" "];
+  Node2 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::YansWifiChannel\l::Send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_yans_wifi_channel.html#a5e0c886d0ca17defddafe6edcc2288ea",tooltip=" "];
+  Node2 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::SimpleOfdmWimaxChannel\l::Send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ofdm_wimax_channel.html#ac056bb3c46b4ecc56b4fe32fefd79bc6",tooltip="Sends a dummy fec block to all connected physical devices."];
+  Node2 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::MultiModelSpectrumChannel\l::StartTx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_multi_model_spectrum_channel.html#ab5b8cfe54c081f858014b133d026ed26",tooltip="Used by attached PHY instances to transmit signals on the channel."];
+  Node2 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::SingleModelSpectrum\lChannel::StartTx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_single_model_spectrum_channel.html#a4288a4e2399b6257fcba2634f54a2256",tooltip="Used by attached PHY instances to transmit signals on the channel."];
+  Node2 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="TestDeterministic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main-propagation-loss_8cc.html#a4e5137292d7c72e9726190680c642e7d",tooltip=" "];
+  Node2 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="TestDeterministicByTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main-propagation-loss_8cc.html#a093207d9d8a33b2bfc987434a52eeecc",tooltip=" "];
+  Node2 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="TestProbabilistic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main-propagation-loss_8cc.html#a2c280e21b5e273cca8f71b0f167e034f",tooltip=" "];
+}

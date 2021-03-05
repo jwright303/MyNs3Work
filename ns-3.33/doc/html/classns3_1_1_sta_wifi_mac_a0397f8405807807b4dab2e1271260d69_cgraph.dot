@@ -1,0 +1,26 @@
+digraph "ns3::StaWifiMac::GetCapabilities"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::StaWifiMac::GetCapabilities",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Return the Capability information of the current STA."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::RegularWifiMac\l::GetErpSupported",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_regular_wifi_mac.html#a6ae4d610b553f1a4715e429efc334375",tooltip="Return whether the device supports ERP."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::InfrastructureWifiMac\l::GetPcfSupported",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_infrastructure_wifi_mac.html#a47ccbba3931e183c3b7cfe7777abb366",tooltip="Return whether the device supports PCF."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::WifiPhy::GetShortPhy\lPreambleSupported",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#a20ff23213910238c9b93d44f4e966b9d",tooltip="Return whether short PHY preamble is supported."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::RegularWifiMac\l::GetShortSlotTimeSupported",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_regular_wifi_mac.html#ad652bc9d8b8a7db8dfa979b00745d287",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::CapabilityInformation\l::SetCfPollable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_capability_information.html#a52befc54e86f720752862d3b531ebd90",tooltip="Set the CF-Pollable bit in the capability information field."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::CapabilityInformation::Set",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_capability_information.html#a8f11df0c93af6bb7d50a91900add13fc",tooltip="Set bit n to 1."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::CapabilityInformation\l::SetShortPreamble",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_capability_information.html#acd5df84b6cb8f81e2b6d0d689e987a18",tooltip="Set the short preamble bit in the capability information field."];
+  Node8 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::CapabilityInformation\l::SetShortSlotTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_capability_information.html#a914df2876c09377877259ccc9d422626",tooltip="Set the short slot time bit in the capability information field."];
+  Node9 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,10 @@
+digraph "ns3::UanHeaderRcRts::Print"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::UanHeaderRcRts\l::Print",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Specialized Print with Time::Unit declared."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::UanHeaderRcRts\l::Print",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_header_rc_rts.html#a8b32c07ffbbaee92c1610c0f3ce8ffc2",tooltip=" "];
+}

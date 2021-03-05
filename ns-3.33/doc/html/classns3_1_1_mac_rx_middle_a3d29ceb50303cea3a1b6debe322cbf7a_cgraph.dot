@@ -1,0 +1,14 @@
+digraph "ns3::MacRxMiddle::IsDuplicate"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::MacRxMiddle::IsDuplicate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Check if we have already received the packet from the sender before (by looking at the sequence contr..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::OriginatorRxStatus\l::GetLastSequenceControl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_originator_rx_status.html#a5a0b78a7859549881d79d729ef66fb71",tooltip="Return the last sequence control we received."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WifiMacHeader\l::GetSequenceControl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_header.html#ad4af293cb29d73a7661a93099e363b56",tooltip="Return the raw Sequence Control field."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::WifiMacHeader\l::IsRetry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_header.html#a749bc7828d30ab647a23d2cdead853b3",tooltip="Return if the Retry bit is set."];
+}

@@ -1,0 +1,45 @@
+digraph "ns3::WifiPhy::GetPhyHeaderMode"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::WifiPhy::GetPhyHeaderMode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WifiTxVector::\lGetChannelWidth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_tx_vector.html#ac56a35b49d9d77e09357adc171570d51",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WifiPhy::GetDsssRate1Mbps",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#a8b52ed5ee9801adab6d11b8e4dc4240f",tooltip="Return a WifiMode for DSSS at 1Mbps."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::WifiModeFactory\l::CreateWifiMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode_factory.html#a91e233a272c9bd36bca8d51a5da49b41",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::WifiModeFactory\l::AllocateUid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode_factory.html#a89a9c38617bd3f7be4a8919ce9675996",tooltip="Allocate a WifiModeItem from a given uniqueUid."];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::WifiModeFactory::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode_factory.html#a3086868810ff4347e31c63027726f544",tooltip="Return a WifiModeItem at the given UID index."];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::WifiModeFactory\l::GetFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode_factory.html#a9c6f695d733355dee8d74bd1709868fc",tooltip="Return a WifiModeFactory."];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::WifiPhy::GetDsssRate2Mbps",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#a6619a232c9506d049781aae17795b57f",tooltip="Return a WifiMode for DSSS at 2Mbps."];
+  Node8 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::WifiPhy::GetErpOfdm\lRate6Mbps",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#a334689e428371b3383e9001cbd05deba",tooltip="Return a WifiMode for ERP-OFDM at 6Mbps."];
+  Node9 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::WifiTxVector::\lGetMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_tx_vector.html#a47d0b3ae3c7de8817626469f5fe1be6a",tooltip="If this TX vector is associated with an SU PPDU, return the selected payload transmission mode."];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::WifiMode::GetModulation\lClass",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode.html#a67e1664cac501221b63a2be307184cc9",tooltip=" "];
+  Node11 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::WifiPhy::GetOfdmRate1\l_5MbpsBW5MHz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#ad52da7bd50e91c3cf45b6a3256b93d37",tooltip="Return a WifiMode for OFDM at 1.5Mbps with 5MHz channel spacing."];
+  Node12 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::WifiPhy::GetOfdmRate3\lMbpsBW10MHz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#a8c565c787448b738ea94b455169371fa",tooltip="Return a WifiMode for OFDM at 3Mbps with 10MHz channel spacing."];
+  Node13 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::WifiPhy::GetOfdmRate6Mbps",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#a9945d5d1e8dd74118f90e1adcb63d6fe",tooltip="Return a WifiMode for OFDM at 6Mbps."];
+  Node14 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::WifiTxVector::\lGetPreambleType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_tx_vector.html#a7125591f923091b79fe4a607dfad22e4",tooltip=" "];
+}

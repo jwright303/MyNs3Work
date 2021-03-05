@@ -1,0 +1,21 @@
+digraph "ns3::StatisticalSummary"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::StatisticalSummary",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Abstract class for calculating statistical data."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::MinMaxAvgTotalCalculator\l\< uint32_t \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_min_max_avg_total_calculator.html",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::PacketSizeMinMaxAvg\lTotalCalculator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet_size_min_max_avg_total_calculator.html",tooltip="A stat for collecting packet size statistics: min, max and average."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::MinMaxAvgTotalCalculator\l\< double \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_min_max_avg_total_calculator.html",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::MinMaxAvgTotalCalculator\l\< uint64_t \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_min_max_avg_total_calculator.html",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::MinMaxAvgTotalCalculator\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_min_max_avg_total_calculator.html",tooltip="Template class MinMaxAvgTotalCalculator."];
+  Node6 -> Node2 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< uint32_t \>" ,fontname="Helvetica"];
+  Node6 -> Node4 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< double \>" ,fontname="Helvetica"];
+  Node6 -> Node5 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< uint64_t \>" ,fontname="Helvetica"];
+}

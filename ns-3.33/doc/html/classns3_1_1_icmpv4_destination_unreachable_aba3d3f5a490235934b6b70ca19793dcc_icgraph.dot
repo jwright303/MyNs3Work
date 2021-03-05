@@ -1,0 +1,14 @@
+digraph "ns3::Icmpv4DestinationUnreachable::SetData"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Icmpv4DestinationUnreachable\l::SetData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set the ICMP carried data."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Icmpv4L4Protocol\l::SendDestUnreach",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv4_l4_protocol.html#a529f7a6a9ad8a08638b759488dc8be53",tooltip="Send an ICMP Destination Unreachable packet."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Icmpv4L4Protocol\l::SendDestUnreachFragNeeded",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv4_l4_protocol.html#adbf949ad6ba0ca41d00a893ea70c9173",tooltip="Send a Destination Unreachable - Fragmentation needed ICMP error."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Icmpv4L4Protocol\l::SendDestUnreachPort",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv4_l4_protocol.html#a905a403ff0dd94b98ffe0e2df4578fbe",tooltip="Send a Time Exceeded ICMP error."];
+}

@@ -1,0 +1,10 @@
+digraph "ns3::Ipv6RoutingHelper::Create"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Ipv6RoutingHelper\l::Create",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::InternetStackHelper\l::Install",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_internet_stack_helper.html#a514c5c1e88f68ed1c90a77afd0352376",tooltip="Aggregate implementations of the ns3::Ipv4, ns3::Ipv6, ns3::Udp, and ns3::Tcp classes onto the provid..."];
+}

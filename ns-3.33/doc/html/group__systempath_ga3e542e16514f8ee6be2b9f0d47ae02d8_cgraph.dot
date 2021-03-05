@@ -1,0 +1,20 @@
+digraph "ns3::SystemPath::Exists"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::SystemPath::Exists",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Check if a path exists."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::SystemPath::Dirname",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__systempath.html#ga657599fb7660fc6ebe4b6aaea0021176",tooltip="Get the directory path for a file."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SystemPath::Join",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__systempath.html#gab3212957e6b4f873ece3c6b8ed746d72",tooltip="Join a list of file system path directories into a single file system path."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::SystemPath::Split",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__systempath.html#ga523072e05da63b63113d1bea840edf1a",tooltip="Split a file system path into directories according to the local path separator."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::SystemPath::ReadFiles",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__systempath.html#ga152a348bccf02d8373607b0239587b87",tooltip="Get the list of files located in a file system directory."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::anonymous_namespace\l\{system-path::cc\}::ReadFilesNoThrow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__systempath.html#ga4044d0be558d00db7f891f658ad2cfcf",tooltip="Get the list of files located in a file system directory with error."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,32 @@
+digraph "ns3::YansWifiChannelHelper::SetPropagationDelay"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::YansWifiChannelHelper\l::SetPropagationDelay",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="BatteryLifetimeTest\l::ConstantLoadTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_battery_lifetime_test.html#a5cfb6c588872035454feb525491b1d52",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="DsdvManetExample::Create\lDevices",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dsdv_manet_example.html#a9fb80e0db3a88ca03cf832331cfc89ba",tooltip="Create and initialize all devices."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="DsdvManetExample::CaseRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dsdv_manet_example.html#aa61b3622afce14d04f2cf656fba31f4d",tooltip="Run function."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::YansWifiChannelHelper\l::Default",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_yans_wifi_channel_helper.html#a9a7fb65955fd9eb046600b89292e8062",tooltip="Create a channel helper in a default working state."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="WaveNetDeviceExample\l::CreateWaveNodes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wave_net_device_example.html#a825285810121c865230f6fafe6428081",tooltip="Create WAVE nodes function."];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::aodv::LoopbackTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1aodv_1_1_loopback_test_case.html#aa4ecd46f743a971813870cff58563eab",tooltip="Implementation to actually run this TestCase."];
+  Node5 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Experiment::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_experiment.html#abad6e932214977891837db4f39a80db5",tooltip=" "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="BasicEnergyDepletionTest\l::DepletionTestCase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_basic_energy_depletion_test.html#a933f0ff2e50a5dc64b4312619405a05a",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="RoutingExperiment::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_routing_experiment.html#a622c04e410004c2b738f0320ae1d16c2",tooltip=" "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="VanetRoutingExperiment\l::SetupAdhocDevices",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_vanet_routing_experiment.html#a8de4279cfaf91886970596e9ba8a4a75",tooltip="Set up the adhoc devices."];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="VanetRoutingExperiment\l::ConfigureChannels",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_vanet_routing_experiment.html#adcb4d2d4146919dc6f2cbdc183068e6a",tooltip="Configure channels."];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="BatteryLifetimeTest\l::VariableLoadTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_battery_lifetime_test.html#aa6d0fb55387831f97d9834c47abfd669",tooltip=" "];
+}

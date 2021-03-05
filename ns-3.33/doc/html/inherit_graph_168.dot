@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ns3::ByteTagIterator\l::Item",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_byte_tag_iterator_1_1_item.html",tooltip="Identifies a byte tag and a set of bytes within a packet to which the tag applies."];
+}

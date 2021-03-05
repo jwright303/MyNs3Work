@@ -1,0 +1,12 @@
+digraph "ns3::Ipv6ExtensionDestinationHeader::Print"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Ipv6ExtensionDestination\lHeader::Print",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Print some information about the packet."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Ipv6ExtensionHeader\l::GetLength",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_extension_header.html#a3c0ccd2b44535f3d11da824833b900d7",tooltip="Get the length of the extension."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Ipv6ExtensionHeader\l::GetNextHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_extension_header.html#adbc7bbdf8e1008ae49433e768afd1c3b",tooltip="Get the next header."];
+}

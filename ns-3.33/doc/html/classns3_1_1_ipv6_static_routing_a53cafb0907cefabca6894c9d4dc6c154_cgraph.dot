@@ -1,0 +1,32 @@
+digraph "ns3::Ipv6StaticRouting::LookupStatic"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Ipv6StaticRouting\l::LookupStatic",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Lookup in the forwarding table for destination."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Ipv6RoutingTableEntry\l::GetDest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_routing_table_entry.html#a36880347d8e4bd8af3479ad066c1257e",tooltip="Get the destination."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Ipv6RoutingTableEntry\l::GetDestNetwork",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_routing_table_entry.html#a384c99e8a22b96043c283e2ab2b2d581",tooltip="Get the destination network."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Ipv6RoutingTableEntry\l::GetDestNetworkPrefix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_routing_table_entry.html#ab940ecc56f9f2bff2e3beee67d07c437",tooltip="Get the destination prefix."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Ipv6RoutingTableEntry\l::GetGateway",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_routing_table_entry.html#ae74492c81400ecaab5c5714f17a44787",tooltip="Get the gateway."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Ipv6RoutingTableEntry\l::GetInterface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_routing_table_entry.html#aa1bdf7aff35f5e33f13c87c18f70a914",tooltip="Get the interface index."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Ipv6Prefix::GetPrefix\lLength",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_prefix.html#a8f92dfe3c7ff5c75cb3ff9442fc68644",tooltip="Get prefix length."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::Ipv6RoutingTableEntry\l::GetPrefixToUse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_routing_table_entry.html#a4ef0a46c4037f076b13e633f306f13c8",tooltip="Get the prefix to use (for multihomed link)."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::Ipv6Address::GetZero",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_address.html#a63a34bdb1505e05fbdd07d316d0bd7e6",tooltip="Get the 0 (::) Ipv6Address."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::Ipv6Address::IsAny",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_address.html#aaacafa8d26946a16a5688777b696277a",tooltip="If the IPv6 address is the \"Any\" address."];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::Ipv6Address::IsLink\lLocalMulticast",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_address.html#a54266c3c20bc87c52b507f1e3cf04e21",tooltip="If the IPv6 address is link-local multicast (ff02::/16)."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::Ipv6Prefix::IsMatch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_prefix.html#abd799c16a73b03020fd54da220af326e",tooltip="If the Address match the type."];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::Ipv6Address::GetBytes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_address.html#a7090d589a1640660510753153692a5e1",tooltip="Get the bytes corresponding to the address."];
+}

@@ -1,0 +1,21 @@
+digraph "ns3::ReciprocalDivide"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::ReciprocalDivide",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Performs a reciprocal divide, similar to the Linux kernel reciprocal_divide function."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::CobaltQueueDisc\l::ControlLaw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_cobalt_queue_disc.html#a93e3a247541e77d0841eeae88fb4e339",tooltip="Determine the time for next drop CoDel control law is t + m_interval/sqrt(m_count)."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::CobaltQueueDisc\l::CobaltQueueEmpty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_cobalt_queue_disc.html#af6fcb03f19db1c3db8fd731efb53d23f",tooltip="Called when the queue becomes empty to alter the drop probabilities of Blue."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::CobaltQueueDisc\l::DoDequeue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_cobalt_queue_disc.html#a1c62d3ba0ac9ff28b4779337ef0c36f7",tooltip="This function actually extracts a packet from the queue disc."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::CobaltQueueDisc\l::CobaltShouldDrop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_cobalt_queue_disc.html#a59935fe3ec6a23ff7b55cd298fc4cc80",tooltip="Called to decide whether the current packet should be dropped based on decisions taken by Blue and Co..."];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::CoDelQueueDisc\l::ControlLaw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_co_del_queue_disc.html#a3061d1646ac7c628f8bcbb45216e311e",tooltip="Determine the time for next drop CoDel control law is t + m_interval/sqrt(m_count)."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::CoDelQueueDisc\l::DoDequeue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_co_del_queue_disc.html#a6128cb8655b87b67f04424c68058e751",tooltip="Remove a packet from queue based on the current state If we are in dropping state,..."];
+}

@@ -1,0 +1,10 @@
+digraph "anonymous_namespace{sample-simulator::cc}::MyModel::Start"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="anonymous_namespace\l\{sample-simulator::cc\}\l::MyModel::Start",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Start model execution by scheduling a HandleEvent."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="anonymous_namespace\l\{sample-simulator::cc\}\l::ExampleFunction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceanonymous__namespace_02sample-simulator_8cc_03.html#a45ea69e62213f64232ff1b788188f67b",tooltip="Simple function event handler which Starts a MyModel object."];
+}

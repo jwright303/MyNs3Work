@@ -1,0 +1,16 @@
+digraph "ns3::DpdkNetDevice::InitDpdk"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::DpdkNetDevice\l::InitDpdk",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Initialize Dpdk."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::DpdkNetDevice\l::CheckAllPortsLinkStatus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dpdk_net_device.html#adec871a3e7487344a9d19c4bd1a389ed",tooltip="Check the link status of all ports in up to 9s and print them finally."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::DpdkNetDevice\l::LaunchCore",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dpdk_net_device.html#a05793ea80c697a99970e1566acae214e",tooltip="A function to handle rx & tx operations."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::DpdkNetDevice\l::HandleRx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dpdk_net_device.html#ad59ac2f18ecef7e8b180665c5920bd84",tooltip="Receive packets in burst from the nic to the rx_buffer."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::DpdkNetDevice\l::SignalHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dpdk_net_device.html#a2cfe6d780a2e920926c8ccbca6d8293d",tooltip="A signal handler for SIGINT and SIGTERM signals."];
+}

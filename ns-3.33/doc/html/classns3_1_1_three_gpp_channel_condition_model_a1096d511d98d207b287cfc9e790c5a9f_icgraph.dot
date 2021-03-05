@@ -1,0 +1,16 @@
+digraph "ns3::ThreeGppChannelConditionModel::AssignStreams"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::ThreeGppChannelCondition\lModel::AssignStreams",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="If this model uses objects of type RandomVariableStream, set the stream numbers to the integers start..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThreeGppV2vUrbanLosNlosv\lChCondModelTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_v2v_urban_los_nlosv_ch_cond_model_test_case.html#a3c2df4a7a3f3d79b69a9b82b5aed42aa",tooltip="Builds the simulation scenario and perform the tests."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThreeGppV2vHighwayLosNlosv\lChCondModelTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_v2v_highway_los_nlosv_ch_cond_model_test_case.html#a6f70342d318085f5dd1ec9161fab5814",tooltip="Builds the simulation scenario and perform the tests."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="V2vUrbanProbChCondModelTest\lCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_v2v_urban_prob_ch_cond_model_test_case.html#a5e8a78e5af26ac34bec4ab6c18fde149",tooltip="Builds the simulation scenario and perform the tests."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="V2vHighwayProbChCondModel\lTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_v2v_highway_prob_ch_cond_model_test_case.html#aa973405f68efce293f6a395ab7a2af4f",tooltip="Builds the simulation scenario and perform the tests."];
+}

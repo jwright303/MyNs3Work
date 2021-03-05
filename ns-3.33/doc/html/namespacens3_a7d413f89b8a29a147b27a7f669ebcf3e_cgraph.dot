@@ -1,0 +1,14 @@
+digraph "ns3::operator&lt;&lt;"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::operator\<\<",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="output stream output operator"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ErpInformation\l::GetBarkerPreambleMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_erp_information.html#aad9eca735cf2c7e3fab60a15effbecca",tooltip="Return the Barker_Preamble_Mode field in the ErpInformation information element."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ErpInformation\l::GetNonErpPresent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_erp_information.html#a8a6d05dd7f8f75e9657701a5e13c36e4",tooltip="Return the Non_Erp_Present field in the ErpInformation information element."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ErpInformation\l::GetUseProtection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_erp_information.html#ace556a204c74bc96005c3daf53f50650",tooltip="Return the Use_Protection field in the ErpInformation information element."];
+}

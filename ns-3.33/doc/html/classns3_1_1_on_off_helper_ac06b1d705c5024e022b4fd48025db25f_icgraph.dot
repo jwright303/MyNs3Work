@@ -1,0 +1,10 @@
+digraph "ns3::OnOffHelper::InstallPriv"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::OnOffHelper::InstallPriv",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Install an ns3::OnOffApplication on the node configured with all the attributes set with SetAttribute..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::OnOffHelper::Install",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_on_off_helper.html#ac2172f6ae83cd30cd3d3793d376d27dc",tooltip="Install an ns3::OnOffApplication on the node configured with all the attributes set with SetAttribute..."];
+}

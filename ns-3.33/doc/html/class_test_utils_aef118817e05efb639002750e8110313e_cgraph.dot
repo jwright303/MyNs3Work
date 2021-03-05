@@ -1,0 +1,16 @@
+digraph "TestUtils::sprintPacketContentsBin"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="TestUtils::sprintPacketContentsBin",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Function to convert packet contents in binary format."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Packet::CopyData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet.html#a5bafd70ccf970b10524e2d61afd39dc1",tooltip="Copy the packet contents to a byte buffer."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Buffer::CopyData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer.html#a767c8ec06a1307b569b9a5996dcacf91",tooltip="Copy the specified amount of data from the buffer to the given output stream."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Packet::GetSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet.html#afff7cb1ff518ee6dc0d424e10a5ad6ec",tooltip="Returns the the size in bytes of the packet (including the zero-filled initial payload)."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Buffer::GetSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer.html#a60c9172d2b102f8856c81b2126c8b209",tooltip=" "];
+}

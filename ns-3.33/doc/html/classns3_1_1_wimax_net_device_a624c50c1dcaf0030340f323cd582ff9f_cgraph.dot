@@ -1,0 +1,16 @@
+digraph "ns3::WimaxNetDevice::SetReceiveCallback"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::WimaxNetDevice\l::SetReceiveCallback",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set receive callback function."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::MakeCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#af1dde3c04374147fca0cfe3b0766d664",tooltip="Build Callbacks for class method members which take varying numbers of arguments and potentially retu..."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WimaxNetDevice\l::Receive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wimax_net_device.html#a14cc3e344c48ec645e65242cfcbb80d7",tooltip="Receive a packet burst."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::WimaxNetDevice\l::DoReceive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wimax_net_device.html#a9c27ed8c265ca1516ee289c6a02a75fa",tooltip="Receive a packet."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::WimaxNetDevice\l::GetMacAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wimax_net_device.html#a02c67fdff2149a4518b598405fa6ce1b",tooltip="Get the MAC address."];
+}

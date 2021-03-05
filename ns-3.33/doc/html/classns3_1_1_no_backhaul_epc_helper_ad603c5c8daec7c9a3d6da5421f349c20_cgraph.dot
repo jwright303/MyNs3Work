@@ -1,0 +1,12 @@
+digraph "ns3::NoBackhaulEpcHelper::DoAddX2Interface"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::NoBackhaulEpcHelper\l::DoAddX2Interface",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DoAddX2Interface: Call AddX2Interface on top of the Enb device pointers."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteEnbNetDevice\l::GetCellId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_net_device.html#af8327c717527f8a70838fa95becc2adb",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LteEnbNetDevice\l::GetRrc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_net_device.html#a7f13136ed88d218448df94cac4748cdd",tooltip=" "];
+}

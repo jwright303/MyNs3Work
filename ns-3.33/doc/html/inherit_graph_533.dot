@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ns3::LteRlcUm::TxPdu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rlc_um_1_1_tx_pdu.html",tooltip="Store an incoming (from layer above us) PDU, waiting to transmit it."];
+}

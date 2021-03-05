@@ -1,0 +1,12 @@
+digraph "ns3::SuperframeField::SetSuperframe"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::SuperframeField\l::SetSuperframe",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set the whole Superframe Specification Information field."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::SuperframeField\l::Deserialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_superframe_field.html#ae869efd894319d752614626a65cb7e4e",tooltip="Deserialize the entire superframe specification field."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::BeaconPayloadHeader\l::Deserialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_beacon_payload_header.html#a56c1a64f2733e729a365dd2964435c2f",tooltip=" "];
+}

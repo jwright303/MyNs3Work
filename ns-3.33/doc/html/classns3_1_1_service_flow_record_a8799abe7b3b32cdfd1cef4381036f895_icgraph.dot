@@ -1,0 +1,14 @@
+digraph "ns3::ServiceFlowRecord::SetGrantSize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::ServiceFlowRecord\l::SetGrantSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set the grant size (only for UGS service flows)"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::UplinkSchedulerMBQo\lS::SetupServiceFlow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_m_b_qo_s.html#aef30b9e41f2b8da83b467c6a8121b34d",tooltip="Setup service flow."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::UplinkSchedulerRtps\l::SetupServiceFlow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_rtps.html#ac44a9146c9928da245ebcf2c55a5c0d6",tooltip="Setup service flow function."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::UplinkSchedulerSimple\l::SetupServiceFlow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_simple.html#a88882b7e7a40a90dc2e9e7e1fb836004",tooltip="Setup service flow function."];
+}

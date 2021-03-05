@@ -1,0 +1,16 @@
+digraph "ns3::TtaFfMacScheduler::DoSchedUlTriggerReq"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::TtaFfMacScheduler\l::DoSchedUlTriggerReq",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Sched UL trigger request function."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TtaFfMacScheduler\l::EstimateUlSinr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tta_ff_mac_scheduler.html#a51fcb3b65dbfff2b28d66930073a45c8",tooltip="Estimate UL SINR function."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::TtaFfMacScheduler\l::RefreshUlCqiMaps",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tta_ff_mac_scheduler.html#ae0cb4fb464a85be701431b9606acdf2e",tooltip="Refresh UL CQI maps."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::FfMacSchedSapUser\l::SchedUlConfigInd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ff_mac_sched_sap_user.html#a1b89636256701a84d990db7db8aea874",tooltip="SCHED_UL_CONFIG_IND."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::TtaFfMacScheduler\l::UpdateUlRlcBufferInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tta_ff_mac_scheduler.html#ab833bf3832b55e3483befd9d0e9b2c13",tooltip="Update DL RLC buffer info function."];
+}

@@ -1,0 +1,10 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ns3::LteHandoverManagement\lSapProvider",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_handover_management_sap_provider.html",tooltip="Service Access Point (SAP) offered by the handover algorithm instance to the eNodeB RRC instance."];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="ns3::MemberLteHandoverManagement\lSapProvider\< C \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_member_lte_handover_management_sap_provider.html",tooltip="Template for the implementation of the LteHandoverManagementSapProvider as a member of an owner class..."];
+}

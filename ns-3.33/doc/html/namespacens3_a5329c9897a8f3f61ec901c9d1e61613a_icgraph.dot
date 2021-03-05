@@ -1,0 +1,16 @@
+digraph "ns3::CRC8Calculate"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::CRC8Calculate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::GenericMacHeader\l::Deserialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_generic_mac_header.html#a68a46a2f6f31e73ad9bdc4b3bce59afd",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::BandwidthRequestHeader\l::Deserialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_bandwidth_request_header.html#a12a0c737b169d284852dfdf65f422e51",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::GenericMacHeader\l::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_generic_mac_header.html#a44892a66346273d99325e30693252192",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::BandwidthRequestHeader\l::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_bandwidth_request_header.html#a67b37eb4221a18c11dc9613745443d88",tooltip=" "];
+}

@@ -1,0 +1,12 @@
+digraph "ns3::MinstrelHtWifiManager::CountRetries"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::MinstrelHtWifiManager\l::CountRetries",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Count retries."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::MinstrelHtWifiManager\l::DoNeedRetransmission",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_minstrel_ht_wifi_manager.html#a82e4438440288e8418b501893a11bacb",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::MinstrelHtWifiManager\l::DoReportAmpduTxStatus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_minstrel_ht_wifi_manager.html#ae46e486574f5eb6e591fe147f8cd388e",tooltip="Typically called per A-MPDU, either when a Block ACK was successfully received or when a BlockAckTime..."];
+}

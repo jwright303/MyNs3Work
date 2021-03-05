@@ -1,0 +1,20 @@
+digraph "OcbWifiMacTestCase::GetCurrentPosition"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="OcbWifiMacTestCase\l::GetCurrentPosition",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get current position function."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="OcbWifiMacTestCase\l::MacAssoc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ocb_wifi_mac_test_case.html#ac48d9afb4b72f66f11608903a10da2d0",tooltip="MAC associate function."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="OcbWifiMacTestCase\l::PostDeviceConfiguration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ocb_wifi_mac_test_case.html#a6b536e2fc476ebf85d4cd0ae7490987c",tooltip="Post device configuration function."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="OcbWifiMacTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ocb_wifi_mac_test_case.html#a730877f90008a4a4e7fd547f964f0f08",tooltip="static-node:0 <-— mobile-node:1"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="OcbWifiMacTestCase\l::PhyRxOkTrace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ocb_wifi_mac_test_case.html#aa0e4495ed57249ab657f1f1ea75f4a37",tooltip="Phy receive ok trace function."];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="OcbWifiMacTestCase\l::PhyTxTrace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ocb_wifi_mac_test_case.html#a3ed42be8055159ceb4cc1023deb44f12",tooltip="Phy transmit trace function."];
+  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,25 @@
+digraph "ns3::Ipv6Address::MakeAutoconfiguredAddress"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Ipv6Address::MakeAutoconfigured\lAddress",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Make the autoconfigured IPv6 address from a Mac address."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Ipv6L3Protocol\l::AddAutoconfiguredAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_l3_protocol.html#a1806de87b35929a2181c2985e5df1ec0",tooltip="Add an autoconfigured address with RA information."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SixLowPanNetDevice\l::DecompressLowPanHc1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_six_low_pan_net_device.html#a649ef9717609424699311ea61c8e3fc8",tooltip="Decompress the headers according to HC1 compression."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::SixLowPanNetDevice\l::ProcessFragment",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_six_low_pan_net_device.html#a8ae23f88e38059a0096bf87e58007240",tooltip="Process a packet fragment."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::SixLowPanNetDevice\l::ReceiveFromDevice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_six_low_pan_net_device.html#a35d31ab6c6270f1923ce5b0f77d582b6",tooltip="Receives all the packets from a NetDevice for further processing."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::SixLowPanNetDevice\l::SetNetDevice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_six_low_pan_net_device.html#a81c74a5dc06e3fbad1a8b1c59d1f68fa",tooltip="Setup SixLowPan to be a proxy for the specified NetDevice."];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Ipv6AddressHelper\l::NewAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_address_helper.html#a0f9499d21947758623cf17615e3dbc84",tooltip="Allocate a new Ipv6Address."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="IpAddressHelperTestCasev6\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ip_address_helper_test_casev6.html#a784cec04a31e92a998b06becb3538e2d",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::Ipv6L3Protocol\l::RemoveAutoconfiguredAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_l3_protocol.html#a6e8db427dbb1dfcaeecee8a6d793e94a",tooltip="Remove an autoconfigured address."];
+}

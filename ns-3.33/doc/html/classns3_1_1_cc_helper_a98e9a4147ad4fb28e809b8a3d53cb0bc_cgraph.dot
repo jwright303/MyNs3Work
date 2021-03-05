@@ -1,0 +1,30 @@
+digraph "ns3::CcHelper::EquallySpacedCcs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::CcHelper::EquallySpacedCcs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="EquallySpacedCcs() create a valid std::map< uint8_t, Ptr<ComponentCarrier> > The Primary Component Ca..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::CcHelper::CreateSingleCc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_cc_helper.html#af66bfd8af414697808a712fbb2b6b052",tooltip="Create a single component carrier."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ComponentCarrier\l::GetDlEarfcn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_component_carrier.html#a20f33e0d00c99a21f253a617a0c5fb49",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ComponentCarrier\l::GetUlEarfcn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_component_carrier.html#aa15f0890e642f5b81c2f97773f28ef55",tooltip=" "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::ComponentCarrier\l::SetAsPrimary",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_component_carrier.html#a651004130f614b9e9898ffc4ce5a67f6",tooltip="Set as primary carrier."];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::ComponentCarrier\l::SetDlBandwidth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_component_carrier.html#ae338108e2cf1c200b3db32296b720a19",tooltip=" "];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::ComponentCarrier\l::SetDlEarfcn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_component_carrier.html#a0871ff8b70db43af41332e6044b9e71b",tooltip=" "];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::ComponentCarrier\l::SetUlBandwidth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_component_carrier.html#aaf2ca57b073f39c9b3b27d23052ce865",tooltip=" "];
+  Node2 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::ComponentCarrier\l::SetUlEarfcn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_component_carrier.html#a5dc7c10cc6ef1a3f1247cf324a14920a",tooltip=" "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::LteSpectrumValueHelper\l::GetChannelBandwidth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_spectrum_value_helper.html#a6bcb6331ef0edfabeb16dea925e9a984",tooltip=" "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::LteSpectrumValueHelper\l::GetDownlinkCarrierBand",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_spectrum_value_helper.html#a46917f055699fdfbb0ad8195b1be154c",tooltip="Converts downlink EARFCN to corresponding LTE frequency band number."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::LteSpectrumValueHelper\l::GetUplinkCarrierBand",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_spectrum_value_helper.html#a434ead24a924f4416873789d0a93a43c",tooltip="Converts uplink EARFCN to corresponding LTE frequency band number."];
+}

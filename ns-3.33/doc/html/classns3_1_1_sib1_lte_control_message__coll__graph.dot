@@ -1,0 +1,25 @@
+digraph "ns3::Sib1LteControlMessage"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Sib1LteControlMessage",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Abstract model for broadcasting the System Information Block Type 1 (SIB1) within the control channel..."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteControlMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_control_message.html",tooltip="The LteControlMessage provides a basic implementations for control messages (such as PDCCH allocation..."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SimpleRefCount\l\< LteControlMessage \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ref_count.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::empty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1empty.html",tooltip="make Callback use a separate empty type"];
+  Node5 -> Node3 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< LteControlMessage \>" ,fontname="Helvetica"];
+  Node5 [label="ns3::SimpleRefCount\l\< T, PARENT, DELETER \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ref_count.html",tooltip="A template-based reference counting class."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_sib1" ,fontname="Helvetica"];
+  Node6 [label="ns3::LteRrcSap::SystemInformation\lBlockType1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_system_information_block_type1.html",tooltip="SystemInformationBlockType1 structure."];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cellSelectionInfo" ,fontname="Helvetica"];
+  Node7 [label="ns3::LteRrcSap::CellSelectionInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_cell_selection_info.html",tooltip="CellSelectionInfo structure."];
+  Node8 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cellAccessRelatedInfo" ,fontname="Helvetica"];
+  Node8 [label="ns3::LteRrcSap::CellAccess\lRelatedInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_cell_access_related_info.html",tooltip="CellAccessRelatedInfo structure."];
+  Node9 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" plmnIdentityInfo" ,fontname="Helvetica"];
+  Node9 [label="ns3::LteRrcSap::PlmnIdentityInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_plmn_identity_info.html",tooltip="PlmnIdentityInfo structure."];
+}

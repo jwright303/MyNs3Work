@@ -1,0 +1,14 @@
+digraph "ns3::PacketSocketAddress::ConvertTo"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::PacketSocketAddress\l::ConvertTo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Convert an instance of this class to a polymorphic Address instance."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Address::CopyAllTo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_address.html#af92fc14cdea0826bd1394c5518794889",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::PacketSocketAddress\l::GetType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet_socket_address.html#a703aa2fb4a6a54902db175138723d6c9",tooltip="Return the Type of address."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Address::Register",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_address.html#a75d239c79bb3c39d64a8db4f2d3d9b20",tooltip="Allocate a new type id for a new type of address."];
+}

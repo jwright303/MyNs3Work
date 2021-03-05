@@ -1,0 +1,14 @@
+digraph "ns3::CobaltQueueDisc::CobaltQueueDisc"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::CobaltQueueDisc\l::CobaltQueueDisc",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CobaltQueueDisc Constructor."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::CobaltQueueDisc\l::InitializeParams",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_cobalt_queue_disc.html#a92586bcc1dccabe499ef057da546364e",tooltip="Initialize the queue parameters."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::CobaltQueueDisc\l::CacheInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_cobalt_queue_disc.html#a54078c4a27aa97a651997cbc2e8fb04d",tooltip="There is a big difference in timing between the accurate values placed in the cache and the approxima..."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::CobaltQueueDisc\l::NewtonStep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_cobalt_queue_disc.html#aea9824813b111c5d07236b10f3b5aa31",tooltip="Calculate the reciprocal square root of m_count by using Newton's method http://en...."];
+}

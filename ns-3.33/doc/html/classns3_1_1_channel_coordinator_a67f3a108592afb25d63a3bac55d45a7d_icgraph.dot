@@ -1,0 +1,20 @@
+digraph "ns3::ChannelCoordinator::GetCchSlot"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::ChannelCoordinator\l::GetCchSlot",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ChannelCoordinator\l::NotifyCchSlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_channel_coordinator.html#afa276928ea019d3e5bf0d4761e8ca606",tooltip="notify listeners of a CCH slot start"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ChannelCoordinator\l::NotifyGuardSlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_channel_coordinator.html#ac5aa1fac71a8346b1993b1462de1618a",tooltip="notify listeners of a guard slot start"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ChannelCoordinator\l::NotifySchSlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_channel_coordinator.html#a662f870387fb7bb6e3f27a6adec8f96f",tooltip="notify listeners of a SCH slot start"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::ChannelCoordinator\l::StartChannelCoordination",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_channel_coordinator.html#a4eb4a70c66f3c71ef1d0acfa262b9b38",tooltip="start to make channel coordination events"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::ChannelCoordinator\l::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_channel_coordinator.html#a4e6c05c516fdaffe36cb3da5bdc5c265",tooltip="Initialize() implementation."];
+}

@@ -1,0 +1,16 @@
+digraph "ns3::UanTxMode::GetBandwidthHz"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::UanTxMode::GetBandwidthHz",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the transmission signal bandwidth."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::UanPhyPerCommonModes\l::CalcPer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_phy_per_common_modes.html#a2de39f420ce0718b4f01bf6e73f26b36",tooltip="Calculate the Packet ERror probability based on SINR at the receiver and a tx mode."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::UanPhyCalcSinrDual\l::CalcSinrDb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_phy_calc_sinr_dual.html#ae91107c0fc1da3a6f3c70db2d29938bb",tooltip="Calculate the SINR value for a packet."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::UanPhyGen::Calculate\lSinrDb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_phy_gen.html#a8ee7b3cf1d4971c3b2ca718282bb238b",tooltip="Calculate the SINR value for a packet."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::UanPhyGen::StartRxPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_phy_gen.html#a33d2cfb97710cff791b87ec7d864107b",tooltip="Packet arriving from channel: i.e."];
+}

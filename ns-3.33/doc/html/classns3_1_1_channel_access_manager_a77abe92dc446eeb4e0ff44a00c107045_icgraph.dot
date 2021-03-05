@@ -1,0 +1,29 @@
+digraph "ns3::ChannelAccessManager::NotifyMaybeCcaBusyStartNow"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::ChannelAccessManager\l::NotifyMaybeCcaBusyStartNow",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::OcbWifiMac::MakeVirtualBusy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ocb_wifi_mac.html#ab7719e7ccdc4cbfd99a802e7694ed6d1",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::DefaultChannelScheduler\l::AssignDefaultCchAccess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_default_channel_scheduler.html#a04e74683a8fce5f193b3c1f948c73bb9",tooltip="This method will assign default CCH access for CCH."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::DefaultChannelScheduler\l::SwitchToNextChannel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_default_channel_scheduler.html#a661fb5bfff90527fa4be59820ccf8bdf",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::DefaultChannelScheduler\l::AssignAlternatingAccess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_default_channel_scheduler.html#a8de51ae89df5a36d8a71f921d87b39ca",tooltip=" "];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::DefaultChannelScheduler\l::AssignContinuousAccess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_default_channel_scheduler.html#aa693aed997fedf77fdbbb70ba862f887",tooltip=" "];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::DefaultChannelScheduler\l::AssignExtendedAccess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_default_channel_scheduler.html#ac04d88e86b56d56681145dfb16b7cbeb",tooltip=" "];
+  Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::DefaultChannelScheduler\l::NotifyGuardSlotStart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_default_channel_scheduler.html#a4a5636f25d5a17387bc5b40a094fb92e",tooltip="Notify guard slot start."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::CoordinationListener\l::NotifyGuardSlotStart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_coordination_listener.html#aabcf712cd90eee208ce4007298e0e833",tooltip=" "];
+  Node4 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::DefaultChannelScheduler\l::ReleaseAccess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_default_channel_scheduler.html#af9ec39655871dbbc5f07bfe5f326ec53",tooltip=" "];
+  Node10 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::PhyListener::Notify\lMaybeCcaBusyStart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_phy_listener.html#a9426df05b7b07a9b4abc4a0888259d7b",tooltip=" "];
+}

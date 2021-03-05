@@ -1,0 +1,15 @@
+digraph "ns3::EpcTft::PacketFilter"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ns3::EpcTft::PacketFilter",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Implement the data structure representing a TrafficFlowTemplate Packet Filter."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" localIpv6Prefix\nremoteIpv6Prefix" ,fontname="Helvetica"];
+  Node2 [label="ns3::Ipv6Prefix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_prefix.html",tooltip="Describes an IPv6 prefix."];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" localIpv6Address\nremoteIpv6Address" ,fontname="Helvetica"];
+  Node3 [label="ns3::Ipv6Address",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_address.html",tooltip="Describes an IPv6 address."];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" localMask\nremoteMask" ,fontname="Helvetica"];
+  Node4 [label="ns3::Ipv4Mask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_mask.html",tooltip="a class to represent an Ipv4 address mask"];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" localAddress\nremoteAddress" ,fontname="Helvetica"];
+  Node5 [label="ns3::Ipv4Address",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_address.html",tooltip="Ipv4 addresses are stored in host order in this class."];
+}

@@ -1,0 +1,12 @@
+digraph "ns3::ExtendedSupportedRatesIE::SetSupportedRates"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::ExtendedSupportedRates\lIE::SetSupportedRates",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set supported rates."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::SupportedRates\l::SupportedRates",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_supported_rates.html#aa3a771afc406c81fbdd6a288e6acaa92",tooltip="type conversion operator"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SupportedRates\l::operator=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_supported_rates.html#a57fe51b8fa5b3cb7f18663b8f63d7c4d",tooltip="assignment operator"];
+}

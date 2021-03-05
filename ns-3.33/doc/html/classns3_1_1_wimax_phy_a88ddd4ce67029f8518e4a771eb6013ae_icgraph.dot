@@ -1,0 +1,21 @@
+digraph "ns3::WimaxPhy::GetChannel"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::WimaxPhy::GetChannel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::SimpleOfdmWimaxPhy\l::DoAttach",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ofdm_wimax_phy.html#aae74bf4fb04134c6bd63b96f0c3ed7fb",tooltip="Attach the physical layer to a channel."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WimaxPhy::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wimax_phy.html#a58a835ff9290a6eca54acba7cf6e8fac",tooltip="Get the type ID."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::SimpleOfdmWimaxPhy\l::StartSendDummyFecBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ofdm_wimax_phy.html#a224ebae3cb0c6309b1d290dcfe349963",tooltip="Start end dummy FEC block."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::SimpleOfdmWimaxPhy\l::EndSendFecBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ofdm_wimax_phy.html#a488d6fa3a7f48b641422e790c796a742",tooltip="End send FEC block."];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::SimpleOfdmWimaxPhy\l::Send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ofdm_wimax_phy.html#ac39b27e0e9ce8d571f307fcc7d40d2ad",tooltip="Sends a burst on the channel."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::SimpleOfdmWimaxPhy\l::Send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ofdm_wimax_phy.html#a8df8042b7b44fdf471addecf6c41f074",tooltip="Sends a burst on the channel."];
+}

@@ -1,0 +1,18 @@
+digraph "ns3::operator&lt;&lt;"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::operator\<\<",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Stream insertion operator."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Ipv4InterfaceAddress\l::GetBroadcast",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_interface_address.html#a0e5cce17152b2da10066c238e2212a3f",tooltip="Get the broadcast address."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Ipv4InterfaceAddress\l::GetLocal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_interface_address.html#a6d04c0c9e2a4ab8a9d73c5edf7a93072",tooltip="Get the local address."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Ipv4InterfaceAddress\l::GetMask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_interface_address.html#a5bbf2672568c72ebbb543f38c59dd29c",tooltip="Get the network mask."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Ipv4InterfaceAddress\l::GetScope",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_interface_address.html#a1eebea169cc491e509c930714aecc474",tooltip="Get address scope."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Ipv4InterfaceAddress\l::IsSecondary",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_interface_address.html#a8702979df352770b8a93cc728d1e25db",tooltip="Check if the address is a secondary address."];
+}

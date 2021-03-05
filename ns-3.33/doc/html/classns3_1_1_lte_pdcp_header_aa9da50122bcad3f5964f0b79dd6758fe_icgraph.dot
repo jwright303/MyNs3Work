@@ -1,0 +1,12 @@
+digraph "ns3::LtePdcpHeader::GetSerializedSize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LtePdcpHeader\l::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LtePdcpHeader\l::Deserialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_pdcp_header.html#a575d529e9229a6fc54227a01598b5661",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LtePdcp::DoTransmit\lPdcpSdu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_pdcp.html#ab7db54201309ecb2358b8ae9cff7e4cc",tooltip="Interface provided to upper RRC entity."];
+}

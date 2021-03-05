@@ -1,0 +1,17 @@
+digraph "ns3::SchInfo"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ns3::SchInfo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" edcaParameters" ,fontname="Helvetica"];
+  Node2 [label="std::map\< AcIndex,\l EdcaParameter \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node3 [label="ns3::EdcaParameter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_edca_parameter.html",tooltip="EdcaParameter structure."];
+  Node4 -> Node2 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< AcIndex, EdcaParameter \>" ,fontname="Helvetica"];
+  Node4 [label="std::map\< K, T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" keys" ,fontname="Helvetica"];
+  Node5 [label="K",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node6 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

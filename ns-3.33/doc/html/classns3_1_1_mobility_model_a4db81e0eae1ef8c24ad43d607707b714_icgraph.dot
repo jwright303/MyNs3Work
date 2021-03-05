@@ -1,0 +1,22 @@
+digraph "ns3::MobilityModel::GetVelocity"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::MobilityModel\l::GetVelocity",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Ns2MobilityHelperTest\l::CheckInitialPositions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ns2_mobility_helper_test.html#a243a7724198f1922c9a9510650a9262f",tooltip="Check that all initial positions are correct."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SteadyStateRandomWaypoint\lTest::DistribCompare",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_steady_state_random_waypoint_test.html#a7fec88fc2579b3c0601a8704e04584d3",tooltip="Distribution compare function."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="SteadyStateRandomWaypoint\lTest::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_steady_state_random_waypoint_test.html#a06b559358eab241daa3a937a038729df",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::HierarchicalMobility\lModel::DoGetVelocity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_hierarchical_mobility_model.html#ad4e66d221189ee15884868b6c373b72c",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::MobilityModel\l::GetRelativeSpeed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mobility_model.html#a5f6b07a9b6dbf9db75f5e0c205dbf533",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::MobilityModel\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mobility_model.html#a3d1346ba74cc805812fac131070ba439",tooltip="Register this type with the TypeId system."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="showPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$bonnmotion-ns2-example_8cc.html#aa58f33caf8bba45b2f1d495586580172",tooltip=" "];
+}

@@ -1,0 +1,10 @@
+digraph "ns3::WifiMacQueue::PeekByTidAndAddress"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::WifiMacQueue::\lPeekByTidAndAddress",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Search and return, if present in the queue, the first packet having the receiver address equal to des..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WifiMacQueue::\lDequeueByTidAndAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_queue.html#abd0ee4c67d48e91f69a56f2f8b6538d5",tooltip="Search and return, if present in the queue, the first packet having the address indicated by type equ..."];
+}

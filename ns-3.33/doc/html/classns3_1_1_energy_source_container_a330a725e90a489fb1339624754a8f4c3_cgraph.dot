@@ -1,0 +1,14 @@
+digraph "ns3::EnergySourceContainer::EnergySourceContainer"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::EnergySourceContainer\l::EnergySourceContainer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::EnergySourceContainer::Add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_energy_source_container.html#a8a2ee083f2b448ee87393b280b7407b9",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::EnergySourceContainer\l::Begin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_energy_source_container.html#a79942a2fd61c34b8575d5d9bfac815d2",tooltip="Get an iterator which refers to the first EnergySource pointer in the container."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::EnergySourceContainer::End",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_energy_source_container.html#adccea1d316fec45dd79970dfdc7f1e88",tooltip="Get an iterator which refers to the last EnergySource pointer in the container."];
+}

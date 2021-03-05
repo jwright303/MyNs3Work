@@ -1,0 +1,29 @@
+digraph "ns3::WifiRemoteStationManager::ReportFinalRtsFailed"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::WifiRemoteStationManager\l::ReportFinalRtsFailed",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Should be invoked after calling ReportRtsFailed if NeedRetransmission returns false."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Txop::MissedCts",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_txop.html#ae969e1203237fc063ed27d2a23a1e773",tooltip="Event handler when a CTS timeout has occurred."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::MacLow::CtsTimeout",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac_low.html#a35adb9b4c7f1035da2cb080289ba9cf7",tooltip="Event handler when CTS timeout occurs."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::MacLow::RxStartIndication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac_low.html#af096a2fe9597c4ca80ae1af4870a45a8",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::MacLow::ResetPhy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac_low.html#a4158eb64f54ae53935769cdf0b12aafb",tooltip="Remove WifiPhy associated with this MacLow."];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::MacLow::SetPhy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac_low.html#abbd1aac31c7ed79f717b9c92cb664608",tooltip="Set up WifiPhy associated with this MacLow."];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::MacLow::SendRtsForPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac_low.html#ac472702b866a51ea2dfb7637381897aa",tooltip="Send RTS to begin RTS-CTS-Data-Ack transaction."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::MacLow::StartTransmission",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac_low.html#aa477261c5209c13c66af9e2ae78b07e5",tooltip=" "];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::WaveMacLow::StartTransmission",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wave_mac_low.html#abf4a90e9984a73b24197706fb79118b1",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::QosTxop::NotifyInternal\lCollision",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_qos_txop.html#a89bd16f2271d51bb1ddafb339b07f54a",tooltip="Notify the Txop that internal collision has occurred."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::QosTxop::NotifyMissedCts",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_qos_txop.html#a0b82aec30711d3b4fb94d164388ecf9c",tooltip="Event handler when a CTS timeout has occurred."];
+  Node11 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

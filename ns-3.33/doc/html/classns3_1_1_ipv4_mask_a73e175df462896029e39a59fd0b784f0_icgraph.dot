@@ -1,0 +1,43 @@
+digraph "ns3::Ipv4Mask::GetPrefixLength"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Ipv4Mask::GetPrefix\lLength",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PlanetLabFdNetDevice\lHelper::CreateFileDescriptor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_planet_lab_fd_net_device_helper.html#a2361547bf5d0129c7107ede174e27dea",tooltip="Call out to a separate process running as suid root in order to create a TAP device and obtain the fi..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::PlanetLabFdNetDevice\lHelper::SetFileDescriptor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_planet_lab_fd_net_device_helper.html#afcff04caa9c6b018b8c5195318f2eabd",tooltip="Sets a file descriptor on the FileDescriptorNetDevice."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::PlanetLabFdNetDevice\lHelper::InstallPriv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_planet_lab_fd_net_device_helper.html#a244310cd940f8c73f0accde34f42c1b7",tooltip="This method creates an ns3::FdNetDevice attached to a virtual TAP network interface."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Ipv4StaticRouting\l::GetDefaultRoute",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_static_routing.html#a3e3079305b988d61fdd56d9990499a6e",tooltip="Get the default route with lowest metric from the static routing table."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Ipv4EndPointDemux\l::Lookup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_end_point_demux.html#acd458004b74ea330e9025ab874f2c1b1",tooltip="lookup for a match with all the parameters."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Rip::Lookup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rip.html#a50d486fb2eee757bb9f9d528d3828dab",tooltip="Lookup in the forwarding table for destination."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::Rip::RouteInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rip.html#a4575903d3368ff77e2cc0e97c75fc8f9",tooltip="Route an input packet (to be forwarded or locally delivered)"];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::Rip::RouteOutput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rip.html#a56d1be040d276f54ea04d5adf7c9fce6",tooltip="Query routing cache for an existing route, for an outbound packet."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::Ipv4StaticRouting\l::LookupStatic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_static_routing.html#a9ee2a4c5597e9b238369ba3667121852",tooltip="Lookup in the forwarding table for destination."];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::Ipv4StaticRouting\l::RouteInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_static_routing.html#a5e01a8326cd334ad887953345632d7c1",tooltip="Route an input packet (to be forwarded or locally delivered)"];
+  Node10 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::Ipv4StaticRouting\l::RouteOutput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_static_routing.html#a7a8f0d57d249629f1b7d67e6701571e0",tooltip="Query routing cache for an existing route, for an outbound packet."];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::RipRte::Print",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rip_rte.html#af0e25b1885f3d4a02a3570862fd25629",tooltip=" "];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::operator\<\<",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#a701b08070ee0aca7658ed2c083bc71bc",tooltip="Stream insertion operator."];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::GlobalRouter::\lProcessBridgedBroadcastLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_router.html#a7368716600989ea7d4bec67fa4f86e4c",tooltip="Process a bridged broadcast link."];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::GlobalRouter::\lProcessBroadcastLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_router.html#af981be58153ef32690b434072cd3205b",tooltip="Process a generic broadcast link."];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::GlobalRouter::\lDiscoverLSAs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_router.html#a44e135879879a27cd8d2566b5e9761cf",tooltip="Walk the connected channels, discover the adjacent routers and build the associated number of Global ..."];
+  Node1 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::GlobalRouter::\lProcessSingleBroadcastLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_router.html#a16b0eecb167b84a7160c8903839a826f",tooltip="Process a single broadcast link."];
+  Node18 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

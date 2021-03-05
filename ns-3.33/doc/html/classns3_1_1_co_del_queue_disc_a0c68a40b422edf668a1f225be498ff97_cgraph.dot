@@ -1,0 +1,28 @@
+digraph "ns3::CoDelQueueDisc::DoEnqueue"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::CoDelQueueDisc\l::DoEnqueue",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Add a packet to the queue."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::QueueDisc::DropBefore\lEnqueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#af0714a051396c141782971365b3f209c",tooltip="Perform the actions required when the queue disc is notified of a packet dropped before enqueue."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::QueueDisc::GetCurrentSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#a0b121e62752208f83a5cb2b5124b5822",tooltip="Get the current size of the queue disc in bytes, if operating in bytes mode, or packets,..."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::QueueDisc::GetMaxSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#a30acf59202fdbdc24b320d3500dc70d3",tooltip="Get the maximum size of the queue disc."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::QueueDisc::GetInternal\lQueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#a41ba62e67ec4e9dda23d8eef1ab3e99b",tooltip="Get the i-th internal queue."];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::QueueDisc::GetNInternal\lQueues",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#ae47426b975eb58978099b9898b116802",tooltip="Get the number of internal queues."];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::QueueDisc::GetNQueue\lDiscClasses",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#aa43972223ab0ed4f1057f96f8e348ddf",tooltip="Get the number of queue disc classes."];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::QueueDisc::GetQueue\lDiscClass",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#aa41e320ffec30464ab594f5f8cc21780",tooltip="Get the i-th queue disc class."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::QueueDisc::GetNBytes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#a232c18b392b0719d72705e904711e101",tooltip="Get the amount of bytes stored by the queue disc."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::QueueDisc::GetNPackets",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#a9b5a4899a463e6a926b18c2bf7f71d00",tooltip="Get the number of packets stored by the queue disc."];
+}

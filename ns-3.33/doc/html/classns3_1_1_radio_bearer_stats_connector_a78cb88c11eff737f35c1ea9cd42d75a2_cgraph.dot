@@ -1,0 +1,39 @@
+digraph "ns3::RadioBearerStatsConnector::NotifyNewUeContextEnb"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::RadioBearerStatsConnector\l::NotifyNewUeContextEnb",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Function hooked to NewUeContext trace source at eNB RRC, which is fired upon creation of a new UE con..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::RadioBearerStatsConnector\l::StoreUeManagerPath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_radio_bearer_stats_connector.html#a413a341a69c6ab2aa239da5bde547144",tooltip="Creates UE Manager path and stores it in m_ueManagerPathByCellIdRnti."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Config::Connect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__config.html#ga4014f151241cd0939b6cb64409605736",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Config::ConnectFailSafe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3_1_1_config.html#aad60d6903a15881b81e982ad5312114a",tooltip="This function will attempt to find all trace sources which match the input path and will then connect..."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Config::ConfigImpl\l::ConnectFailSafe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_config_1_1_config_impl.html#a5761c70117341e4ea296917bc095e6c0",tooltip="This function will attempt to find all trace sources which match the input path and will then connect..."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Config::MatchContainer\l::ConnectFailSafe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_config_1_1_match_container.html#a8f3c268d2e6a9daec975497d200ec324",tooltip="Connect the specified sink to all the objects stored in this container."];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Config::ConfigImpl\l::LookupMatches",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_config_1_1_config_impl.html#aef8d461e235704cdeb8a85581ba249fb",tooltip=" "];
+  Node5 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::Config::ConfigImpl\l::ParsePath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_config_1_1_config_impl.html#ab482a563857309e0e70beba3af32be71",tooltip="Break a Config path into the leading path and the last leaf token."];
+  Node4 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::Singleton\< ConfigImpl\l \>::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_singleton.html#a80a2cd3c25a27ea72add7a9f7a141ffa",tooltip="Get a pointer to the singleton instance."];
+  Node2 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::RadioBearerStatsConnector\l::CreatedDrbEnb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_radio_bearer_stats_connector.html#ab055d0cb9204cbecb75a1db44b2f6108",tooltip="Function hooked to DrbCreated trace source at UE manager in eNB RRC, which is fired when DRB is creat..."];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::RadioBearerStatsConnector\l::ConnectTracesDrbEnb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_radio_bearer_stats_connector.html#a11712a16157f220f33b95e1c4f0aa952",tooltip="Connects DRB trace sources at eNB to RLC and PDCP calculators."];
+  Node11 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::DlTxPduCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#a7de82f7ed9986b9bcb67951f61e02ff4",tooltip="Callback function for DL TX statistics for both RLC and PDCP."];
+  Node11 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::MakeBoundCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__makeboundcallback.html#ga1725d6362e6065faa0709f7c93f8d770",tooltip="Make Callbacks with one bound argument."];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::Create",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__ptr.html#ga086d8d4a76485a155f0408b85dcebede",tooltip="Create class instances by constructors with varying numbers of arguments and return them by Ptr."];
+  Node11 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::UlRxPduCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#a269527c03607c9c885d7cff7667ec5e0",tooltip="Callback function for UL RX statistics for both RLC and PDCP."];
+  Node2 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

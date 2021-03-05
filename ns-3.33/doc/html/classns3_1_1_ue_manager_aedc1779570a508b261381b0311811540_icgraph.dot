@@ -1,0 +1,10 @@
+digraph "ns3::UeManager::GetErabList"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::UeManager::GetErabList",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::UeManager::PrepareHandover",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_manager.html#a1d842520ee54f281ee7eefc2a62f7844",tooltip="Start the handover preparation and send the handover request."];
+}

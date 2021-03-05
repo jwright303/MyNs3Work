@@ -1,0 +1,18 @@
+digraph "ns3::LteEnbPhy::GenerateDataCqiReport"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::LteEnbPhy::Generate\lDataCqiReport",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="generate a CQI report based on the given SINR of Data frame (used for PUSCH CQIs)"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteEnbPhy::CreatePusch\lCqiReport",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_phy.html#a1c0d9c7094c6e36c574f396e5a6270a5",tooltip="Create the UL CQI feedback from SINR values perceived at the physical layer with the PUSCH signal rec..."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SpectrumValue\l::ConstValuesBegin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_spectrum_value.html#a0db0a570f567e39b9730ff9c70b807f3",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::SpectrumValue\l::ConstValuesEnd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_spectrum_value.html#af535cd133b3a653e01a245b9009d32ad",tooltip=" "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::LteFfConverter\l::double2fpS11dot3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ff_converter.html#a56e66da296e4328530c22036b3549b70",tooltip="Convert from double to fixed point S11.3 notation."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::LteEnbPhySapUser\l::UlCqiReport",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_phy_sap_user.html#a3641701677a9855e72bce8edca17caf0",tooltip="Returns to MAC level the UL-CQI evaluated."];
+}

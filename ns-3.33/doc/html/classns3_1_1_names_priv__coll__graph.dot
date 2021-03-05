@@ -1,0 +1,56 @@
+digraph "ns3::NamesPriv"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::NamesPriv",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="The singleton root Names object."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Singleton\< NamesPriv \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_singleton.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::NonCopyable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_non_copyable.html",tooltip="A base class for (non-Singleton) objects which shouldn't be copied."];
+  Node4 -> Node2 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< NamesPriv \>" ,fontname="Helvetica"];
+  Node4 [label="ns3::Singleton\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_singleton.html",tooltip="A template singleton."];
+  Node3 -> Node4 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_objectMap" ,fontname="Helvetica"];
+  Node5 [label="std::map\< ns3::Ptr\l\< ns3::Object \>, ns3\l::NameNode * \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node6 [label="ns3::NameNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_name_node.html",tooltip="Node in the naming tree."];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_name" ,fontname="Helvetica"];
+  Node7 [label="std::string",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="std::basic_string\<\l Char \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_parent" ,fontname="Helvetica"];
+  Node9 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_nameMap" ,fontname="Helvetica"];
+  Node9 [label="std::map\< std::string,\l ns3::NameNode * \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node7 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" keys" ,fontname="Helvetica"];
+  Node10 -> Node9 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< std::string, ns3\l::NameNode * \>" ,fontname="Helvetica"];
+  Node10 [label="std::map\< K, T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node11 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" keys" ,fontname="Helvetica"];
+  Node11 [label="K",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node12 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node12 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node13 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_object" ,fontname="Helvetica"];
+  Node13 [label="ns3::Ptr\< ns3::Object \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ptr.html",tooltip=" "];
+  Node14 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_ptr" ,fontname="Helvetica"];
+  Node14 [label="ns3::Object",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object.html",tooltip="A base class which provides memory management and object aggregation."];
+  Node15 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::SimpleRefCount\l\< Object, ObjectBase,\l ObjectDeleter \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ref_count.html",tooltip=" "];
+  Node16 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::ObjectBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html",tooltip="Anchor the ns-3 type and attribute system."];
+  Node17 -> Node15 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Object, ObjectBase,\l ObjectDeleter \>" ,fontname="Helvetica"];
+  Node17 [label="ns3::SimpleRefCount\l\< T, PARENT, DELETER \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ref_count.html",tooltip="A template-based reference counting class."];
+  Node18 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::empty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1empty.html",tooltip="make Callback use a separate empty type"];
+  Node19 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_tid" ,fontname="Helvetica"];
+  Node19 [label="ns3::TypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html",tooltip="a unique identifier for an interface."];
+  Node20 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_aggregates" ,fontname="Helvetica"];
+  Node20 [label="ns3::Object::Aggregates",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_object_1_1_aggregates.html",tooltip="The list of Objects aggregated to this one."];
+  Node14 -> Node20 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" buffer" ,fontname="Helvetica"];
+  Node21 -> Node13 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::Object \>" ,fontname="Helvetica"];
+  Node21 [label="ns3::Ptr\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ptr.html",tooltip="Smart pointer class similar to boost::intrusive_ptr."];
+  Node13 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" keys" ,fontname="Helvetica"];
+  Node10 -> Node5 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::Ptr\< ns3::Object\l \>, ns3::NameNode * \>" ,fontname="Helvetica"];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_root" ,fontname="Helvetica"];
+}

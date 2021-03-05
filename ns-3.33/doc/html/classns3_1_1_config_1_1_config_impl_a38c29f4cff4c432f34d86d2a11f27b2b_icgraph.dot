@@ -1,0 +1,31 @@
+digraph "ns3::Config::ConfigImpl::GetRootNamespaceObject"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Config::ConfigImpl\l::GetRootNamespaceObject",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Config::GetRootNamespace\lObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__config.html#gac7edffbe59256f872d7f1afe7612aeac",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="GetTypicalAggregations",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$print-introspected-doxygen_8cc.html#a02fe4c3d27a24ec2f788eae2631c09bb",tooltip="Register aggregation relationships that are not automatically detected by this introspection program."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="GetNameMap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$print-introspected-doxygen_8cc.html#a196946b40d2e3c6afe86088e17076d3e",tooltip="Create a map from the class names to their index in the vector of TypeId's so that the names will end..."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="PrintAllAttributes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$print-introspected-doxygen_8cc.html#a6582b74e79d2b00f171c8e644108bc87",tooltip="Print the list of all Attributes."];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="PrintAllTraceSources",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$print-introspected-doxygen_8cc.html#a23d80244adcc8de3ea7f21080a6d9bbe",tooltip="Print the list of all Trace sources."];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="PrintAllTypeIds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$print-introspected-doxygen_8cc.html#ace05c489c3a08800a0bfbadb8d4867de",tooltip="Print the list of all TypeIds."];
+  Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="PrintTypeIdBlocks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$print-introspected-doxygen_8cc.html#a62645d02d71b5d1622ccb9f16d5fa412",tooltip="Print the doxy block for each TypeId."];
+  Node3 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="PrintConfigPaths",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$print-introspected-doxygen_8cc.html#aca1ed0ddeb1938b79f432a8f05a07905",tooltip="Print config paths."];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::AttributeIterator\l::Iterate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_attribute_iterator.html#a8e7de38f441cc482c2d507e2a4927b8c",tooltip="Start the process of iterating all objects from the root namespace object."];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::ModelCreator::\lBuild",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_model_creator.html#a8103a829286a73b9988d1dfc018c9819",tooltip="Allocate attribute tree."];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::GtkConfigStore\l::ConfigureAttributes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_gtk_config_store.html#a95d2d8169cd6a9770af48f7cf62d24fb",tooltip="Process attribute values."];
+}

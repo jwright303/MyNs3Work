@@ -1,0 +1,18 @@
+digraph "ns3::WifiPhyStateHelper::IsStateCcaBusy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::WifiPhyStateHelper\l::IsStateCcaBusy",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Check whether the current state is CCA busy."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WifiPhyStateHelper\l::DoSwitchFromRx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#a1f57e08c21efb84c6a34a832c19966d8",tooltip="Switch the state from RX."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WifiPhyStateHelper\l::SwitchFromRxAbort",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#a943093847761067740ea812b19a16773",tooltip="Abort current reception."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::WifiPhyStateHelper\l::SwitchFromRxEndError",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#acf3604274f1de290f21bdf9f3a5f4a87",tooltip="Switch from RX after the reception failed."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::WifiPhyStateHelper\l::SwitchFromRxEndOk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#a167e72313c4ec128865c46e55fe9e4b2",tooltip="Switch from RX after the reception was successful."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::WifiPhyStateHelper\l::SwitchToRx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#a0f2fc8bb8c61f94606b318bfc78b9003",tooltip="Switch state to RX for the given duration."];
+}

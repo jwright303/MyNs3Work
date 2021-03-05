@@ -1,0 +1,48 @@
+digraph "ns3::UdpTraceClientHelper"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::UdpTraceClientHelper",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Create UdpTraceClient application which sends UDP packets based on a trace file of an MPEG4 stream."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_factory" ,fontname="Helvetica"];
+  Node2 [label="ns3::ObjectFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_factory.html",tooltip="Instantiate subclasses of ns3::Object."];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_tid" ,fontname="Helvetica"];
+  Node3 [label="ns3::TypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html",tooltip="a unique identifier for an interface."];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_parameters" ,fontname="Helvetica"];
+  Node4 [label="ns3::AttributeConstructionList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_attribute_construction_list.html",tooltip="List of Attribute name, value and checker triples used to construct Objects."];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_list" ,fontname="Helvetica"];
+  Node5 [label="std::list\< struct ns3\l::AttributeConstructionList\l::Item \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node6 [label="ns3::AttributeConstruction\lList::Item",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_attribute_construction_list_1_1_item.html",tooltip="A single Attribute triple."];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" name" ,fontname="Helvetica"];
+  Node7 [label="std::string",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="std::basic_string\<\l Char \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node9 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" value" ,fontname="Helvetica"];
+  Node9 [label="ns3::Ptr\< ns3::Attribute\lValue \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ptr.html",tooltip=" "];
+  Node10 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_ptr" ,fontname="Helvetica"];
+  Node10 [label="ns3::AttributeValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_attribute_value.html",tooltip="Hold a value for an Attribute."];
+  Node11 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::SimpleRefCount\l\< AttributeValue \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ref_count.html",tooltip=" "];
+  Node12 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::empty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1empty.html",tooltip="make Callback use a separate empty type"];
+  Node13 -> Node11 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< AttributeValue \>" ,fontname="Helvetica"];
+  Node13 [label="ns3::SimpleRefCount\l\< T, PARENT, DELETER \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ref_count.html",tooltip="A template-based reference counting class."];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node9 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::AttributeValue \>" ,fontname="Helvetica"];
+  Node14 [label="ns3::Ptr\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ptr.html",tooltip="Smart pointer class similar to boost::intrusive_ptr."];
+  Node15 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" checker" ,fontname="Helvetica"];
+  Node15 [label="ns3::Ptr\< const ns3\l::AttributeChecker \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ptr.html",tooltip=" "];
+  Node16 -> Node15 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_ptr" ,fontname="Helvetica"];
+  Node16 [label="ns3::AttributeChecker",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_attribute_checker.html",tooltip="Represent the type of an attribute."];
+  Node17 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::SimpleRefCount\l\< AttributeChecker \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ref_count.html",tooltip=" "];
+  Node12 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node17 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< AttributeChecker \>" ,fontname="Helvetica"];
+  Node14 -> Node15 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< const ns3::AttributeChecker \>" ,fontname="Helvetica"];
+  Node18 -> Node5 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< struct ns3::AttributeConstruction\lList::Item \>" ,fontname="Helvetica"];
+  Node18 [label="std::list\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node19 -> Node18 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node19 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

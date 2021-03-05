@@ -1,0 +1,18 @@
+digraph "ns3::SNRToBlockErrorRateManager::LoadTraces"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::SNRToBlockErrorRate\lManager::LoadTraces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Loads the traces form the repository specified in the constructor or set by SetTraceFilePath function..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::SimpleOfdmWimaxPhy\l::SimpleOfdmWimaxPhy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ofdm_wimax_phy.html#ac75a81050a2e1e801481a10cffa23b5f",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Ns3WimaxSNRtoBLERTestCase\l::DoRunOnce",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ns3_wimax_s_n_rto_b_l_e_r_test_case.html#a64943c3525014a282678a8a7186c6273",tooltip="Run once function."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Ns3WimaxSNRtoBLERTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ns3_wimax_s_n_rto_b_l_e_r_test_case.html#ac9aa61cf78b1f131079090a055b08e66",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::SimpleOfdmWimaxPhy\l::SetTraceFilePath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ofdm_wimax_phy.html#a3f90e6261b5238201701a7275300b008",tooltip="Set trace file path."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::SimpleOfdmWimaxPhy\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ofdm_wimax_phy.html#a0c5b73edf9b3c13a0d6e0b80524561e8",tooltip="Get the type ID."];
+}

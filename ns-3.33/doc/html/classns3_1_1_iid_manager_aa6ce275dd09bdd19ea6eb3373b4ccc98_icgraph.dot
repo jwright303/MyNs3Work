@@ -1,0 +1,14 @@
+digraph "ns3::IidManager::HasAttribute"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::IidManager::HasAttribute",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Check if a type id has a given Attribute."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::IidManager::AddAttribute",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_iid_manager.html#adc2f2efdd19361885c09082cca33454f",tooltip="Record a new attribute in a type id."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::TypeId::AddAttribute",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#ad991df734fa67dacec701fe35b58c83b",tooltip="Record in this TypeId the fact that a new attribute exists."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Ns3NscStack::GetInstance\lTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ns3_nsc_stack.html#a30539dfb514195745465a3db164caf81",tooltip="Get the most derived TypeId for this Object."];
+}

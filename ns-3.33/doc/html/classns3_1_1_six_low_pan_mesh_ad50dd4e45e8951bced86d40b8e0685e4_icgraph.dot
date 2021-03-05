@@ -1,0 +1,16 @@
+digraph "ns3::SixLowPanMesh::GetSerializedSize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::SixLowPanMesh\l::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the serialized size of the packet."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::SixLowPanMesh\l::Deserialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_six_low_pan_mesh.html#a2d3fb34eba997942611970d3cae5c4dc",tooltip="Deserialize the packet."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SixLowPanNetDevice\l::DoSend",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_six_low_pan_net_device.html#a0cd8b4fc52f256bd7743310434ac4680",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::SixLowPanNetDevice\l::Send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_six_low_pan_net_device.html#a6566ae05fbc295d8cd22166b6b2c28ea",tooltip=" "];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::SixLowPanNetDevice\l::SendFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_six_low_pan_net_device.html#aec79675091efa676370a4f9e6f4127e3",tooltip=" "];
+}

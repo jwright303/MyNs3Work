@@ -1,0 +1,20 @@
+digraph "TcpRateLinuxWithBufferTest::TcpRateLinuxWithBufferTest"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="TcpRateLinuxWithBufferTest\l::TcpRateLinuxWithBufferTest",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Constructor."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::MakeCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#af1dde3c04374147fca0cfe3b0766d664",tooltip="Build Callbacks for class method members which take varying numbers of arguments and potentially retu..."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="TcpRateLinuxWithBufferTest\l::RateSampleUpdatedTrace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_rate_linux_with_buffer_test.html#a8362a661f5b5edacf6ce651f4e275fce",tooltip="Track the rate sample value of TcpRateLinux."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TcpRateLinuxWithBufferTest\l::RateUpdatedTrace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_rate_linux_with_buffer_test.html#a7ab19c642d328be2c1c9cf1dc5050853",tooltip="Track the rate value of TcpRateLinux."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::ObjectBase::TraceConnect\lWithoutContext",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html#a1be45f6fd561e75dcac9dfa81b2b81e4",tooltip="Connect a TraceSource to a Callback without a context."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::ObjectBase::GetInstance\lTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html#abe5b43a6f5b99a92a4c3122db31f06fb",tooltip="Get the most derived TypeId for this Object."];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::TypeId::LookupTrace\lSourceByName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#a9a07e9b925ebf9257c9f4f0732901502",tooltip="Find a TraceSource by name."];
+}

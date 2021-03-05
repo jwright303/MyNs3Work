@@ -1,0 +1,18 @@
+digraph "ns3::ChannelScheduler::StartSch"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::ChannelScheduler\l::StartSch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ChannelScheduler\l::AssignAlternatingAccess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_channel_scheduler.html#af0271355fea052d70ea7f294815665e3",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ChannelScheduler\l::AssignContinuousAccess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_channel_scheduler.html#add316fb72a43d2ee22a55fef0c341a41",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ChannelScheduler\l::AssignExtendedAccess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_channel_scheduler.html#ae34d7ccddc8be5578dd6df92f95394d2",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::WaveNetDevice\l::GetMac",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wave_net_device.html#ac10a984970dc10b82558e0c856a56b0c",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::ChannelManager\l::IsCch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_channel_manager.html#a3d68a3f8099eaa381bdfddac4b7ccfa6",tooltip=" "];
+}

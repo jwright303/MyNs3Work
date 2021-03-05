@@ -1,0 +1,14 @@
+digraph "Core module helper classes"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node3 [label="Events",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__events.html",tooltip=" "];
+  Node4 [label="Random Variables",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__randomvariable.html",tooltip="ns-3 random numbers are provided via instances of ns3::RandomVariableStream."];
+  Node1 [label="Core module helper\l classes",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Helper classes for the Core module."];
+  Node2 [label="Core",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__core.html",tooltip="The \"core\" module contains:"];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, label="ns3::EventGarbageCollector", color="orange", dir="none", style="dashed"];
+  Node1->Node3 [shape=plaintext, label="event-garbage-collector.cc\nevent-garbage-collector.h", color="darkgreen", dir="none", style="dashed"];
+  Node1->Node4 [shape=plaintext, label="random-variable-stream\l-helper.cc\nrandom-variable-stream\l-helper.h", color="darkgreen", dir="none", style="dashed"];
+}

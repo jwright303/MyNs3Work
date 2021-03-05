@@ -1,0 +1,14 @@
+digraph "BoxLineIntersectionTestCase::DoRun"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="BoxLineIntersectionTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Setup the simulation according to the configuration set by the class constructor, run it,..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="BoxLineIntersectionTestCase\l::CreatePosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_box_line_intersection_test_case.html#ab3154e472056096b1261465bbb4ced02",tooltip="Create the position as per the given index."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Box::IsIntersect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_box.html#a9f1d0fb7e03da61916c46ec2c6bc2aa8",tooltip="Checks if a line-segment between position l1 and position l2 intersects a box."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Box::IsInside",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_box.html#a1a67446b6da5eaba91652d1387461564",tooltip=" "];
+}

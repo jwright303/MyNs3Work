@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ns3::EpcEnbApplication\l::EpsFlowId_t",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_epc_enb_application_1_1_eps_flow_id__t.html",tooltip="EPS flow ID structure."];
+}

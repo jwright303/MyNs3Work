@@ -1,0 +1,46 @@
+digraph "ns3::RrpaaWifiManager::InitThresholds"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::RrpaaWifiManager\l::InitThresholds",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Initialize the thresholds internal list for the given station."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::RrpaaWifiManager\l::GetCalcTxTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrpaa_wifi_manager.html#ac6683736a307d16f2d400721ba60bac7",tooltip="Get the estimated TxTime of a packet with a given mode."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Seconds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__timecivil.html#ga33c34b816f8ff6628e33d5c8e9713b9e",tooltip="Construct a Time in the indicated unit."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Time::FromDouble",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a60e845f4a74e62495b86356afe604cb4",tooltip="Create a Time equal to value in unit unit."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Time::From",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a34e4acc13d0e08cc8cb9cd3b838b9baf",tooltip="Create a Time in the current unit."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Time::Time",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a8a39dc1b8cbbd7fe6d940e492d1b925e",tooltip="Default constructor, with value 0."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Time::Mark",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#aa7eef2a1119c1c4855d99f1e83d44c54",tooltip="Record a Time instance with the MarkedTimes."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::Time::GetMarkingMutex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#addd8e672203391b3ae98ee475ce05272",tooltip=" "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::Time::GetSeconds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a27cb7c22324e0447740929b024dbeb66",tooltip="Get an approximation of the time stored in this instance in the indicated unit."];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::Time::ToDouble",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a1f1f3acb86e4ed17643ef4a9ed1564fe",tooltip="Get the Time value expressed in a particular unit."];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::int64x64_t::GetDouble",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1int64x64__t.html#ad4fd5a21e426f206aca10112cf5f4948",tooltip="Get this value as a double."];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::Time::To",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a0d851a1d99e3bc29625cc91cbf15e039",tooltip="Get the Time value expressed in a particular unit."];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::int64x64_t::MulByInvert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1int64x64__t.html#a57c020ccad8624bebf8f1ab8f6bb1e6e",tooltip="Multiply this value by a Q0.128 value, presumably representing an inverse, completing a division oper..."];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::int64x64_t::UmulByInvert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1int64x64__t.html#a6dfa79f7e54b1abb53c80724a73276af",tooltip="Unsigned multiplication of Q64.64 and Q0.128 values."];
+  Node12 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::Time::PeekInformation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a0b023c55c20582aa7c1781aacf128034",tooltip="Get the Information record for timeUnit for the current Resolution."];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::Time::PeekResolution",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a963e53522278fcbdf1ab9f7adbd0f5d6",tooltip="Get the current Resolution."];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::Time::SetDefaultNsResolution",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a6a872e62f71dfa817fef2c549473d980",tooltip="Set the default resolution."];
+  Node17 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::WifiRemoteStationManager\l::GetSupported",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#adb9e17ee35ce1e5d390c460c48a6a19d",tooltip="Return whether mode associated with the specified station at the specified index."];
+  Node18 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ns3::WifiRemoteStationManager\l::GetNSupported",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#a41c77586baf62914d464ef5c345411de",tooltip="Return the number of modes supported by the given station."];
+}

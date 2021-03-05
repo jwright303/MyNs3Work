@@ -1,0 +1,16 @@
+digraph "ns3::VectorTlvValue"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::VectorTlvValue",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="this class is used to implement a vector of values in one tlv value field"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TlvValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tlv_value.html",tooltip="The value field of a tlv can take different values (uint8_t, uint16, vector, ...)."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ClassificationRuleVector\lTlvValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_classification_rule_vector_tlv_value.html",tooltip="this class implements the classifier descriptor as a tlv vector"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::CsParamVectorTlvValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_cs_param_vector_tlv_value.html",tooltip="this class implements the convergence sub-layer descriptor as a tlv vector"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::SfVectorTlvValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_sf_vector_tlv_value.html",tooltip="SfVectorTlvValue class."];
+}

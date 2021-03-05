@@ -1,0 +1,43 @@
+digraph "ns3::NistErrorRateModel::DoGetChunkSuccessRate"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::NistErrorRateModel\l::DoGetChunkSuccessRate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="A pure virtual method that must be implemented in the subclass."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::NistErrorRateModel\l::GetBValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_nist_error_rate_model.html#ad2c458fe557d0b90bdf351790ae9c484",tooltip="Return the bValue such that coding rate = bValue / (bValue + 1)."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WifiMode::GetCodeRate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode.html#abbbea987249a16c776803ba6e2ca9973",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::WifiModeFactory::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode_factory.html#a3086868810ff4347e31c63027726f544",tooltip="Return a WifiModeItem at the given UID index."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::WifiModeFactory\l::GetFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode_factory.html#a9c6f695d733355dee8d74bd1709868fc",tooltip="Return a WifiModeFactory."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::WifiModeFactory\l::AllocateUid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode_factory.html#a89a9c38617bd3f7be4a8919ce9675996",tooltip="Allocate a WifiModeItem from a given uniqueUid."];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::WifiMode::GetConstellationSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode.html#a1437871ae722c85d980a8af3ba522d39",tooltip=" "];
+  Node7 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::NistErrorRateModel\l::GetFecBpskBer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_nist_error_rate_model.html#a4693e2f8e83d8fa67cb66fe6b75f9b65",tooltip="Return BER of BPSK at the given SNR after applying FEC."];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::NistErrorRateModel\l::CalculatePe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_nist_error_rate_model.html#a4cc0d595ec6bd966e21591ddb0b092a5",tooltip="Return the coded BER for the given p and b."];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::NistErrorRateModel\l::GetBpskBer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_nist_error_rate_model.html#a3d3f062c9e892c5cfc1a143099a6832e",tooltip="Return BER of BPSK at the given SNR."];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::NistErrorRateModel\l::GetFecQamBer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_nist_error_rate_model.html#abd0c74e3477797507b0a103b06bb05ca",tooltip="Return BER of QAM for a given constellation size at the given SNR after applying FEC."];
+  Node11 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::NistErrorRateModel\l::GetQamBer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_nist_error_rate_model.html#a38337584413edf32de7a11f91702ae4a",tooltip="Return BER of QAM for a given constellation size at the given SNR."];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::NistErrorRateModel\l::GetFecQpskBer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_nist_error_rate_model.html#aa2aa15f2e208df6d30e66b774b2c1830",tooltip="Return BER of QPSK at the given SNR after applying FEC."];
+  Node13 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::NistErrorRateModel\l::GetQpskBer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_nist_error_rate_model.html#ae02bf1b24cee3ebaa87a2d3197d4f3a6",tooltip="Return BER of QPSK at the given SNR."];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::WifiMode::GetModulation\lClass",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode.html#a67e1664cac501221b63a2be307184cc9",tooltip=" "];
+  Node15 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

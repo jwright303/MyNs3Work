@@ -1,0 +1,12 @@
+digraph "ns3::UeManager::SendPacket"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::UeManager::SendPacket",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Send a data packet over the appropriate Data Radio Bearer."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::UeManager::RecvRrcConnection\lReconfigurationCompleted",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_manager.html#a767171084a3ea38162758d145b705e2a",tooltip="Implement the LteEnbRrcSapProvider::RecvRrcConnectionReconfigurationCompleted interface."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::UeManager::SendData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_manager.html#a2288415129fd7319128599cf2681e780",tooltip="Send a data packet over the appropriate Data Radio Bearer."];
+}

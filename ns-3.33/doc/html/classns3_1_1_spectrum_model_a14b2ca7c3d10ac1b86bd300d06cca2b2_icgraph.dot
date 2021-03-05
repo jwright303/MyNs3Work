@@ -1,0 +1,14 @@
+digraph "ns3::SpectrumModel::IsOrthogonal"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::SpectrumModel\l::IsOrthogonal",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Check if another SpectrumModels has bands orthogonal to our bands."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::MultiModelSpectrumChannel\l::AddRx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_multi_model_spectrum_channel.html#af365f7a37625876a9e476e6eb6376f7e",tooltip="Add a SpectrumPhy to a channel, so it can receive packets."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::MultiModelSpectrumChannel\l::FindAndEventuallyAddTxSpectrumModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_multi_model_spectrum_channel.html#a6056692c09015bd3d81df0d536a804c5",tooltip="This method checks if m_rxSpectrumModelInfoMap contains an entry for the given TX SpectrumModel."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::MultiModelSpectrumChannel\l::StartTx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_multi_model_spectrum_channel.html#ab5b8cfe54c081f858014b133d026ed26",tooltip="Used by attached PHY instances to transmit signals on the channel."];
+}

@@ -1,0 +1,32 @@
+digraph "ns3::HierarchicalMobilityModel::SetParent"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::HierarchicalMobility\lModel::SetParent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Sets the parent mobility model to a new one."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::MobilityModel\l::GetPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mobility_model.html#aee61a90f5598aea280747cf96f3ee853",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::MobilityModel\l::DoGetPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mobility_model.html#a518f70bd8cb78d0031f9a26572434c34",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::MakeCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#af1dde3c04374147fca0cfe3b0766d664",tooltip="Build Callbacks for class method members which take varying numbers of arguments and potentially retu..."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::HierarchicalMobility\lModel::ParentChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_hierarchical_mobility_model.html#ad702b836af69d11308ef4735e8f77f63",tooltip="Callback for when parent mobility model course change occurs."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::MobilityModel\l::NotifyCourseChange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mobility_model.html#a9d896e2aea3318f3c36f33623a7a451c",tooltip="Must be invoked by subclasses when the course of the position changes to notify course change listene..."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::MobilityModel\l::SetPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mobility_model.html#ac584b3d5a309709d2f13ed6ada1e7640",tooltip=" "];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::MobilityModel\l::DoSetPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mobility_model.html#aa2f52cd86754da71ac649413c049785e",tooltip=" "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::ObjectBase::TraceConnect\lWithoutContext",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html#a1be45f6fd561e75dcac9dfa81b2b81e4",tooltip="Connect a TraceSource to a Callback without a context."];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::ObjectBase::GetInstance\lTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html#abe5b43a6f5b99a92a4c3122db31f06fb",tooltip="Get the most derived TypeId for this Object."];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::TypeId::LookupTrace\lSourceByName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#a9a07e9b925ebf9257c9f4f0732901502",tooltip="Find a TraceSource by name."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::ObjectBase::TraceDisconnect\lWithoutContext",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html#a460d74131ef97d9d7ba79c6d70b2f304",tooltip="Disconnect from a TraceSource a Callback previously connected without a context."];
+  Node12 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,38 @@
+digraph "ns3::MacHeaderType::GetType"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::MacHeaderType\l::GetType",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get type field."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WimaxMacQueue\l::CheckForFragmentation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wimax_mac_queue.html#aba14f6efd4ebb33ac03afd4bbc1461b6",tooltip="Check for fragmentation of the first packet of the specified type."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WimaxMacQueue\l::GetFirstPacketHdrSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wimax_mac_queue.html#a768ad0214a2ed77aea0603533a45d5c6",tooltip="Get first packet header size of the specified type."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::WimaxMacQueue\l::GetFirstPacketRequiredByte",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wimax_mac_queue.html#a3e407a26428eca8d2486bb60b29a612b",tooltip="Get required number of bytes to hold first packet of packetType."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::WimaxMacQueue\l::GetFirstPacketPayloadSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wimax_mac_queue.html#a149ce1f253758a203f0b4539ef2c1270",tooltip="Get first packet payload size of the specified type."];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::WimaxMacQueue\l::GetQueueLengthWithMACOverhead",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wimax_mac_queue.html#a5e0c4f03f3bf8f8c3dd6eb06cdea1c6a",tooltip="Get queue length considering also the MAC overhead."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::WimaxMacQueue\l::Dequeue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wimax_mac_queue.html#a4043c5bb643fbac159a09d19a6e4bb7b",tooltip="Dequeue a packet of type packetType from the queue."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::WimaxMacQueue\l::Enqueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wimax_mac_queue.html#acf25b96a645045ebb802d721e52e6f49",tooltip="Enqueue a packet."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::SubscriberStationNet\lDevice::Enqueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_subscriber_station_net_device.html#a0a327d87f10438d023569350852a71e7",tooltip="Enqueue a packet into a connection queue."];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::SubscriberStationNet\lDevice::DoSend",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_subscriber_station_net_device.html#a345ffddc3bb25991846652c4c58c7b8b",tooltip="Send a packet."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::WimaxMacQueue\l::Front",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wimax_mac_queue.html#a3338f497ef649fc33d9af3618332ad45",tooltip="In the case of non-UGS service flows at the SS side the queue will store both data packets and bandwi..."];
+  Node11 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::WimaxMacQueue\l::Peek",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wimax_mac_queue.html#ab30501ddb08a465f121182315fb44ad2",tooltip="Two versions for SS without Generic MAC Header parameter, as SS's scheduler does not require to know ..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::WimaxMacQueue::Pop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wimax_mac_queue.html#a35f80569dacb6e4b01ecadc4f3fa7dd4",tooltip="Pop function."];
+  Node13 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

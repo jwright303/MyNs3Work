@@ -1,0 +1,44 @@
+digraph "ns3::Channel"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Channel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Abstract Channel Base Class."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Object",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object.html",tooltip="A base class which provides memory management and object aggregation."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SimpleRefCount\l\< Object, ObjectBase,\l ObjectDeleter \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ref_count.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ObjectBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html",tooltip="Anchor the ns-3 type and attribute system."];
+  Node5 -> Node3 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Object, ObjectBase,\l ObjectDeleter \>" ,fontname="Helvetica"];
+  Node5 [label="ns3::SimpleRefCount\l\< T, PARENT, DELETER \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ref_count.html",tooltip="A template-based reference counting class."];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::empty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1empty.html",tooltip="make Callback use a separate empty type"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::BridgeChannel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_bridge_channel.html",tooltip="Virtual channel implementation for bridges (BridgeNetDevice)."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::CsmaChannel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_csma_channel.html",tooltip="Csma Channel."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::PointToPointChannel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_point_to_point_channel.html",tooltip="Simple Point To Point Channel."];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::PointToPointRemoteChannel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_point_to_point_remote_channel.html",tooltip="A Remote Point-To-Point Channel."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::SimpleChannel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_channel.html",tooltip="A simple channel, for simple things and testing."];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::ErrorChannel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_error_channel.html",tooltip="A Error channel, introducing deterministic delays on even/odd packets."];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::SpectrumChannel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_spectrum_channel.html",tooltip="Defines the interface for spectrum-aware channel implementations."];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::MultiModelSpectrumChannel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_multi_model_spectrum_channel.html",tooltip="This SpectrumChannel implementation can handle the presence of SpectrumPhy instances which can use di..."];
+  Node13 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::SingleModelSpectrum\lChannel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_single_model_spectrum_channel.html",tooltip="SpectrumChannel implementation which handles a single spectrum model."];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::UanChannel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_channel.html",tooltip="Channel class used by UAN devices."];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::WimaxChannel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wimax_channel.html",tooltip="The channel object to attach Wimax NetDevices."];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::SimpleOfdmWimaxChannel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ofdm_wimax_channel.html",tooltip="SimpleOfdmWimaxChannel class."];
+  Node1 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ns3::YansWifiChannel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_yans_wifi_channel.html",tooltip="a channel to interconnect ns3::YansWifiPhy objects."];
+}

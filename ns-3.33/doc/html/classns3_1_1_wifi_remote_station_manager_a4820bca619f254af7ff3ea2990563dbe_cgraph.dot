@@ -1,0 +1,50 @@
+digraph "ns3::WifiRemoteStationManager::AddAllSupportedModes"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::WifiRemoteStationManager\l::AddAllSupportedModes",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Invoked in a STA or AP to store all of the modes supported by a destination which is also supported l..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WifiRemoteStationManager\l::AddBasicMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#a169339a6312b10580cb6a940228833f0",tooltip="Invoked in a STA upon association to store the set of rates which belong to the BSSBasicRateSet of th..."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WifiRemoteStationManager\l::GetBasicMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#ab239018079ee424c7dfe9a81b4abc3b0",tooltip="Return a basic mode from the set of basic modes."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::WifiRemoteStationManager\l::GetNBasicModes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#a433cd6f0f2b9ab512fb4c2578e661ebb",tooltip="Return the number of basic modes we support."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::WifiMode::GetModulation\lClass",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode.html#a67e1664cac501221b63a2be307184cc9",tooltip=" "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::WifiModeFactory::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode_factory.html#a3086868810ff4347e31c63027726f544",tooltip="Return a WifiModeItem at the given UID index."];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::WifiModeFactory\l::GetFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode_factory.html#a9c6f695d733355dee8d74bd1709868fc",tooltip="Return a WifiModeFactory."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::WifiModeFactory\l::AllocateUid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode_factory.html#a89a9c38617bd3f7be4a8919ce9675996",tooltip="Allocate a WifiModeItem from a given uniqueUid."];
+  Node7 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::WifiPhy::GetMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#aa1b9ecfcc6436b8882af36500cb0a2ea",tooltip="The WifiPhy::GetNModes() and WifiPhy::GetMode() methods are used (e.g., by a WifiRemoteStationManager..."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::WifiPhy::GetNModes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#a978d3a554116b0654c40fc22e469ceaa",tooltip="The WifiPhy::GetNModes() and WifiPhy::GetMode() methods are used (e.g., by a WifiRemoteStationManager..."];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::WifiMode::IsMandatory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode.html#af44627470a1d84ba3af706a7764d5cbb",tooltip=" "];
+  Node11 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::WifiRemoteStationManager\l::LookupState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#a6a5c20f231324799e383594b546ca733",tooltip="Return the state of the station associated with the given address."];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::WifiPhy::GetChannel\lWidth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#af55a96fc67e724abd99aeaeab826187f",tooltip=" "];
+  Node12 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::WifiRemoteStationManager\l::GetDefaultMcs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#a2422db307a1cd07b938ec2d4b8442668",tooltip="Return the default Modulation and Coding Scheme (MCS) index."];
+  Node12 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::WifiRemoteStationManager\l::GetDefaultMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#a0f76976a6d7a8761b1ae1b9b74f18fbf",tooltip="Return the default transmission mode."];
+  Node12 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::WifiRemoteStationManager\l::GetGuardInterval",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#af042a3c6cc1e936255e794c4aa21e68c",tooltip="Return the supported HE guard interval duration (in nanoseconds)."];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::WifiPhy::GetDevice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#adf2fa40dcba4e52e9bc67c6ffc819170",tooltip="Return the device this PHY is associated with."];
+  Node16 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::WifiNetDevice\l::GetHeConfiguration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_net_device.html#af4a86ccc320631308e9f1023baecdd6b",tooltip=" "];
+  Node16 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ns3::WifiRemoteStationManager\l::GetHeSupported",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#abf94bd5d22ad632148777a6c7e39bae0",tooltip="Return whether the device has HE capability support enabled."];
+  Node19 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

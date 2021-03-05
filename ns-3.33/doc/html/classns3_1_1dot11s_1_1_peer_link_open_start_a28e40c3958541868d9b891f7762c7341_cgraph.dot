@@ -1,0 +1,34 @@
+digraph "ns3::dot11s::PeerLinkOpenStart::Serialize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::dot11s::PeerLinkOpen\lStart::Serialize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WifiInformationElement\l::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_information_element.html#a8662b6056d624747d927e9c041e24ab0",tooltip="Serialize entire IE including Element ID and length fields."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WifiInformationElement\l::ElementId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_information_element.html#a0c16b85dc0c63baf7fc437ddbc13ada6",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::WifiInformationElement\l::ElementIdExt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_information_element.html#ae24bfd29837cfb426a44dadd56d72f4b",tooltip=" "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::WifiInformationElement\l::GetInformationFieldSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_information_element.html#a04af58633c58364e6b8d0ae2a7d777b2",tooltip="Length of serialized information (i.e., the length of the body of the IE, not including the Element I..."];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Buffer::Iterator\l::Next",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer_1_1_iterator.html#a5eaa564bdc98d063b7e94b1768aeed6b",tooltip="go forward by one byte"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::WifiInformationElement\l::SerializeInformationField",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_information_element.html#aaa9fe963ad89df58b8980eb94ace2a7c",tooltip="Serialize information (i.e., the body of the IE, not including the Element ID and length octets)"];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::Buffer::Iterator\l::WriteU8",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer_1_1_iterator.html#a3c7bacca6cbb821c9d14fa4626b7ae16",tooltip=" "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::ExtendedSupportedRates\lIE::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_extended_supported_rates_i_e.html#aa9c2e690fce4f090645460828d041e3a",tooltip=" "];
+  Node9 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="visualizer.core.start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacevisualizer_1_1core.html#a2a35e5d8a34af358b508dac8635754e0",tooltip=" "];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="visualizer.base.load\l_plugins",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacevisualizer_1_1base.html#ad171497a5ff1afe0a73bedaebf35448f",tooltip=" "];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="visualizer.base.register\l_plugin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacevisualizer_1_1base.html#a6b0ffcff1e17ec4027496f50177e5b9e",tooltip=" "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::Buffer::Iterator\l::WriteHtolsbU16",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer_1_1_iterator.html#a2e89a2939c01994a490d6f0be22770a1",tooltip=" "];
+}

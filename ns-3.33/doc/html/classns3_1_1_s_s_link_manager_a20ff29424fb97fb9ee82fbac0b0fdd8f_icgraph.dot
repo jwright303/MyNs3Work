@@ -1,0 +1,16 @@
+digraph "ns3::SSLinkManager::CalculateMaxIRSignalStrength"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::SSLinkManager\l::CalculateMaxIRSignalStrength",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Calculate maximum IR signal strength."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::SSLinkManager\l::SendRangingRequest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_s_s_link_manager.html#a588462b7fadd024760b556fc5e951d2c",tooltip="Send ranging request."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SSLinkManager\l::PerformBackoff",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_s_s_link_manager.html#a3ed2a11a1e485c1d836cc6e6fe8a10b2",tooltip="Perform backoff."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::SubscriberStationNet\lDevice::ProcessUlMap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_subscriber_station_net_device.html#adde622bba63e7642c23839812c95e391",tooltip="Process UL map."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::SubscriberStationNet\lDevice::DoReceive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_subscriber_station_net_device.html#a2cdd421837891adea005eb7cde668a1f",tooltip="Receive a packet."];
+}

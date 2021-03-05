@@ -1,0 +1,22 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node745 [label="GObject.GObject",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node745 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="visualizer.base.PyVizObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classvisualizer_1_1base_1_1_py_viz_object.html",tooltip="PyVizObject class."];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="visualizer.base.Link",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classvisualizer_1_1base_1_1_link.html",tooltip="Link class."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="visualizer.core.WiredLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classvisualizer_1_1core_1_1_wired_link.html",tooltip="WiredLink."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="wifi_intrastructure\l_link.WifiLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classwifi__intrastructure__link_1_1_wifi_link.html",tooltip="WifiLink class."];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="visualizer.core.Channel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classvisualizer_1_1core_1_1_channel.html",tooltip="Channel."];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="visualizer.core.Node",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classvisualizer_1_1core_1_1_node.html",tooltip="Node class."];
+  Node745 -> Node752 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node752 [label="visualizer.core.Visualizer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classvisualizer_1_1core_1_1_visualizer.html",tooltip="Visualizer."];
+}

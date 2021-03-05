@@ -1,0 +1,23 @@
+digraph "ns3::Ipv4NixVectorRouting::FlushGlobalNixRoutingCache"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Ipv4NixVectorRouting\l::FlushGlobalNixRoutingCache",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Called when run-time link topology change occurs which iterates through the node list and flushes any..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Ipv4NixVectorRouting\l::CheckCacheStateAndFlush",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_nix_vector_routing.html#add61e121503616af03dcf75d7cffc834",tooltip="Flushes routing caches if required."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Ipv4NixVectorRouting\l::GetIpv4RouteInCache",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_nix_vector_routing.html#ab17fa7bc2f58826d20b3ff7b11cb1a0b",tooltip="Checks the cache based on dest IP for the Ipv4Route."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Ipv4NixVectorRouting\l::RouteInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_nix_vector_routing.html#a35d3d496fc0f96e1fd0106b353404c0c",tooltip="Route an input packet (to be forwarded or locally delivered)"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Ipv4NixVectorRouting\l::RouteOutput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_nix_vector_routing.html#ac7bbf06105fc46edc431bdc7be58f3e7",tooltip="Query routing cache for an existing route, for an outbound packet."];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Ipv4NixVectorRouting\l::GetNixVectorInCache",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_nix_vector_routing.html#a8f29fb010c605f433afb85dd6e7149b9",tooltip="Checks the cache based on dest IP for the nix-vector."];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Ipv4NixVectorRouting\l::PrintRoutingTable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_nix_vector_routing.html#a76c3d1269a1fe51b8062ca2bd8fbf1cc",tooltip="Print the Routing Table entries."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

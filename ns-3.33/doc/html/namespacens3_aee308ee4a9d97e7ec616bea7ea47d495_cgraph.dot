@@ -1,0 +1,16 @@
+digraph "ns3::operator&lt;&lt;"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::operator\<\<",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="output operator"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::CfParameterSet\l::GetCFPCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_cf_parameter_set.html#a87e3af0ea8b636805a4c2c197bc9b1b5",tooltip="Return the CFP Count in DTIM frames unit."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::CfParameterSet\l::GetCFPDurRemainingUs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_cf_parameter_set.html#a2c29174881fcbc7ca9cae56d51df5ec1",tooltip="Return the remaining CFP duration in microseconds."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::CfParameterSet\l::GetCFPMaxDurationUs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_cf_parameter_set.html#a77e8bc27ffb806437cce9cdb5fddf8f4",tooltip="Return the maximum CFP duration in microseconds."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::CfParameterSet\l::GetCFPPeriod",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_cf_parameter_set.html#a7409f72b6b7062c4992fee52b811ca9d",tooltip="Return the CFP Period in DTIM frames unit."];
+}

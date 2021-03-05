@@ -1,0 +1,10 @@
+digraph "ns3::Mac16Address::GetMulticast"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Mac16Address::\lGetMulticast",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Returns the multicast address associated with an IPv6 address according to RFC 4944 Section 9."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LrWpanNetDevice\l::GetMulticast",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lr_wpan_net_device.html#ac512ecb8975bf4a96b7ac0a9bde61e6c",tooltip="Get the MAC multicast address corresponding to the IPv6 address provided."];
+}

@@ -1,0 +1,20 @@
+digraph "UdpSocketImplTest::GetPriority"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="UdpSocketImplTest::\lGetPriority",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the priority of the received packet."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::QueueItem::GetPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_item.html#a7153f2c3e592aeae65ed329f51ffd436",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SocketPriorityTag\l::GetPriority",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_socket_priority_tag.html#a1d256d4ad07bc839ae401bd64f9d8420",tooltip="Get the tag's priority."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Packet::PeekPacketTag",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet.html#aec5a71b498e6cd5816de9f5e9b36c397",tooltip="Search a matching tag and call Tag::Deserialize if it is found."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::PacketTagList\l::Peek",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet_tag_list.html#a7020b07ada157d6c81d67bc9fc2980ca",tooltip="Find a tag and return its value."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Tag::Deserialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tag.html#ae166b7f816bcbdef44dbeb636c9fa712",tooltip=" "];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::ObjectBase::GetInstance\lTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html#abe5b43a6f5b99a92a4c3122db31f06fb",tooltip="Get the most derived TypeId for this Object."];
+}

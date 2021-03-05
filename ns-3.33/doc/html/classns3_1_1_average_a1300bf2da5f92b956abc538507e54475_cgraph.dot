@@ -1,0 +1,14 @@
+digraph "ns3::Average::Error90"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Average::Error90",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Margin of error of the mean for 90% confidence level."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Average::Count",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_average.html#ad8dfa1d7755b516d5ccb21cd18d430f6",tooltip="Sample size."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Average::Var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_average.html#a31b0beabcd03d2347a8b8cb27504553b",tooltip="Unbiased estimate of variance."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::MinMaxAvgTotalCalculator\l::getVariance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_min_max_avg_total_calculator.html#aa25ec6231bbf9f144f3a44fd4b260c4e",tooltip="Returns the current variance."];
+}

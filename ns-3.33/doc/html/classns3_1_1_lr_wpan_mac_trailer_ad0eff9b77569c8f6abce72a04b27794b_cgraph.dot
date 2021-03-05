@@ -1,0 +1,12 @@
+digraph "ns3::LrWpanMacTrailer::CheckFcs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::LrWpanMacTrailer\l::CheckFcs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Check the FCS of a given packet against the FCS value stored in the trailer."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LrWpanMacTrailer\l::GenerateCrc16",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lr_wpan_mac_trailer.html#a834005b6ad953ca027a5782a93613718",tooltip="Calculate the 16-bit FCS value."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LrWpanMacTrailer\l::GetFcs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lr_wpan_mac_trailer.html#aba91618f71e43e3e3b5593d749e2edce",tooltip="Get this trailers FCS value."];
+}

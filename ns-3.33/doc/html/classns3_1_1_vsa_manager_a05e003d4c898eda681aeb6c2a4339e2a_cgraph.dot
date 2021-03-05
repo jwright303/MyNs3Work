@@ -1,0 +1,16 @@
+digraph "ns3::VsaManager::DoInitialize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::VsaManager::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Initialize() implementation."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WaveNetDevice\l::GetMacs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wave_net_device.html#a5a2c475b3778afec004b848b4f7b04af",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::MakeCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#af1dde3c04374147fca0cfe3b0766d664",tooltip="Build Callbacks for class method members which take varying numbers of arguments and potentially retu..."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::VsaManager::ReceiveVsc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_vsa_manager.html#a5dd6b3883b8e57ed8cc7f7cc7afa5601",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::OrganizationIdentifier\l::GetManagementId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_organization_identifier.html#aa930a12571327ac5362f836dcb57f3ba",tooltip=" "];
+}

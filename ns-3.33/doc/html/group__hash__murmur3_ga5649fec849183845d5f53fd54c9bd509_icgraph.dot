@@ -1,0 +1,10 @@
+digraph "ns3::Hash::Function::Murmur3Implementation::rotl64"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Hash::Function\l::Murmur3Implementation\l::rotl64",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Barrel shift (rotate) left on 64 bits."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Hash::Function\l::Murmur3Implementation\l::MurmurHash3_x64_128",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__hash__murmur3.html#ga6ac693e30c8a56b7bb4dc6d12bc6dfde",tooltip="Initial and incremental hash."];
+}

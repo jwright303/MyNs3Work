@@ -1,0 +1,22 @@
+digraph "ns3::WaveNetDevice::GetAddress"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::WaveNetDevice\l::GetAddress",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WaveNetDevice\l::ChangeAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wave_net_device.html#a15ea0879945399632f422f41cf9e18cc",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WaveNetDevice\l::ForwardUp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wave_net_device.html#a7f44fa168ffa95d77e3081322bcb36f8",tooltip="Receive a packet from the lower layer and pass the packet up the stack."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::WaveNetDevice\l::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wave_net_device.html#af81a8cce97f26cfc0bfdad5e13fe4777",tooltip="Initialize() implementation."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="WaveNetDeviceExample\l::SendIpPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wave_net_device_example.html#a555b10fdbbaa27f47dc1f3487e1dcf0d",tooltip="Send IP packet function."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="WaveNetDeviceExample\l::SendIpExample",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wave_net_device_example.html#a97da76e52cd76f5054e8c92cfae01a9e",tooltip="Send IP example function."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AnnexC_TestCase::SendPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_annex_c___test_case.html#a6ad361d48194ad49b3856a12db4d4ea7",tooltip="Send packet function."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="AnnexC_TestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_annex_c___test_case.html#a7b68ef07f88bcfece999dafba55020fa",tooltip="Implementation to actually run this TestCase."];
+}

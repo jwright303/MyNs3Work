@@ -1,0 +1,45 @@
+digraph "ns3::ErrorRateModel::GetChunkSuccessRate"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::ErrorRateModel\l::GetChunkSuccessRate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="This method returns the probability that the given 'chunk' of the packet will be successfully receive..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ErrorRateModel\l::DoGetChunkSuccessRate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_error_rate_model.html#a23253a4601369e1ec720e38f1ea1ca3b",tooltip="A pure virtual method that must be implemented in the subclass."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WifiMode::GetDataRate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode.html#ad90f36e733ceaf8c5771cfbda437e14f",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::WifiModeFactory::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode_factory.html#a3086868810ff4347e31c63027726f544",tooltip="Return a WifiModeItem at the given UID index."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::WifiMode::GetCodeRate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode.html#abbbea987249a16c776803ba6e2ca9973",tooltip=" "];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::WifiModeFactory\l::GetFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode_factory.html#a9c6f695d733355dee8d74bd1709868fc",tooltip="Return a WifiModeFactory."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::WifiModeFactory\l::AllocateUid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode_factory.html#a89a9c38617bd3f7be4a8919ce9675996",tooltip="Allocate a WifiModeItem from a given uniqueUid."];
+  Node6 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::WifiMode::GetConstellationSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode.html#a1437871ae722c85d980a8af3ba522d39",tooltip=" "];
+  Node8 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::WifiMode::IsAllowed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode.html#ae92b3cca34abdd76211fe9fbf19a6c09",tooltip=" "];
+  Node9 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::DsssErrorRateModel\l::GetDsssDbpskSuccessRate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dsss_error_rate_model.html#a326b54c093b12688828f229ae771d0b1",tooltip="Return the chunk success rate of the differential BPSK."];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::DsssErrorRateModel\l::GetDsssDqpskCck11SuccessRate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dsss_error_rate_model.html#a8d71469147201f9069a39d1c0fad856c",tooltip="Return the chunk success rate of the differential encoded QPSK for 11Mbps data rate."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::DsssErrorRateModel\l::GetDsssDqpskCck5_5SuccessRate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dsss_error_rate_model.html#a407fb0112d1c50944dc4f11aaef47441",tooltip="Return the chunk success rate of the differential encoded QPSK for 5.5Mbps data rate."];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::DsssErrorRateModel\l::GetDsssDqpskSuccessRate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dsss_error_rate_model.html#a2eb92541586fcc3841dc5b8910285ecd",tooltip="Return the chunk success rate of the differential encoded QPSK."];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::DsssErrorRateModel\l::DqpskFunction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dsss_error_rate_model.html#af92549280fdcedac6d4cc697e0992321",tooltip="A function DQPSK."];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::WifiMode::GetModulation\lClass",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode.html#a67e1664cac501221b63a2be307184cc9",tooltip=" "];
+  Node15 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

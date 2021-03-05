@@ -1,0 +1,28 @@
+digraph "ns3::LteRrcSap::MeasObjectToAddMod"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::LteRrcSap::MeasObject\lToAddMod",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="MeasObjectToAddMod structure."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" measObjectEutra" ,fontname="Helvetica"];
+  Node2 [label="ns3::LteRrcSap::MeasObject\lEutra",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_meas_object_eutra.html",tooltip="MeasObjectEutra structure."];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" blackCellsToRemoveList\ncellsToRemoveList" ,fontname="Helvetica"];
+  Node3 [label="std::list\< uint8_t \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< uint8_t \>" ,fontname="Helvetica"];
+  Node4 [label="std::list\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node5 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cellsToAddModList" ,fontname="Helvetica"];
+  Node6 [label="std::list\< ns3::LteRrcSap\l::CellsToAddMod \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node7 [label="ns3::LteRrcSap::CellsToAddMod",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_cells_to_add_mod.html",tooltip="CellsToAddMod structure."];
+  Node4 -> Node6 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::LteRrcSap::CellsTo\lAddMod \>" ,fontname="Helvetica"];
+  Node8 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" blackCellsToAddModList" ,fontname="Helvetica"];
+  Node8 [label="std::list\< ns3::LteRrcSap\l::BlackCellsToAddMod \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node9 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node9 [label="ns3::LteRrcSap::BlackCells\lToAddMod",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_black_cells_to_add_mod.html",tooltip="BlackCellsToAddMod structure."];
+  Node10 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" physCellIdRange" ,fontname="Helvetica"];
+  Node10 [label="ns3::LteRrcSap::PhysCell\lIdRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_phys_cell_id_range.html",tooltip="PhysCellIdRange structure."];
+  Node4 -> Node8 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::LteRrcSap::BlackCells\lToAddMod \>" ,fontname="Helvetica"];
+}

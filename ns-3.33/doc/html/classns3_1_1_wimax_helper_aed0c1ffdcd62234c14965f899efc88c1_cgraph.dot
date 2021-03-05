@@ -1,0 +1,34 @@
+digraph "ns3::WimaxHelper::CreateServiceFlow"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::WimaxHelper::Create\lServiceFlow",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Creates a transport service flow."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ServiceFlow::SetConvergence\lSublayerParam",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_service_flow.html#a81a801e05aac9e7d1cfad3304e1b9d97",tooltip="Set convergence sublayer parameters."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ServiceFlow::SetCsSpecification",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_service_flow.html#a72779cfbd71284ba06f10843ec0725b9",tooltip="Set CS specification."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ServiceFlow::SetMaximum\lLatency",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_service_flow.html#a61781dc767b833dfc34ed86e9efbc62d",tooltip="Set maximum latency."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::ServiceFlow::SetMax\lSustainedTrafficRate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_service_flow.html#aef578837096b1a316696a88ecd550e7c",tooltip="Set max sustained traffic rate."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::ServiceFlow::SetMax\lTrafficBurst",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_service_flow.html#a586065681c386771f441a51f469fab03",tooltip="Set maximum traffic burst."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::ServiceFlow::SetMin\lReservedTrafficRate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_service_flow.html#ad49e9a793508d2d476de1e08897ecbf6",tooltip="Set minimum reserved traffic rate."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::ServiceFlow::SetMin\lTolerableTrafficRate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_service_flow.html#aafc2368b8dab5d394635fa9f7fe281af",tooltip="Set minimum tolerable traffic rate."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::ServiceFlow::SetRequest\lTransmissionPolicy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_service_flow.html#a08fdadfa5d691da427aeb3a3c3d39418",tooltip="Set request transmission policy."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::ServiceFlow::SetSduSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_service_flow.html#a88ff420147be9e386a22ef26b658804e",tooltip="Set SDU size."];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::ServiceFlow::SetService\lSchedulingType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_service_flow.html#acdef049af2eda0d1ac80047208ce7571",tooltip="Set service scheduling type."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::ServiceFlow::SetTolerated\lJitter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_service_flow.html#ac0b518b161e85317c141416712197f99",tooltip="Set tolerated jitter."];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::ServiceFlow::SetTraffic\lPriority",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_service_flow.html#a9fd37b11439e3b6ca601c76e54d6273c",tooltip="Set traffic priority."];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::ServiceFlow::SetUnsolicited\lGrantInterval",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_service_flow.html#ac24ac69794285436be39a2e4aef7b805",tooltip="Set unsolicied grant interval."];
+}

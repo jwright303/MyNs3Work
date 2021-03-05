@@ -1,0 +1,10 @@
+digraph "ns3::ThreeGppUmaPropagationLossModel::GetLossLos"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::ThreeGppUmaPropagation\lLossModel::GetLossLos",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Computes the pathloss between a and b considering that the line of sight is not obstructed."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ThreeGppUmaPropagation\lLossModel::GetLossNlos",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_uma_propagation_loss_model.html#aa83002fbd3aa14b0b65d5c8efd9d1a87",tooltip="Computes the pathloss between a and b considering that the line of sight is obstructed."];
+}

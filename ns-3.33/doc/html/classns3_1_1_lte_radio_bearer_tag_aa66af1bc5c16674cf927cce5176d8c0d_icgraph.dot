@@ -1,0 +1,16 @@
+digraph "ns3::LteRadioBearerTag::GetLayer"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LteRadioBearerTag\l::GetLayer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get layer function."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteEnbMac::DoTransmitPdu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_mac.html#a5fef79e565ca07f4873cdfbfc9c601f1",tooltip="Transmit PDU function."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LteSpectrumPhy\l::EndRxData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_spectrum_phy.html#adb0ef7ffaee60976d3b79f31fb3129ca",tooltip="End receive data function."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::LteSpectrumPhy\l::StartRxData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_spectrum_phy.html#a496c5216723459c21c02576f8a5056af",tooltip="Start receive data function."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::LteSpectrumPhy\l::StartRx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_spectrum_phy.html#af4041e1ab1f466d1c66b8f2f1c519657",tooltip="Notify the SpectrumPhy instance of an incoming signal."];
+}

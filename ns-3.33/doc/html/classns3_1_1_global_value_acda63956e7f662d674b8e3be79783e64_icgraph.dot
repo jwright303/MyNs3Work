@@ -1,0 +1,20 @@
+digraph "ns3::GlobalValue::BindFailSafe"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::GlobalValue::BindFailSafe",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Iterate over the set of GlobalValues until a matching name is found and then set its value with Globa..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Config::SetGlobalFailSafe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__config.html#gaccae07399fb761a399558a0a03c52dec",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::CommandLine::Handle\lArgument",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_command_line.html#a2aeab054737fb033c45daef519a7c118",tooltip="Match name against the program or general arguments, and dispatch to the appropriate handler."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::CommandLine::Handle\lOption",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_command_line.html#ab8705cae59cebde344e1b2a8f59f45fc",tooltip="Handle an option in the form param=value."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::CommandLine::Parse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_command_line.html#acc65828b185ab4eaa32143c2520494da",tooltip="Parse the program arguments."];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::CommandLine::Handle\lAttribute",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_command_line.html#af1fea2680a68a10ce801b1700d0b8693",tooltip="Callback function to handle attributes."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::CommandLine::AddValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_command_line.html#ad66977ccb2c042574cb1831b8c1ad18f",tooltip="Add a program argument as a shorthand for an Attribute."];
+}

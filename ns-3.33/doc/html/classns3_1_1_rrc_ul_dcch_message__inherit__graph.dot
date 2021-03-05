@@ -1,0 +1,26 @@
+digraph "ns3::RrcUlDcchMessage"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::RrcUlDcchMessage",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="This class only serves to discriminate which message type has been received in uplink (ue to eNb) for..."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::RrcAsn1Header",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_asn1_header.html",tooltip="This class extends Asn1Header functions, adding serialization/deserialization of some Information ele..."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Asn1Header",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_asn1_header.html",tooltip="This class has the purpose to encode Information Elements according to ASN.1 syntax,..."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Header",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_header.html",tooltip="Protocol header serialization and deserialization."];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Chunk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_chunk.html",tooltip="abstract base class for ns3::Header and ns3::Trailer"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::ObjectBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html",tooltip="Anchor the ns-3 type and attribute system."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::MeasurementReportHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_measurement_report_header.html",tooltip="This class manages the serialization/deserialization of MeasurementReport IE."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::RrcConnectionReconfiguration\lCompleteHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_connection_reconfiguration_complete_header.html",tooltip="This class manages the serialization/deserialization of RrcConnectionSetupComplete IE."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::RrcConnectionReestablishment\lCompleteHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_connection_reestablishment_complete_header.html",tooltip="This class manages the serialization/deserialization of RrcConnectionReestablishmentComplete IE."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::RrcConnectionSetupComplete\lHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_connection_setup_complete_header.html",tooltip="This class manages the serialization/deserialization of RrcConnectionSetupComplete IE."];
+}

@@ -1,0 +1,10 @@
+digraph "ns3::LteUePhy::DoNotifyConnectionSuccessful"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::LteUePhy::DoNotifyConnection\lSuccessful",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Notify PHY about the successful RRC connection establishment."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteUePhy::Initialize\lRlfParams",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_phy.html#ac5e38bb355e6c5d961535e137d7aabe8",tooltip="Initialize radio link failure parameters."];
+}

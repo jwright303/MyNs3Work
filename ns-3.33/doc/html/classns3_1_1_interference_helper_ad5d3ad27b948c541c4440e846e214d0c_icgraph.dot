@@ -1,0 +1,10 @@
+digraph "ns3::InterferenceHelper::CalculatePayloadChunkSuccessRate"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::InterferenceHelper\l::CalculatePayloadChunkSuccessRate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Calculate the success rate of the payload chunk given the SINR, duration, and Wi-Fi mode."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::InterferenceHelper\l::CalculatePayloadPer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_interference_helper.html#aaf44e824e663c38566488ee05a4ecbb1",tooltip="Calculate the error rate of the given PHY payload only in the provided time window (thus enabling per..."];
+}

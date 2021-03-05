@@ -1,0 +1,12 @@
+digraph "TcpSocketAdvertisedWindowProxy::GetTypeId"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="TcpSocketAdvertisedWindow\lProxy::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the type ID."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="TcpAdvertisedWindowTest\l::CreateReceiverSocket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_advertised_window_test.html#a322099457f41afb575f67f795001e54a",tooltip="Create and install the socket to install on the receiver."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="TcpAdvWindowOnLossTest\l::CreateReceiverSocket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_adv_window_on_loss_test.html#a2284c05ea7fd107cbf0edcfc22a2f860",tooltip="Create and install the socket to install on the receiver."];
+}

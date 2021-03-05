@@ -1,0 +1,13 @@
+digraph "src/uan/model/uan-mac-rc.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/uan/model/uan-mac-rc.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="src/uan/model/uan-mac\l-rc-gw.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$uan-mac-rc-gw_8cc.html",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="src/uan/model/uan-mac\l-rc.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$uan-mac-rc_8cc.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="src/uan/model/uan-phy\l-dual.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$uan-phy-dual_8cc.html",tooltip=" "];
+}

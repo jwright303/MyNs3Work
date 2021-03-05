@@ -1,0 +1,34 @@
+digraph "ns3::TdTbfqFfMacScheduler::DoSchedDlTriggerReq"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::TdTbfqFfMacScheduler\l::DoSchedDlTriggerReq",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Sched DL trigger request."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteFfrSapProvider\l::GetAvailableDlRbg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ffr_sap_provider.html#ad60306dae43b74dc25b65f81d6587a24",tooltip="Get vector of available RBG in DL for this Cell."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LteFfrSapProvider\l::GetAvailableUlRbg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ffr_sap_provider.html#aafd23b22a27ec83e03d54795c122d175",tooltip="Get vector of available RB in UL for this Cell."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::TdTbfqFfMacScheduler\l::GetRbgSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_td_tbfq_ff_mac_scheduler.html#a66bac32b64401c51a50b7f554028f78e",tooltip="Get RBG size."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::LteFfrSapProvider\l::GetTpc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ffr_sap_provider.html#a0021d72c12fdaddd3817ef0eb5a7cd4e",tooltip="GetTpc."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::TdTbfqFfMacScheduler\l::HarqProcessAvailability",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_td_tbfq_ff_mac_scheduler.html#a6df3d860dc847dfa118d87b4a3679c7e",tooltip="Return the availability of free process for the RNTI specified."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::LteFfrSapProvider\l::IsDlRbgAvailableForUe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ffr_sap_provider.html#a91f4de3c794d2a32fae5bcfafd88b6fa",tooltip="Check if UE can be served on i-th RB in DL."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::TdTbfqFfMacScheduler\l::LcActivePerFlow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_td_tbfq_ff_mac_scheduler.html#a41f46192b9a9bdd36bb5f20054f2b7a7",tooltip="LC active flow size."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::TdTbfqFfMacScheduler\l::RefreshDlCqiMaps",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_td_tbfq_ff_mac_scheduler.html#ae5c88a5647201a5b882922a950832104",tooltip="Refresh DL CQI maps function."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::TdTbfqFfMacScheduler\l::RefreshHarqProcesses",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_td_tbfq_ff_mac_scheduler.html#ae26f1cd58ab1221afdcd0fe4a1c04a11",tooltip="Refresh HARQ processes according to the timers."];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::FfMacSchedSapUser\l::SchedDlConfigInd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ff_mac_sched_sap_user.html#a28f8484af5a32a45ee6c0e51770d83f7",tooltip="SCHED_DL_CONFIG_IND."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::TransmissionModesLayers\l::TxMode2LayerNum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_transmission_modes_layers.html#a31f608b7bfaa77440fe4cb85ad035329",tooltip="Transmit mode 2 layer number."];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::TdTbfqFfMacScheduler\l::UpdateDlRlcBufferInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_td_tbfq_ff_mac_scheduler.html#a268d99954f7c5e69294a43b82671dcf9",tooltip="Update DL RLC buffer info function."];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::TdTbfqFfMacScheduler\l::UpdateHarqProcessId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_td_tbfq_ff_mac_scheduler.html#a521baa680048ecfaba2eb55dacae5600",tooltip="Update and return a new process Id for the RNTI specified."];
+}

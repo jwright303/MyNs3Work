@@ -1,0 +1,12 @@
+digraph "ns3::SSManager::IsRegistered"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::SSManager::IsRegistered",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Check if address is registered."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::SSRecord::GetRanging\lStatus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_s_s_record.html#a4be8443f64e41d0eadf286897cb5bbbf",tooltip="Get ranging status."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SSManager::GetSSRecord",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_s_s_manager.html#a6937b07b8b14a884304946f730d0ccfd",tooltip="Get SS record."];
+}

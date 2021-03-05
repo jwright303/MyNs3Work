@@ -1,0 +1,21 @@
+digraph "ns3::RandomWalk2dOutdoorMobilityModel::DoWalk"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::DoWalk",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Walk according to position and velocity, until distance is reached, time is reached,..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::AvoidBuilding",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#a05a7121624c2bfbe7d1e29199e025105",tooltip="Avoid a building."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::DoInitializePrivate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#a39ee7621a685f4830826422d8b53cd99",tooltip="Perform initialization of the object before MobilityModel::DoInitialize ()"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#a696a4be370bc98059dfa1e70492d91de",tooltip="Initialize() implementation."];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::DoSetPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#aca4f9034c94849ec4d724423ae4ed696",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::Rebound",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#a52d0d6108e2c65240e9844b47742d7c5",tooltip="Performs the rebound of the node if it reaches a boundary."];
+  Node6 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

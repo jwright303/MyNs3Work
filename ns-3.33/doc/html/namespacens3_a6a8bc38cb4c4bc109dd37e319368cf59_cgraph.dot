@@ -1,0 +1,18 @@
+digraph "ns3::operator&lt;&lt;"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::operator\<\<",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Stream insertion operator."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Ipv6MulticastRouting\lTableEntry::GetGroup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_multicast_routing_table_entry.html#a6995713f85121f1af21cfa1ff79b266e",tooltip="Get the group."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Ipv6MulticastRouting\lTableEntry::GetInputInterface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_multicast_routing_table_entry.html#a024c4ca937d7e8fcbee05126fc581adb",tooltip="Get the input interface address."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Ipv6MulticastRouting\lTableEntry::GetNOutputInterfaces",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_multicast_routing_table_entry.html#ad9ffee2bec89e0f5e21743ebbe4e5090",tooltip="Get the number of output interfaces of this route."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Ipv6MulticastRouting\lTableEntry::GetOrigin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_multicast_routing_table_entry.html#add5e8baca032364d8c4361628cd99c68",tooltip="Get the source of this route."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Ipv6MulticastRouting\lTableEntry::GetOutputInterface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_multicast_routing_table_entry.html#a08e3ecb7c6284de61d10e70ead764815",tooltip="Get a specified output interface."];
+}

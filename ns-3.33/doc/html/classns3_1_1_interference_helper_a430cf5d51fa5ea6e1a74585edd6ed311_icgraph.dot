@@ -1,0 +1,14 @@
+digraph "ns3::InterferenceHelper::CalculateChunkSuccessRate"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::InterferenceHelper\l::CalculateChunkSuccessRate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Calculate the success rate of the chunk given the SINR, duration, and Wi-Fi mode."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::InterferenceHelper\l::CalculateHtPhyHeaderPer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_interference_helper.html#a406607dc15ef678c987d02aaafab733f",tooltip="Calculate the error rate of the HT PHY header."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::InterferenceHelper\l::CalculateNonHtPhyHeaderPer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_interference_helper.html#abe6a31838a1c187dd76226f790d8ef94",tooltip="Calculate the error rate of the non-HT PHY header."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="WifiErrorRateModelsTestCase\lMimo::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wifi_error_rate_models_test_case_mimo.html#a80c805e3cde3b802ea49f023415b5542",tooltip="Implementation to actually run this TestCase."];
+}

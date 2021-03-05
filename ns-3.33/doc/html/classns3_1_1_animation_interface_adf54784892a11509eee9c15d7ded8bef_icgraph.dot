@@ -1,0 +1,22 @@
+digraph "ns3::AnimationInterface::GenericWirelessRxTrace"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::AnimationInterface\l::GenericWirelessRxTrace",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Generic wireless receive trace function."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::AnimationInterface\l::LteRxTrace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_animation_interface.html#a1b44e17f04eb8cdb33de77c7ec544cd6",tooltip="LTE receive trace function."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::AnimationInterface\l::ConnectCallbacks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_animation_interface.html#a3475aa338984f2024403caa04c146027",tooltip="Connect callbacks function."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::AnimationInterface\l::StartAnimation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_animation_interface.html#aed28bace6b97494e11179766449bb442",tooltip="Start animation function."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::AnimationInterface\l::AnimationInterface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_animation_interface.html#a88af7da6eb605ec7e9d8cb3fcc8a6466",tooltip="Constructor."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::AnimationInterface\l::UanPhyGenRxTrace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_animation_interface.html#a8ced521c1d66785fd2920ec0fe52fee4",tooltip="UAN Phy gen receive trace function."];
+  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::AnimationInterface\l::WimaxRxTrace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_animation_interface.html#aa8d5fb8e55267b669a99599e0a27afe9",tooltip="WIMax receive trace function."];
+  Node7 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

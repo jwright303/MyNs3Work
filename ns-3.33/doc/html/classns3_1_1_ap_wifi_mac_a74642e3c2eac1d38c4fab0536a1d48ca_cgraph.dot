@@ -1,0 +1,22 @@
+digraph "ns3::ApWifiMac::GetCfParameterSet"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::ApWifiMac::GetCfParameterSet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Return the CF parameter set of the current AP."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ApWifiMac::GetCfpMax\lDuration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#ae0abe9eb6b4d53d71a826781af44671a",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::InfrastructureWifiMac\l::GetPcfSupported",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_infrastructure_wifi_mac.html#a47ccbba3931e183c3b7cfe7777abb366",tooltip="Return whether the device supports PCF."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::CfParameterSet\l::SetCFPCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_cf_parameter_set.html#a16a4e6b3e18e20de6fdf278c9d438b70",tooltip="Set the CFP Count in DTIM frames unit."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::CfParameterSet\l::SetCFPDurRemainingUs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_cf_parameter_set.html#adc7052a7fd166eb45b56a65ca9c13b56",tooltip="Set the remaining CFP duration in microseconds."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::CfParameterSet\l::SetCFPMaxDurationUs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_cf_parameter_set.html#aeb41a3dbffe37c013e7e2be19d33d674",tooltip="Set the maximum CFP duration in microseconds."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::CfParameterSet\l::SetCFPPeriod",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_cf_parameter_set.html#a6a97fafad93595c8107f0dd953516844",tooltip="Set the CFP Period in DTIM frames unit."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::CfParameterSet\l::SetPcfSupported",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_cf_parameter_set.html#a5572910c1bf3221785cc4fe24bd263b5",tooltip="Set PCF supported function."];
+}

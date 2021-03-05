@@ -1,0 +1,25 @@
+digraph "ns3::HtOperation::SetRifsMode"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::HtOperation::SetRifsMode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set the RIFS mode."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ApWifiMac::GetHtOperation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#a4fefa01556b990b9995ff1a5577060d3",tooltip="Return the HT operation of the current AP."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ApWifiMac::SendAssocResp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#ad7fef463a6076916fa1f5a989e56f13d",tooltip="Forward an association or a reassociation response packet to the DCF."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ApWifiMac::Receive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#af264125e11c4d132d18966a6aa02ace5",tooltip="This method acts as the MacRxMiddle receive callback and is invoked to notify us that a frame has bee..."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::ApWifiMac::SendOneBeacon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#a6c8cbc0fc95f3eaf4840d4ffcf78fac5",tooltip="Forward a beacon packet to the beacon special DCF."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::ApWifiMac::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#a398b0e04d5c31b7459358a459beff098",tooltip="Initialize() implementation."];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::ApWifiMac::SetBeacon\lGeneration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#a09ad3b96835cb8fac18783423d3e57a7",tooltip="Enable or disable beacon generation of the AP."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::ApWifiMac::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#aa7cd3c1ec15889267ab5b5e183b91d2b",tooltip="Get the type ID."];
+  Node2 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::ApWifiMac::SendProbeResp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#a0a9fcbd87326c5c56644deb3504038df",tooltip="Forward a probe response packet to the DCF."];
+  Node9 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

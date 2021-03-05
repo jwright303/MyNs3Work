@@ -1,0 +1,46 @@
+digraph "ns3::SpectrumValue::GetSpectrumModel"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::SpectrumValue\l::GetSpectrumModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WifiSpectrumValueHelper\l::CreateDsssTxPowerSpectralDensity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_spectrum_value_helper.html#a706cda1891b2a01f5a15fcdd19faeac7",tooltip="Create a transmit power spectral density corresponding to DSSS."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SpectrumWifiPhy\l::GetTxPowerSpectralDensity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_spectrum_wifi_phy.html#af7c8a563ff2863fea37501f98a81b945",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::SpectrumWifiPhy\l::StartTx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_spectrum_wifi_phy.html#a2506b7651bed80b5db10843389bab297",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::WifiSpectrumValueHelper\l::CreateHeOfdmTxPowerSpectralDensity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_spectrum_value_helper.html#acca944ea88c14ee8669a6b5bef802b5a",tooltip="Create a transmit power spectral density corresponding to OFDM High Efficiency (HE) (802...."];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::WifiSpectrumValueHelper\l::CreateHtOfdmTxPowerSpectralDensity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_spectrum_value_helper.html#a3e92344d014f4d9e0dd5eb378d83c233",tooltip="Create a transmit power spectral density corresponding to OFDM High Throughput (HT) (802...."];
+  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::WifiSpectrumValueHelper\l::CreateOfdmTxPowerSpectralDensity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_spectrum_value_helper.html#a417b77822e470fef852941c82fa0c33d",tooltip="Create a transmit power spectral density corresponding to OFDM (802.11a/g)."];
+  Node7 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::WifiSpectrumValueHelper\l::CreateSpectrumMaskForOfdm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_spectrum_value_helper.html#aec7194335b0eee47e1e5f67df4d1971d",tooltip="Create a transmit power spectral density corresponding to OFDM transmit spectrum mask requirements fo..."];
+  Node8 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="SpectrumValueTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_spectrum_value_test_case.html#a9c8f444c8454b488a12e934a18fb9555",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::LteChunkProcessor\l::EvaluateChunk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_chunk_processor.html#a8824858ef66b80bfa97c6059ca82822a",tooltip="Collect SpectrumValue and duration of signal."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::SpectrumAnalyzer\l::GenerateReport",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_spectrum_analyzer.html#a77ec2c9171d4074ab310bc2924e6450b",tooltip="Generates a report of the data collected so far."];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::SpectrumAnalyzer\l::Start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_spectrum_analyzer.html#a0576e43ca1e4630370d6d5952ea30bd5",tooltip="Start the spectrum analyzer."];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::HalfDuplexIdealPhy\l::GetRxSpectrumModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_half_duplex_ideal_phy.html#a8455f9dc433d02795f1848bd50ff8262",tooltip=" "];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::LrWpanPhy::GetRxSpectrum\lModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lr_wpan_phy.html#a6083b11159b6b4214c6344fbddf96eec",tooltip=" "];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::WifiSpectrumValueHelper\l::NormalizeSpectrumMask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_spectrum_value_helper.html#ac51022689a4444005d0d019353104cdd",tooltip="Normalize the transmit spectrum mask generated by CreateSpectrumMaskForOfdm so that the total transmi..."];
+  Node15 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

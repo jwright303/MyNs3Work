@@ -1,0 +1,11 @@
+digraph "ns3::LteEnbRrcSapProvider"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ns3::LteEnbRrcSapProvider",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Part of the RRC protocol."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteRrcSap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_rrc_sap.html",tooltip="Class holding definition common to all UE/eNodeB SAP Users/Providers."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::MemberLteEnbRrcSapProvider\< C \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_member_lte_enb_rrc_sap_provider.html",tooltip="Template for the implementation of the LteEnbRrcSapProvider as a member of an owner class of type C t..."];
+}

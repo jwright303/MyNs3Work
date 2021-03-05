@@ -1,0 +1,10 @@
+digraph "ns3::dot11s::HwmpProtocol::ForwardPathError"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::dot11s::HwmpProtocol\l::ForwardPathError",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Forwards a received path error."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::dot11s::HwmpProtocol\l::ReceivePerr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dot11s_1_1_hwmp_protocol.html#a7edde87a1f7d85a87e14075c52691075",tooltip="Handler for receiving Path Error."];
+}

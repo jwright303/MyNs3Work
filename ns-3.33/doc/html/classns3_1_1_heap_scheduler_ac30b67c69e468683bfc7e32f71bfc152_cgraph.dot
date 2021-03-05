@@ -1,0 +1,22 @@
+digraph "ns3::HeapScheduler::Insert"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::HeapScheduler\l::Insert",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Insert a new Event in the schedule."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::HeapScheduler\l::BottomUp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_heap_scheduler.html#aee0e91bc6e951d1ad4a1425e9340164c",tooltip="Percolate a newly inserted Last item to its proper position."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::HeapScheduler\l::Exch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_heap_scheduler.html#a54e348cb775c81ad6162ad9235312011",tooltip="Swap two items."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::HeapScheduler\l::IsLessStrictly",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_heap_scheduler.html#a0ecf702d2a326b3e13debc0e9022773a",tooltip="Compare (less than) two items."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::HeapScheduler\l::IsRoot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_heap_scheduler.html#a361ccabae4640f65ae389b0abc648501",tooltip="Test if an index is the root."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::HeapScheduler\l::Root",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_heap_scheduler.html#a8ac8dbac81a12a914088fb9e35ddfd3c",tooltip="Get the root index of the heap."];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::HeapScheduler\l::Last",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_heap_scheduler.html#afbb9f3198859831da73cd367ef20ec46",tooltip="Return the index of the last element."];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::HeapScheduler\l::Parent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_heap_scheduler.html#a7d1c8c17acb3685a4a7c274efc17cb0b",tooltip="Get the parent index of a given entry."];
+}

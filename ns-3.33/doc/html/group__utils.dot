@@ -1,0 +1,9 @@
+digraph "Utils"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node1 [label="Utils",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="The utils directory is for various programs and scripts related to code coverage, test suites,..."];
+  Node2 [label="check-style.py",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___check_style.html",tooltip="The check-style.py script will test and reformat code according to the ns-3 coding style posted at ht..."];
+  Node1->Node2 [shape=plaintext, dir="back", style="solid"];
+}

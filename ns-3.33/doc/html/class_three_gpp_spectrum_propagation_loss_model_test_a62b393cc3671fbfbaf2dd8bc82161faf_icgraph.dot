@@ -1,0 +1,13 @@
+digraph "ThreeGppSpectrumPropagationLossModelTest::ArePsdEqual"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ThreeGppSpectrumPropagation\lLossModelTest::ArePsdEqual",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Checks if two PSDs are equal."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThreeGppSpectrumPropagation\lLossModelTest::CheckLongTermUpdate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_spectrum_propagation_loss_model_test.html#a2546bc9ad38ffdb5b76f41d00ed6b142",tooltip="Test of the long term component is correctly updated when the channel matrix is recomputed."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThreeGppSpectrumPropagation\lLossModelTest::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_spectrum_propagation_loss_model_test.html#ab450da09766147dacd0d209d5e7d9044",tooltip="Build the test scenario."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

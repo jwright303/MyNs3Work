@@ -1,0 +1,34 @@
+digraph "ns3::Mac48Address::GetMulticastPrefix"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Mac48Address::\lGetMulticastPrefix",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Mac48Address::\lGetMulticast",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac48_address.html#a23d170f8c7a7d90a8110425620285819",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LteNetDevice::\lGetMulticast",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_net_device.html#a34c54cd08cc30115c39b5e4861605877",tooltip="Make and return a MAC multicast address using the provided multicast group."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::AlohaNoackNetDevice\l::GetMulticast",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_aloha_noack_net_device.html#aa045ba7a3f294ed310226f699fa1aebe",tooltip="Make and return a MAC multicast address using the provided multicast group."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::BridgeNetDevice\l::GetMulticast",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_bridge_net_device.html#a29fd09363c696417e7461e0c824f0b36",tooltip="Make and return a MAC multicast address using the provided multicast group."];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::CsmaNetDevice\l::GetMulticast",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_csma_net_device.html#aa1fc0d3a5537cb73dd433234da83b22a",tooltip="Make and return a MAC multicast address using the provided multicast group."];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::FdNetDevice::GetMulticast",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_fd_net_device.html#ac096a88fdff6a14ea9dcb426973c5df6",tooltip="Make and return a MAC multicast address using the provided multicast group."];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::LoopbackNetDevice\l::GetMulticast",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_loopback_net_device.html#a467d6b7f0ffb8d34a62c6fb24630501b",tooltip="Make and return a MAC multicast address using the provided multicast group."];
+  Node2 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::MeshPointDevice\l::GetMulticast",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mesh_point_device.html#a8bd5e46402b0ac1813f3342b651fedb5",tooltip="Register routing protocol to be used. Protocol must be already installed on this mesh point."];
+  Node2 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::SimpleNetDevice\l::GetMulticast",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_net_device.html#aeeaea83486dabf10c7be298b9e2fe665",tooltip="Make and return a MAC multicast address using the provided multicast group."];
+  Node2 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::TapBridge::GetMulticast",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tap_bridge.html#a86e0337a49ff6b04885c6579166ec039",tooltip="Make and return a MAC multicast address using the provided multicast group."];
+  Node2 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::WaveNetDevice\l::GetMulticast",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wave_net_device.html#a6fafd699c30def29aa49d6194df66867",tooltip="Make and return a MAC multicast address using the provided multicast group."];
+  Node2 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::WifiNetDevice\l::GetMulticast",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_net_device.html#a683cde3f60cc606d6a7f272217476fa2",tooltip="Make and return a MAC multicast address using the provided multicast group."];
+  Node2 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::WimaxNetDevice\l::GetMulticast",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wimax_net_device.html#a91319b4394058093f7765f4dc61fe6a6",tooltip="Make and return a MAC multicast address using the provided multicast group."];
+}

@@ -1,0 +1,40 @@
+digraph "ns3::Packet::GetSerializedSize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Packet::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Returns number of bytes required for packet serialization."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Buffer::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer.html#a98d4dcbbdc162f3e28979c7225b9f48f",tooltip="Return the number of bytes required for serialization."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ByteTagList::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_byte_tag_list.html#ab3c82f535fd002da08d4166c6304b000",tooltip="Returns number of bytes required for packet serialization."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ByteTagList::BeginAll",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_byte_tag_list.html#ab1d2c5671ea01900fa9ef58e33d1e739",tooltip="Returns an iterator pointing to the very first tag in this list."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::ByteTagList::Begin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_byte_tag_list.html#a22bb3fbf008c3bd4821429521a35c82d",tooltip=" "];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::ByteTagList::Iterator\l::HasNext",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_byte_tag_list_1_1_iterator.html#a44e33e812e3eba4fdc168e36380853af",tooltip="Used to determine if the iterator is at the end of the byteTagList."];
+  Node3 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::ByteTagList::Iterator\l::Next",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_byte_tag_list_1_1_iterator.html#af521864d800baab1d9c5262f59ce4433",tooltip="Returns the next Item from the ByteTagList."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::NixVector::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_nix_vector.html#a801e98deaceba1ebe8da49ffc0f98791",tooltip=" "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::PacketMetadata\l::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet_metadata.html#af93a86641616bee2ef0edd64736e7292",tooltip="Get the metadata serialized size."];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::TypeId::GetName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#abc4965475a579c2afdc668d7a7d58374",tooltip="Get the name."];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::Singleton\< IidManager\l \>::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_singleton.html#a80a2cd3c25a27ea72add7a9f7a141ffa",tooltip="Get a pointer to the singleton instance."];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::IidManager::GetName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_iid_manager.html#a6658aaa8120efd885e98addb76a6f1d4",tooltip="Get the name of a type id."];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::IidManager::LookupInformation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_iid_manager.html#a84af06b798b21fa700469a3ac5f65f3f",tooltip="Retrieve the information record for a type."];
+  Node9 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::PacketMetadata\l::ReadItems",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet_metadata.html#a7fe144386274167b6aac05ac0a0cdf6f",tooltip="Read items."];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::PacketMetadata\l::ReadUleb128",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet_metadata.html#a7378e5fe71fcefd939f19c1669e54c79",tooltip="Read a ULEB128 (Unsigned Little Endian Base 128) coded number."];
+  Node9 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::TypeId::SetUid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#a85ebe2aebd1cbf13dea9d731e3081481",tooltip="Set the internal id of this TypeId."];
+  Node1 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::PacketTagList\l::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet_tag_list.html#ade7dff72c9aa52f5fda1d001ce4326ce",tooltip="Returns number of bytes required for packet serialization."];
+}

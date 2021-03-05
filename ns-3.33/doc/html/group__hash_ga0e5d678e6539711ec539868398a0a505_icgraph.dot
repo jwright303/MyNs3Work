@@ -1,0 +1,28 @@
+digraph "ns3::Hash32"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Hash32",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Compute 32-bit hash of a byte buffer, using the default hash function."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::tests::DefaultHashTest\lCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1tests_1_1_default_hash_test_case.html#a990beb438e472b09d1445ea729dee252",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ArpQueueDiscItem\l::Hash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_arp_queue_disc_item.html#a158cc16c4a751debdf4477e5dc715c9c",tooltip="Computes the hash of the packet's 5-tuple."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Ipv4QueueDiscItem\l::Hash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_queue_disc_item.html#a2d4861165ed0c6641a48407988d057b5",tooltip="Computes the hash of the packet's 5-tuple."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Ipv6QueueDiscItem\l::Hash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_queue_disc_item.html#a6cd790774fdc7a2ab4a2379101030f1e",tooltip="Computes the hash of the packet's 5-tuple."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Ipv4L3Protocol\l::UpdateDuplicate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_l3_protocol.html#ad4a3a05c972868c2cb734664d558fdca",tooltip="Registers duplicate entry, return false if new."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Ipv4L3Protocol\l::Receive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_l3_protocol.html#a2f27fb0a3f698ffb34a654323b063c94",tooltip="Lower layer calls this method after calling L3Demux::Lookup The ARP subclass needs to know from which..."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::Ipv4L3Protocol\l::AddInterface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_l3_protocol.html#ac6855eb39254f74fa30e7f23a7b100db",tooltip=" "];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::Ipv4L3Protocol\l::SetupLoopback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_l3_protocol.html#aa37b950d26063e4e7ee659e599c83bde",tooltip="Setup loopback interface."];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::Ipv4L3Protocol\l::SetNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_l3_protocol.html#a82ef37914ea8bab699575fea23586bc7",tooltip="Set node associated with this stack."];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::Ipv4L3Protocol\l::NotifyNewAggregate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_l3_protocol.html#a41c7e4fc5a8dba55e9708df7cef9b9c7",tooltip="This function will notify other components connected to the node that a new stack member is now conne..."];
+}

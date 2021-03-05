@@ -1,0 +1,12 @@
+digraph "ns3::QosTxop::GetTypeOfStation"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::QosTxop::GetTypeOfStation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Return type of station."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::QosTxop::MapDestAddress\lForAggregation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_qos_txop.html#a21f64cdee4c94eba77785add45040baf",tooltip="This functions are used only to correctly set destination address in A-MSDU subframes."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::QosTxop::MapSrcAddress\lForAggregation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_qos_txop.html#a2dfed32d9ae5a97b625386d3c1a0391a",tooltip="This functions are used only to correctly set source address in A-MSDU subframes."];
+}

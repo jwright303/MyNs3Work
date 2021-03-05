@@ -1,0 +1,22 @@
+digraph "ns3::WifiTxVector"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ns3::WifiTxVector",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="This class mimics the TXVECTOR which is to be passed to the PHY in order to define the parameters whi..."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_mode" ,fontname="Helvetica"];
+  Node2 [label="ns3::WifiMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode.html",tooltip="represent a single transmission mode"];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_muUserInfos" ,fontname="Helvetica"];
+  Node3 [label="std::map\< uint16_t,\l HeMuUserInfo \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node4 [label="ns3::HeMuUserInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_he_mu_user_info.html",tooltip="HE MU specific user transmission parameters."];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ru" ,fontname="Helvetica"];
+  Node5 [label="ns3::HeRu::RuSpec",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_he_ru_1_1_ru_spec.html",tooltip="RU Specification."];
+  Node2 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mcs" ,fontname="Helvetica"];
+  Node6 -> Node3 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< uint16_t, HeMuUserInfo \>" ,fontname="Helvetica"];
+  Node6 [label="std::map\< K, T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" keys" ,fontname="Helvetica"];
+  Node7 [label="K",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node8 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

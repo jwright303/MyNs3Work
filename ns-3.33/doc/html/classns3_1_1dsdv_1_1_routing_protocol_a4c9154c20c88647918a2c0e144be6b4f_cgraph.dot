@@ -1,0 +1,16 @@
+digraph "ns3::dsdv::RoutingProtocol::NotifyInterfaceDown"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::dsdv::RoutingProtocol\l::NotifyInterfaceDown",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::dsdv::RoutingTable\l::Clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dsdv_1_1_routing_table.html#a4b082df912185628706b93ddbe1eeefb",tooltip="Delete all entries from routing table."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Socket::Close",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_socket.html#abdac6e2498c5aa2963ef361d4200ddf3",tooltip="Close a socket."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::dsdv::RoutingTable\l::DeleteAllRoutesFromInterface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dsdv_1_1_routing_table.html#a910728601836ce9beb169b6a4e489cf1",tooltip="Delete all route from interface with address iface."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::dsdv::RoutingProtocol\l::FindSocketWithInterfaceAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dsdv_1_1_routing_protocol.html#ac7610239d5e14a3536b5b16ec2dc1af0",tooltip="Find socket with local interface address iface."];
+}

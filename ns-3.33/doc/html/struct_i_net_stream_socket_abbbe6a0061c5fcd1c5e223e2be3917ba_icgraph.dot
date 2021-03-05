@@ -1,0 +1,10 @@
+digraph "INetStreamSocket::listen"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="INetStreamSocket::listen",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Put the socket in Listening state on a port."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::NscTcpSocketImpl\l::Listen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_nsc_tcp_socket_impl.html#ac8279480311e2de5a9d55f283502d04b",tooltip="Listen for incoming connections."];
+}

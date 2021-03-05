@@ -1,0 +1,16 @@
+digraph "ns3::GlobalRouteManagerLSDB::GetLSAByLinkData"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::GlobalRouteManagerLSDB\l::GetLSAByLinkData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Look up the Link State Advertisement associated with the given link state ID (address)."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::GlobalRoutingLinkRecord\l::GetLinkData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_routing_link_record.html#ae329213648a513bef41aca9efe8c951a",tooltip="Get the Link Data field of the Global Routing Link Record."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::GlobalRoutingLSA\l::GetLinkRecord",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_routing_l_s_a.html#acb1684442a660e70d3cc3e8bd838af50",tooltip="Return a pointer to the specified Global Routing Link Record."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::GlobalRoutingLinkRecord\l::GetLinkType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_routing_link_record.html#a7160442a4e6dcbbe4508b2a14ac502d4",tooltip="Get the Link Type field of the Global Routing Link Record."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::GlobalRoutingLSA\l::GetNLinkRecords",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_routing_l_s_a.html#a1b9d99bfd22d948880df3b812c0b5583",tooltip="Return the number of Global Routing Link Records in the LSA."];
+}

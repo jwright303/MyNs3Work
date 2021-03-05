@@ -1,0 +1,19 @@
+digraph "ns3::RrcAsn1Header::EnumToBandwidth"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::RrcAsn1Header\l::EnumToBandwidth",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Convert from ENUMERATED value to bandwidth (in RBs)"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::RrcConnectionReconfiguration\lHeader::Deserialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_connection_reconfiguration_header.html#a3de5336b7cbf44d26b57dd17183361be",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::HandoverPreparation\lInfoHeader::Deserialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_handover_preparation_info_header.html#aee844b98e550f07ccf59193acd0a5f43",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::RrcAsn1Header\l::DeserializeMeasConfig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_asn1_header.html#a2bad164e0412e09c0f68aeaee202ee35",tooltip="Deserialize measure config function."];
+  Node4 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::RrcAsn1Header\l::DeserializeSystemInformation\lBlockType2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_asn1_header.html#ac76e61e534e302566ccb9771f19498df",tooltip="Deserialize system information block type 2 function."];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,58 @@
+digraph "ns3::LteRrcSap::MeasConfig"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::LteRrcSap::MeasConfig",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="MeasConfig structure."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" measIdToAddModList" ,fontname="Helvetica"];
+  Node2 [label="std::list\< ns3::LteRrcSap\l::MeasIdToAddMod \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node3 [label="ns3::LteRrcSap::MeasIdTo\lAddMod",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_meas_id_to_add_mod.html",tooltip="MeasIdToAddMod structure."];
+  Node4 -> Node2 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::LteRrcSap::MeasId\lToAddMod \>" ,fontname="Helvetica"];
+  Node4 [label="std::list\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node5 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" reportConfigToAddModList" ,fontname="Helvetica"];
+  Node6 [label="std::list\< ns3::LteRrcSap\l::ReportConfigToAddMod \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node7 [label="ns3::LteRrcSap::ReportConfig\lToAddMod",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_report_config_to_add_mod.html",tooltip="ReportConfigToAddMod structure."];
+  Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" reportConfigEutra" ,fontname="Helvetica"];
+  Node8 [label="ns3::LteRrcSap::ReportConfig\lEutra",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_report_config_eutra.html",tooltip="Specifies criteria for triggering of an E-UTRA measurement reporting event."];
+  Node9 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" threshold1\nthreshold2" ,fontname="Helvetica"];
+  Node9 [label="ns3::LteRrcSap::Threshold\lEutra",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_threshold_eutra.html",tooltip="Threshold for event evaluation."];
+  Node4 -> Node6 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::LteRrcSap::Report\lConfigToAddMod \>" ,fontname="Helvetica"];
+  Node10 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" measIdToRemoveList\nmeasObjectToRemoveList\nreportConfigToRemoveList" ,fontname="Helvetica"];
+  Node10 [label="std::list\< uint8_t \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node10 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< uint8_t \>" ,fontname="Helvetica"];
+  Node11 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" quantityConfig" ,fontname="Helvetica"];
+  Node11 [label="ns3::LteRrcSap::Quantity\lConfig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_quantity_config.html",tooltip="QuantityConfig structure."];
+  Node12 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" speedStatePars" ,fontname="Helvetica"];
+  Node12 [label="ns3::LteRrcSap::SpeedStatePars",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_speed_state_pars.html",tooltip="SpeedStatePars structure."];
+  Node13 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mobilityStateParameters" ,fontname="Helvetica"];
+  Node13 [label="ns3::LteRrcSap::Mobility\lStateParameters",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_mobility_state_parameters.html",tooltip="MobilityStateParameters structure."];
+  Node14 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" timeToTriggerSf" ,fontname="Helvetica"];
+  Node14 [label="ns3::LteRrcSap::SpeedState\lScaleFactors",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_speed_state_scale_factors.html",tooltip="SpeedStateScaleFactors structure."];
+  Node15 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" measObjectToAddModList" ,fontname="Helvetica"];
+  Node15 [label="std::list\< ns3::LteRrcSap\l::MeasObjectToAddMod \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node16 -> Node15 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node16 [label="ns3::LteRrcSap::MeasObject\lToAddMod",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_meas_object_to_add_mod.html",tooltip="MeasObjectToAddMod structure."];
+  Node17 -> Node16 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" measObjectEutra" ,fontname="Helvetica"];
+  Node17 [label="ns3::LteRrcSap::MeasObject\lEutra",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_meas_object_eutra.html",tooltip="MeasObjectEutra structure."];
+  Node10 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" blackCellsToRemoveList\ncellsToRemoveList" ,fontname="Helvetica"];
+  Node18 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cellsToAddModList" ,fontname="Helvetica"];
+  Node18 [label="std::list\< ns3::LteRrcSap\l::CellsToAddMod \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node19 -> Node18 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node19 [label="ns3::LteRrcSap::CellsToAddMod",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_cells_to_add_mod.html",tooltip="CellsToAddMod structure."];
+  Node4 -> Node18 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::LteRrcSap::CellsTo\lAddMod \>" ,fontname="Helvetica"];
+  Node20 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" blackCellsToAddModList" ,fontname="Helvetica"];
+  Node20 [label="std::list\< ns3::LteRrcSap\l::BlackCellsToAddMod \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node21 -> Node20 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node21 [label="ns3::LteRrcSap::BlackCells\lToAddMod",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_black_cells_to_add_mod.html",tooltip="BlackCellsToAddMod structure."];
+  Node22 -> Node21 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" physCellIdRange" ,fontname="Helvetica"];
+  Node22 [label="ns3::LteRrcSap::PhysCell\lIdRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_phys_cell_id_range.html",tooltip="PhysCellIdRange structure."];
+  Node4 -> Node20 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::LteRrcSap::BlackCells\lToAddMod \>" ,fontname="Helvetica"];
+  Node4 -> Node15 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::LteRrcSap::MeasObject\lToAddMod \>" ,fontname="Helvetica"];
+  Node23 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" measGapConfig" ,fontname="Helvetica"];
+  Node23 [label="ns3::LteRrcSap::MeasGapConfig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_meas_gap_config.html",tooltip="MeasGapConfig structure."];
+}

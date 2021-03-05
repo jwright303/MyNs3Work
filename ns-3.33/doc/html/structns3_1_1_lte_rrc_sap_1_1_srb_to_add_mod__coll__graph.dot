@@ -1,0 +1,9 @@
+digraph "ns3::LteRrcSap::SrbToAddMod"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ns3::LteRrcSap::SrbToAddMod",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SrbToAddMod structure."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" logicalChannelConfig" ,fontname="Helvetica"];
+  Node2 [label="ns3::LteRrcSap::LogicalChannel\lConfig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_logical_channel_config.html",tooltip="LogicalChannelConfig structure."];
+}

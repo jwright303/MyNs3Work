@@ -1,0 +1,12 @@
+digraph "ns3::EnbMacMemberLteEnbCmacSapProvider::AddLc"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::EnbMacMemberLteEnbCmac\lSapProvider::AddLc",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Add a new logical channel."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteEnbMac::DoAddLc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_mac.html#aafa6a2a0f3507fb9849b642b7964969b",tooltip="Add LC function."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::FfMacCschedSapProvider\l::CschedLcConfigReq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ff_mac_csched_sap_provider.html#ad80e0e37f90887055ac79ccad7d2ba2f",tooltip="CSCHED_LC_CONFIG_REQ."];
+}

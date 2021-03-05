@@ -1,0 +1,12 @@
+digraph "ns3::SSRecord::GetPrimaryCid"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::SSRecord::GetPrimaryCid",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get primary CID."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::SSManager::DeleteSSRecord",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_s_s_manager.html#abb941db02350818fb56df8a0afe87cec",tooltip="Delete SS record."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SSManager::GetSSRecord",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_s_s_manager.html#a00117546c333c504b27422df26069718",tooltip="returns the ssrecord which has been assigned this cid."];
+}

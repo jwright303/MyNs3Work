@@ -1,0 +1,20 @@
+digraph "ns3::UanModesList::AppendMode"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::UanModesList::\lAppendMode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Add mode to this list."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Experiment::CreateDualModes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_experiment.html#ab5cf12c658d459b5d2004c2b432d0e83",tooltip="Create m_numRates matching control and data modes."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="UanTest::DoPhyTests",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_uan_test.html#af3bcfdc5efa92b7be46d78edf9f05931",tooltip="Phy test function."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="UanTest::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_uan_test.html#a10e0eae23696e9000dbea6e3d9a1f0ba",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::UanPhyGen::GetDefault\lModes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_phy_gen.html#a6b3ea9cb37436baa774cd2c9e9852376",tooltip="Get the default transmission modes."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::UanPhyDual::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_phy_dual.html#a752fb11320bd10e9ae1d92561eb02bac",tooltip="Register this type."];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::UanPhyGen::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_phy_gen.html#a94d147ce22f89c46d8699ccabee242df",tooltip="Register this type."];
+}

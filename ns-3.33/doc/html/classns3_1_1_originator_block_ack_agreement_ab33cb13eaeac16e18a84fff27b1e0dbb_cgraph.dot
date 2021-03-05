@@ -1,0 +1,14 @@
+digraph "ns3::OriginatorBlockAckAgreement::GetDistance"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::OriginatorBlockAckAgreement\l::GetDistance",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the distance between the current starting sequence number and the given sequence number."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::OriginatorBlockAckAgreement\l::GetStartingSequence",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_originator_block_ack_agreement.html#a71138fdae2b41a8a99f62195d9167975",tooltip="Return the starting sequence number of the transmit window, if a transmit window has been initialized..."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::BlockAckWindow\l::GetWinSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_window.html#a583d4d55d9e51f115ea2f64fb8b28fa2",tooltip="Get the window size."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::BlockAckWindow\l::GetWinStart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_window.html#a7d441c6a6b4824230d14237500be65bc",tooltip="Get the current winStart value."];
+}

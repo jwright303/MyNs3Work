@@ -1,0 +1,14 @@
+digraph "ns3::SubscriberStationNetDevice::ProcessDlMap"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::SubscriberStationNet\lDevice::ProcessDlMap",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Process DL map."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::DlMap::GetBaseStationId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dl_map.html#a4210d667063c77eeaadda134e7e394e2",tooltip="Get base station ID field."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::DlMap::GetDcdCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dl_map.html#ae05e1c22fd65b658b81cc4ba337640be",tooltip="Get DCD count field."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::DlMap::GetDlMapElements",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dl_map.html#aca271c956236f81a55b99cb62a5cae5a",tooltip="Get DL Map elements field."];
+}

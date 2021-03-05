@@ -1,0 +1,24 @@
+digraph "ns3::ThreeGppHttpServer::StopApplication"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::ThreeGppHttpServer\l::StopApplication",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Application specific shutdown code."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Socket::Close",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_socket.html#abdac6e2498c5aa2963ef361d4200ddf3",tooltip="Close a socket."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::MakeNullCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__callback.html#gae1871d32852d06ef048a491d0ac91b0f",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Socket::SetAcceptCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_socket.html#a408532e435c63166e6ccc337c0cea871",tooltip="Accept connection requests from remote hosts."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Socket::SetCloseCallbacks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_socket.html#acac93d69d477332371fe83397ed8beeb",tooltip="Detect socket recv() events such as graceful shutdown or error."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Socket::SetRecvCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_socket.html#a243f7835ef1a85f9270fd3577e3a40da",tooltip="Notify application when new data is available to be read."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Socket::SetSendCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_socket.html#a85ff5c8cc7d242823f301b49264c68a4",tooltip="Notify application when space in transmit buffer is added."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::ThreeGppHttpServer\l::SwitchToState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_server.html#af4c5fb422b1b9438c28a4c99f126541f",tooltip="Change the state of the server."];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::ThreeGppHttpServer\l::GetStateString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_server.html#aa3ede4cb5c59a73dd86f5ac08e9d0481",tooltip="Returns the current state of the application in string format."];
+}

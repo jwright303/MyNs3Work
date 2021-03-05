@@ -1,0 +1,10 @@
+digraph "create-module.make_module"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="create-module.make\l_module",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="create-module.create\l_argument_parser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacecreate-module.html#ae64fad9203fd8be9b0e61d5d1ab8beb7",tooltip=" "];
+}

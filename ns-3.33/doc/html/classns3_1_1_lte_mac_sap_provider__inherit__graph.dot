@@ -1,0 +1,14 @@
+digraph "ns3::LteMacSapProvider"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::LteMacSapProvider",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Service Access Point (SAP) offered by the MAC to the RLC See Femto Forum MAC Scheduler Interface Spec..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::EnbMacMemberLteMacSap\lProvider\< C \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_enb_mac_member_lte_mac_sap_provider.html",tooltip="EnbMacMemberLteMacSapProvider class."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SimpleUeCcmMacSapProvider",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ue_ccm_mac_sap_provider.html",tooltip="SimpleUeCcmMacSapProvider class."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::UeMemberLteMacSapProvider",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_member_lte_mac_sap_provider.html",tooltip="UeMemberLteMacSapProvider class."];
+}

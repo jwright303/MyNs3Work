@@ -1,0 +1,36 @@
+digraph "ns3::Buffer::Iterator::WriteU32"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Buffer::Iterator\l::WriteU32",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::OfdmDcdChannelEncodings\l::DoWrite",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ofdm_dcd_channel_encodings.html#a0996f8fe7e4b979594b12a03d996fc8c",tooltip="Write item."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::EthernetTrailer\l::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ethernet_trailer.html#a57340a97acdb7eacc049278b7a7babab",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::DhcpHeader::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dhcp_header.html#a51f751c68e6cb356fa731e7c61adf975",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Icmpv6Header::\lSerialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_header.html#a54f5a2d4fff941aa4d5ebf0ec763ff75",tooltip="Serialize the packet."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Icmpv6Redirection\l::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_redirection.html#a28c9d2bdfe60df3740a03a0f929f6390",tooltip="Serialize the packet."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Icmpv6OptionRedirected\l::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_option_redirected.html#aba3082cf4343e976eeabe018a5c6e39d",tooltip="Serialize the packet."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::Ipv6ExtensionLooseRouting\lHeader::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_extension_loose_routing_header.html#ac606b34c3bf90620f44022fd491b36e2",tooltip="Serialize the packet."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::RngRsp::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rng_rsp.html#a004f6659f919f80f99e09df6756cb04c",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::OfdmDownlinkFramePrefix\l::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ofdm_downlink_frame_prefix.html#a2be69c66aec024d70c5fb035d932132b",tooltip=" "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::UlMap::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ul_map.html#af26cb8cf55fe027ab519a5ccbd49400d",tooltip=" "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::DcdChannelEncodings\l::Write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dcd_channel_encodings.html#a737d32860141b260841fdd06bd5759e5",tooltip="Write item."];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::Dcd::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dcd.html#a7b1c9a94a6a4a344f9da7288e4129400",tooltip=" "];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::UcdChannelEncodings\l::Write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ucd_channel_encodings.html#a293d8abef2fd8982d53a615decdc3ffc",tooltip="Write item."];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::Ucd::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ucd.html#a94822bd4528f8fbb133460d726e808cb",tooltip=" "];
+}

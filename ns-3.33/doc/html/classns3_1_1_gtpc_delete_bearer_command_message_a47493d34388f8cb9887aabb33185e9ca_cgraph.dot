@@ -1,0 +1,12 @@
+digraph "ns3::GtpcDeleteBearerCommandMessage::GtpcDeleteBearerCommandMessage"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::GtpcDeleteBearerCommand\lMessage::GtpcDeleteBearerCommand\lMessage",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::GtpcHeader::SetMessageType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_gtpc_header.html#a379d52455457f440b7d0d484b381e287",tooltip="Set message type."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::GtpcHeader::SetSequence\lNumber",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_gtpc_header.html#a8e06cc7d333562c96242084197482e90",tooltip="Set sequence number."];
+}

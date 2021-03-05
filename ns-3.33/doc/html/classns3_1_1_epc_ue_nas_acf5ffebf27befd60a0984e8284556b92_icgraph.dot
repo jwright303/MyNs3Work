@@ -1,0 +1,16 @@
+digraph "ns3::EpcUeNas::ActivateEpsBearer"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::EpcUeNas::ActivateEps\lBearer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Activate an EPS bearer."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::NoBackhaulEpcHelper\l::DoActivateEpsBearerForUe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_no_backhaul_epc_helper.html#afab49aa414f60a029d8c1af942fd93cf",tooltip="DoActivateEpsBearerForUe: Schedule ActivateEpsBearer on the UE."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::NoBackhaulEpcHelper\l::ActivateEpsBearer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_no_backhaul_epc_helper.html#a30d239b1da819550c751faea987881c4",tooltip="Activate an EPS bearer, setting up the corresponding S1-U tunnel."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="EpcS1uDlTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_epc_s1u_dl_test_case.html#a2ac9313672e6c5e2a5a33f98a77ffec2",tooltip="Implementation to actually run this TestCase."];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="EpcS1uUlTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_epc_s1u_ul_test_case.html#a6fa27997312de46d9b0f3ab2221a24fa",tooltip="Implementation to actually run this TestCase."];
+}

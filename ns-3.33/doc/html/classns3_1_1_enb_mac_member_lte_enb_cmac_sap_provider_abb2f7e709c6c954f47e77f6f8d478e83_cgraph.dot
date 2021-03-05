@@ -1,0 +1,12 @@
+digraph "ns3::EnbMacMemberLteEnbCmacSapProvider::AddUe"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::EnbMacMemberLteEnbCmac\lSapProvider::AddUe",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Add UE function."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteEnbMac::DoAddUe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_mac.html#ae571cf82d38972629b6ddd95bc614e00",tooltip="Add UE function."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::FfMacCschedSapProvider\l::CschedUeConfigReq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ff_mac_csched_sap_provider.html#a104a8ccff3678bcd34548ea574c380dd",tooltip="CSCHED_UE_CONFIG_REQ."];
+}

@@ -1,0 +1,10 @@
+digraph "ns3::TbfQueueDisc::SetBurst"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::TbfQueueDisc::\lSetBurst",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set the size of the first bucket in bytes."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TbfQueueDisc::\lGetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tbf_queue_disc.html#aa092b8643330c046b3a4f481f9c286b4",tooltip="Get the type ID."];
+}

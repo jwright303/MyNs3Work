@@ -1,0 +1,14 @@
+digraph "ns3::LSigHeader::GetRate"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LSigHeader::GetRate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Return the RATE field of L-SIG (in bit/s)."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WifiPpdu::GetTxVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_ppdu.html#a43e190b01f0cd0d287416df16bb1de3a",tooltip="Get the TXVECTOR used to send the PPDU."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WifiPpdu::GetTxDuration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_ppdu.html#a0a0af942d5c7af3f92666fcdef1d0460",tooltip="Get the total transmission duration of the PPDU."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::LSigHeader::Print",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_l_sig_header.html#a65eb59d7d3d359c4430f97ba68b18ada",tooltip=" "];
+}

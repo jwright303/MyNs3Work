@@ -1,0 +1,24 @@
+digraph "ns3::YansErrorRateModel::Factorial"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::YansErrorRateModel\l::Factorial",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Return k!"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::YansErrorRateModel\l::Binomial",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_yans_error_rate_model.html#a89a1fef09afb4e6e4b1eecd0805dc035",tooltip="Return Binomial distribution for a given k, p, and n."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::YansErrorRateModel\l::CalculatePdEven",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_yans_error_rate_model.html#a8ba63595ae7fa4ad0afa4c9fb373a1e1",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::YansErrorRateModel\l::CalculatePd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_yans_error_rate_model.html#ad48850540ef89d575189cf12b31d2b8d",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::YansErrorRateModel\l::GetFecBpskBer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_yans_error_rate_model.html#a635fbe095f71c4616de5918b1b5e3cc3",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::YansErrorRateModel\l::DoGetChunkSuccessRate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_yans_error_rate_model.html#af89a17618fe3ab8a80030a9ebd4aeab9",tooltip="A pure virtual method that must be implemented in the subclass."];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::YansErrorRateModel\l::GetFecQamBer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_yans_error_rate_model.html#ac38a323524a41b112e9774afa24241aa",tooltip=" "];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::YansErrorRateModel\l::CalculatePdOdd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_yans_error_rate_model.html#ab4a4e8bb55e82a30106412eb0a7ace25",tooltip=" "];
+  Node8 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,14 @@
+digraph "ns3::Hash::Example::Collider::GetName"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Hash::Example\l::Collider::GetName",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Hash::Example\l::Collider::Report",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_hash_1_1_example_1_1_collider.html#a929db69c06c7e30b9c6c761253fc696e",tooltip="Print the collisions found."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Hash::Example\l::Dictionary::TimeOne",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_hash_1_1_example_1_1_dictionary.html#a8fe654eb565edf08280d8d463a968b7d",tooltip="Time and report the execution of one hash across the entire Dictionary."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Hash::Example\l::Dictionary::Time",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_hash_1_1_example_1_1_dictionary.html#ae863340110d978b98e6608c15cf01d09",tooltip="Report the execution time of each hash across the entire Dictionary."];
+}

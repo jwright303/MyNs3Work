@@ -1,0 +1,16 @@
+digraph "ns3::PointToPointNetDevice::GetAddress"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::PointToPointNetDevice\l::GetAddress",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PointToPointNetDevice\l::Receive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_point_to_point_net_device.html#ac7d662e7083e3a522557fcfa502e4b5e",tooltip="Receive a packet from a connected PointToPointChannel."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::PointToPointNetDevice\l::DoMpiReceive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_point_to_point_net_device.html#adb881a073eaa215d5b8c8dc0434a0690",tooltip="Handler for MPI receive event."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::PointToPointHelper\l::Install",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_point_to_point_helper.html#aecfc3e7bc34a5fa9707b26df08ef913a",tooltip=" "];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::PointToPointChannel\l::TransmitStart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_point_to_point_channel.html#acd9d9779ceea4771ddb427c3949b25c3",tooltip="Transmit a packet over this channel."];
+}

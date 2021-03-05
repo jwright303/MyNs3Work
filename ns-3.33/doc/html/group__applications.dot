@@ -1,0 +1,21 @@
+digraph "Applications"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node3 [label="OnOffApplication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__onoff.html",tooltip="This traffic generator follows an On/Off pattern: after Application::StartApplication is called,..."];
+  Node4 [label="PacketSink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__packetsink.html",tooltip="This application was written to complement OnOffApplication, but it is more general so a PacketSink n..."];
+  Node7 [label="UdpEcho",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__udpecho.html",tooltip=" "];
+  Node5 [label="ThreeGppHttpClientServer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__http.html",tooltip="This traffic generator simulates web browsing traffic using the Hypertext Transfer Protocol (HTTP)."];
+  Node1 [label="Applications",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="This section documents the API of the ns-3 applications module."];
+  Node8 [label="applications module\l tests",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__applications-test.html",tooltip=" "];
+  Node2 [label="BulkSendApplication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__bulksend.html",tooltip="This traffic generator simply sends data as fast as possible up to MaxBytes or until the application ..."];
+  Node6 [label="UdpClientServer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__udpclientserver.html",tooltip=" "];
+  Node1->Node2 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node4 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node5 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node6 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node7 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node8 [shape=plaintext, dir="back", style="solid"];
+}

@@ -1,0 +1,21 @@
+digraph "ns3::PbbPacket::operator=="
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::PbbPacket::operator==",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Equality operator for PbbPacket."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PbbPacket::GetSequence\lNumber",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_packet.html#a86fc97337ab918fab8930ece39148d45",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::PbbPacket::HasSequence\lNumber",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_packet.html#a7a42b00f92e476df6233adf9e79a22f0",tooltip="Tests whether or not this packet has a sequence number."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::PbbPacket::GetVersion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_packet.html#ace43a373700370d1b9c1f936a8a2b112",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::PbbPacket::MessageBegin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_packet.html#a78d131c19a9179e3e48427ae35705dc1",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::PbbPacket::MessageEnd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_packet.html#a216fc11ab7b3cb96b5565f05b63b4e96",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::PbbPacket::MessageSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_packet.html#a340ed3cc838c21be2c4a1aea0300a459",tooltip=" "];
+}

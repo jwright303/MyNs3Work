@@ -1,0 +1,25 @@
+digraph "ns3::PbbPacket::MessageEnd"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::PbbPacket::MessageEnd",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PbbPacket::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_packet.html#a1cc7aa58c35baa9bd8b38aff921040ec",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="PbbTestCase::TestSerialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_pbb_test_case.html#af46a68e3ac1ac6a3acba3db64974cba8",tooltip="Serialization."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="PbbTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_pbb_test_case.html#a7e27e798743b0fee57106bdc3ff63a1c",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::PbbPacket::MessageClear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_packet.html#a0c357536a3169ffab04041772f0f2a57",tooltip="Removes all messages from this packet."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::PbbPacket::~PbbPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_packet.html#aea80aa94dc6d346658d32fba01205a9c",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::PbbPacket::operator==",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_packet.html#aff0876fae5fd7fd018709ec992208f26",tooltip="Equality operator for PbbPacket."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::PbbPacket::Print",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_packet.html#af1c29b6555f6a497dcb0a2788d5c36b5",tooltip="Pretty-prints the contents of this block."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::PbbPacket::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_packet.html#ae3ae2849a71abf2d4177b3bf1f99ecc8",tooltip="Serializes this packet into the specified buffer."];
+  Node9 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

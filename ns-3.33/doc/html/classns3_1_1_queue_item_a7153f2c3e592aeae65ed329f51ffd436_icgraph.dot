@@ -1,0 +1,40 @@
+digraph "ns3::QueueItem::GetPacket"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::QueueItem::GetPacket",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ArpQueueDiscItem\l::AddHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_arp_queue_disc_item.html#a7bf1c37bc6b9af40c9fe16bfb4a92fcc",tooltip="Add the header to the packet."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Ipv4QueueDiscItem\l::AddHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_queue_disc_item.html#a935709924d746dddbdc4d82e7a4a751d",tooltip="Add the header to the packet."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Ipv6QueueDiscItem\l::AddHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_queue_disc_item.html#a265d5b2e270107d4a243b0af10f01ac7",tooltip="Add the header to the packet."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="UdpSocketImplTest::\lGetPriority",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_udp_socket_impl_test.html#a62f83f508eb6ec572ecda6ab2e43b231",tooltip="Get the priority of the received packet."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="UdpSocketImplTest::\lDoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_udp_socket_impl_test.html#a186599e6487c7c550383f236042f3cd4",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::ArpQueueDiscItem\l::GetSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_arp_queue_disc_item.html#ab8c3e4fb3346ad36922ce8064b743391",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::Ipv4QueueDiscItem\l::GetSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_queue_disc_item.html#af11c3fad88002b415db7e83be1eeab3c",tooltip=" "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::Ipv6QueueDiscItem\l::GetSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_queue_disc_item.html#afb1461ba0b2a5897c6fff01b1da871dc",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::Ipv4QueueDiscItem\l::Hash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_queue_disc_item.html#a2d4861165ed0c6641a48407988d057b5",tooltip="Computes the hash of the packet's 5-tuple."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::Ipv6QueueDiscItem\l::Hash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_queue_disc_item.html#a6cd790774fdc7a2ab4a2379101030f1e",tooltip="Computes the hash of the packet's 5-tuple."];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::ArpQueueDiscItem\l::Print",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_arp_queue_disc_item.html#aac04182e719f4baaab45cf90a1d2848a",tooltip="Print the item contents."];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::Ipv4QueueDiscItem\l::Print",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_queue_disc_item.html#aa77c7a0e001de3e9eb68c270552aa835",tooltip="Print the item contents."];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::Ipv6QueueDiscItem\l::Print",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_queue_disc_item.html#acb5e115393928b61a42d23bf021b6ca5",tooltip="Print the item contents."];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::QueueItem::Print",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_item.html#a54e32cb7e04e404b55c209921a6a4984",tooltip="Print the item contents."];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::operator\<\<",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#ab62953d425e1cc0707cfed90a65300c2",tooltip="Stream insertion operator."];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::QueueDiscItem\l::Print",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc_item.html#a5688d2de9c0b588ba7210dbc899c6c2e",tooltip="Print the item contents."];
+}

@@ -1,0 +1,10 @@
+digraph "ns3::FlowProbe::AddPacketDropStats"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::FlowProbe::AddPacket\lDropStats",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Add a packet drop data to the flow stats."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::FlowMonitor::ReportDrop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_flow_monitor.html#af14d59ab4f3cc4f2b27601fca54cb7dd",tooltip="FlowProbe implementations are supposed to call this method to report that a known packet is being dro..."];
+}

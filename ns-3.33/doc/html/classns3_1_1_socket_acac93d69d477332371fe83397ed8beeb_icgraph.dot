@@ -1,0 +1,30 @@
+digraph "ns3::Socket::SetCloseCallbacks"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Socket::SetCloseCallbacks",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Detect socket recv() events such as graceful shutdown or error."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TcpGeneralTest\l::HandleAccept",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_general_test.html#a53bb4bcfcf8263d895a8f134d57d0865",tooltip="Handle an accept connection."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::TcpGeneralTest\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_general_test.html#a79f00453e60b95fcf8d22757593f5ed3",tooltip="Execute the tcp test."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ThreeGppHttpServer\l::NewConnectionCreatedCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_server.html#ada1cc6cd2df2e880efcc526f4441927a",tooltip="Invoked when a new connection has been established."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::ThreeGppHttpServer\l::StartApplication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_server.html#a544fd4b36563a365fbd7013dc88c3bf0",tooltip="Application specific startup code."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::ThreeGppHttpClient\l::NormalCloseCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_client.html#ad166b6240557f8c99765664676c5abd9",tooltip="Invoked when connection between m_socket and the web sever is terminated."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::ThreeGppHttpClient\l::OpenConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_client.html#af7baacf9ee03e8e47a1694bff146031f",tooltip="Initialize m_socket to connect to the destination web server at m_remoteServerAddress and m_remoteSer..."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::ThreeGppHttpClient\l::StartApplication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_client.html#a0fcfc1bf98f9570603572288324f2f89",tooltip="Application specific startup code."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::PacketSink::StartApplication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet_sink.html#a45449bbaa6fb20caed62418f029d79d6",tooltip="Application specific startup code."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::ThreeGppHttpServer\l::StopApplication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_server.html#a569b8e715248f9b305f67a581bd51628",tooltip="Application specific shutdown code."];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::ThreeGppHttpServer\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_server.html#a1c01eeb4275ba83b0c3e9ca5ae26a0ef",tooltip="Destructor implementation."];
+}

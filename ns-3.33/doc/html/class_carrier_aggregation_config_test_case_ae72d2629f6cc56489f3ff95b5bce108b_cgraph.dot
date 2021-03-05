@@ -1,0 +1,14 @@
+digraph "CarrierAggregationConfigTestCase::EquallySpacedCcs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="CarrierAggregationConfig\lTestCase::EquallySpacedCcs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Equally spaced component carriers function."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteSpectrumValueHelper\l::GetChannelBandwidth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_spectrum_value_helper.html#a6bcb6331ef0edfabeb16dea925e9a984",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LteSpectrumValueHelper\l::GetDownlinkCarrierBand",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_spectrum_value_helper.html#a46917f055699fdfbb0ad8195b1be154c",tooltip="Converts downlink EARFCN to corresponding LTE frequency band number."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::LteSpectrumValueHelper\l::GetUplinkCarrierBand",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_spectrum_value_helper.html#a434ead24a924f4416873789d0a93a43c",tooltip="Converts uplink EARFCN to corresponding LTE frequency band number."];
+}

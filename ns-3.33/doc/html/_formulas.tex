@@ -1,0 +1,549 @@
+\documentclass{article}
+\usepackage{ifthen}
+\usepackage{epsfig}
+\usepackage[utf8]{inputenc}
+% Packages requested by user
+\usepackage{amsmath}
+
+\usepackage{newunicodechar}
+  \newunicodechar{⁻}{${}^{-}$}% Superscript minus
+  \newunicodechar{²}{${}^{2}$}% Superscript two
+  \newunicodechar{³}{${}^{3}$}% Superscript three
+
+\pagestyle{empty}
+\begin{document}
+\[ E(collisions) = n - k + k (1 - 1/k)^n \]
+\pagebreak
+
+$ k $
+\pagebreak
+
+\begin{eqnarray*} E(c) &=& \frac{1}{k} \binom{n}{2} - \frac{1}{{{k^2}}} \binom{n}{3} + \frac{1}{{{k^3}}} \binom{n}{4} - \ldots \\ &=& \frac{1}{k} \binom{n}{2} \left[ {1 - \frac{{n - 2}}{{3k}} + \frac{{\left( {n - 2} \right) \left( {n - 3} \right)}}{{12{k^2}}} - \ldots } \right] \\ &=& \frac{1}{k} \binom{n}{2} \left\{ {1 - \frac{{n - 2}}{{3k}} \left[ {1 + \frac{{n - 3}}{{4k}} - \ldots } \right]} \right\} \end{eqnarray*}
+\pagebreak
+
+$[min, max)$
+\pagebreak
+
+$[min, max]$
+\pagebreak
+
+$x$
+\pagebreak
+
+$[min,max)$
+\pagebreak
+
+$y = max - x$
+\pagebreak
+
+$x' = min + y = min + (max - x)$
+\pagebreak
+
+\[ P(x) dx = \alpha e^{-\alpha x} dx, \quad x \in [0, +\infty) \]
+\pagebreak
+
+$[0, +\infty)$
+\pagebreak
+
+$ \alpha = \frac{1}{Mean} $
+\pagebreak
+
+\[ x = - 1/\alpha \log(u) \]
+\pagebreak
+
+$u$
+\pagebreak
+
+$[0,1)$
+\pagebreak
+
+$[0,b]$
+\pagebreak
+
+\[ P(x; b) dx = \alpha e^{-\alpha x} dx \quad x \in [0,b] \]
+\pagebreak
+
+$b$
+\pagebreak
+
+\[ <X: P(x; b)> = 1/\alpha - b/(e^{\alpha \, b} -1) \]
+\pagebreak
+
+\[ x' = - mean * \log(1 - u), \]
+\pagebreak
+
+$x_m$
+\pagebreak
+
+$+\infty$
+\pagebreak
+
+$ k \frac{x_m^k}{x^{k+1}}$
+\pagebreak
+
+$x_m > 0$
+\pagebreak
+
+$ k > 0$
+\pagebreak
+
+$ x_m $
+\pagebreak
+
+$ x_m = mean \frac{k-1}{k}, k > 1$
+\pagebreak
+
+$ \frac{k}{\lambda}\left(\frac{x}{\lambda}\right)^{k-1}e^{-\left(\frac{x}{\lambda}\right)^k} $
+\pagebreak
+
+$ \lambda > 0$
+\pagebreak
+
+$ mean = \lambda\Gamma\left(1+\frac{1}{k}\right) $
+\pagebreak
+
+$ \Gamma $
+\pagebreak
+
+$-\infty$
+\pagebreak
+
+$ \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{s\sigma^2}}$
+\pagebreak
+
+$ mean = \mu $
+\pagebreak
+
+$ variance = \sigma^2 $
+\pagebreak
+
+$mean-bound$
+\pagebreak
+
+$mean+bound$
+\pagebreak
+
+$ \frac{1}{x\sigma\sqrt{2\pi}} e^{-\frac{(ln(x) - \mu)^2}{2\sigma^2}}$
+\pagebreak
+
+$ mean = e^{\mu+\frac{\sigma^2}{2}} $
+\pagebreak
+
+$ variance = (e^{\sigma^2}-1)e^{2\mu+\sigma^2}$
+\pagebreak
+
+$ \mu $
+\pagebreak
+
+$ \sigma $
+\pagebreak
+
+$ \mu = ln(mean) - \frac{1}{2}ln\left(1+\frac{variance}{mean^2}\right)$
+\pagebreak
+
+$ \sigma = \sqrt{ln\left(1+\frac{variance}{mean^2}\right)}$
+\pagebreak
+
+$ x^{\alpha-1} \frac{e^{-\frac{x}{\beta}}}{\beta^\alpha \Gamma(\alpha)}$
+\pagebreak
+
+$ mean = \alpha\beta $
+\pagebreak
+
+$ variance = \alpha \beta^2$
+\pagebreak
+
+$ \frac{x^{k-1} e^{-\frac{x}{\lambda}}}{\lambda^k (k-1)!}$
+\pagebreak
+
+$ mean = k \lambda $
+\pagebreak
+
+$ variance = k \lambda^2$
+\pagebreak
+
+$ \alpha > 0 $
+\pagebreak
+
+$ N \in \{1,2,3 \dots\}$
+\pagebreak
+
+$ f(k; \alpha, N) = k^{-\alpha}/ H_{N,\alpha} $
+\pagebreak
+
+$ H_{N,\alpha} = \sum_{m=1}^N m^{-\alpha} $
+\pagebreak
+
+$ \alpha > 1 $
+\pagebreak
+
+$ f(k; \alpha) = k^{-\alpha}/\zeta(\alpha) $
+\pagebreak
+
+$ \zeta(\alpha) $
+\pagebreak
+
+$ \sum_{n=1}^\infty n^{-\alpha} ) $
+\pagebreak
+
+\[ x = \frac{scale}{u^{\frac{1}{shape}}} \]
+\pagebreak
+
+$x'$
+\pagebreak
+
+\[ x' = \frac{scale}{{(1 - u)}^{\frac{1}{shape}}} , \]
+\pagebreak
+
+\[ scale = mean * (shape - 1.0) / shape . \]
+\pagebreak
+
+\[ x = scale * {(-\log(u))}^{\frac{1}{shape}} \]
+\pagebreak
+
+$(1 - u$
+\pagebreak
+
+$1$
+\pagebreak
+
+\[ x' = scale * {(-\log(1 - u))}^{\frac{1}{shape}} , \]
+\pagebreak
+
+$u1$
+\pagebreak
+
+$u2$
+\pagebreak
+
+$x1$
+\pagebreak
+
+$x2$
+\pagebreak
+
+\begin{eqnarray*} v1 & = & 2 * u1 - 1 \\ v2 & = & 2 * u2 - 1 \\ w & = & v1 * v1 + v2 * v2 \\ y & = & \sqrt{\frac{-2 * \log(w)}{w}} \\ x1 & = & mean + v1 * y * \sqrt{variance} \\ x2 & = & mean + v2 * y * \sqrt{variance} . \end{eqnarray*}
+\pagebreak
+
+$(1 - u1$
+\pagebreak
+
+$(1 - u2$
+\pagebreak
+
+$x1'$
+\pagebreak
+
+$x2'$
+\pagebreak
+
+\begin{eqnarray*} v1' & = & 2 * (1 - u1) - 1 \\ v2' & = & 2 * (1 - u2) - 1 \\ w' & = & v1' * v1' + v2' * v2' \\ y' & = & \sqrt{\frac{-2 * \log(w')}{w'}} \\ x1' & = & mean + v1' * y' * \sqrt{variance} \\ x2' & = & mean + v2' * y' * \sqrt{variance} , \end{eqnarray*}
+\pagebreak
+
+\begin{eqnarray*} v1 & = & -1 + 2 * u1 \\ v2 & = & -1 + 2 * u2 \\ r2 & = & v1 * v1 + v2 * v2 \\ normal & = & v1 * \sqrt{\frac{-2.0 * \log{r2}}{r2}} \\ x & = & \exp{sigma * normal + mu} . \end{eqnarray*}
+\pagebreak
+
+\begin{eqnarray*} v1' & = & -1 + 2 * (1 - u1) \\ v2' & = & -1 + 2 * (1 - u2) \\ r2' & = & v1' * v1' + v2' * v2' \\ normal' & = & v1' * \sqrt{\frac{-2.0 * \log{r2'}}{r2'}} \\ x' & = & \exp{sigma * normal' + mu} . \end{eqnarray*}
+\pagebreak
+
+\[ x = - mean * \log(u) \]
+\pagebreak
+
+\[ x = \left\{ \begin{array}{rl} min + \sqrt{u * (max - min) * (mode - min)} &\mbox{ if $u <= (mode - min)/(max - min)$} \\ max - \sqrt{ (1 - u) * (max - min) * (max - mode) } &\mbox{ otherwise} \end{array} \right. \]
+\pagebreak
+
+\[ mode = 3.0 * mean - min - max . \]
+\pagebreak
+
+\[ x' = \left\{ \begin{array}{rl} min + \sqrt{(1 - u) * (max - min) * (mode - min)} &\mbox{ if $(1 - u) <= (mode - min)/(max - min)$} \\ max - \sqrt{ u * (max - min) * (max - mode) } &\mbox{ otherwise} \end{array} \right. \]
+\pagebreak
+
+\[ ratio = \frac{elapsed}{target interval)} \]
+\pagebreak
+
+$Jitter\left\{P_N\right\} = \left|Delay\left\{P_N\right\} - Delay\left\{P_{N-1}\right\}\right|$
+\pagebreak
+
+$in_flight = sentSize - leftOut + retrans$
+\pagebreak
+
+$leftOut = sacked_out + lost_out$
+\pagebreak
+
+$2 \pi$
+\pagebreak
+
+$\frac{1}{r^2}$
+\pagebreak
+
+$ D $
+\pagebreak
+
+$ z$
+\pagebreak
+
+$ (x,y,z) $
+\pagebreak
+
+$ \rho $
+\pagebreak
+
+$ S \subset D $
+\pagebreak
+
+$ \frac{|S|}{|D|} $
+\pagebreak
+
+$ z=\overline{Z} $
+\pagebreak
+
+$ \overline{Z} $
+\pagebreak
+
+\[ \alpha_n = \frac{2\pi n - \pi + \theta}{4M}, n=1,2, \ldots,M\]
+\pagebreak
+
+\[ X(t)=X_c(t) + j X_s(t)\]
+\pagebreak
+
+\[ X_c(t) = \frac{2}{\sqrt{M}}\sum_{n=1}^{M}\cos(\psi_n)\cos(\omega_d t\cos(\alpha_n)+\phi_n)\]
+\pagebreak
+
+\[ X_s(t) = \frac{2}{\sqrt{M}}\sum_{n=1}^{M}\sin(\psi_n)\cos(\omega_d t\cos(\alpha_n)+\phi_n)\]
+\pagebreak
+
+$\theta$
+\pagebreak
+
+$\phi$
+\pagebreak
+
+$\psi_n$
+\pagebreak
+
+$[-\pi, \pi)$
+\pagebreak
+
+$n$
+\pagebreak
+
+$Re=\cos(\psi_n), Im = i\sin(\psi_n)]$
+\pagebreak
+
+$\phi_n$
+\pagebreak
+
+$\omega_d \cos(\alpha_n)$
+\pagebreak
+
+$ \frac{P_r}{P_t} = \frac{A_r A_t}{d^2\lambda^2} $
+\pagebreak
+
+$ A_{isotr.} = \frac{\lambda^2}{4\pi} $
+\pagebreak
+
+$ \frac{P_r}{P_t} = \frac{\lambda^2}{(4 \pi d)^2} $
+\pagebreak
+
+$ P_r = \frac{P_t G_t G_r \lambda^2}{(4 \pi d)^2 L}$
+\pagebreak
+
+$ P_r $
+\pagebreak
+
+$ P_t $
+\pagebreak
+
+$ G_t $
+\pagebreak
+
+$ G_r $
+\pagebreak
+
+$ \lambda $
+\pagebreak
+
+$ d $
+\pagebreak
+
+$ L $
+\pagebreak
+
+$ \frac{C}{f} $
+\pagebreak
+
+$ C = 299792458$
+\pagebreak
+
+$ f $
+\pagebreak
+
+$ d > 3 \lambda $
+\pagebreak
+
+$ d < 3 \lambda $
+\pagebreak
+
+$ d = 0 $
+\pagebreak
+
+$ P_r > P_t $
+\pagebreak
+
+$ d < \lambda / 2 \sqrt{\pi} $
+\pagebreak
+
+$\lim_{d \to 0 } P_r = +\infty $
+\pagebreak
+
+$ d \to 0 $
+\pagebreak
+
+$ P_r = P_t $
+\pagebreak
+
+$ d <= \lambda / 2 \sqrt{\pi} $
+\pagebreak
+
+$ Pr = \frac{P_t * G_t * G_r * (H_t^2 * H_r^2)}{d^4 * L} $
+\pagebreak
+
+$ dCross = \frac{(4 * \pi * H_t * H_r)}{\lambda} $
+\pagebreak
+
+$ L = L_0 + 10 n log_{10}(\frac{d}{d_0})$
+\pagebreak
+
+$ n $
+\pagebreak
+
+$ d_0 $
+\pagebreak
+
+$ L_0 $
+\pagebreak
+
+\[ L = L_0 + 10 \cdot n_0 log_{10}(\frac{d}{d_0})\]
+\pagebreak
+
+\[ \underbrace{0 \cdots\cdots}_{=0} \underbrace{d_0 \cdots\cdots}_{n_0} \underbrace{d_1 \cdots\cdots}_{n_1} \underbrace{d_2 \cdots\cdots}_{n_2} \infty \]
+\pagebreak
+
+\[\displaystyle L = \begin{cases} 0 & d < d_0 \\ L_0 + 10 \cdot n_0 \log_{10}(\frac{d}{d_0}) & d_0 \leq d < d_1 \\ L_0 + 10 \cdot n_0 \log_{10}(\frac{d_1}{d_0}) + 10 \cdot n_1 \log_{10}(\frac{d}{d_1}) & d_1 \leq d < d_2 \\ L_0 + 10 \cdot n_0 \log_{10}(\frac{d_1}{d_0}) + 10 \cdot n_1 \log_{10}(\frac{d_2}{d_1}) + 10 \cdot n_2 \log_{10}(\frac{d}{d_2})& d_2 \leq d \end{cases}\]
+\pagebreak
+
+$ d_0, d_1, d_2 $
+\pagebreak
+
+$ n_0, n_1, n_2 $
+\pagebreak
+
+\[ p(x; m, \omega) = \frac{2 m^m}{\Gamma(m) \omega^m} x^{2m - 1} e^{-\frac{m}{\omega} x^2} \]
+\pagebreak
+
+$ m $
+\pagebreak
+
+$ \omega $
+\pagebreak
+
+\[ \underbrace{0 \cdots\cdots}_{m_0} \underbrace{d_1 \cdots\cdots}_{m_1} \underbrace{d_2 \cdots\cdots}_{m_2} \infty \]
+\pagebreak
+
+$ L = \frac{4 \pi * d * f}{C^2}$
+\pagebreak
+
+$ (((x1 + x2) * (x1 + x2 + 1))/2) + x2; $
+\pagebreak
+
+$ g: F \in {\sf R\hspace*{-0.9ex}\rule{0.15ex}{1.5ex}\hspace*{0.9ex}}^N \rightarrow {\sf R\hspace*{-0.9ex}\rule{0.15ex}{1.5ex}\hspace*{0.9ex}} $
+\pagebreak
+
+$ g(F) $
+\pagebreak
+
+$ F $
+\pagebreak
+
+$ F$
+\pagebreak
+
+$\int_F g(f) df $
+\pagebreak
+
+\[{\rm{rate, bandwidth}} = {\rm{kass}}\frac{{{\rm{m\_totalRate}}}}{{{\rm{m\_numRates}} + 1}}\]
+\pagebreak
+
+\[{f_{center}} = {\rm{fc}} + \frac{{ \pm {\rm{m\_totalRate}} \mp {\rm{rate}}}}{2}\]
+\pagebreak
+
+\[{\rm{kPa}} = {10^{\frac{{{\rm{dB}}}}{{10}}}}\]
+\pagebreak
+
+\[{\rm{dB}} = 10{\log _{10}}{\rm{kPa}}\]
+\pagebreak
+
+$ P_{tx} = 1.14 $
+\pagebreak
+
+$ P_{rx} = 0.94 $
+\pagebreak
+
+$ P_{idle} = 0.82 $
+\pagebreak
+
+$ P_{sleep} = 0.10 $
+\pagebreak
+
+$ I_{tx} = 0.380 $
+\pagebreak
+
+$ I_{rx} = 0.313 $
+\pagebreak
+
+$ I_{idle} = 0.273 $
+\pagebreak
+
+$ I_{sleep} = 0.033 $
+\pagebreak
+
+$ W_{tx} $
+\pagebreak
+
+$ W_{pa} $
+\pagebreak
+
+$ W_{idle} $
+\pagebreak
+
+$ \eta $
+\pagebreak
+
+$ \eta = \frac{P_{tx}}{W_{pa}} $
+\pagebreak
+
+$ P_{tx} $
+\pagebreak
+
+$ W_{pa} = \frac{P_{tx}}{\eta} $
+\pagebreak
+
+$ W_{tx} = \frac{P_{tx}}{\eta} + W_{idle} $
+\pagebreak
+
+$ V $
+\pagebreak
+
+$ I_{tx} = \frac{P_{tx}}{V \cdot \eta} + I_{idle} $
+\pagebreak
+
+$ I_{tx} $
+\pagebreak
+
+$ I_{idle} $
+\pagebreak
+
+$ \eta = \frac{P_{tx}}{(I_{tx}-I_{idle})\cdot V} $
+\pagebreak
+
+\end{document}

@@ -1,0 +1,55 @@
+digraph "ns3::MgtReassocRequestHeader"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::MgtReassocRequestHeader",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Implement the header for management frames of type reassociation request."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Header",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_header.html",tooltip="Protocol header serialization and deserialization."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Chunk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_chunk.html",tooltip="abstract base class for ns3::Header and ns3::Trailer"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ObjectBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html",tooltip="Anchor the ns-3 type and attribute system."];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_currentApAddr" ,fontname="Helvetica"];
+  Node5 [label="ns3::Mac48Address",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac48_address.html",tooltip="an EUI-48 address"];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_extendedCapability" ,fontname="Helvetica"];
+  Node6 [label="ns3::ExtendedCapabilities",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_extended_capabilities.html",tooltip="The Extended Capabilities Information Element."];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::WifiInformationElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_information_element.html",tooltip="Information element, as defined in 802.11-2007 standard."];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::SimpleRefCount\l\< WifiInformationElement \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ref_count.html",tooltip=" "];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::empty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1empty.html",tooltip="make Callback use a separate empty type"];
+  Node10 -> Node8 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< WifiInformationElement \>" ,fontname="Helvetica"];
+  Node10 [label="ns3::SimpleRefCount\l\< T, PARENT, DELETER \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ref_count.html",tooltip="A template-based reference counting class."];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_ssid" ,fontname="Helvetica"];
+  Node11 [label="ns3::Ssid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ssid.html",tooltip="The IEEE 802.11 SSID Information Element."];
+  Node7 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_rates" ,fontname="Helvetica"];
+  Node12 [label="ns3::SupportedRates",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_supported_rates.html",tooltip="The Supported Rates Information Element."];
+  Node7 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" extended" ,fontname="Helvetica"];
+  Node13 [label="ns3::ExtendedSupportedRatesIE",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_extended_supported_rates_i_e.html",tooltip="The Extended Supported Rates Information Element."];
+  Node7 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_supportedRates" ,fontname="Helvetica"];
+  Node14 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_capability" ,fontname="Helvetica"];
+  Node14 [label="ns3::CapabilityInformation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_capability_information.html",tooltip="Capability information."];
+  Node15 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_heCapability" ,fontname="Helvetica"];
+  Node15 [label="ns3::HeCapabilities",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_he_capabilities.html",tooltip="The IEEE 802.11ax HE Capabilities."];
+  Node7 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 -> Node15 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_rxBwMap\nm_txBwMap" ,fontname="Helvetica"];
+  Node16 [label="std::vector\< uint8_t \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node17 -> Node16 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< uint8_t \>" ,fontname="Helvetica"];
+  Node17 [label="std::vector\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node18 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node18 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node19 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_vhtCapability" ,fontname="Helvetica"];
+  Node19 [label="ns3::VhtCapabilities",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_vht_capabilities.html",tooltip="The IEEE 802.11ac VHT Capabilities."];
+  Node7 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_rxMcsMap\nm_txMcsMap" ,fontname="Helvetica"];
+  Node20 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_htCapability" ,fontname="Helvetica"];
+  Node20 [label="ns3::HtCapabilities",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ht_capabilities.html",tooltip="The HT Capabilities Information Element."];
+  Node7 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

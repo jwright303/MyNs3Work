@@ -1,0 +1,10 @@
+digraph "ns3::UanTransducerHd::RemoveArrival"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::UanTransducerHd\l::RemoveArrival",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Remove an entry from the arrival list."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::UanTransducerHd\l::Receive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_transducer_hd.html#ab0e2ca78a05c4495e8252f64e9906478",tooltip="Notify this object that a new packet has arrived at this nodes location."];
+}

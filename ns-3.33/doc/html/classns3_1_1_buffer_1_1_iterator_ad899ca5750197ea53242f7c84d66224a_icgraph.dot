@@ -1,0 +1,32 @@
+digraph "ns3::Buffer::Iterator::GetSize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Buffer::Iterator\l::GetSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Icmpv4Header::\lSerialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv4_header.html#a931d8112fd3d488c65eb431bccb10868",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Icmpv6Header::\lSerialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_header.html#a54f5a2d4fff941aa4d5ebf0ec763ff75",tooltip="Serialize the packet."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Icmpv6NS::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_n_s.html#aebc729af73f2c352fc876e76f4a5cab9",tooltip="Serialize the packet."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Icmpv6NA::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_n_a.html#af63511f282e7290b4368b77b869d739f",tooltip="Serialize the packet."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Icmpv6RA::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_r_a.html#aee1ae254556b10c1ffd1bdb1285ff579",tooltip="Serialize the packet."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Icmpv6RS::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_r_s.html#a6b87ce73e1dcccd598dd868997ec5541",tooltip="Serialize the packet."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::Icmpv6Redirection\l::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_redirection.html#a28c9d2bdfe60df3740a03a0f929f6390",tooltip="Serialize the packet."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::Icmpv6Echo::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_echo.html#a4ebf572a6d0ab57a65dae336411db10f",tooltip="Serialize the packet."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::Icmpv6DestinationUnreachable\l::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_destination_unreachable.html#a307bf24f77edc801fb0a95b117bf8e82",tooltip="Serialize the packet."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::Icmpv6TooBig::\lSerialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_too_big.html#a307333cbfa102c539c3fdc1a6fe3bc1f",tooltip="Serialize the packet."];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::Icmpv6TimeExceeded\l::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_time_exceeded.html#a7e1ed342c15e7b9e19f11e9013f03714",tooltip="Serialize the packet."];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::Icmpv6ParameterError\l::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_parameter_error.html#a771961103fda9722d83ebbea35461bd4",tooltip="Serialize the packet."];
+}

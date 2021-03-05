@@ -1,0 +1,13 @@
+digraph "ns3::LteEnbMac::NcRaPreambleInfo"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ns3::LteEnbMac::NcRaPreambleInfo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="info associated with a preamble allocated for non-contention based RA"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" expiryTime" ,fontname="Helvetica"];
+  Node2 [label="ns3::Time",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html",tooltip="Simulation virtual time values and global simulation resolution."];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" g_markingTimes" ,fontname="Helvetica"];
+  Node3 [label="std::set\< K \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" keys" ,fontname="Helvetica"];
+  Node4 [label="K",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

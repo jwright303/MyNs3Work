@@ -1,0 +1,24 @@
+digraph "ResetAllocatorHelperTestCase::DoRun"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ResetAllocatorHelperTest\lCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Ipv4AddressHelper\l::NewAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_address_helper.html#a9d6bc3cd8def204f9c253fce666b2edd",tooltip="Increment the IP address counter used to allocate IP addresses."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Ipv4AddressGenerator\l::AddAllocated",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_address_generator.html#aaf2a4f76afaf064183151f874019e2d6",tooltip="Add the Ipv4Address to the list of IPv4 entries."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::SimulationSingleton::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simulation_singleton.html#a35870bf2664aaa6e653ce99fb68fc8fc",tooltip="Get a pointer to the singleton instance."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Ipv4AddressHelper\l::NewNetwork",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_address_helper.html#a3277d133ef0d2669934a16a8206ba8e4",tooltip="Increment the network number and reset the IP address counter to the base value provided in the SetBa..."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Ipv4AddressHelper\l::SetBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_address_helper.html#acf7b16dd25bac67e00f5e25f90a9a035",tooltip="Set the base network number, network mask and base address."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Ipv4Address::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_address.html#a154da9b1ff6eb451dc4840613fe43e73",tooltip="Get the host-order 32-bit IP address."];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::Ipv4Mask::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_mask.html#af0e131a08c4b0c983e92568fd4b23712",tooltip="Get the host-order 32-bit IP mask."];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::Ipv4AddressHelper\l::NumAddressBits",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_address_helper.html#ae3d79b690cafb2540558fb9799597d86",tooltip="Returns the number of address bits (hostpart) for a given netmask."];
+}

@@ -1,0 +1,36 @@
+digraph "ns3::ThreeGppPropagationLossModel::GetTypeId"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::ThreeGppPropagation\lLossModel::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the type ID."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ThreeGppPropagation\lLossModel::GetChannelConditionModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_propagation_loss_model.html#a3623dee3dfc1ccf58c35316bf06c2ce8",tooltip="Returns the associated channel condition model."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ThreeGppPropagation\lLossModel::GetFrequency",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_propagation_loss_model.html#aa94791a61457a8c539ce2d00c1dc0a68",tooltip="Return the current central frequency."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::MakeBooleanAccessor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__attribute___boolean.html#ga96f46e6b949abfa2cb801d5d33d8bcc7",tooltip="Create an AttributeAccessor for a class data member, or a lone class get functor or set method."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::MakeBooleanChecker",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__attribute___boolean.html#ga0be9dca06b271bca59b2c135178e1c10",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::MakeDoubleAccessor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__attribute___double.html#gaef08ccdef7ff644dc39aa7b24a2f740f",tooltip="Create an AttributeAccessor for a class data member, or a lone class get functor or set method."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::MakePointerAccessor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__attribute___pointer.html#ga78da89439a8813ee28fb5311bcbb38ca",tooltip="Create an AttributeAccessor for a class data member, or a lone class get functor or set method."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::ThreeGppPropagation\lLossModel::SetChannelConditionModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_propagation_loss_model.html#a583c11b2814b3ab85ab911c41e9f1abb",tooltip="Set the channel condition model used to determine the channel state (e.g., the LOS/NLOS condition)"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::ThreeGppPropagation\lLossModel::SetFrequency",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_propagation_loss_model.html#aaeb0de1a420ce3a4ca0f78c7b9ea7b8d",tooltip="Set the central frequency of the model."];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$80211b_8c.html#ae7ffc1a8f84fa47a0812b2f2b9627132",tooltip=" "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::TypeId::SetParent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#abaaca67ab7d2471067e7c275df0f7309",tooltip="Set the parent TypeId."];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::Singleton\< IidManager\l \>::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_singleton.html#a80a2cd3c25a27ea72add7a9f7a141ffa",tooltip="Get a pointer to the singleton instance."];
+  Node11 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::TypeId::GetUid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#a429535085325d6f926724771446d9047",tooltip="Get the internal id of this TypeId."];
+  Node11 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::IidManager::SetParent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_iid_manager.html#a4042931260554c907699367b6811426f",tooltip="Set the parent of a type id."];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::IidManager::LookupInformation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_iid_manager.html#a84af06b798b21fa700469a3ac5f65f3f",tooltip="Retrieve the information record for a type."];
+}

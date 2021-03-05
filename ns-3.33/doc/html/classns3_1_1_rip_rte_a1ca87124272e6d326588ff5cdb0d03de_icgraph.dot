@@ -1,0 +1,40 @@
+digraph "ns3::RipRte::SetRouteMetric"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::RipRte::SetRouteMetric",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set the route metric."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Rip::DoSendRouteUpdate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rip.html#a106f73869862c38c070faec379542e05",tooltip="Send Routing Updates on all interfaces."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Rip::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rip.html#a622ec450ec78945f81986b64ce3dcbed",tooltip="Start protocol operation."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Rip::SendTriggeredRoute\lUpdate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rip.html#aee5d3efe6b4dbcd128018f49b981fd7c",tooltip="Send Triggered Routing Updates on all interfaces."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Rip::HandleResponses",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rip.html#afb817ee04f919351a35b466ea6d75c56",tooltip="Handle RIP responses."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Rip::Receive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rip.html#a49acadfb3b533118276481a0d231406e",tooltip="Receive RIP packets."];
+  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Rip::NotifyInterfaceUp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rip.html#a4c9095a4429399f342eb1bce3f20df59",tooltip=" "];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::Rip::SetIpv4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rip.html#abe2906af2196cf9fac033e6ccfde0423",tooltip=" "];
+  Node4 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::Rip::NotifyAddAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rip.html#a9ef274a74f46abf3c118d935d33f02fe",tooltip=" "];
+  Node4 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::Rip::NotifyInterfaceDown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rip.html#a10fb1463467f08556e7a3e75c98447bc",tooltip=" "];
+  Node10 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::Rip::NotifyRemoveAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rip.html#a63c4ba062a5805aef7887d7dca5d1ff9",tooltip=" "];
+  Node2 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::Rip::SendUnsolicited\lRouteUpdate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rip.html#aea59ff20475f09e1783bc37d5a8531c0",tooltip="Send Unsolicited Routing Updates on all interfaces."];
+  Node12 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::Rip::HandleRequests",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rip.html#a4094ed6c40c666f7567245eef2376fe9",tooltip="Handle RIP requests."];
+  Node13 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::Rip::SendRouteRequest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rip.html#a84c90e335d9b833b26f1a8e8e7fc2243",tooltip="Send Routing Request on all interfaces."];
+  Node14 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

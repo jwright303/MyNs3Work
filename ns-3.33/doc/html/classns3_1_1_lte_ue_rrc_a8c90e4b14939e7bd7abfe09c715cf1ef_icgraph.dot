@@ -1,0 +1,10 @@
+digraph "ns3::LteUeRrc::SaveUeMeasurements"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LteUeRrc::SaveUeMeasurements",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Keep the given measurement result as the latest measurement figures, to be utilised by UE RRC functio..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteUeRrc::DoReportUe\lMeasurements",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_rrc.html#a95f2a735a6762703344d1d829d7df5db",tooltip="Report UE measurements function."];
+}

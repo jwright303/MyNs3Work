@@ -1,0 +1,45 @@
+digraph "ns3::Time::Min"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Time::Min",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Minimum representable Time Not to be confused with Min(Time,Time)."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TcpCubic::CubicReset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_cubic.html#ad27735b7798af17915ad35602fbe996b",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::TcpCubic::Congestion\lStateSet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_cubic.html#ad7a054cf9c9ebe790d0c347afb1d5193",tooltip="Trigger events/calculations specific to a congestion state."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::TcpBic::GetSsThresh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_bic.html#aaec211ef4f1624860911aaf544ac9650",tooltip="Get the slow start threshold after a loss event."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::TcpCubic::GetSsThresh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_cubic.html#adced32f15c635759de55287319ce7936",tooltip="Get the slow start threshold after a loss event."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::TcpHtcp::GetSsThresh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_htcp.html#add36278610893b4eba23cf688f7779d8",tooltip="Get the slow start threshold after a loss event."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::TcpCubic::HystartReset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_cubic.html#a041ef065895769c50cfc02d39372d08d",tooltip="Reset HyStart parameters."];
+  Node7 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::TcpCubic::IncreaseWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_cubic.html#a34659bfac2129d0c100d96e8ce7b24cd",tooltip="Congestion avoidance algorithm implementation."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::TcpCubic::HystartUpdate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_cubic.html#ac32cb45bced2f370fe530e307414fb3b",tooltip="Update HyStart parameters."];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::TcpCubic::PktsAcked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_cubic.html#abcd72325d169bdd2a3858825aea8ca51",tooltip="Timing information on received ACK."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::MacLow::IsWithinSize\lAndTimeLimits",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac_low.html#a2dc2b39866b901f5baad7f45ec8484a9",tooltip="Check whether an MPDU of the given size, destined to the given receiver and belonging to the given TI..."];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::MakeTimeChecker",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__attribute___time.html#gafa973743589be9a3b857d842a1b3f3c8",tooltip="Helper to make an unbounded Time checker."];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::QosTxop::NotifyAccess\lGranted",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_qos_txop.html#a0d5a35b715d1c8415d5d95a5f0b2814c",tooltip="Notify the Txop that access has been granted."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::MacLow::StartTransmission",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac_low.html#aa477261c5209c13c66af9e2ae78b07e5",tooltip=" "];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::WaveMacLow::StartTransmission",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wave_mac_low.html#abf4a90e9984a73b24197706fb79118b1",tooltip=" "];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::TcpBic::Update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_bic.html#a900818048f6876e8b38f9d9b8257f631",tooltip="Bic window update after a new ack received."];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::TcpBic::IncreaseWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_bic.html#a9dbe81be07cbfc1cd16af03deb9ccc34",tooltip="Congestion avoidance algorithm implementation."];
+  Node1 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::TcpCubic::Update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_cubic.html#a1676df929585823efe488c35448c69e4",tooltip="Cubic window update after a new ack received."];
+  Node18 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,46 @@
+digraph "ns3::DoubleValue::Get"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::DoubleValue::Get",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="TcpIllinoisTest::Calculate\lAlpha",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_illinois_test.html#a268dc2c39fcfc617ad967b5762e4f235",tooltip="Calculate the TCP Illinois alpha param."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="TcpIllinoisTest::RecalcParam",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_illinois_test.html#a3f3db45f9efc88dd60146c6f3dd02be0",tooltip="Recalculate the internal TCP Illinois params."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TcpIllinoisTest::Increase\lWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_illinois_test.html#a4c31729e231aa7652ce8e221f8004d5a",tooltip="Increases the TCP window."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="TcpIllinoisTest::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_illinois_test.html#a496fabd3bdc6378fda2a552d7cc202c9",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="TcpIllinoisTest::CalculateBeta",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_illinois_test.html#aa20729ec761d54b2faba82f0db597d89",tooltip="Calculate the TCP Illinois beta param."];
+  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="RttEstimatorTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_rtt_estimator_test_case.html#a0f7b32f862450cf750923c9be8ec0918",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="TcpScalableDecrementTest\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_scalable_decrement_test.html#a1b770903f1998367eb686ec17fceb9bb",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="TcpBicDecrementTest\l::ExecuteTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_bic_decrement_test.html#ac43685ed144fb8439ad966e912d25248",tooltip="Execute the test."];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="TcpBicDecrementTest\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_bic_decrement_test.html#ac402ffc36b63361b8abd4935d043f48d",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::ThreeGppSpectrumPropagation\lLossModel::GetFrequency",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_spectrum_propagation_loss_model.html#a7fd6d03d76780faba5ec7ec650a26bf8",tooltip="Get the operating frequency."];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::ThreeGppSpectrumPropagation\lLossModel::CalcBeamformingGain",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_spectrum_propagation_loss_model.html#ae1baa4535502c719f5b2d9ad44689dbb",tooltip="Computes the beamforming gain and applies it to the tx PSD."];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::ThreeGppSpectrumPropagation\lLossModel::DoCalcRxPowerSpectralDensity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_spectrum_propagation_loss_model.html#af4115f4fb10701dabbd364be8b49e913",tooltip="Computes the received PSD."];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::TvSpectrumTransmitter\lHelper::InstallAdjacent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tv_spectrum_transmitter_helper.html#a671aa2a952822ecf3a74db1e7f643541",tooltip="Set up and start the TV Transmitter's transmission on the spectrum channel."];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::internal::MakeDouble\lChecker",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__attribute___double.html#gace03ae9f889a7a79d87e3a4352a37099",tooltip="Make a Double attribute checker with embedded numeric type name."];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::MakeDoubleChecker",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__attribute___double.html#ga61fb0db268a6e0ea9b34e6aa2599a8c0",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="VanetRoutingExperiment\l::SetConfigFromGlobals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_vanet_routing_experiment.html#ad5c3e299ed298366698f32684a84d4ec",tooltip="Set up configuration parameter from the global variables."];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="VanetRoutingExperiment\l::CommandSetup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_vanet_routing_experiment.html#a6faaa1c235b5a015a5896be6fe6e6903",tooltip="Run the simulation."];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="VanetRoutingExperiment\l::ParseCommandLineArguments",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_vanet_routing_experiment.html#a1a1c9edf653b9236fe159bc310e29634",tooltip="Process command line arguments."];
+}

@@ -1,0 +1,16 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ns3::GnuplotDataset\l::Data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_gnuplot_dataset_1_1_data.html",tooltip="Structure storing the data to plot."];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="ns3::Gnuplot2dDataset\l::Data2d",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_gnuplot2d_dataset_1_1_data2d.html",tooltip="Structure storing the data to for a 2D plot."];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Gnuplot2dFunction\l::Function2d",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_gnuplot2d_function_1_1_function2d.html",tooltip="Structure storing the function to be used for a 2D plot."];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Gnuplot3dDataset\l::Data3d",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_gnuplot3d_dataset_1_1_data3d.html",tooltip="Structure storing the data for a 3D plot."];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Gnuplot3dFunction\l::Function3d",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_gnuplot3d_function_1_1_function3d.html",tooltip="Structure storing the function to be used for a 3D plot."];
+}

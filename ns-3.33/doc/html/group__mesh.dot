@@ -1,0 +1,13 @@
+digraph "Mesh Device"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node1 [label="Mesh Device",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="MAC-layer mobile mesh networking."];
+  Node4 [label="mesh module tests",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__mesh-test.html",tooltip=" "];
+  Node3 [label="IEEE 802.11s draft",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__dot11s.html",tooltip="IEEE 802.11s (mesh) draft standard implementation."];
+  Node2 [label="FLAME",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__flame.html",tooltip="Forwarding LAyer for MEshing protocol."];
+  Node1->Node2 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node4 [shape=plaintext, dir="back", style="solid"];
+}

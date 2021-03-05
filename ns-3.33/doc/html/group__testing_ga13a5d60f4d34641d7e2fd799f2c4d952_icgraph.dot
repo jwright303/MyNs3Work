@@ -1,0 +1,18 @@
+digraph "ns3::TestDoubleIsEqual"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::TestDoubleIsEqual",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Compare two double precision floating point numbers and declare them equal if they are within some ep..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="WifiOfdmMaskSlopesTestCase\l::InterpolateAndAppendValues",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wifi_ofdm_mask_slopes_test_case.html#acbe332ce76cd976859d00a4849a7c3b2",tooltip="Interpolate PSD values for indexes between provided start and stop and append to provided vector."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="WifiOfdmMaskSlopesTestCase\l::WifiOfdmMaskSlopesTestCase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wifi_ofdm_mask_slopes_test_case.html#a5bde97fd6114ca487d0b279b360f2aa2",tooltip="Constructor."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TestInterBssConstantObss\lPdAlgo::NotifyPhyTxBegin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_inter_bss_constant_obss_pd_algo.html#a3b825fb84ce7277888b07529c3a7a3fd",tooltip="Notify Phy transmit begin."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="TestInterBssConstantObss\lPdAlgo::RunOne",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_inter_bss_constant_obss_pd_algo.html#a1d52c1dd60b72b32b4a87f6933d81992",tooltip="Run one function."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="TestInterBssConstantObss\lPdAlgo::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_inter_bss_constant_obss_pd_algo.html#afa56c796f4bf1e721232f43b672ba259",tooltip="Implementation to actually run this TestCase."];
+}

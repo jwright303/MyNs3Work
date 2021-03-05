@@ -1,0 +1,14 @@
+digraph "ns3::LteUePowerControl::CalculatePucchTxPower"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LteUePowerControl\l::CalculatePucchTxPower",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Calculate PUCCH transmit power function."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteUePowerControl\l::GetPucchTxPower",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_power_control.html#a8d592c40dcedb94e7db3978e7c876fa2",tooltip="Get PUCCH transmit power function."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LteUePhy::SubframeIndication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_phy.html#a65c18191859a190cbd880175e2ffeac3",tooltip="trigger from eNB the start from a new frame"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::LteUePhy::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_phy.html#a09daf3f8475e2e1c4639b552d5381d7a",tooltip="Initialize() implementation."];
+}

@@ -1,0 +1,18 @@
+digraph "ns3::TapFdNetDeviceHelper::TapFdNetDeviceHelper"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::TapFdNetDeviceHelper\l::TapFdNetDeviceHelper",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Construct a TapFdNetDeviceHelper."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Mac48Address::\lAllocate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac48_address.html#a203b53c035649c0d4881fa1115aa2cdb",tooltip="Allocate a new Mac48Address."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Ipv6Address::GetZero",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_address.html#a63a34bdb1505e05fbdd07d316d0bd7e6",tooltip="Get the 0 (::) Ipv6Address."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Ipv4Address::GetZero",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_address.html#aeeb1c76b35d4ab612fda7bc51e99c5db",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Ipv4Mask::GetZero",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_mask.html#ac2dda492011ede8350008d753d278998",tooltip=" "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Ipv4Mask::Ipv4Mask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_mask.html#a4f877fcb3423f63debab168c83213627",tooltip="Will initialize to a garbage value (0x66666666)"];
+}

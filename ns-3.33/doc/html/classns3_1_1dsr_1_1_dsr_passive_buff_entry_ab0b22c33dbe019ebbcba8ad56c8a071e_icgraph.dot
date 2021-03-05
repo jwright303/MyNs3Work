@@ -1,0 +1,12 @@
+digraph "ns3::dsr::DsrPassiveBuffEntry::GetFragmentOffset"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::dsr::DsrPassiveBuff\lEntry::GetFragmentOffset",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get fragment offset function."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::dsr::DsrPassiveBuffer\l::AllEqual",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dsr_1_1_dsr_passive_buffer.html#af87acdf99b1ff181b4ffc4376e32c1f6",tooltip="Check if all the entries in passive buffer entry is all equal or not."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::dsr::DsrPassiveBuffer\l::Enqueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dsr_1_1_dsr_passive_buffer.html#a18813680df0977c44e6901f79849d45d",tooltip="Push entry in queue, if there is no entry with the same packet and destination address in queue."];
+}

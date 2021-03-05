@@ -1,0 +1,13 @@
+digraph "Attributes"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node4 [label="EmptyAttribute Attribute",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__attribute___empty_attribute.html",tooltip="Attribute implementation for EmptyAttribute."];
+  Node3 [label="Attribute Helper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__attributehelper.html",tooltip="All these macros can be used to generate automatically the code for subclasses of AttributeValue,..."];
+  Node1 [label="Attributes",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="The ns-3 attribute system is the mechanism used in ns-3 to organize, document, and modify the values ..."];
+  Node2 [label="Core",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__core.html",tooltip="The \"core\" module contains:"];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node4 [shape=plaintext, label="ns3::EmptyAttributeValue", color="orange", dir="none", style="dashed"];
+}

@@ -1,0 +1,24 @@
+digraph "ns3::EnergySourceHelper::Install"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::EnergySourceHelper\l::Install",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="BatteryLifetimeTest\l::ConstantLoadTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_battery_lifetime_test.html#a5cfb6c588872035454feb525491b1d52",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="BasicEnergyDepletionTest\l::DepletionTestCase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_basic_energy_depletion_test.html#a933f0ff2e50a5dc64b4312619405a05a",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AcousticModemEnergyTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_acoustic_modem_energy_test_case.html#a80af809d98008abfde814665ff5a3257",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AcousticModemEnergyDepletion\lTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_acoustic_modem_energy_depletion_test_case.html#a36ddefb587ebfbbcbfe60d0bdbc4de91",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::EnergySourceHelper\l::Install",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_energy_source_helper.html#a146d6db13782c5803c9f7833d4eb1d9d",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::EnergySourceHelper\l::InstallAll",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_energy_source_helper.html#ac61da6dfac3f7d1c275b7a0441c745d2",tooltip="This function installs an EnergySource on all nodes in simulation."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="UanExperiment::SetupEnergy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_uan_experiment.html#af319534fe2e32a8cc18944b6b595af4c",tooltip="Set the UAN nodes energy."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="BatteryLifetimeTest\l::VariableLoadTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_battery_lifetime_test.html#aa6d0fb55387831f97d9834c47abfd669",tooltip=" "];
+}

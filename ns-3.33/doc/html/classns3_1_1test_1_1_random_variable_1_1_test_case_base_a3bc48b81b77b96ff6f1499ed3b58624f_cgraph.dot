@@ -1,0 +1,12 @@
+digraph "ns3::test::RandomVariable::TestCaseBase::ChiSquaredsAverage"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::test::RandomVariable\l::TestCaseBase::ChiSquaredsAverage",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Average the chi squared value over some number of runs, each run with a new instance of the random nu..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::test::RandomVariable\l::TestCaseBase::ChiSquaredTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1test_1_1_random_variable_1_1_test_case_base.html#a66108beea5570d70cdd1666df70d24c2",tooltip="Compute the chi square value from a random variable."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::test::RandomVariable\l::TestCaseBase::RngGeneratorBase\l::Create",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1test_1_1_random_variable_1_1_test_case_base_1_1_rng_generator_base.html#a3eea414a81f304d8815d6e8d39daaf2f",tooltip="Create a new instance of a random variable stream."];
+}

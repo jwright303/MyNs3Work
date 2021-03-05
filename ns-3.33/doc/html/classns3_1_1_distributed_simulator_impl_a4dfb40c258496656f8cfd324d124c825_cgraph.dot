@@ -1,0 +1,10 @@
+digraph "ns3::DistributedSimulatorImpl::Remove"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::DistributedSimulator\lImpl::Remove",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Remove an event from the event list."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::DistributedSimulator\lImpl::IsExpired",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_distributed_simulator_impl.html#a99fcdb00e5b24d44a88e444f77a4aaa1",tooltip="Check if an event has already run or been cancelled."];
+}

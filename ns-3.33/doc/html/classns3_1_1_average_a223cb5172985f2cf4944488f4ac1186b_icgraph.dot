@@ -1,0 +1,18 @@
+digraph "ns3::Average::Update"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Average::Update",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Add new sample."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="OneIntegerAverageTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_one_integer_average_test_case.html#a962250f65e253c4f61890b423f9b2e62",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="FiveIntegersAverageTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_five_integers_average_test_case.html#aab1153b04e5f0c96cbefe3b438ac1bd1",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="FiveDoublesAverageTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_five_doubles_average_test_case.html#aacfcb4f28de8cd6cca19268e9695704d",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::V4Ping::Receive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_v4_ping.html#a87c38673f7b4c568d114c2815ff2aa78",tooltip="Receive an ICMP Echo."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::V4Ping::StartApplication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_v4_ping.html#ac5176e135c81f0764bcd560c7fc71390",tooltip="Application specific startup code."];
+}

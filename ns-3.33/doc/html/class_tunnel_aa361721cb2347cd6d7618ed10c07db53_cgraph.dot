@@ -1,0 +1,20 @@
+digraph "Tunnel::N1SocketRecv"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Tunnel::N1SocketRecv",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::VirtualNetDevice\l::GetAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_virtual_net_device.html#a7d96724e77035477f7b3fa973551fc91",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::VirtualNetDevice\l::Receive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_virtual_net_device.html#a4e13d506dae86955be99116c23034e28",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Callback::IsNull",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_callback.html#a42eb007ca42c35b96daa497d6d42d5f2",tooltip="Check for null implementation."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Callback::DoPeekImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_callback.html#a82de10d58e899c61aec3867f9b1f2f33",tooltip=" "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::PeekPointer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#af2a7557fe9afdd98d8f6f8f6e412cf5a",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Socket::Recv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_socket.html#a8949b1f844aae563446f2f4c5be8827a",tooltip="Read data from the socket."];
+}

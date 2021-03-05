@@ -1,0 +1,10 @@
+digraph "ns3::Ipv6Route::GetGateway"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Ipv6Route::GetGateway",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get gateway address."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::operator\<\<",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#ac0e30a63769922a5a1782bc449414242",tooltip="Stream insertion operator."];
+}

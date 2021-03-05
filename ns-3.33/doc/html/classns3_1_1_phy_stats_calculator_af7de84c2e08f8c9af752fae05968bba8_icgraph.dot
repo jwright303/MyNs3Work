@@ -1,0 +1,10 @@
+digraph "ns3::PhyStatsCalculator::GetCurrentCellRsrpSinrFilename"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::PhyStatsCalculator\l::GetCurrentCellRsrpSinrFilename",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the name of the file where the RSRP/SINR statistics will be stored."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PhyStatsCalculator\l::ReportCurrentCellRsrpSinr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_phy_stats_calculator.html#a6ff3e80a9be864b92f7720808311e13d",tooltip="Notifies the stats calculator that an RSRP and SINR report has occurred."];
+}

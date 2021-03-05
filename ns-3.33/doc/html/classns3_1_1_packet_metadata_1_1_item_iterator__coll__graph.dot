@@ -1,0 +1,25 @@
+digraph "ns3::PacketMetadata::ItemIterator"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::PacketMetadata\l::ItemIterator",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Iterator class for metadata items."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_metadata" ,fontname="Helvetica"];
+  Node2 [label="ns3::PacketMetadata",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet_metadata.html",tooltip="Handle packet metadata about packet headers and trailers."];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_data" ,fontname="Helvetica"];
+  Node3 [label="ns3::PacketMetadata\l::Data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_packet_metadata_1_1_data.html",tooltip="Data structure."];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_freeList" ,fontname="Helvetica"];
+  Node4 [label="ns3::PacketMetadata\l::DataFreeList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet_metadata_1_1_data_free_list.html",tooltip="Class to hold all the metadata."];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="std::vector\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node6 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_buffer" ,fontname="Helvetica"];
+  Node7 [label="ns3::Buffer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer.html",tooltip="automatically resized byte buffer"];
+  Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_data" ,fontname="Helvetica"];
+  Node8 [label="ns3::Buffer::Data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_buffer_1_1_data.html",tooltip="This data structure is variable-sized through its last member whose size is determined at allocation ..."];
+  Node9 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" g_localStaticDestructor" ,fontname="Helvetica"];
+  Node9 [label="ns3::Buffer::LocalStatic\lDestructor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_buffer_1_1_local_static_destructor.html",tooltip="Local static destructor structure."];
+  Node5 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" g_freeList" ,fontname="Helvetica"];
+}

@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ns3::qos_rb_and_CQI\l_assigned_to_lc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1qos__rb__and___c_q_i__assigned__to__lc.html",tooltip="qos_rb_and_CQI_assigned_to_lc"];
+}

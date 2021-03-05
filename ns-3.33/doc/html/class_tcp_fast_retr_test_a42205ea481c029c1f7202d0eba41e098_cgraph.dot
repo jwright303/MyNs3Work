@@ -1,0 +1,18 @@
+digraph "TcpFastRetrTest::CreateReceiverErrorModel"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="TcpFastRetrTest::CreateReceiver\lErrorModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Create and return the error model to install in the receiver node."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TcpSeqErrorModel\l::AddSeqToKill",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_seq_error_model.html#a5c414ce6277ae9ff84decb83a0847386",tooltip="Add the sequence number to the list of segments to be killed."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::MakeCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#af1dde3c04374147fca0cfe3b0766d664",tooltip="Build Callbacks for class method members which take varying numbers of arguments and potentially retu..."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TcpFastRetrTest::PktDropped",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_fast_retr_test.html#ade4e22b563eb4de3c06f28691849078d",tooltip="Check if the packet being dropped is the right one."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::TcpHeader::GetSequence\lNumber",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_header.html#a378fca684de64584c4fcc7dd9034e5e5",tooltip="Get the sequence number."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::TcpGeneralErrorModel\l::SetDropCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_general_error_model.html#a812f8d0b0eaf4508efd44be00028673f",tooltip="Set the drop callback."];
+}

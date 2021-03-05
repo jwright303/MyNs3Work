@@ -1,0 +1,13 @@
+digraph "System Services"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node3 [label="Host Filesystem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__systempath.html",tooltip="Encapsulate OS-specific functions to manipulate file and directory paths."];
+  Node1 [label="System Services",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="System-independent interfaces to operating system services: files system, threading,..."];
+  Node4 [label="Threading and Signaling.",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__thread.html",tooltip="System-independent interfaces to threads, signal conditions, and mutex."];
+  Node2 [label="Core",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__core.html",tooltip="The \"core\" module contains:"];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node4 [shape=plaintext, dir="back", style="solid"];
+}

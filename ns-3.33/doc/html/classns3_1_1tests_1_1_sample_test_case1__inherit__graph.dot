@@ -1,0 +1,11 @@
+digraph "ns3::tests::SampleTestCase1"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ns3::tests::SampleTestCase1",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="This is an example TestCase."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TestCase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_test_case.html",tooltip="encapsulates test code"];
+  Node3 -> Node2 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::NonCopyable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_non_copyable.html",tooltip="A base class for (non-Singleton) objects which shouldn't be copied."];
+}

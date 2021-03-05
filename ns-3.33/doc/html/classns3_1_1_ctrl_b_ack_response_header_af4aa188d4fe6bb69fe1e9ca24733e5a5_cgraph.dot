@@ -1,0 +1,12 @@
+digraph "ns3::CtrlBAckResponseHeader::SetReceivedPacket"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::CtrlBAckResponseHeader\l::SetReceivedPacket",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set the bitmap that the packet with the given sequence number was received."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::CtrlBAckResponseHeader\l::IndexInBitmap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ctrl_b_ack_response_header.html#a3433826e7515c839bec3209c61f1f6af",tooltip="This function is used to correctly index in both bitmap and compressed bitmap, one bit or one block o..."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::CtrlBAckResponseHeader\l::IsInBitmap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ctrl_b_ack_response_header.html#a43c3236a78f754ab7a29d2f5da11a6e8",tooltip="Checks if sequence number seq can be acknowledged in the bitmap."];
+}

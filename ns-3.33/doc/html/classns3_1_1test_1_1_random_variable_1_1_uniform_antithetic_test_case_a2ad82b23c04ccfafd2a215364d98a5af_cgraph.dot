@@ -1,0 +1,10 @@
+digraph "ns3::test::RandomVariable::UniformAntitheticTestCase::ChiSquaredTest"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::test::RandomVariable\l::UniformAntitheticTestCase\l::ChiSquaredTest",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Compute the chi square value from a random variable."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::test::RandomVariable\l::TestCaseBase::ChiSquared",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1test_1_1_random_variable_1_1_test_case_base.html#a13cb7e6547f41f0d5dae706235f395cf",tooltip="Compute the chi squared value of a sampled distribution compared to the expected distribution."];
+}

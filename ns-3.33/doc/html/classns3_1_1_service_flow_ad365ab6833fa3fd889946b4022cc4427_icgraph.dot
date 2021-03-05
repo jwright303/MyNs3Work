@@ -1,0 +1,20 @@
+digraph "ns3::ServiceFlow::SetUnsolicitedPollingInterval"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::ServiceFlow::SetUnsolicited\lPollingInterval",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set unsolicited polling interval."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::BsServiceFlowManager\l::ProcessDsaReq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_bs_service_flow_manager.html#afba823b624d516de570c0c7a6312de2b",tooltip="process a DSA-Req message"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::BsServiceFlowManager\l::AllocateServiceFlows",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_bs_service_flow_manager.html#a2c9d6e3696af0e9bc15bcbe4089ab489",tooltip="allocate service flows"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::SsServiceFlowManager\l::ProcessDsaRsp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ss_service_flow_manager.html#a0d610f8ac8628def7125bfcf32e8b3c1",tooltip="Process DSA response."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::UplinkSchedulerMBQo\lS::SetupServiceFlow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_m_b_qo_s.html#aef30b9e41f2b8da83b467c6a8121b34d",tooltip="Setup service flow."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::UplinkSchedulerRtps\l::SetupServiceFlow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_rtps.html#ac44a9146c9928da245ebcf2c55a5c0d6",tooltip="Setup service flow function."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::UplinkSchedulerSimple\l::SetupServiceFlow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_simple.html#a88882b7e7a40a90dc2e9e7e1fb836004",tooltip="Setup service flow function."];
+}

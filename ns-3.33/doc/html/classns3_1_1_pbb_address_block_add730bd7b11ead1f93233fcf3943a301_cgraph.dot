@@ -1,0 +1,10 @@
+digraph "ns3::PbbAddressBlock::TlvPopBack"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::PbbAddressBlock\l::TlvPopBack",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Removes an address TLV from the back of this message."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PbbAddressTlvBlock\l::PopBack",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_address_tlv_block.html#a8c0104e3b1eb200cf7a6d210151743ca",tooltip="Removes an Address TLV from the back of this block."];
+}

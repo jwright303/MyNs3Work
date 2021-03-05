@@ -1,0 +1,12 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4025 [label="std::vector\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4025 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="ns3::ByteTagListDataFreeList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_byte_tag_list_data_free_list.html",tooltip="Container class for struct ByteTagListData."];
+  Node4025 -> Node4027 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4027 [label="ns3::PacketMetadata\l::DataFreeList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet_metadata_1_1_data_free_list.html",tooltip="Class to hold all the metadata."];
+}

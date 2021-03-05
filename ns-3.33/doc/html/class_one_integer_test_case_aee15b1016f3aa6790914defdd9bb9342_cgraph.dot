@@ -1,0 +1,26 @@
+digraph "OneIntegerTestCase::DoRun"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="OneIntegerTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::MinMaxAvgTotalCalculator\l::getCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_min_max_avg_total_calculator.html#a68e92f0bea0031e8f3266ab08c55fe09",tooltip="Returns the count."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::MinMaxAvgTotalCalculator\l::getMax",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_min_max_avg_total_calculator.html#aaa842364bae825759a622237027c2cdc",tooltip="Returns the maximum value."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::MinMaxAvgTotalCalculator\l::getMean",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_min_max_avg_total_calculator.html#a8bafc9b67d19e9ed94d5fd68e0772d46",tooltip="Returns the mean value."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::MinMaxAvgTotalCalculator\l::getMin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_min_max_avg_total_calculator.html#ac0e6f7d14862901bc0ff45fe213a72db",tooltip="Returns the minimum value."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::MinMaxAvgTotalCalculator\l::getSqrSum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_min_max_avg_total_calculator.html#a010ce11e76eca08e1dc75cc200ce72f8",tooltip="Returns the sum of squares."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::MinMaxAvgTotalCalculator\l::getStddev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_min_max_avg_total_calculator.html#a7b59847f08f1d74824836c5fb9326b97",tooltip="Returns the standard deviation."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::MinMaxAvgTotalCalculator\l::getSum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_min_max_avg_total_calculator.html#a729f6a00a65a98c05eeb569bed37a9d5",tooltip="Returns the sum."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::MinMaxAvgTotalCalculator\l::getVariance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_min_max_avg_total_calculator.html#aa25ec6231bbf9f144f3a44fd4b260c4e",tooltip="Returns the current variance."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::MinMaxAvgTotalCalculator\l::Update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_min_max_avg_total_calculator.html#acad1745a8441535648ae95c7037a96e1",tooltip="Updates all variables of MinMaxAvgTotalCalculator."];
+}

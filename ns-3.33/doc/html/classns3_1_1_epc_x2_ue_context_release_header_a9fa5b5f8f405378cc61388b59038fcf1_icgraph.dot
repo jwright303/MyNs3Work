@@ -1,0 +1,10 @@
+digraph "ns3::EpcX2UeContextReleaseHeader::GetSerializedSize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::EpcX2UeContextRelease\lHeader::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::EpcX2UeContextRelease\lHeader::Deserialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_epc_x2_ue_context_release_header.html#aeaf50d5f4b8d690c3199d59572fc2413",tooltip=" "];
+}

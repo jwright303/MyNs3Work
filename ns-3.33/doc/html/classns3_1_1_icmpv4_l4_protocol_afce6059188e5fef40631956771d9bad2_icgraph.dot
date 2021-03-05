@@ -1,0 +1,12 @@
+digraph "ns3::Icmpv4L4Protocol::Forward"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Icmpv4L4Protocol\l::Forward",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Forward the message to an L4 protocol."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Icmpv4L4Protocol\l::HandleDestUnreach",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv4_l4_protocol.html#aeed200f118290a87d0cb24ac1532f105",tooltip="Handles an incoming ICMP Destination Unreachable packet."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Icmpv4L4Protocol\l::HandleTimeExceeded",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv4_l4_protocol.html#ad1b58eb883e6072756f79aa4b6f87291",tooltip="Handles an incoming ICMP Time Exceeded packet."];
+}

@@ -1,0 +1,16 @@
+digraph "ns3::TimeSeriesAdaptor::TraceSinkUinteger8"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::TimeSeriesAdaptor\l::TraceSinkUinteger8",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Trace sink for receiving data from uint8_t valued trace sources."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::FileHelper::Connect\lProbeToAggregator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_file_helper.html#af67443ae87a58eeaa0536b38e9349a07",tooltip="Connects the probe to the aggregator."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::FileHelper::WriteProbe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_file_helper.html#a365494ad1ae02d54ac2e3a134a101d2b",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::GnuplotHelper\l::ConnectProbeToAggregator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_gnuplot_helper.html#ad80ba9cf7fe4c4c5fc9c165d7d04955d",tooltip="Connects the probe to the aggregator."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::GnuplotHelper\l::PlotProbe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_gnuplot_helper.html#a755eeb654e6d2c3ab3ab9674e21480f9",tooltip=" "];
+}

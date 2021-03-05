@@ -1,0 +1,12 @@
+digraph "ns3::SpectrumChannel::DoDispose"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::SpectrumChannel\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Destructor implementation."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::MultiModelSpectrumChannel\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_multi_model_spectrum_channel.html#a902e1511a357b33b76477086a2678eb5",tooltip="Destructor implementation."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SingleModelSpectrum\lChannel::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_single_model_spectrum_channel.html#a1b9f60fc0c1603443feb3b15a79ac825",tooltip="Destructor implementation."];
+}

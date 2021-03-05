@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ns3::dot11s::PeerManagement\lProtocolMac::PlinkFrameStart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1dot11s_1_1_peer_management_protocol_mac_1_1_plink_frame_start.html",tooltip="This structure keeps all fields in peer link management frame, which are not subclasses of WifiInform..."];
+}

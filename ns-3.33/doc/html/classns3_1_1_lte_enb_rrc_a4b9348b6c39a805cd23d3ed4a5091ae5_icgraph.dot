@@ -1,0 +1,16 @@
+digraph "ns3::LteEnbRrc::AddUeMeasReportConfig"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LteEnbRrc::AddUeMeas\lReportConfig",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Add a new UE measurement reporting configuration."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteEnbRrc::DoAddUeMeas\lReportConfigForAnr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_rrc.html#a7b8e08acbb8b335fe327a7c543f538f4",tooltip="Add UE measure report config for ANR function."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LteEnbRrc::DoAddUeMeas\lReportConfigForComponentCarrier",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_rrc.html#a77cfdc2976a0c4eb77707a4a313bcd35",tooltip="Add UE measure report config for component carrier function."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::LteEnbRrc::DoAddUeMeas\lReportConfigForFfr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_rrc.html#a2ab1702c7f51c4768a78d5a4d2a5eaf9",tooltip="Add UE measure report config for FFR function."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::LteEnbRrc::DoAddUeMeas\lReportConfigForHandover",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_rrc.html#a6d91ee7d614832f0a49b056e14cfda9a",tooltip="Add UE measure report config for handover function."];
+}

@@ -1,0 +1,14 @@
+digraph "ns3::MobilityHelper::AssignStreams"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::MobilityHelper\l::AssignStreams",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Assign a fixed random variable stream number to the random variables used by the mobility models (inc..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="RoutingExperiment::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_routing_experiment.html#a622c04e410004c2b738f0320ae1d16c2",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="VanetRoutingExperiment\l::SetupAdhocMobilityNodes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_vanet_routing_experiment.html#acf2df13ed0e08bde0c167bf12cd63bd9",tooltip="Set up the adhoc mobility nodes."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="VanetRoutingExperiment\l::ConfigureMobility",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_vanet_routing_experiment.html#a394091f55f6b83df2a1afdff23d1f3da",tooltip="Configure mobility."];
+}

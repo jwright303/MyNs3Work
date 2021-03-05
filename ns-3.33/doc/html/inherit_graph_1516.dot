@@ -1,0 +1,34 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ns3::WifiRemoteStation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_wifi_remote_station.html",tooltip="hold per-remote-station state."];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="ns3::AarfWifiRemoteStation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_aarf_wifi_remote_station.html",tooltip="hold per-remote-station state for AARF Wifi manager."];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::AarfcdWifiRemoteStation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_aarfcd_wifi_remote_station.html",tooltip="hold per-remote-station state for AARF-CD Wifi manager."];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::AmrrWifiRemoteStation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_amrr_wifi_remote_station.html",tooltip="hold per-remote-station state for AMRR Wifi manager."];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::AparfWifiRemoteStation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_aparf_wifi_remote_station.html",tooltip="Hold per-remote-station state for APARF Wifi manager."];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::ArfWifiRemoteStation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_arf_wifi_remote_station.html",tooltip="hold per-remote-station state for ARF Wifi manager."];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::CaraWifiRemoteStation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_cara_wifi_remote_station.html",tooltip="hold per-remote-station state for CARA Wifi manager."];
+  Node0 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::IdealWifiRemoteStation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_ideal_wifi_remote_station.html",tooltip="hold per-remote-station state for Ideal Wifi manager."];
+  Node0 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::MinstrelWifiRemoteStation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_minstrel_wifi_remote_station.html",tooltip="hold per-remote-station state for Minstrel Wifi manager."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::MinstrelHtWifiRemote\lStation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_minstrel_ht_wifi_remote_station.html",tooltip="MinstrelHtWifiRemoteStation structure."];
+  Node0 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::OnoeWifiRemoteStation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_onoe_wifi_remote_station.html",tooltip="hold per-remote-station state for ONOE Wifi manager."];
+  Node0 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::ParfWifiRemoteStation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_parf_wifi_remote_station.html",tooltip="Hold per-remote-station state for PARF Wifi manager."];
+  Node0 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::RraaWifiRemoteStation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_rraa_wifi_remote_station.html",tooltip="hold per-remote-station state for RRAA Wifi manager."];
+  Node0 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::RrpaaWifiRemoteStation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_rrpaa_wifi_remote_station.html",tooltip="Hold per-remote-station state for RRPAA Wifi manager."];
+}

@@ -1,0 +1,12 @@
+digraph "ns3::GtpcDeleteBearerRequestMessage::GetSerializedSize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::GtpcDeleteBearerRequest\lMessage::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::GtpcDeleteBearerRequest\lMessage::GetMessageSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_gtpc_delete_bearer_request_message.html#ab63e52e7747bac49c325c734514fb16a",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::GtpcHeader::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_gtpc_header.html#acf820088e6abfc572871e45a47ddc786",tooltip=" "];
+}

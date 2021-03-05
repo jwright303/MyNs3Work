@@ -1,0 +1,17 @@
+digraph "ns3::ApWifiMac::SetWifiRemoteStationManager"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::ApWifiMac::SetWifiRemote\lStationManager",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::InfrastructureWifiMac\l::GetPcfSupported",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_infrastructure_wifi_mac.html#a47ccbba3931e183c3b7cfe7777abb366",tooltip="Return whether the device supports PCF."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WifiRemoteStationManager\l::SetPcfSupported",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#ab6c7f9f02ac61b18d18316159dcdacbf",tooltip="Enable or disable PCF capability support."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Txop::SetWifiRemote\lStationManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_txop.html#ab09fd3520f361609a6eaaa629c0d3259",tooltip="Set WifiRemoteStationsManager this Txop is associated to."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::RegularWifiMac\l::SetWifiRemoteStationManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_regular_wifi_mac.html#a2519a6cbda45d3fd449d41c5f889d42b",tooltip=" "];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

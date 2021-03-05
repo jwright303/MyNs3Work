@@ -1,0 +1,10 @@
+digraph "ns3::olsr::PacketHeader::GetTypeId"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::olsr::PacketHeader\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the type ID."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::olsr::PacketHeader\l::GetInstanceTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1olsr_1_1_packet_header.html#a14021bfb6c553583ecb6e70d8461f747",tooltip="Get the most derived TypeId for this Object."];
+}

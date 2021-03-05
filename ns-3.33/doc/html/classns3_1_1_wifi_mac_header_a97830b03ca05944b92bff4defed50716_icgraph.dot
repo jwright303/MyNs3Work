@@ -1,0 +1,37 @@
+digraph "ns3::WifiMacHeader::IsBlockAckReq"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::WifiMacHeader\l::IsBlockAckReq",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Return true if the header is a BlockAckRequest header."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::MacLow::Deaggregate\lAmpduAndReceive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac_low.html#abac7baed9f0aaeb684e84f44819bce30",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::MacLow::SetPhy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac_low.html#abbd1aac31c7ed79f717b9c92cb664608",tooltip="Set up WifiPhy associated with this MacLow."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::GetTid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__wifi.html#ga92cc18e2c5aa6bed3728860bbad76ff8",tooltip="Extraction operator for TypeId."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::MpduAggregator\l::GetNextAmpdu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mpdu_aggregator.html#abe47e62b7e26e62857688bf2a1bf537b",tooltip="Attempt to aggregate other MPDUs to the given MPDU, while meeting the following constraints:"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::QosTxop::MissedAck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_qos_txop.html#aefd7967703c6f16501599e943f94298b",tooltip="Event handler when an Ack is missed."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AmpduAggregationTest\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ampdu_aggregation_test.html#a7414dc8d4dd982ab4c1eaadb5b2c693d",tooltip="Implementation to actually run this TestCase."];
+  Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::QosTxop::MissedBlockAck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_qos_txop.html#a53f04ba906e1b7c99f35eafbb11d4479",tooltip="Event handler when a BlockAck timeout has occurred."];
+  Node4 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::QosTxop::NeedFragmentation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_qos_txop.html#afdeff6e3cb6c8bb4b3e8291cc77bc631",tooltip="Check if the current packet should be fragmented."];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::QosTxop::NotifyAccess\lGranted",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_qos_txop.html#a0d5a35b715d1c8415d5d95a5f0b2814c",tooltip="Notify the Txop that access has been granted."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::QosTxop::NeedBarRetransmission",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_qos_txop.html#aefbf9b2a8f128be1c4b5f9c9adf3cfa5",tooltip="Check if BlockAckRequest should be re-transmitted."];
+  Node11 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::MacLow::ReceiveOk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac_low.html#a2fffa82ad11ebe0e113232813a816eff",tooltip=" "];
+  Node12 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="BlockAckAggregationDisabled\lTest::Transmit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_block_ack_aggregation_disabled_test.html#a999d650953e70b130be1b208d375b46a",tooltip="Callback invoked when PHY transmits a packet."];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="BlockAckAggregationDisabled\lTest::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_block_ack_aggregation_disabled_test.html#a8c9854ea317152d3c6bc9b83f981a21c",tooltip="Implementation to actually run this TestCase."];
+}

@@ -1,0 +1,10 @@
+digraph "ns3::WifiSpectrumPhyInterface::GetMobility"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::WifiSpectrumPhyInterface\l::GetMobility",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the associated MobilityModel instance."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WifiPhy::GetMobility",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#a1e4313ac3ed027007ccbf530b0d89703",tooltip="Return the mobility model this PHY is associated with."];
+}

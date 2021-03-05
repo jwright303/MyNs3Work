@@ -1,0 +1,11 @@
+digraph "animation module tests"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node1 [label="animation module tests",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 [label="Network Animation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__netanim.html",tooltip="This section documents the API of the ns-3 netanim module."];
+  Node3 [label="Test suites",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__tests.html",tooltip="All test suites."];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, label="AbstractAnimationInterface\lTestCase\nAnimationInterfaceTestCase\nAnimationInterfaceTestSuite\nAnimationRemainingEnergy\lTestCase", color="orange", dir="none", style="dashed"];
+}

@@ -1,0 +1,14 @@
+digraph "ns3::NullMessageSimulatorImpl::Schedule"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::NullMessageSimulator\lImpl::Schedule",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Schedule a future event execution (in the same context)."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::NullMessageSimulator\lImpl::GetContext",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_null_message_simulator_impl.html#ae09b6c54427c7b0a90c1bdd18012835e",tooltip="Get the current simulation context."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Time::GetTimeStep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a363390860dcce2d549b83b5fe3e08657",tooltip="Get the raw time value, in the current resolution unit."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Time::IsPositive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a4f51b65effdc06da17175290bbaca766",tooltip="Exactly equivalent to t >= 0."];
+}

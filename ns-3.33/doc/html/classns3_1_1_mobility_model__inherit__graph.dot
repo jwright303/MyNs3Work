@@ -1,0 +1,40 @@
+digraph "ns3::MobilityModel"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::MobilityModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Keep track of the current position and velocity of an object."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Object",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object.html",tooltip="A base class which provides memory management and object aggregation."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SimpleRefCount\l\< Object, ObjectBase,\l ObjectDeleter \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ref_count.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ObjectBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html",tooltip="Anchor the ns-3 type and attribute system."];
+  Node5 -> Node3 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Object, ObjectBase,\l ObjectDeleter \>" ,fontname="Helvetica"];
+  Node5 [label="ns3::SimpleRefCount\l\< T, PARENT, DELETER \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ref_count.html",tooltip="A template-based reference counting class."];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::empty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1empty.html",tooltip="make Callback use a separate empty type"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::ConstantAcceleration\lMobilityModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_constant_acceleration_mobility_model.html",tooltip="Mobility model for which the current acceleration does not change once it has been set and until it i..."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::ConstantPositionMobility\lModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_constant_position_mobility_model.html",tooltip="Mobility model for which the current position does not change once it has been set and until it is se..."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::ConstantVelocityMobility\lModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_constant_velocity_mobility_model.html",tooltip="Mobility model for which the current speed does not change once it has been set and until it is set a..."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::GaussMarkovMobility\lModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_gauss_markov_mobility_model.html",tooltip="Gauss-Markov mobility model."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::HierarchicalMobility\lModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_hierarchical_mobility_model.html",tooltip="Hierarchical mobility model."];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::RandomDirection2dMobility\lModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_direction2d_mobility_model.html",tooltip="Random direction mobility model."];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::RandomWalk2dMobility\lModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_mobility_model.html",tooltip="2D random walk mobility model."];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::RandomWalk2dOutdoor\lMobilityModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html",tooltip="2D random walk mobility model which avoids buildings."];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::RandomWaypointMobility\lModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_waypoint_mobility_model.html",tooltip="Random waypoint mobility model."];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::SteadyStateRandomWaypoint\lMobilityModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_steady_state_random_waypoint_mobility_model.html",tooltip="Steady-state random waypoint mobility model."];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::WaypointMobilityModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_waypoint_mobility_model.html",tooltip="Waypoint-based mobility model."];
+}

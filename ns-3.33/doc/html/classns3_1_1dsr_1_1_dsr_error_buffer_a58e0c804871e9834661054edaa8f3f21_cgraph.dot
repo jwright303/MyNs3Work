@@ -1,0 +1,17 @@
+digraph "ns3::dsr::DsrErrorBuffer::Dequeue"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::dsr::DsrErrorBuffer\l::Dequeue",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Return first found (the earliest) entry for given destination."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::dsr::DsrErrorBuffEntry\l::GetPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dsr_1_1_dsr_error_buff_entry.html#ab4316500f8a208d94bfd86cbeb3698f4",tooltip="Get packet from entry."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::dsr::DsrErrorBuffer\l::Purge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dsr_1_1_dsr_error_buffer.html#af17a503d0ee7256061f4b09b7518293e",tooltip="Remove all expired entries."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::dsr::DsrErrorBuffer\l::Drop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dsr_1_1_dsr_error_buffer.html#ae3d652471c13c24c6a333718c1b917a5",tooltip="Notify that packet is dropped from queue by timeout."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::dsr::DsrErrorBuffEntry\l::GetDestination",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dsr_1_1_dsr_error_buff_entry.html#ad94e26e169b0b6a0b42522785945f1cc",tooltip="Get destination address."];
+  Node4 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

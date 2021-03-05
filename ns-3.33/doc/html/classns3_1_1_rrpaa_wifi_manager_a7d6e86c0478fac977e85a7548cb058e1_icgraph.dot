@@ -1,0 +1,10 @@
+digraph "ns3::RrpaaWifiManager::RunAdaptiveRtsAlgorithm"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::RrpaaWifiManager\l::RunAdaptiveRtsAlgorithm",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Run an enhanced algorithm which activates the use of RTS for the given station if the conditions are ..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::RrpaaWifiManager\l::DoNeedRts",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrpaa_wifi_manager.html#a29c12382e12bf7841a2ebb0b69ec358f",tooltip=" "];
+}

@@ -1,0 +1,39 @@
+digraph "ns3::Channel::GetDevice"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Channel::GetDevice",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::GlobalRouter::\lAnotherRouterOnLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_router.html#aaca30a12cd905fdb6b02ac956bf32294",tooltip="Checks for the presence of another router on the NetDevice."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::GlobalRouter::\lProcessBridgedBroadcastLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_router.html#a7368716600989ea7d4bec67fa4f86e4c",tooltip="Process a bridged broadcast link."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::GlobalRouter::\lProcessBroadcastLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_router.html#af981be58153ef32690b434072cd3205b",tooltip="Process a generic broadcast link."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::GlobalRouter::\lDiscoverLSAs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_router.html#a44e135879879a27cd8d2566b5e9761cf",tooltip="Walk the connected channels, discover the adjacent routers and build the associated number of Global ..."];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::GlobalRouter::\lProcessSingleBroadcastLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_router.html#a16b0eecb167b84a7160c8903839a826f",tooltip="Process a single broadcast link."];
+  Node6 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::GlobalRouter::\lFindAllNonBridgedDevicesOnLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_router.html#a1ef6bb021637f6dd7b6109ad63316eb6",tooltip="Return a container of all non-bridged NetDevices on a link."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::GlobalRouter::\lBuildNetworkLSAs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_router.html#aff937ae50e8cc2de5a6e989cbe17609b",tooltip="Build one NetworkLSA for each net device talking to a network that we are the designated router for."];
+  Node8 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::GlobalRouter::\lFindDesignatedRouterForLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_router.html#a03599f842ce89bfc81fb61319cf08a88",tooltip="Finds a designated router."];
+  Node9 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::GlobalRouter::\lGetAdjacent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_router.html#ac82305cb3ff59cc645a957bdf4f99ded",tooltip="Link through the given channel and find the net device that's on the other end."];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::GlobalRouter::\lProcessPointToPointLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_router.html#adaf99c499d6e42e450a31b53a8019b14",tooltip="Process a point to point link."];
+  Node11 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::AnimationInterface\l::WriteLinkProperties",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_animation_interface.html#a458296bfceb6bd8b53b4c9bf38b5fdc7",tooltip="Write link properties function."];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::AnimationInterface\l::StartAnimation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_animation_interface.html#aed28bace6b97494e11179766449bb442",tooltip="Start animation function."];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::AnimationInterface\l::AnimationInterface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_animation_interface.html#a88af7da6eb605ec7e9d8cb3fcc8a6466",tooltip="Constructor."];
+}

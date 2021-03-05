@@ -1,0 +1,16 @@
+digraph "ns3::TagBuffer::WriteU64"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::TagBuffer::WriteU64",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="IPv4TestTag::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_i_pv4_test_tag.html#adab77bd88abded5f75d6dcc35d455413",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="IPv6TestTag::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_i_pv6_test_tag.html#a45c08477151265a0eed8d16c8fce71c5",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::AnimByteTag::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_anim_byte_tag.html#a3fc94a587c0da6e6cc27fc1137fe11ea",tooltip="Serialize function."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::DelayJitterEstimation\lTimestampTag::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_delay_jitter_estimation_timestamp_tag.html#aedf341c49799c61ab46136afadac56ee",tooltip=" "];
+}

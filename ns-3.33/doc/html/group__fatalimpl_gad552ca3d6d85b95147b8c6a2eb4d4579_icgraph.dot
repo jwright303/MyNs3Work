@@ -1,0 +1,14 @@
+digraph "ns3::FatalImpl::RegisterStream"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::FatalImpl::Register\lStream",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Register a stream to be flushed on abnormal exit."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::AsciiFile::AsciiFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ascii_file.html#a35b08cdb02eeddb719f6ab959f8bd117",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::OutputStreamWrapper\l::OutputStreamWrapper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_output_stream_wrapper.html#a5cfd62599f52939b4cda27c8078bb142",tooltip="Constructor."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::PcapFile::PcapFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pcap_file.html#a6bfa1cf38e6845f9d2e77e3c034ed90d",tooltip=" "];
+}

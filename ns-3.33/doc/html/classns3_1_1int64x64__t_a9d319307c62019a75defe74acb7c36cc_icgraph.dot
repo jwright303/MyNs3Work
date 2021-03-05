@@ -1,0 +1,12 @@
+digraph "ns3::int64x64_t::GetHighLow"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::int64x64_t::GetHighLow",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the high and low portions of this value."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::int64x64_t::GetHigh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1int64x64__t.html#a94b61a40bcecf4d3f079d19056712121",tooltip="Get the integer portion."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::int64x64_t::GetLow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1int64x64__t.html#aa2b93753116e40d92524eea656de6ec1",tooltip="Get the fractional portion of this value, unscaled."];
+}

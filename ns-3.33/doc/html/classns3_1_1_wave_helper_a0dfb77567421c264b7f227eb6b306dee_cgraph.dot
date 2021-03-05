@@ -1,0 +1,38 @@
+digraph "ns3::WaveHelper::AssignStreams"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::WaveHelper::AssignStreams",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Assign a fixed random variable stream number to the random variables used by the Phy and Mac aspects ..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Txop::AssignStreams",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_txop.html#a126f23a1b95b7e22840e1128f0457981",tooltip="Assign a fixed random variable stream number to the random variables used by this model."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::RandomVariableStream\l::SetStream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_variable_stream.html#add11aaf975607746b7e271d300659a94",tooltip="Specifies the stream number for the RngStream."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::RngSeedManager\l::GetNextStreamIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rng_seed_manager.html#ac109366285260eb4c1e124862d2fd4ad",tooltip="Get the next automatically assigned stream index."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::RngSeedManager\l::GetRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rng_seed_manager.html#afaf1b845d2523df05ca341a930de24b3",tooltip="Get the current run number."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::UintegerValue::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uinteger_value.html#a82f7ad2ff90cfebf9f6292bb6ace0a05",tooltip=" "];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::GlobalValue::GetValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_value.html#a48a99242193fb69609a17332733e8600",tooltip="Get the value."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::StringValue::Set",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_string_value.html#a17693012c6f2c52875e0d631fbf40155",tooltip="Set the value."];
+  Node3 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::RngSeedManager\l::GetSeed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rng_seed_manager.html#a09f2d185f02aac599cd5a244c4b73ba5",tooltip="Get the current seed value which will be used by all subsequently instantiated RandomVariableStream o..."];
+  Node9 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::NetDeviceContainer\l::Begin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_net_device_container.html#a4ddc336af319061f5b61c515f0453242",tooltip="Get an iterator which refers to the first NetDevice in the container."];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::NetDeviceContainer::End",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_net_device_container.html#a436d9df206570861f96c3f278eaccb92",tooltip="Get an iterator which indicates past-the-last NetDevice in the container."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::PointerValue::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pointer_value.html#a13334c3a4ada0f439bdad5190a0994c7",tooltip=" "];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::PeekPointer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#af2a7557fe9afdd98d8f6f8f6e412cf5a",tooltip=" "];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::WaveNetDevice\l::GetMacs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wave_net_device.html#a5a2c475b3778afec004b848b4f7b04af",tooltip=" "];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::WaveNetDevice\l::GetPhys",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wave_net_device.html#a4b7ca83701873649815e2d3f1c363d3f",tooltip=" "];
+}

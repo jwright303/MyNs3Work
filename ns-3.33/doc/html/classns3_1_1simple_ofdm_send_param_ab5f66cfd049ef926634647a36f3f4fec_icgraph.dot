@@ -1,0 +1,12 @@
+digraph "ns3::simpleOfdmSendParam::GetIsFirstBlock"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::simpleOfdmSendParam\l::GetIsFirstBlock",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::SimpleOfdmWimaxChannel\l::EndSendDummyBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ofdm_wimax_channel.html#a60993f1ebb709288fb631715c04e9012",tooltip="End send dummy block function."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SimpleOfdmWimaxChannel\l::Send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ofdm_wimax_channel.html#ac056bb3c46b4ecc56b4fe32fefd79bc6",tooltip="Sends a dummy fec block to all connected physical devices."];
+}

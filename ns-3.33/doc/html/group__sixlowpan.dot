@@ -1,0 +1,9 @@
+digraph "6LoWPAN"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node1 [label="6LoWPAN",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Performs 6LoWPAN compression of IPv6 packets as specified by RFC 4944 and RFC 6282"];
+  Node2 [label="6LoWPAN module tests",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__sixlowpan-test.html",tooltip=" "];
+  Node1->Node2 [shape=plaintext, dir="back", style="solid"];
+}

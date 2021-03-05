@@ -1,0 +1,10 @@
+digraph "TestCounter::PacketDad"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="TestCounter::PacketDad",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Update statistics after a packet has been dropped after dequeue."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="TestCounter::ConnectTraces",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_counter.html#ac9e999d7e72442d0cdfb432c15a73cb3",tooltip="Connect private methods to the queue disc traces."];
+}

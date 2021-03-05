@@ -1,0 +1,14 @@
+digraph "ns3::PbbAddressTlvBlock::Empty"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::PbbAddressTlvBlock\l::Empty",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PbbAddressTlvBlock\l::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_address_tlv_block.html#a1aa28358ec0e6e4e9850b62aa18337a9",tooltip="Serializes this block into the specified buffer."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::PbbAddressBlock\l::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_address_block.html#a377f271eaac72b6755b25842e13badc5",tooltip="Serializes this address block into the specified buffer."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::PbbAddressBlock\l::TlvEmpty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_address_block.html#ab84c07c404b9125ddc0616602c437532",tooltip=" "];
+}

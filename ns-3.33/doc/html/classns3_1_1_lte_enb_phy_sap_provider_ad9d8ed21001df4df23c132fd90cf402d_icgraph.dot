@@ -1,0 +1,14 @@
+digraph "ns3::LteEnbPhySapProvider::SendMacPdu"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LteEnbPhySapProvider\l::SendMacPdu",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Send the MAC PDU to the channel."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteEnbMac::DoSchedDl\lConfigInd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_mac.html#a0a3fe07d4ba3040fcb480fd99f24cda8",tooltip="Sched DL Config Indication function."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::EnbMacMemberFfMacSched\lSapUser::SchedDlConfigInd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_enb_mac_member_ff_mac_sched_sap_user.html#a9fcfa51c58c86fcea64fc77f91037033",tooltip="SCHED_DL_CONFIG_IND."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::LteEnbMac::DoTransmitPdu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_mac.html#a5fef79e565ca07f4873cdfbfc9c601f1",tooltip="Transmit PDU function."];
+}

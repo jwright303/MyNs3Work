@@ -1,0 +1,25 @@
+digraph "ns3::RateErrorModel::DoCorrupt"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::RateErrorModel\l::DoCorrupt",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Corrupt a packet according to the specified model."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::RateErrorModel\l::DoCorruptBit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rate_error_model.html#a65d704998438f8c198be4c15e7a9bc46",tooltip="Corrupt a packet (bit unit)."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Packet::GetSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet.html#afff7cb1ff518ee6dc0d424e10a5ad6ec",tooltip="Returns the the size in bytes of the packet (including the zero-filled initial payload)."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Buffer::GetSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer.html#a60c9172d2b102f8856c81b2126c8b209",tooltip=" "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::RandomVariableStream\l::GetValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_variable_stream.html#a4fa5944dc4cb11544e661ed23072b36c",tooltip="Get the next random value as a double drawn from the distribution."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::RateErrorModel\l::DoCorruptByte",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rate_error_model.html#a03b00d269dc17f67f3644e72117759b3",tooltip="Corrupt a packet (Byte unit)."];
+  Node6 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::RateErrorModel\l::DoCorruptPkt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rate_error_model.html#ace84870b1dbda5d1e4b79f15975b2eaa",tooltip="Corrupt a packet (packet unit)."];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::ErrorModel::IsEnabled",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_error_model.html#a349f92d8ea3a22711416bd8cf970a127",tooltip=" "];
+}

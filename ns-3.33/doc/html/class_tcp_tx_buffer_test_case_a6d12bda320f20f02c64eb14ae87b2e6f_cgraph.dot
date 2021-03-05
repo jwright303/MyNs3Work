@@ -1,0 +1,12 @@
+digraph "TcpTxBufferTestCase::TestIsLost"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="TcpTxBufferTestCase\l::TestIsLost",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Test if a segment is really set as lost."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="TcpTxBufferTestCase\l::GetRWnd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_tx_buffer_test_case.html#a5320c9fa922a6ae7ef7aabf725ef310c",tooltip="Callback to provide a value of receiver window."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::MakeCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#af1dde3c04374147fca0cfe3b0766d664",tooltip="Build Callbacks for class method members which take varying numbers of arguments and potentially retu..."];
+}

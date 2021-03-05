@@ -1,0 +1,12 @@
+digraph "ns3::Ipv6RoutingHelper::PrintNdiscCacheEvery"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Ipv6RoutingHelper\l::PrintNdiscCacheEvery",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="prints the neighbor cache of a node at regular intervals specified by user."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Ipv6RoutingHelper\l::PrintNeighborCacheAllEvery",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_routing_helper.html#a4dbf7819d87e2ce1f5a225999ae70151",tooltip="prints the neighbor cache of all nodes at regular intervals specified by user."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Ipv6RoutingHelper\l::PrintNeighborCacheEvery",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_routing_helper.html#a7d9cde29ea0b34f7f17aa911103466e0",tooltip="prints the neighbor cache of a node at regular intervals specified by user."];
+}

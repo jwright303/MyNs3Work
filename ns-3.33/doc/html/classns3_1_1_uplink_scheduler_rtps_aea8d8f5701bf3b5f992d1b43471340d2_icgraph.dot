@@ -1,0 +1,21 @@
+digraph "ns3::UplinkSchedulerRtps::AddUplinkAllocation"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::UplinkSchedulerRtps\l::AddUplinkAllocation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Add Uplink Allocation function."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::UplinkSchedulerRtps\l::AllocateInitialRangingInterval",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_rtps.html#adc340ccabe8e7dcaec455bdfd111d632",tooltip="Allocate Initial Ranging Interval function."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::UplinkSchedulerRtps\l::Schedule",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_rtps.html#a3863d85ca853d4b8b1033a38d0ff9dcd",tooltip="Schedule function."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::UplinkSchedulerRtps\l::ServiceBandwidthRequests",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_rtps.html#a0aa40f551a0bf51ca2197ff85190f572",tooltip="Service bandwidth requests function."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::UplinkSchedulerRtps\l::ServiceUnsolicitedGrants",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_rtps.html#ab101ce69266831aad941b4c553d82026",tooltip="Service Unsolicited Grants function."];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::UplinkSchedulerRtps\l::ULSchedulerRTPSConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_rtps.html#aee60dd2773cd1404f6efe04373b567ea",tooltip="Uplink Scheduler for rtPS connections."];
+  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

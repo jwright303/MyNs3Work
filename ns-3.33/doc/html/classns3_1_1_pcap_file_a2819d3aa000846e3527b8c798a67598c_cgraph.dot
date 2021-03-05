@@ -1,0 +1,21 @@
+digraph "ns3::PcapFile::Diff"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::PcapFile::Diff",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Compare two PCAP files packet-by-packet."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PcapFile::Eof",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pcap_file.html#ad194fda01c3c377789d8e0eac755b8e9",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::PcapFile::Fail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pcap_file.html#aa06785d3a5d9ad89199e95b11ddd9139",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::PcapFile::Open",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pcap_file.html#a064e8494e28e823d0bb4e40549f9f483",tooltip="Create a new pcap file or open an existing pcap file."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::PcapFile::ReadAndVerify\lFileHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pcap_file.html#aa73a9f58350e911c34bdac1071e60e10",tooltip="Read and verify a Pcap file header."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::PcapFile::Swap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pcap_file.html#af5adf22a721473f1add1e002492f5587",tooltip="Swap a value byte order."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::PcapFile::Read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pcap_file.html#a18c5045735408fe45a8cbc9e6b34a4fb",tooltip="Read next packet from file."];
+  Node7 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

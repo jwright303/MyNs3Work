@@ -1,0 +1,15 @@
+digraph "ns3::Buffer"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ns3::Buffer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="automatically resized byte buffer"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_data" ,fontname="Helvetica"];
+  Node2 [label="ns3::Buffer::Data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_buffer_1_1_data.html",tooltip="This data structure is variable-sized through its last member whose size is determined at allocation ..."];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" g_localStaticDestructor" ,fontname="Helvetica"];
+  Node3 [label="ns3::Buffer::LocalStatic\lDestructor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_buffer_1_1_local_static_destructor.html",tooltip="Local static destructor structure."];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" g_freeList" ,fontname="Helvetica"];
+  Node4 [label="std::vector\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node5 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

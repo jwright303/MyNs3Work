@@ -1,0 +1,12 @@
+digraph "ns3::WifiRemoteStationManager::GetVhtSupported"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::WifiRemoteStationManager\l::GetVhtSupported",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Return whether the device has VHT capability support enabled."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WifiPhy::GetDevice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#adf2fa40dcba4e52e9bc67c6ffc819170",tooltip="Return the device this PHY is associated with."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WifiNetDevice\l::GetVhtConfiguration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_net_device.html#aab971061bafb69989fa3873cb1c36eca",tooltip=" "];
+}

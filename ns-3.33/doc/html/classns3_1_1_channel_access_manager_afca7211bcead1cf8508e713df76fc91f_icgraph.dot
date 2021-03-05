@@ -1,0 +1,10 @@
+digraph "ns3::ChannelAccessManager::NotifyRxEndErrorNow"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::ChannelAccessManager\l::NotifyRxEndErrorNow",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Notify the Txop that a packet reception was just completed unsuccessfully."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PhyListener::Notify\lRxEndError",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_phy_listener.html#a07ac53b0d59ce22b0ef6368ebac1da94",tooltip="We have received the last bit of a packet for which NotifyRxStart was invoked first and,..."];
+}

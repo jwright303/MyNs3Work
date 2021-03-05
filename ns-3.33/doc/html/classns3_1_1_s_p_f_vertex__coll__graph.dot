@@ -1,0 +1,35 @@
+digraph "ns3::SPFVertex"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::SPFVertex",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Vertex used in shortest path first (SPF) computations."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_lsa" ,fontname="Helvetica"];
+  Node2 [label="ns3::GlobalRoutingLSA",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_routing_l_s_a.html",tooltip="a Link State Advertisement (LSA) for a router, used in global routing."];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_networkLSANetworkMask" ,fontname="Helvetica"];
+  Node3 [label="ns3::Ipv4Mask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_mask.html",tooltip="a class to represent an Ipv4 address mask"];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_advertisingRtr\nm_linkStateId" ,fontname="Helvetica"];
+  Node4 [label="ns3::Ipv4Address",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_address.html",tooltip="Ipv4 addresses are stored in host order in this class."];
+  Node5 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_linkRecords" ,fontname="Helvetica"];
+  Node5 [label="std::list\< GlobalRouting\lLinkRecord * \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node6 [label="ns3::GlobalRoutingLinkRecord",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_routing_link_record.html",tooltip="A single link record for a link state advertisement."];
+  Node4 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_linkData\nm_linkId" ,fontname="Helvetica"];
+  Node7 -> Node5 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< GlobalRoutingLinkRecord * \>" ,fontname="Helvetica"];
+  Node7 [label="std::list\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node8 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node9 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_attachedRouters" ,fontname="Helvetica"];
+  Node9 [label="std::list\< Ipv4Address \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node7 -> Node9 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Ipv4Address \>" ,fontname="Helvetica"];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_nextHop\nm_vertexId" ,fontname="Helvetica"];
+  Node10 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_ecmpRootExits" ,fontname="Helvetica"];
+  Node10 [label="std::list\< NodeExit_t \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node10 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< NodeExit_t \>" ,fontname="Helvetica"];
+  Node11 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_children\nm_parents" ,fontname="Helvetica"];
+  Node11 [label="std::list\< SPFVertex * \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node1 -> Node11 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node7 -> Node11 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< SPFVertex * \>" ,fontname="Helvetica"];
+}

@@ -1,0 +1,10 @@
+digraph "ns3::SinkTracer::GetWorldRank"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::SinkTracer::GetWorldRank",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the MPI rank in the world communicator."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ReportRank",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$simple-distributed-mpi-comm_8cc.html#a3a47cf32c558fa12a532873bb8a1abf8",tooltip="Report my rank, in both MPI_COMM_WORLD and the split communicator."];
+}

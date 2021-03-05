@@ -1,0 +1,19 @@
+digraph "Socket"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node1 [label="Socket",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 [label="Network",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__network.html",tooltip="This section documents the API of the ns-3 network module."];
+  Node6 [label="TCP",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__tcp.html",tooltip="This is an implementation of various Transmission Control Protocol flavors."];
+  Node7 [label="UDP",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__udp.html",tooltip="This is an implementation of the User Datagram Protocol described in RFC 768."];
+  Node3 [label="IPv4 classes and sub\l-modules",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__ipv4.html",tooltip=" "];
+  Node4 [label="IPv6 classes and sub\l-modules",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__ipv6.html",tooltip=" "];
+  Node5 [label="NscTcp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__nsctcp.html",tooltip="An alternate implementation of TCP for ns-3 is provided by the Network Simulation Cradle (NSC) projec..."];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, label="ns3::Ipv4RawSocketFactory\nns3::Ipv4RawSocketFactoryImpl\nns3::Ipv4RawSocketImpl", color="orange", dir="none", style="dashed"];
+  Node1->Node4 [shape=plaintext, label="ns3::Ipv6RawSocketFactory\nns3::Ipv6RawSocketFactoryImpl\nns3::Ipv6RawSocketImpl", color="orange", dir="none", style="dashed"];
+  Node1->Node5 [shape=plaintext, label="ns3::NscTcpSocketImpl", color="orange", dir="none", style="dashed"];
+  Node1->Node6 [shape=plaintext, label="ns3::TcpSocket\nns3::TcpSocketBase\nns3::TcpSocketFactory\nns3::TcpSocketFactoryImpl", color="orange", dir="none", style="dashed"];
+  Node1->Node7 [shape=plaintext, label="ns3::UdpSocket\nns3::UdpSocketFactory\nns3::UdpSocketFactoryImpl\nns3::UdpSocketImpl", color="orange", dir="none", style="dashed"];
+}

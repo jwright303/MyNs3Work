@@ -1,0 +1,12 @@
+digraph "MRG32k3a::MatMatModM"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="MRG32k3a::MatMatModM",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Compute the matrix C = A*B MOD m."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MRG32k3a::MatPowModM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_m_r_g32k3a.html#a88d8e88350ef00f157c96d7db0e972eb",tooltip="Compute the matrix B = (A^n Mod m); works even if A = B."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MRG32k3a::MatTwoPowModM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_m_r_g32k3a.html#aa0b977645894cb161ccbb74322f1bbdb",tooltip="Compute the matrix B = (A^(2^e) Mod m); works also if A = B."];
+}

@@ -1,0 +1,10 @@
+digraph "ns3::ThreeGppV2vUrbanChannelConditionModel::ComputePlos"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::ThreeGppV2vUrbanChannel\lConditionModel::ComputePlos",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Compute the LOS probability as specified in Table Table 6.2-1 of 3GPP TR 37.885 for the V2V Urban sce..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ThreeGppChannelCondition\lModel::Calculate2dDistance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_channel_condition_model.html#a686cb1a30e1841d91dd7fb1f8756d8db",tooltip="Computes the 2D distance between two 3D vectors."];
+}

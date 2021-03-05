@@ -1,0 +1,10 @@
+digraph "ns3::WifiPhy::GetHtPhyHeaderMode"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::WifiPhy::GetHtPhyHeaderMode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::InterferenceHelper\l::CalculateHtPhyHeaderPer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_interference_helper.html#a406607dc15ef678c987d02aaafab733f",tooltip="Calculate the error rate of the HT PHY header."];
+}

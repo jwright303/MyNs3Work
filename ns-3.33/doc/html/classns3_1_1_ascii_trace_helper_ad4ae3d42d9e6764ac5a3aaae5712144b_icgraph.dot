@@ -1,0 +1,16 @@
+digraph "ns3::AsciiTraceHelper::DefaultEnqueueSinkWithoutContext"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::AsciiTraceHelper\l::DefaultEnqueueSinkWithout\lContext",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Basic Enqueue default trace sink."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::AsciiTraceHelper\l::HookDefaultEnqueueSinkWithout\lContext",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ascii_trace_helper.html#a5e097b4f87595c7578f050ecf0f126ec",tooltip="Hook a trace source to the default enqueue operation trace sink that does not accept nor log a trace ..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::CsmaHelper::EnableAscii\lInternal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_csma_helper.html#af2eac110641882febd39247258efda54",tooltip="Enable ascii trace output on the indicated net device."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::LrWpanHelper::\lEnableAsciiInternal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lr_wpan_helper.html#a0accf3ecc8c464cde332c92dca565c05",tooltip="Enable ascii trace output on the indicated net device."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::PointToPointHelper\l::EnableAsciiInternal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_point_to_point_helper.html#a500491e31095208060544b015d1112d5",tooltip="Enable ascii trace output on the indicated net device."];
+}

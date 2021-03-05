@@ -1,0 +1,10 @@
+digraph "anonymous_namespace{sample-log-time-format::cc}::ReplacementTimePrinter"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="anonymous_namespace\l\{sample-log-time-format\l::cc\}::ReplacementTimePrinter",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Pre-ns-3.26 TimePrinter equivalent (was called LogTimePrinter)."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="anonymous_namespace\l\{sample-log-time-format\l::cc\}::ReplaceTimePrinter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceanonymous__namespace_02sample-log-time-format_8cc_03.html#a129f6efa2728cf5bef88b946e2696427",tooltip="Set ReplacementTimePrinter as the time printer for log messages."];
+}

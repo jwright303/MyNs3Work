@@ -1,0 +1,18 @@
+digraph "ns3::UanTxMode::GetDataRateBps"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::UanTxMode::GetDataRateBps",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the data rate of the transmit mode."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::UanPhyPerCommonModes\l::CalcPer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_phy_per_common_modes.html#a2de39f420ce0718b4f01bf6e73f26b36",tooltip="Calculate the Packet ERror probability based on SINR at the receiver and a tx mode."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::UanTransducerHd\l::Receive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_transducer_hd.html#ab0e2ca78a05c4495e8252f64e9906478",tooltip="Notify this object that a new packet has arrived at this nodes location."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::UanPhyGen::SendPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_phy_gen.html#a7a777fecd8c286f179e05f9708d65213",tooltip="Send a packet using a specific transmission mode."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::UanPhyGen::StartRxPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_phy_gen.html#a33d2cfb97710cff791b87ec7d864107b",tooltip="Packet arriving from channel: i.e."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::UanTransducerHd\l::Transmit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_transducer_hd.html#a59d45284062693608322f87618525cd5",tooltip="Transmit a packet from this transducer."];
+}

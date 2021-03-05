@@ -1,0 +1,18 @@
+digraph "ns3::TypeId::GetTraceSource"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::TypeId::GetTraceSource",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the trace source by index."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TypeId::LookupTrace\lSourceByName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#af8bbf87c709acb4a6433fd24be09d2b9",tooltip="Find a TraceSource by name, retrieving the associated TraceSourceInformation."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="PrintAllTraceSources",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$print-introspected-doxygen_8cc.html#a23d80244adcc8de3ea7f21080a6d9bbe",tooltip="Print the list of all Trace sources."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="PrintTraceSourcesTid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$print-introspected-doxygen_8cc.html#a034277f98f312c9a9740880425a06b96",tooltip="Print direct Trace sources for this TypeId."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="PrintTraceSources",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$print-introspected-doxygen_8cc.html#aa2166166c1bd1796ad0b51f7273491df",tooltip="Print the Trace sources block for tid, including Trace sources declared in base classes."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="PrintTypeIdBlocks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$print-introspected-doxygen_8cc.html#a62645d02d71b5d1622ccb9f16d5fa412",tooltip="Print the doxy block for each TypeId."];
+}

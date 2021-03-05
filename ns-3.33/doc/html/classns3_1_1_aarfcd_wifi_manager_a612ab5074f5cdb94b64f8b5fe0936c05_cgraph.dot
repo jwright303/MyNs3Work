@@ -1,0 +1,23 @@
+digraph "ns3::AarfcdWifiManager::DoReportDataFailed"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::AarfcdWifiManager\l::DoReportDataFailed",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="It is important to realize that \"recovery\" mode starts after failure of the first transmission after ..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::AarfcdWifiManager\l::CheckRts",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_aarfcd_wifi_manager.html#ae5874a6eb640c1873aa0f1b3da958be0",tooltip="Check if the use of RTS for the given station can be turned off."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::AarfcdWifiManager\l::TurnOffRts",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_aarfcd_wifi_manager.html#a6d7efd473f4ea360b0f95895d91e5e1e",tooltip="Turn off RTS for the given station."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::AarfcdWifiManager\l::IncreaseRtsWnd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_aarfcd_wifi_manager.html#afb01eeaa098032d4b0433a75e72de71d",tooltip="Increase the RTS window size of the given station."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Max",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__highprec.html#ga0d35bb9363c0da4cc2557158b95dbca0",tooltip="Maximum."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Min",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__highprec.html#gacb0b89d5f4363bf77747ff1212f27430",tooltip="Minimum."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::AarfcdWifiManager\l::ResetRtsWnd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_aarfcd_wifi_manager.html#a058177eefb3e0938db7a6dae911d4f1b",tooltip="Reset the RTS window of the given station."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::AarfcdWifiManager\l::TurnOnRts",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_aarfcd_wifi_manager.html#a7c0735a4d35702f34551d000808d9875",tooltip="Turn on RTS for the given station."];
+}

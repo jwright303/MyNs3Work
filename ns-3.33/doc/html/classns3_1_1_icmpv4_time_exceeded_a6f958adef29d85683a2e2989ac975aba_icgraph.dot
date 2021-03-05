@@ -1,0 +1,10 @@
+digraph "ns3::Icmpv4TimeExceeded::GetTypeId"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Icmpv4TimeExceeded\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get ICMP type."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Icmpv4TimeExceeded\l::GetInstanceTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv4_time_exceeded.html#a8302563037afa50f189361d9e3f71846",tooltip="Get the most derived TypeId for this Object."];
+}

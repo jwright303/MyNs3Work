@@ -1,0 +1,58 @@
+digraph "ns3::ThreeGppHttpVariables"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::ThreeGppHttpVariables",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Container of various random variables to assist in generating web browsing traffic pattern."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Object",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object.html",tooltip="A base class which provides memory management and object aggregation."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SimpleRefCount\l\< Object, ObjectBase,\l ObjectDeleter \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ref_count.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ObjectBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html",tooltip="Anchor the ns-3 type and attribute system."];
+  Node5 -> Node3 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Object, ObjectBase,\l ObjectDeleter \>" ,fontname="Helvetica"];
+  Node5 [label="ns3::SimpleRefCount\l\< T, PARENT, DELETER \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ref_count.html",tooltip="A template-based reference counting class."];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::empty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1empty.html",tooltip="make Callback use a separate empty type"];
+  Node7 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_tid" ,fontname="Helvetica"];
+  Node7 [label="ns3::TypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html",tooltip="a unique identifier for an interface."];
+  Node8 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_aggregates" ,fontname="Helvetica"];
+  Node8 [label="ns3::Object::Aggregates",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_object_1_1_aggregates.html",tooltip="The list of Objects aggregated to this one."];
+  Node2 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" buffer" ,fontname="Helvetica"];
+  Node9 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_embeddedObjectSizeRng\nm_mainObjectSizeRng" ,fontname="Helvetica"];
+  Node9 [label="ns3::Ptr\< ns3::LogNormal\lRandomVariable \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ptr.html",tooltip=" "];
+  Node10 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_ptr" ,fontname="Helvetica"];
+  Node10 [label="ns3::LogNormalRandomVariable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_log_normal_random_variable.html",tooltip="The log-normal distribution Random Number Generator (RNG) that allows stream numbers to be set determ..."];
+  Node11 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::RandomVariableStream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_variable_stream.html",tooltip="The basic uniform Random Number Generator (RNG)."];
+  Node2 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node11 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_rng" ,fontname="Helvetica"];
+  Node12 [label="ns3::RngStream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rng_stream.html",tooltip="Combined Multiple-Recursive Generator MRG32k3a."];
+  Node13 -> Node9 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::LogNormalRandomVariable \>" ,fontname="Helvetica"];
+  Node13 [label="ns3::Ptr\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ptr.html",tooltip="Smart pointer class similar to boost::intrusive_ptr."];
+  Node14 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_numOfEmbeddedObjectsRng" ,fontname="Helvetica"];
+  Node14 [label="ns3::Ptr\< ns3::ParetoRandom\lVariable \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ptr.html",tooltip=" "];
+  Node15 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_ptr" ,fontname="Helvetica"];
+  Node15 [label="ns3::ParetoRandomVariable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pareto_random_variable.html",tooltip="The Pareto distribution Random Number Generator (RNG)."];
+  Node11 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node14 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::ParetoRandomVariable \>" ,fontname="Helvetica"];
+  Node16 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_embeddedObjectGeneration\lDelayRng\nm_mainObjectGenerationDelay\lRng\nm_requestSizeRng" ,fontname="Helvetica"];
+  Node16 [label="ns3::Ptr\< ns3::ConstantRandom\lVariable \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ptr.html",tooltip=" "];
+  Node17 -> Node16 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_ptr" ,fontname="Helvetica"];
+  Node17 [label="ns3::ConstantRandomVariable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_constant_random_variable.html",tooltip="The Random Number Generator (RNG) that returns a constant."];
+  Node11 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node16 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::ConstantRandomVariable \>" ,fontname="Helvetica"];
+  Node18 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_mtuSizeRng" ,fontname="Helvetica"];
+  Node18 [label="ns3::Ptr\< ns3::UniformRandom\lVariable \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ptr.html",tooltip=" "];
+  Node19 -> Node18 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_ptr" ,fontname="Helvetica"];
+  Node19 [label="ns3::UniformRandomVariable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uniform_random_variable.html",tooltip="The uniform distribution Random Number Generator (RNG)."];
+  Node11 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node18 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::UniformRandomVariable \>" ,fontname="Helvetica"];
+  Node20 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_parsingTimeRng\nm_readingTimeRng" ,fontname="Helvetica"];
+  Node20 [label="ns3::Ptr\< ns3::Exponential\lRandomVariable \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ptr.html",tooltip=" "];
+  Node21 -> Node20 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_ptr" ,fontname="Helvetica"];
+  Node21 [label="ns3::ExponentialRandomVariable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_exponential_random_variable.html",tooltip="The exponential distribution Random Number Generator (RNG)."];
+  Node11 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node20 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::ExponentialRandom\lVariable \>" ,fontname="Helvetica"];
+}

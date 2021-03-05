@@ -1,0 +1,10 @@
+digraph "ns3::TrafficControlHelper::SetRootQueueDisc"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::TrafficControlHelper\l::SetRootQueueDisc",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Helper function used to set a root queue disc of the given type and with the given attributes."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TrafficControlHelper\l::DoSetRootQueueDisc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_traffic_control_helper.html#a23d1dd069850b2f1fbb7dec34ad6b3a5",tooltip="Actual implementation of the SetRootQueueDisc method."];
+}

@@ -1,0 +1,22 @@
+digraph "ns3::UanHeaderRcAck::GetNoNacks"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::UanHeaderRcAck\l::GetNoNacks",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the number of data frames being NACKed."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::UanHeaderRcAck\l::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_header_rc_ack.html#a7ba4a953abc792e27ce5570fd5cdbab3",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::UanMacRcGw::UanMacRcGw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_mac_rc_gw.html#a299426e341f023ae7bde2f62e4269d90",tooltip="Constructor."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::UanHeaderRcAck\l::Print",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_header_rc_ack.html#abbffa21295f8e48ebf40f1641bb2d6ad",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::UanMacRc::ProcessAck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_mac_rc.html#a9c52fc366178533ec87fa9677c6c7f97",tooltip="Process a received ACK."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::UanMacRc::ReceiveOk\lFromPhy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_mac_rc.html#a04c4b6db8819b20151c8009553dbcd16",tooltip="PHY receive ok Callback."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::UanMacRc::AttachPhy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_mac_rc.html#a389dcb7e687df088a34ac894e8637482",tooltip="Attach PHY layer to this MAC."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::UanHeaderRcAck\l::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_header_rc_ack.html#a1be29a47c49b9c3e1d1955f6339b4b9f",tooltip=" "];
+}

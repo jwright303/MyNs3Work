@@ -1,0 +1,12 @@
+digraph "ns3::WifiPsdu::WifiPsdu"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::WifiPsdu::WifiPsdu",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Create a PSDU storing an S-MPDU or A-MPDU."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::MpduAggregator\l::GetSizeIfAggregated",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mpdu_aggregator.html#ad3bd9b56e3183cd666c4831a6803ff96",tooltip="Compute the size of the A-MPDU resulting from the aggregation of an MPDU of size mpduSize and an A-MP..."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::MpduAggregator\l::CalculatePadding",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mpdu_aggregator.html#a01eadb89eb6b463a2ef433939d8bd81b",tooltip=" "];
+}

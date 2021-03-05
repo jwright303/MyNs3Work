@@ -1,0 +1,12 @@
+digraph "ns3::ThreeGppSpectrumPropagationLossModel::GetLongTerm"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::ThreeGppSpectrumPropagation\lLossModel::GetLongTerm",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Looks for the long term component in m_longTermMap."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ThreeGppSpectrumPropagation\lLossModel::CalcLongTerm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_spectrum_propagation_loss_model.html#a0ff2e9de393ac93f84cfbb942751ca4f",tooltip="Computes the long term component."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::MatrixBasedChannelModel\l::GetKey",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_matrix_based_channel_model.html#a7433d25a68831d88645735f12119ef83",tooltip="Calculate the channel key using the Cantor function."];
+}

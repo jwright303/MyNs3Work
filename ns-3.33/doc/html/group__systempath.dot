@@ -1,0 +1,11 @@
+digraph "Host Filesystem"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node1 [label="Host Filesystem",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Encapsulate OS-specific functions to manipulate file and directory paths."];
+  Node3 [label="Core module examples",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__core-examples.html",tooltip="Programs which illustrate use of core module functionality."];
+  Node2 [label="System Services",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__system.html",tooltip="System-independent interfaces to operating system services: files system, threading,..."];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, label="system-path-examples.cc", color="darkgreen", dir="none", style="dashed"];
+}

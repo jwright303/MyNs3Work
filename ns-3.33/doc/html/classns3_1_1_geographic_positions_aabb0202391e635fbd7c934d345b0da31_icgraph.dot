@@ -1,0 +1,12 @@
+digraph "ns3::GeographicPositions::GeographicToCartesianCoordinates"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::GeographicPositions\l::GeographicToCartesianCoordinates",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Converts earth geographic/geodetic coordinates (latitude and longitude in degrees) with a given altit..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::GeographicPositions\l::RandCartesianPointsAroundGeographicPoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_geographic_positions.html#a020b37badd7a5ccf4d32854754b261c0",tooltip="Generates uniformly distributed random points (in ECEF Cartesian coordinates) within a given altitude..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::TvSpectrumTransmitter\lHelper::CreateRegionalTvTransmitters",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tv_spectrum_transmitter_helper.html#aebb24cb396c43e4f0355c04b2506bb35",tooltip="Generates and installs (starts transmission on the spectrum channel) a random number of TV transmitte..."];
+}

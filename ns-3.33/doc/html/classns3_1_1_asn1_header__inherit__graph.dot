@@ -1,0 +1,50 @@
+digraph "ns3::Asn1Header"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Asn1Header",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="This class has the purpose to encode Information Elements according to ASN.1 syntax,..."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Header",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_header.html",tooltip="Protocol header serialization and deserialization."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Chunk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_chunk.html",tooltip="abstract base class for ns3::Header and ns3::Trailer"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ObjectBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html",tooltip="Anchor the ns-3 type and attribute system."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::RrcAsn1Header",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_asn1_header.html",tooltip="This class extends Asn1Header functions, adding serialization/deserialization of some Information ele..."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::HandoverPreparation\lInfoHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_handover_preparation_info_header.html",tooltip="This class manages the serialization/deserialization of HandoverPreparationInfo IE."];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::RrcDlCcchMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_dl_ccch_message.html",tooltip="This class only serves to discriminate which message type has been received in downlink (eNb to ue) f..."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::RrcConnectionReestablishment\lHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_connection_reestablishment_header.html",tooltip="This class manages the serialization/deserialization of RrcConnectionReestablishment IE."];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::RrcConnectionReestablishment\lRejectHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_connection_reestablishment_reject_header.html",tooltip="This class manages the serialization/deserialization of RrcConnectionReestablishmentReject IE."];
+  Node7 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::RrcConnectionReject\lHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_connection_reject_header.html",tooltip="This class manages the serialization/deserialization of RrcConnectionReject IE."];
+  Node7 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::RrcConnectionSetupHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_connection_setup_header.html",tooltip="This class manages the serialization/deserialization of RrcConnectionSetup IE."];
+  Node5 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::RrcDlDcchMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_dl_dcch_message.html",tooltip="This class only serves to discriminate which message type has been received in downlink (eNb to ue) f..."];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::RrcConnectionReconfiguration\lHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_connection_reconfiguration_header.html",tooltip="This class manages the serialization/deserialization of RrcConnectionReconfiguration IE."];
+  Node12 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::RrcConnectionRelease\lHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_connection_release_header.html",tooltip="This class manages the serialization/deserialization of RrcConnectionRelease IE."];
+  Node5 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::RrcUlCcchMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_ul_ccch_message.html",tooltip="This class only serves to discriminate which message type has been received in uplink (ue to eNb) for..."];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::RrcConnectionReestablishment\lRequestHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_connection_reestablishment_request_header.html",tooltip="This class manages the serialization/deserialization of RRCConnectionReestablishmentRequest IE."];
+  Node15 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::RrcConnectionRequest\lHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_connection_request_header.html",tooltip="This class manages the serialization/deserialization of RrcConnectionRequest IE."];
+  Node5 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::RrcUlDcchMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_ul_dcch_message.html",tooltip="This class only serves to discriminate which message type has been received in uplink (ue to eNb) for..."];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ns3::MeasurementReportHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_measurement_report_header.html",tooltip="This class manages the serialization/deserialization of MeasurementReport IE."];
+  Node18 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="ns3::RrcConnectionReconfiguration\lCompleteHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_connection_reconfiguration_complete_header.html",tooltip="This class manages the serialization/deserialization of RrcConnectionSetupComplete IE."];
+  Node18 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="ns3::RrcConnectionReestablishment\lCompleteHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_connection_reestablishment_complete_header.html",tooltip="This class manages the serialization/deserialization of RrcConnectionReestablishmentComplete IE."];
+  Node18 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="ns3::RrcConnectionSetupComplete\lHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_connection_setup_complete_header.html",tooltip="This class manages the serialization/deserialization of RrcConnectionSetupComplete IE."];
+}

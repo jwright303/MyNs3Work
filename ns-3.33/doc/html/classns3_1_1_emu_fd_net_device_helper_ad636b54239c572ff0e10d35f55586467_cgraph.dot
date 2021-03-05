@@ -1,0 +1,12 @@
+digraph "ns3::EmuFdNetDeviceHelper::SetFileDescriptor"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::EmuFdNetDeviceHelper\l::SetFileDescriptor",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Sets a file descriptor on the FileDescriptorNetDevice."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::EmuFdNetDeviceHelper\l::CreateFileDescriptor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_emu_fd_net_device_helper.html#a6157bd01fe9d346823259fd0af2c9089",tooltip="Call out to a separate process running as suid root in order to get a raw socket."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::BufferToString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#a97907497171f00140c77ed054e3baad6",tooltip="Convert a byte buffer to a string containing a hex representation of the buffer."];
+}

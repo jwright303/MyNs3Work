@@ -1,0 +1,12 @@
+digraph "ns3::ProtocolTlvValue::Copy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::ProtocolTlvValue\l::Copy",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Copy."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ProtocolTlvValue\l::ProtocolTlvValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_protocol_tlv_value.html#a902749829058fdc2d4d01d175832500a",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ProtocolTlvValue::Add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_protocol_tlv_value.html#a1c3ce061a89e07367671f56abd6d457e",tooltip="Add protocol number."];
+}

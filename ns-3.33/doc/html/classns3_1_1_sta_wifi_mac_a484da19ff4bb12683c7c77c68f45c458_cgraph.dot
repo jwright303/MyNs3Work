@@ -1,0 +1,55 @@
+digraph "ns3::StaWifiMac::GetSupportedRates"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::StaWifiMac::GetSupported\lRates",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Return an instance of SupportedRates that contains all rates that we support including HT rates."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::SupportedRates\l::AddBssMembershipSelectorRate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_supported_rates.html#a340fb4850056775b7e532bffc1b08182",tooltip="Add a special value to the supported rate set, corresponding to a BSS membership selector."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SupportedRates\l::AddSupportedRate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_supported_rates.html#aeaee0cacfafe73f0c661cceaf53da0f3",tooltip="Add the given rate to the supported rates."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::SupportedRates\l::IsBssMembershipSelectorRate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_supported_rates.html#ac446bb3a15cca0e5ad97a49f7020ed10",tooltip="Check if the given rate is a BSS membership selector value."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::SupportedRates\l::IsSupportedRate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_supported_rates.html#af37717777db2e91a41dd6e7f00a0beaf",tooltip="Check if the given rate is supported."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::WifiPhy::GetBssMembership\lSelector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#a1c8c7b4d4a3578369b508fe008c85b6c",tooltip="The WifiPhy::BssMembershipSelector() method is used (e.g., by a WifiRemoteStationManager) to determin..."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::WifiPhy::GetChannel\lWidth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#af55a96fc67e724abd99aeaeab826187f",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::WifiMode::GetDataRate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode.html#ad90f36e733ceaf8c5771cfbda437e14f",tooltip=" "];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::WifiModeFactory::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode_factory.html#a3086868810ff4347e31c63027726f544",tooltip="Return a WifiModeItem at the given UID index."];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::WifiMode::GetCodeRate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode.html#abbbea987249a16c776803ba6e2ca9973",tooltip=" "];
+  Node10 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::WifiModeFactory\l::GetFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode_factory.html#a9c6f695d733355dee8d74bd1709868fc",tooltip="Return a WifiModeFactory."];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::WifiModeFactory\l::AllocateUid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode_factory.html#a89a9c38617bd3f7be4a8919ce9675996",tooltip="Allocate a WifiModeItem from a given uniqueUid."];
+  Node11 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::WifiMode::GetConstellationSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode.html#a1437871ae722c85d980a8af3ba522d39",tooltip=" "];
+  Node13 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::WifiMode::IsAllowed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mode.html#ae92b3cca34abdd76211fe9fbf19a6c09",tooltip=" "];
+  Node14 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::RegularWifiMac\l::GetHtSupported",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_regular_wifi_mac.html#a9b3ffa51f38fbdb175b811dddb83b90e",tooltip="Return whether the device supports HT."];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::WifiMac::GetHtConfiguration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac.html#a0206221199cff854a4a1433688c4be8b",tooltip=" "];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::WifiMac::GetDevice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac.html#ad2f6868310980347c60bbfa08494dc4a",tooltip="Return the device this PHY is associated with."];
+  Node16 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::WifiNetDevice\l::GetHtConfiguration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_net_device.html#a20c98121e79afae35d03d9f5a3fa4ce8",tooltip=" "];
+  Node1 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ns3::WifiPhy::GetMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#aa1b9ecfcc6436b8882af36500cb0a2ea",tooltip="The WifiPhy::GetNModes() and WifiPhy::GetMode() methods are used (e.g., by a WifiRemoteStationManager..."];
+  Node1 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="ns3::WifiPhy::GetNBssMembership\lSelectors",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#a341d9348aab7780e20986509becc1a6c",tooltip="The WifiPhy::NBssMembershipSelectors() method is used (e.g., by a WifiRemoteStationManager) to determ..."];
+  Node1 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="ns3::WifiPhy::GetNModes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#a978d3a554116b0654c40fc22e469ceaa",tooltip="The WifiPhy::GetNModes() and WifiPhy::GetMode() methods are used (e.g., by a WifiRemoteStationManager..."];
+}

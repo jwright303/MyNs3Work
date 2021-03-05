@@ -1,0 +1,14 @@
+digraph "ns3::EthernetTrailer::GetSerializedSize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::EthernetTrailer\l::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::EthernetTrailer\l::Deserialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ethernet_trailer.html#a5fae2c1d9c5dc8e4c60d6fae0df7404d",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::EthernetTrailer\l::GetTrailerSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ethernet_trailer.html#a44575677fcd860e89e3cb8ed024e1329",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::EthernetTrailer\l::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ethernet_trailer.html#a57340a97acdb7eacc049278b7a7babab",tooltip=" "];
+}

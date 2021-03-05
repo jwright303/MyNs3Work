@@ -1,0 +1,18 @@
+digraph "ns3::NetmapNetDevice::DoFinishStartingDevice"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::NetmapNetDevice\l::DoFinishStartingDevice",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Complete additional actions, if any, to spin up down the device."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::MakeCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#af1dde3c04374147fca0cfe3b0766d664",tooltip="Build Callbacks for class method members which take varying numbers of arguments and potentially retu..."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::NetmapNetDevice\l::SyncAndNotifyQueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_netmap_net_device.html#ae0c7fb987e5e9406324d89ac2c37fdd8",tooltip="This function syncs netmap ring and notifies netdevice queue."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::NetmapNetDevice\l::GetBytesInNetmapTxRing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_netmap_net_device.html#a7d968d679b2c9211130561ec86fdf68d",tooltip="Get the number of bytes currently in the netmap transmission ring."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::FdNetDevice::GetFile\lDescriptor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_fd_net_device.html#adf9b190fdf67b3021740b60504b51cd1",tooltip="Get the associated file descriptor."];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::NetmapNetDevice\l::GetSpaceInNetmapTxRing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_netmap_net_device.html#a0103395b3ae97f9d9f8ba4dfc61562e6",tooltip="Get the number of slots currently available in the netmap transmission ring."];
+}

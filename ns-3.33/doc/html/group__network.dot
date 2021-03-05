@@ -1,0 +1,31 @@
+digraph "Network"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node13 [label="Socket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__socket.html",tooltip=" "];
+  Node8 [label="Packet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__packet.html",tooltip=" "];
+  Node1 [label="Network",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="This section documents the API of the ns-3 network module."];
+  Node11 [label="Queue size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__queuesize.html",tooltip=" "];
+  Node10 [label="Queue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__queue.html",tooltip=" "];
+  Node7 [label="Network module unit\l tests",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__network-test.html",tooltip=" "];
+  Node3 [label="Channel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__channel.html",tooltip=" "];
+  Node2 [label="Address",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__address.html",tooltip="Network Address abstractions, including MAC, IPv4 and IPv6."];
+  Node4 [label="Data Rate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__datarate.html",tooltip=" "];
+  Node5 [label="Error Model",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__errormodel.html",tooltip=" "];
+  Node12 [label="Sequence Counter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__seq-counters.html",tooltip="\"sequence number\" classes"];
+  Node9 [label="Packet Performance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__packetperf.html",tooltip="The current implementation of the byte buffers and tag list is based on COW (Copy On Write."];
+  Node6 [label="Network Device",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__netdevice.html",tooltip=" "];
+  Node1->Node2 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node4 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node5 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node6 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node7 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node8 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node9 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node10 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node11 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node12 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node13 [shape=plaintext, dir="back", style="solid"];
+}

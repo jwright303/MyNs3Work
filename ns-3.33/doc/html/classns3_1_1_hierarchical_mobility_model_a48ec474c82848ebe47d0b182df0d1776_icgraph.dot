@@ -1,0 +1,12 @@
+digraph "ns3::HierarchicalMobilityModel::ChildChanged"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::HierarchicalMobility\lModel::ChildChanged",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Callback for when child mobility model course change occurs."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::HierarchicalMobility\lModel::SetChild",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_hierarchical_mobility_model.html#ac25ee0060180aaf841715684ad827521",tooltip="Sets the child mobility model to a new one."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::HierarchicalMobility\lModel::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_hierarchical_mobility_model.html#a0d4203c545238561910673a520994b76",tooltip="Register this type with the TypeId system."];
+}

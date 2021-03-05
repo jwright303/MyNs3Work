@@ -1,0 +1,37 @@
+digraph "ns3::FfMacSchedSapProvider::SchedUlTriggerReqParameters"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::FfMacSchedSapProvider\l::SchedUlTriggerReqParameters",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Parameters of the SCHED_UL_TRIGGER_REQ primitive."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_ulInfoList" ,fontname="Helvetica"];
+  Node2 [label="std::vector\< struct\l ns3::UlInfoListElement_s \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node3 [label="ns3::UlInfoListElement_s",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_ul_info_list_element__s.html",tooltip="See section 4.3.12 ulInfoListElement."];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_ulReception" ,fontname="Helvetica"];
+  Node4 [label="std::vector\< uint16_t \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< uint16_t \>" ,fontname="Helvetica"];
+  Node5 [label="std::vector\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node6 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node2 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< struct ns3::UlInfoList\lElement_s \>" ,fontname="Helvetica"];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_vendorSpecificList" ,fontname="Helvetica"];
+  Node7 [label="std::vector\< struct\l ns3::VendorSpecificListElement_s \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node8 [label="ns3::VendorSpecificListElement_s",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_vendor_specific_list_element__s.html",tooltip="See section 4.3.3 vendorSpecifiListElement."];
+  Node9 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_value" ,fontname="Helvetica"];
+  Node9 [label="ns3::Ptr\< ns3::VendorSpecific\lValue \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ptr.html",tooltip=" "];
+  Node10 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_ptr" ,fontname="Helvetica"];
+  Node10 [label="ns3::VendorSpecificValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_vendor_specific_value.html",tooltip="Base class for storing the values of vendor specific parameters."];
+  Node11 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::SimpleRefCount\l\< VendorSpecificValue \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ref_count.html",tooltip=" "];
+  Node12 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::empty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1empty.html",tooltip="make Callback use a separate empty type"];
+  Node13 -> Node11 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< VendorSpecificValue \>" ,fontname="Helvetica"];
+  Node13 [label="ns3::SimpleRefCount\l\< T, PARENT, DELETER \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ref_count.html",tooltip="A template-based reference counting class."];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node9 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::VendorSpecificValue \>" ,fontname="Helvetica"];
+  Node14 [label="ns3::Ptr\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ptr.html",tooltip="Smart pointer class similar to boost::intrusive_ptr."];
+  Node5 -> Node7 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< struct ns3::VendorSpecific\lListElement_s \>" ,fontname="Helvetica"];
+}

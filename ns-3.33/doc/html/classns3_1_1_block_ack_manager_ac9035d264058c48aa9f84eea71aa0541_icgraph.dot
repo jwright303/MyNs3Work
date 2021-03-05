@@ -1,0 +1,29 @@
+digraph "ns3::BlockAckManager::ExistsAgreementInState"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::BlockAckManager\l::ExistsAgreementInState",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::BlockAckManager\l::CreateAgreement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_manager.html#a44483ff8e6011faf1190dc0f178e66b7",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::BlockAckManager\l::DiscardOutstandingMpdus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_manager.html#a9cfdd60aad3cf88c4a2ba01bd3879e48",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::BlockAckManager\l::NeedBarRetransmission",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_manager.html#a8477ba4a52f7e8f0400d2eed3346081f",tooltip="This function returns true if a block ack agreement is established with the given recipient for the g..."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::BlockAckManager\l::NotifyDiscardedMpdu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_manager.html#a52420004449425a8ded4ecaf71f152e8",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::BlockAckManager\l::BlockAckManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_manager.html#a7a966d4ae9c3f2172545b76b7ccb8206",tooltip=" "];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::BlockAckManager\l::NotifyGotAck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_manager.html#a55188bf406372f5334e9bb4d3de6c168",tooltip="Invoked upon receipt of an Ack frame after the transmission of a QoS data frame sent under an establi..."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::BlockAckManager\l::NotifyGotBlockAck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_manager.html#a9b8a46d72c771c2c1d79588f98259012",tooltip=" "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::BlockAckManager\l::NotifyMissedAck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_manager.html#a65475bccad55292cd07b7a50fafffc9d",tooltip="Invoked upon missed reception of an Ack frame after the transmission of a QoS data frame sent under a..."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::BlockAckManager\l::NotifyMissedBlockAck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_manager.html#ad823a18a82ae6695ddf91ef34dfb7eb2",tooltip=" "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::BlockAckManager\l::SwitchToBlockAckIfNeeded",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_manager.html#a20324b49d01312f731087f7f707a596a",tooltip=" "];
+}

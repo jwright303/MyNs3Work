@@ -1,0 +1,18 @@
+digraph "ns3::TrafficControlHelper::Install"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::TrafficControlHelper\l::Install",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::QueueDiscContainer::Add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc_container.html#a0520ac277a87beaeda5608dd8bfd37a4",tooltip="Append the contents of another QueueDiscContainer to the end of this container."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::QueueDiscContainer\l::Begin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc_container.html#ae3bea4b5a8890063078ba906488b83a9",tooltip="Get a const iterator which refers to the first QueueDisc in the container."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::QueueDiscContainer::End",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc_container.html#a0fa924aaba9ff381ee0439db1f6e2e8a",tooltip="Get a const iterator which indicates past-the-last QueueDisc in the container."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::NetDeviceContainer\l::Begin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_net_device_container.html#a4ddc336af319061f5b61c515f0453242",tooltip="Get an iterator which refers to the first NetDevice in the container."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::NetDeviceContainer::End",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_net_device_container.html#a436d9df206570861f96c3f278eaccb92",tooltip="Get an iterator which indicates past-the-last NetDevice in the container."];
+}

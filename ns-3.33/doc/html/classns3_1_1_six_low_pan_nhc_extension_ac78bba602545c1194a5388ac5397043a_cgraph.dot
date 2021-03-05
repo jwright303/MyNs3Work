@@ -1,0 +1,10 @@
+digraph "ns3::SixLowPanNhcExtension::GetSerializedSize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::SixLowPanNhcExtension\l::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the serialized size of the packet."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::SixLowPanNhcExtension\l::GetNh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_six_low_pan_nhc_extension.html#add82b778bf395bea97b0c2a18c2b7385",tooltip="Get the Next Header field value."];
+}

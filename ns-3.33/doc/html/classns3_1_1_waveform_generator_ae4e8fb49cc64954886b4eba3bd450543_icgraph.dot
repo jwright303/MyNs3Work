@@ -1,0 +1,14 @@
+digraph "ns3::WaveformGenerator::SetTxPowerSpectralDensity"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::WaveformGenerator\l::SetTxPowerSpectralDensity",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set the Power Spectral Density used for outgoing waveforms."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="TestDlOfdmaPhyTransmission\l::GenerateInterference",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_dl_ofdma_phy_transmission.html#a492080b1b2dcc46df28d277e9045a201",tooltip="Generate interference function."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="TestDlOfdmaPhyTransmission\l::RunOne",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_dl_ofdma_phy_transmission.html#a1e08a9246e3eb151fbfdb8df03d1ea1a",tooltip="Run one function."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TestDlOfdmaPhyTransmission\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_dl_ofdma_phy_transmission.html#a6d337ae1cfab321942977b925caf612d",tooltip="Implementation to actually run this TestCase."];
+}

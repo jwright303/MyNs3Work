@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="anonymous_namespace\l\{traced-callback-typedef\l-test-suite.cc\}::TracedCbSink\l\< T1, T2, T3, T4, T5 \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classanonymous__namespace_02traced-callback-typedef-test-suite_8cc_03_1_1_traced_cb_sink.html",tooltip="Sink functions."];
+}

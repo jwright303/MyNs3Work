@@ -1,0 +1,45 @@
+digraph "ns3::UanPhyGen::RxEndEvent"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::UanPhyGen::RxEndEvent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Event to process end of packet reception."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::UanPhyGen::GetInterferenceDb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_phy_gen.html#a8c991401463b00f7daaf3c3486f6bf1b",tooltip="Calculate interference power from overlapping packet arrivals, in dB."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::UanPhyGen::DbToKp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_phy_gen.html#ab83a534db06cec2f505881f10df8e998",tooltip="Convert dB to kilopascals."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::UanPhyGen::KpToDb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_phy_gen.html#a110f8bc6e30578784ce3abd15215b94b",tooltip="Convert kilopascals to dB."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::UniformRandomVariable\l::GetValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uniform_random_variable.html#a03822d8c86ac51e9aa83bbc73041386b",tooltip="Get the next random value, as a double in the specified range ."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::RandomVariableStream\l::IsAntithetic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_variable_stream.html#ae8f50692f36f1403a22d0cbb9c488db2",tooltip="Check if antithetic values will be generated."];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::max",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#a548291fa9e4e7d6a57814dfcbbebce9b",tooltip=" "];
+  Node5 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::min",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#a66840605409c3caeff0d2a728b68dc6d",tooltip=" "];
+  Node5 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::RandomVariableStream\l::Peek",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_variable_stream.html#a72b37a5c0a574a51df77d378d9101936",tooltip="Get the pointer to the underlying RngStream."];
+  Node5 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::RngStream::RandU01",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rng_stream.html#a46be36426b8bc712e9de468b63558c22",tooltip="Generate the next random number for this stream."];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::Callback::IsNull",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_callback.html#a42eb007ca42c35b96daa497d6d42d5f2",tooltip="Check for null implementation."];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::Callback::DoPeekImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_callback.html#a82de10d58e899c61aec3867f9b1f2f33",tooltip=" "];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::PeekPointer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#af2a7557fe9afdd98d8f6f8f6e412cf5a",tooltip=" "];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::UanPhyGen::NotifyListeners\lCcaStart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_phy_gen.html#a8f5614c856c43db7cf91a83e9e8506e9",tooltip="Call UanListener::NotifyCcaStart on all listeners."];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::UanPhyGen::NotifyListeners\lRxBad",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_phy_gen.html#aadf3344bc84baa37fee5646f2840412d",tooltip="Call UanListener::NotifyRxEndError on all listeners."];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::UanPhyGen::NotifyListeners\lRxGood",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_phy_gen.html#af15506ea55094bb50c8f73e8fff38399",tooltip="Call UanListener::NotifyRxEndOk on all listeners."];
+  Node1 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::UanPhy::NotifyRxDrop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_phy.html#a5bb13228bb14707309af61666412968e",tooltip="Called when the Phy drops a packet."];
+  Node1 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::UanPhy::NotifyRxEnd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_phy.html#ae7f5e61de1495040fe668a55185a75db",tooltip="Called when a packet is received without error."];
+  Node1 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ns3::UanPhyGen::UpdatePower\lConsumption",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_phy_gen.html#a3a50f922b45744f8586b2d2c95090076",tooltip="Update energy source with new state."];
+  Node19 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

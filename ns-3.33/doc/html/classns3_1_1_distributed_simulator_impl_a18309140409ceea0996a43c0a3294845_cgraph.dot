@@ -1,0 +1,16 @@
+digraph "ns3::DistributedSimulatorImpl::Next"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::DistributedSimulator\lImpl::Next",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the time of the next event, as returned by NextTs()."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::DistributedSimulator\lImpl::NextTs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_distributed_simulator_impl.html#ae92163c604bd440b078b5f8c96ab0dc5",tooltip="Get the timestep of the next event."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::DistributedSimulator\lImpl::GetMaximumSimulationTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_distributed_simulator_impl.html#a2c42f897535dac2af13e34fdf56b467a",tooltip="Get the maximum representable simulation time."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Time::GetTimeStep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a363390860dcce2d549b83b5fe3e08657",tooltip="Get the raw time value, in the current resolution unit."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::DistributedSimulator\lImpl::IsLocalFinished",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_distributed_simulator_impl.html#ac1f2fa6c6f44c088f0c9ef1189781bdc",tooltip="Check if this rank is finished."];
+}

@@ -1,0 +1,54 @@
+digraph "ns3::Box::IsInside"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Box::IsInside",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Box::CalculateIntersection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_box.html#a89912e6315f57872e21d5c7f9ac90e49",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::CalculateIntersection\lFromOutside",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#a587c0cc4401fc5177588f1936503531d",tooltip="Compute the intersecting point of the box represented by boundaries and the line between current and ..."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::DoWalk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#a63ebca7a4a83b193c354a5464937e03c",tooltip="Walk according to position and velocity, until distance is reached, time is reached,..."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::AvoidBuilding",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#a05a7121624c2bfbe7d1e29199e025105",tooltip="Avoid a building."];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::DoInitializePrivate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#a39ee7621a685f4830826422d8b53cd99",tooltip="Perform initialization of the object before MobilityModel::DoInitialize ()"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#a696a4be370bc98059dfa1e70492d91de",tooltip="Initialize() implementation."];
+  Node6 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::DoSetPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#aca4f9034c94849ec4d724423ae4ed696",tooltip=" "];
+  Node6 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::Rebound",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#a52d0d6108e2c65240e9844b47742d7c5",tooltip="Performs the rebound of the node if it reaches a boundary."];
+  Node9 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::IsLineClearOf\lBuildings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#a8f72f7cdd3b550cfbf379a9bb4131e75",tooltip="Check if there is a building between two positions (or if the nextPosition is inside a building)."];
+  Node10 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::GaussMarkovMobility\lModel::DoWalk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_gauss_markov_mobility_model.html#a1ede407a75cc9524898cde98368bd395",tooltip="Perform a walk operation."];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::GaussMarkovMobility\lModel::Start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_gauss_markov_mobility_model.html#aad0bc916f9593960e6b2b72884688774",tooltip="Initialize the model and calculate new velocity, direction, and pitch."];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::GaussMarkovMobility\lModel::GaussMarkovMobilityModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_gauss_markov_mobility_model.html#aa151f31da16245cc8bd7fd05e64a3cee",tooltip=" "];
+  Node12 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::GaussMarkovMobility\lModel::DoSetPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_gauss_markov_mobility_model.html#abe13b92e3c92adfff7aee6cbb6b52f26",tooltip=" "];
+  Node12 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::Building::IsInside",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_building.html#ad9b09336c28f796974a77abd201ae12f",tooltip=" "];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::Building::GetFloor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_building.html#abd0d6b0c3f9cdc4b11f679a90a0f0577",tooltip=" "];
+  Node15 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::Building::GetRoomX",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_building.html#af14aa37f4bdf3d1c409a92477df29826",tooltip=" "];
+  Node15 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::Building::GetRoomY",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_building.html#a6d2b15db27dff44a5b0b2ffa3b72ac19",tooltip=" "];
+  Node1 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ns3::Box::IsIntersect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_box.html#a9f1d0fb7e03da61916c46ec2c6bc2aa8",tooltip="Checks if a line-segment between position l1 and position l2 intersects a box."];
+  Node19 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="BoxLineIntersectionTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_box_line_intersection_test_case.html#a972598d409c14dd29860ba6786fcb257",tooltip="Setup the simulation according to the configuration set by the class constructor, run it,..."];
+  Node19 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="ns3::Building::IsIntersect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_building.html#a6a3cda6ae72c0792c3f3820d7adea687",tooltip="Checks if a line-segment between position l1 and position l2 intersects a building."];
+}

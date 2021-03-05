@@ -1,0 +1,39 @@
+digraph "ns3::SocketPriorityTag::GetPriority"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::SocketPriorityTag\l::GetPriority",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the tag's priority."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PfifoFastQueueDisc\l::DoEnqueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pfifo_fast_queue_disc.html#aac7fa518f6f59bf89a7a5fa5b9579d8b",tooltip="This function actually enqueues a packet into the queue disc."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::PrioQueueDisc\l::DoEnqueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_prio_queue_disc.html#a4ef8d3d710ea71edc697b9c047c2fc0d",tooltip="This function actually enqueues a packet into the queue disc."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::MeshWifiInterfaceMac\l::ForwardDown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mesh_wifi_interface_mac.html#a0777f6d7898e1db7c6931450bb233c5c",tooltip="Send frame."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::MeshWifiInterfaceMac\l::Enqueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mesh_wifi_interface_mac.html#acaa01779bd95e8c6af443a2a729fdab5",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="UdpSocketImplTest::\lGetPriority",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_udp_socket_impl_test.html#a62f83f508eb6ec572ecda6ab2e43b231",tooltip="Get the priority of the received packet."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="UdpSocketImplTest::\lDoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_udp_socket_impl_test.html#a186599e6487c7c550383f236042f3cd4",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::QosUtilsGetTidForPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__wifi.html#gaa7ad20082f78b63633d0557d24927150",tooltip="If a QoS tag is attached to the packet, returns a value < 8."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::OcbWifiMac::Enqueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ocb_wifi_mac.html#a8bff620142abd07f3a1f7410f26502b7",tooltip=" "];
+  Node8 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::AdhocWifiMac::\lEnqueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_adhoc_wifi_mac.html#a476b75b5ca672a00be5234c507787968",tooltip=" "];
+  Node8 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::StaWifiMac::Enqueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_sta_wifi_mac.html#a27afdb3ba3ef301e240362f379d570f2",tooltip=" "];
+  Node8 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::ApWifiMac::ForwardDown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#ae182dec24a6e7fa1b2f2cc1d0d732465",tooltip="Forward the packet down to DCF/EDCAF (enqueue the packet)."];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::ApWifiMac::Deaggregate\lAmsduAndForward",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#a58b696b84ab5e5b1d25843d194b5ac5b",tooltip="This method is called to de-aggregate an A-MSDU and forward the constituent packets up the stack."];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::ApWifiMac::Receive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#af264125e11c4d132d18966a6aa02ace5",tooltip="This method acts as the MacRxMiddle receive callback and is invoked to notify us that a frame has bee..."];
+  Node12 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::ApWifiMac::Enqueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#a08dcfe2d728fdc53fc3c6648751c8023",tooltip=" "];
+  Node12 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::OcbWifiMac::SendVsc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ocb_wifi_mac.html#a89a354cd6596253ce69e246f437d02f5",tooltip=" "];
+}

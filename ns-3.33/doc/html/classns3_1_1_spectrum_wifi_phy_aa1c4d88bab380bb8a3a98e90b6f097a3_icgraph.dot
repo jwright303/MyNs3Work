@@ -1,0 +1,16 @@
+digraph "ns3::SpectrumWifiPhy::SetChannelWidth"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::SpectrumWifiPhy\l::SetChannelWidth",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SpectrumWifiPhyFilterTest\l::RunOne",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_spectrum_wifi_phy_filter_test.html#a633f026ed57af03fd9949554c5358b4f",tooltip="Run one function."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SpectrumWifiPhyFilterTest\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_spectrum_wifi_phy_filter_test.html#a95c1996955fd11522281233a96296c31",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TestDlOfdmaPhyTransmission\l::RunOne",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_dl_ofdma_phy_transmission.html#a1e08a9246e3eb151fbfdb8df03d1ea1a",tooltip="Run one function."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="TestDlOfdmaPhyTransmission\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_dl_ofdma_phy_transmission.html#a6d337ae1cfab321942977b925caf612d",tooltip="Implementation to actually run this TestCase."];
+}

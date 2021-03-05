@@ -1,0 +1,10 @@
+digraph "ns3::FdNetDevice::StopDevice"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::FdNetDevice::StopDevice",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Tear down the device."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::FdNetDevice::DoFinish\lStoppingDevice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_fd_net_device.html#a6fffbb4b5717ef363804f1a5189e43f8",tooltip="Complete additional actions, if any, to tear down the device."];
+}

@@ -1,0 +1,24 @@
+digraph "ns3::LteUePhySapProvider::SendRachPreamble"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LteUePhySapProvider\l::SendRachPreamble",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Send a preamble on the PRACH."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteUeMac::SendRaPreamble",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_mac.html#af12f81d4d148f3f592f428311eac6d52",tooltip="Send RA preamble function."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LteUeMac::DoStartNon\lContentionBasedRandomAccessProcedure",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_mac.html#ace6376d23fe64780db0d61956ff123d6",tooltip="Start non contention based random access procedure function."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::UeMemberLteUeCmacSap\lProvider::StartNonContentionBased\lRandomAccessProcedure",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_member_lte_ue_cmac_sap_provider.html#ac9faae2f29511fa9f063fb7c45a7846b",tooltip="tell the MAC to start a non-contention-based random access procedure, e.g., as a consequence of hando..."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::LteUeMac::RandomlySelect\lAndSendRaPreamble",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_mac.html#adde9572bc280b188a467be8868a87f14",tooltip="Randomly select and send RA preamble function."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::LteUeMac::DoStartContention\lBasedRandomAccessProcedure",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_mac.html#ae024404f1a77f77585df4536772f778c",tooltip="Start contention based random access procedure function."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::UeMemberLteUeCmacSap\lProvider::StartContentionBased\lRandomAccessProcedure",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_member_lte_ue_cmac_sap_provider.html#a6208f805f186807f4696669db0a428ee",tooltip="tell the MAC to start a contention-based random access procedure, e.g., to perform RRC connection est..."];
+  Node5 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::LteUeMac::RaResponse\lTimeout",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_mac.html#a19488a21b439bf9eb830ccb2fdee32a4",tooltip="RA response timeout function."];
+  Node8 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

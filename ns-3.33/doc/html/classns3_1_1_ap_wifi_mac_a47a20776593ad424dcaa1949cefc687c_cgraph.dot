@@ -1,0 +1,47 @@
+digraph "ns3::ApWifiMac::GetErpInformation"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::ApWifiMac::GetErpInformation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Return the ERP information of the current AP."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::RegularWifiMac\l::GetErpSupported",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_regular_wifi_mac.html#a6ae4d610b553f1a4715e429efc334375",tooltip="Return whether the device supports ERP."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ApWifiMac::GetShort\lPreambleEnabled",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#aca9e80b07b0ef708aa9e06c3272b6efa",tooltip="Determine whether short preamble should be enabled or not in the BSS."];
+  Node3 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::WifiPhy::GetShortPhy\lPreambleSupported",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#a20ff23213910238c9b93d44f4e966b9d",tooltip="Return whether short PHY preamble is supported."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::WifiRemoteStationManager\l::GetShortPreambleSupported",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#a424c8e53ce51d46a143eac39196d2038",tooltip="Return whether the station supports short PHY preamble or not."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::WifiRemoteStationManager\l::LookupState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#a6a5c20f231324799e383594b546ca733",tooltip="Return the state of the station associated with the given address."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::WifiPhy::GetChannel\lWidth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#af55a96fc67e724abd99aeaeab826187f",tooltip=" "];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::WifiRemoteStationManager\l::GetDefaultMcs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#a2422db307a1cd07b938ec2d4b8442668",tooltip="Return the default Modulation and Coding Scheme (MCS) index."];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::WifiRemoteStationManager\l::GetDefaultMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#a0f76976a6d7a8761b1ae1b9b74f18fbf",tooltip="Return the default transmission mode."];
+  Node6 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::WifiRemoteStationManager\l::GetGuardInterval",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#af042a3c6cc1e936255e794c4aa21e68c",tooltip="Return the supported HE guard interval duration (in nanoseconds)."];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::WifiPhy::GetDevice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#adf2fa40dcba4e52e9bc67c6ffc819170",tooltip="Return the device this PHY is associated with."];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::WifiNetDevice\l::GetHeConfiguration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_net_device.html#af4a86ccc320631308e9f1023baecdd6b",tooltip=" "];
+  Node10 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::WifiRemoteStationManager\l::GetHeSupported",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#abf94bd5d22ad632148777a6c7e39bae0",tooltip="Return whether the device has HE capability support enabled."];
+  Node13 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::ApWifiMac::GetUseNon\lErpProtection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#a99262866c3bafd7f32e8c121f8f23883",tooltip="Return whether protection for non-ERP stations is used in the BSS."];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::WifiRemoteStationManager\l::SetUseNonErpProtection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#a409e92951019a05af1266a30c14995d2",tooltip="Enable or disable protection for non-ERP stations."];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::ErpInformation\l::SetBarkerPreambleMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_erp_information.html#a22b4c83f0066163c6f5cb2cafe666c67",tooltip="Set the Barker_Preamble_Mode field in the ErpInformation information element."];
+  Node1 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::ErpInformation\l::SetErpSupported",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_erp_information.html#a04843cef21d7bd5aecf98e6554a269da",tooltip="Set the ERP supported field."];
+  Node1 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::ErpInformation\l::SetNonErpPresent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_erp_information.html#adda675ac6983b04ff0e20df6fbb92165",tooltip="Set the Non_Erp_Present field in the ErpInformation information element."];
+  Node1 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ns3::ErpInformation\l::SetUseProtection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_erp_information.html#a6faa85047d308a09bfaf5b637d8b626b",tooltip="Set the Use_Protection field in the ErpInformation information element."];
+}

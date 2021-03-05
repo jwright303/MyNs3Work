@@ -1,0 +1,54 @@
+digraph "ns3::BuildingList::End"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::BuildingList::End",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ThreeGppV2vHighwayChannel\lConditionModel::GetChCondAndFixCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_v2v_highway_channel_condition_model.html#af29f5cdfe70497cda52d6772a02c408d",tooltip="Get the channel condition and redirect the callback ComputeChCond to GetChaCondWithBuildings or to Ge..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ThreeGppV2vHighwayChannel\lConditionModel::ThreeGppV2vHighway\lChannelConditionModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_v2v_highway_channel_condition_model.html#a8bf2e2c97a49ea709475486c38a3ed4a",tooltip="Constructor for the ThreeGppV2vHighwayChannelConditionModel class."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::BuildingContainer\l::GetGlobal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_building_container.html#aeb981db901ebe02e4924de538191f09c",tooltip="Create a BuildingContainer that contains a list of all buildings stored in the ns3::BuildingList."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::RandomBuildingPosition\lAllocator::GetNext",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_building_position_allocator.html#acc13be0f1574919de88528c1189aea0e",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::OutdoorPositionAllocator\l::GetNext",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_outdoor_position_allocator.html#a4689f0a076879c165213b5747eb666de",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::RandomRoomPositionAllocator\l::GetNext",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_room_position_allocator.html#afb06193f6fb4d4e1c9febd1f8c884294",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::IsLineClearOf\lBuildings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#a8f72f7cdd3b550cfbf379a9bb4131e75",tooltip="Check if there is a building between two positions (or if the nextPosition is inside a building)."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::AvoidBuilding",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#a05a7121624c2bfbe7d1e29199e025105",tooltip="Avoid a building."];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::DoWalk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#a63ebca7a4a83b193c354a5464937e03c",tooltip="Walk according to position and velocity, until distance is reached, time is reached,..."];
+  Node10 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::DoInitializePrivate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#a39ee7621a685f4830826422d8b53cd99",tooltip="Perform initialization of the object before MobilityModel::DoInitialize ()"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#a696a4be370bc98059dfa1e70492d91de",tooltip="Initialize() implementation."];
+  Node11 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::DoSetPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#aca4f9034c94849ec4d724423ae4ed696",tooltip=" "];
+  Node11 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::Rebound",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#a52d0d6108e2c65240e9844b47742d7c5",tooltip="Performs the rebound of the node if it reaches a boundary."];
+  Node14 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::BuildingsChannelCondition\lModel::IsLineOfSightBlocked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buildings_channel_condition_model.html#a3b97a7666596f013e8e59e42ca93d756",tooltip="Checks if the line of sight between position l1 and position l2 is blocked by a building."];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::BuildingsChannelCondition\lModel::GetChannelCondition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buildings_channel_condition_model.html#a33a93a848acc2fb6ba1c09648c12bc50",tooltip="Computes the condition of the channel between a and b."];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::BuildingsHelper\l::MakeConsistent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buildings_helper.html#a08f7a5049843eb192e11a17a48c3bc1c",tooltip="Make the given mobility model consistent, by determining whether its position falls inside any of the..."];
+  Node1 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::MobilityBuildingInfo\l::MakeConsistent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mobility_building_info.html#ad6d5725d5ed16f0d4d611cb8acf0ee42",tooltip="Make the given mobility model consistent, by determining whether its position falls inside any of the..."];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ns3::MobilityBuildingInfo\l::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mobility_building_info.html#a53bd5cd4d3d36ca5e5ece78e9b59e702",tooltip="Initialize() implementation."];
+  Node18 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="ns3::MobilityBuildingInfo\l::IsIndoor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mobility_building_info.html#a2bba20054cc48efcca2d5e0c46f8171c",tooltip="Is indoor method."];
+  Node20 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="ns3::MobilityBuildingInfo\l::IsOutdoor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mobility_building_info.html#ae7fba237e7e3eaf40139bec948ec238a",tooltip="Is outdoor function."];
+  Node1 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="PrintGnuplottableBuilding\lListToFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$three-gpp-v2v-channel-example_8cc.html#aa3ac76c624e240e8ea6e415ff2289b4b",tooltip="Generates a GNU-plottable file representig the buildings deployed in the scenario."];
+}

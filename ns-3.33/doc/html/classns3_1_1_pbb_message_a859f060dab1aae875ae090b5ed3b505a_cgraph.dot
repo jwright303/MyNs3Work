@@ -1,0 +1,10 @@
+digraph "ns3::PbbMessage::TlvPopFront"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::PbbMessage::TlvPopFront",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Removes a message TLV from the front of this message."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PbbTlvBlock::PopFront",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_tlv_block.html#a413dfd32294a503407a474daf0881c75",tooltip="Removes a TLV from the front of this block."];
+}

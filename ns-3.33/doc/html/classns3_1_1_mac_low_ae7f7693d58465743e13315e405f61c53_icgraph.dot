@@ -1,0 +1,10 @@
+digraph "ns3::MacLow::GetMpduAggregator"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::MacLow::GetMpduAggregator",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Returns the aggregator used to construct A-MPDU subframes."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::MacLow::IsWithinSize\lAndTimeLimits",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac_low.html#a2dc2b39866b901f5baad7f45ec8484a9",tooltip="Check whether an MPDU of the given size, destined to the given receiver and belonging to the given TI..."];
+}

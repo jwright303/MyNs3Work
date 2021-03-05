@@ -1,0 +1,18 @@
+digraph "ns3::UanPhyGen::CalculateSinrDb"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::UanPhyGen::Calculate\lSinrDb",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Calculate the SINR value for a packet."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::UanTxMode::GetBandwidthHz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_tx_mode.html#a2711c024f2d6f4bb94511d92c2896a78",tooltip="Get the transmission signal bandwidth."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::UanTxModeFactory\l::GetFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_tx_mode_factory.html#aaabdc7689817c8be0532933bbc4ed95a",tooltip="Construct and get the static global factory instance."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::UanTxModeFactory\l::GetModeItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_tx_mode_factory.html#afb272ecca21469db956cb5d1473472b6",tooltip="Get a mode by id."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::UanTxMode::GetCenter\lFreqHz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_tx_mode.html#a26c2ca7b372cf75d97c6dbb4ecd6fd7d",tooltip="Get the transmission center frequency."];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,10 @@
+digraph "ns3::TrafficControlHelper::DoAddPacketFilter"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::TrafficControlHelper\l::DoAddPacketFilter",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Actual implementation of the AddPacketFilter method."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TrafficControlHelper\l::AddPacketFilter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_traffic_control_helper.html#ad2fd8145dfb10b8cbf7f5d966d94d8e6",tooltip="Helper function used to add a packet filter (of the given type and with the given attributes) to the ..."];
+}

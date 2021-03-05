@@ -1,0 +1,12 @@
+digraph "ns3::EnergyHarvester::GetNode"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::EnergyHarvester\l::GetNode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::BasicEnergyHarvester\l::UpdateHarvestedPower",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_basic_energy_harvester.html#aa1a0d934e9024f469a6b06b3b960f34e",tooltip="This function is called every m_energyHarvestingUpdateInterval in order to update the amount of power..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::BasicEnergyHarvester\l::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_basic_energy_harvester.html#afac6df462e0e60f32b09cdbd0c6daef8",tooltip="Defined in ns3::Object."];
+}

@@ -1,0 +1,16 @@
+digraph "ns3::LteUeNetDevice::UpdateConfig"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LteUeNetDevice\l::UpdateConfig",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Propagate attributes and configuration to sub-modules."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteUeNetDevice\l::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_net_device.html#a6c883da6fa862a13427d3e25053d23cf",tooltip="Initialize() implementation."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LteUeNetDevice\l::SetCsgId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_net_device.html#a96e1a8cb85a7bd42dfce4f439a4295b2",tooltip="Enlist the UE device as a member of a particular CSG."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::LteUeNetDevice\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_net_device.html#a700863f457ad4c1133324e8c7a025f66",tooltip="Get the type ID."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::LteHelper::LteHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_helper.html#ae74415a950dd03cd60e37faf5d5210b8",tooltip=" "];
+}

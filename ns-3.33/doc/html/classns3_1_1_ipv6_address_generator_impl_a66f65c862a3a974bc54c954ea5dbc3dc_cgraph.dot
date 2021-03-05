@@ -1,0 +1,12 @@
+digraph "ns3::Ipv6AddressGeneratorImpl::GetAddress"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Ipv6AddressGenerator\lImpl::GetAddress",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the Ipv6Address that will be allocated upon NextAddress ()"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Ipv6AddressGenerator\lImpl::PrefixToIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_address_generator_impl.html#a7e0e1e3a1a5d2a799c910ee8e7b7e563",tooltip="Create an index number for the prefix."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Ipv6Prefix::GetBytes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_prefix.html#af989d2978fbc0d2f00f742421448d306",tooltip="Get the bytes corresponding to the prefix."];
+}

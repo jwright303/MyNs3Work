@@ -1,0 +1,32 @@
+digraph "ns3::SpectrumWifiPhy::SetFrequency"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::SpectrumWifiPhy\l::SetFrequency",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SpectrumWifiPhyBasicTest\l::DoSetup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_spectrum_wifi_phy_basic_test.html#a34f2cbd2cf4e0fb06ef96efe8afc8bdd",tooltip="Implementation to do any local setup required for this TestCase."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SpectrumWifiPhyListenerTest\l::DoSetup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_spectrum_wifi_phy_listener_test.html#a2649c02c0afb6632b514e9f81ad77cb9",tooltip="Implementation to do any local setup required for this TestCase."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TestThresholdPreambleDetection\lWithoutFrameCapture::DoSetup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_threshold_preamble_detection_without_frame_capture.html#ab5b96aabf2489e8d454465ec70196756",tooltip="Implementation to do any local setup required for this TestCase."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="TestThresholdPreambleDetection\lWithFrameCapture::DoSetup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_threshold_preamble_detection_with_frame_capture.html#ae40798c353aa9c50e8af7ccb2ca68b0f",tooltip="Implementation to do any local setup required for this TestCase."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="TestSimpleFrameCaptureModel\l::DoSetup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_simple_frame_capture_model.html#ad82acd95766f6f708eff1aa182f0ea63",tooltip="Implementation to do any local setup required for this TestCase."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="TestPhyHeadersReception\l::DoSetup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_phy_headers_reception.html#ab701892ef2a24f3b5f2668b35cd85775",tooltip="Implementation to do any local setup required for this TestCase."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="TestAmpduReception\l::DoSetup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_ampdu_reception.html#ab1e84ef6dac8fed52f0f2c93fa21f377",tooltip="Implementation to do any local setup required for this TestCase."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="WifiPhyThresholdsTest\l::DoSetup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wifi_phy_thresholds_test.html#a9ba605051e273b93ba4bdaa023e65687",tooltip="Implementation to do any local setup required for this TestCase."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="SpectrumWifiPhyFilterTest\l::RunOne",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_spectrum_wifi_phy_filter_test.html#a633f026ed57af03fd9949554c5358b4f",tooltip="Run one function."];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="SpectrumWifiPhyFilterTest\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_spectrum_wifi_phy_filter_test.html#a95c1996955fd11522281233a96296c31",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="TestDlOfdmaPhyTransmission\l::RunOne",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_dl_ofdma_phy_transmission.html#a1e08a9246e3eb151fbfdb8df03d1ea1a",tooltip="Run one function."];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="TestDlOfdmaPhyTransmission\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_dl_ofdma_phy_transmission.html#a6d337ae1cfab321942977b925caf612d",tooltip="Implementation to actually run this TestCase."];
+}

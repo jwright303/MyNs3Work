@@ -1,0 +1,43 @@
+digraph "ns3::test::RandomVariable::ConstantTestCase::DoRun"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::test::RandomVariable\l::ConstantTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ConstantRandomVariable\l::GetValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_constant_random_variable.html#a4843c136931cb1a9f49838999fc2ebe0",tooltip="Get the next random value, as a double equal to the argument."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ObjectBase::SetAttribute",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html#ac60245d3ea4123bbc9b1d391f1f6592f",tooltip="Set a single attribute, raising fatal errors if unsuccessful."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ObjectBase::DoSet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html#afe5f2f7b2fabc99aa33f9bb434e3b695",tooltip="Attempt to set the value referenced by the accessor spec to a valid value according to the checker,..."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::ObjectBase::GetInstance\lTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html#abe5b43a6f5b99a92a4c3122db31f06fb",tooltip="Get the most derived TypeId for this Object."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::test::RandomVariable\l::TestCaseBase::SetTestSuiteSeed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1test_1_1_random_variable_1_1_test_case_base.html#a9dadb0945f5a8eb9fbd3af08bd87c689",tooltip="Set the seed used for this test suite."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::RngSeedManager\l::GetRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rng_seed_manager.html#afaf1b845d2523df05ca341a930de24b3",tooltip="Get the current run number."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::UintegerValue::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uinteger_value.html#a82f7ad2ff90cfebf9f6292bb6ace0a05",tooltip=" "];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::GlobalValue::GetValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_value.html#a48a99242193fb69609a17332733e8600",tooltip="Get the value."];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::StringValue::Set",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_string_value.html#a17693012c6f2c52875e0d631fbf40155",tooltip="Set the value."];
+  Node6 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::RngSeedManager\l::GetSeed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rng_seed_manager.html#a09f2d185f02aac599cd5a244c4b73ba5",tooltip="Get the current seed value which will be used by all subsequently instantiated RandomVariableStream o..."];
+  Node11 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::RngSeedManager\l::SetSeed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rng_seed_manager.html#ab2a95901871c7b47a3dcf0f70adc58f4",tooltip="Set the seed."];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::Config::SetGlobal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__config.html#ga0e12663a7bd119b65d0a219a578f2a3c",tooltip=" "];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::GlobalValue::Bind",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_value.html#a4fe56773b98d1047cd50e974256fd14a",tooltip="Iterate over the set of GlobalValues until a matching name is found and then set its value with Globa..."];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::GlobalValue::Begin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_value.html#acdeb71b28fe45d98523a2168e8807d83",tooltip="The Begin iterator."];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::GlobalValue::GetVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_value.html#a69fde3a69c812df719c42b4e2ebde77e",tooltip="Get the static vector of all GlobalValues."];
+  Node14 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::GlobalValue::End",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_value.html#a2488c329999cf507cc7f7aeb173a4a75",tooltip="The End iterator."];
+  Node17 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

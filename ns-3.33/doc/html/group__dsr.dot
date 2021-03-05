@@ -1,0 +1,9 @@
+digraph "DSR Routing"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node1 [label="DSR Routing",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="This section documents the API of the ns-3 DSR module."];
+  Node2 [label="DSR routing module\l tests",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__dsr-test.html",tooltip=" "];
+  Node1->Node2 [shape=plaintext, dir="back", style="solid"];
+}

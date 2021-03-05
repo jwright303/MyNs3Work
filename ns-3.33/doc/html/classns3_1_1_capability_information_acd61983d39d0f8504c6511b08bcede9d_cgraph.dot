@@ -1,0 +1,12 @@
+digraph "ns3::CapabilityInformation::SetEss"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::CapabilityInformation\l::SetEss",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set the Extended Service Set (ESS) bit in the capability information field."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::CapabilityInformation\l::Clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_capability_information.html#acaab4e4160cbc81e0df64858c5029a0d",tooltip="Set bit n to 0."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::CapabilityInformation::Set",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_capability_information.html#a8f11df0c93af6bb7d50a91900add13fc",tooltip="Set bit n to 1."];
+}

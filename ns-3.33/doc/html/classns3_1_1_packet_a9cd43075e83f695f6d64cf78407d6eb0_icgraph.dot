@@ -1,0 +1,16 @@
+digraph "ns3::Packet::Serialize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Packet::Serialize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Serialize a packet, tags, and metadata into a byte buffer."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="LrWpanPacketTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_lr_wpan_packet_test_case.html#ae85f64d48a71983a4a43f49e5571546a",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="PacketTest::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_packet_test.html#a2f4d69aa1b21616ea14efd54fee55da2",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::GrantedTimeWindowMpi\lInterface::SendPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_granted_time_window_mpi_interface.html#ac3b6bb4ae10c6e49001d664871b201c6",tooltip="Send a packet to a remote node."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::NullMessageMpiInterface\l::SendPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_null_message_mpi_interface.html#a5bef503661f681b69f0c69abda3ed25a",tooltip="Send a packet to a remote node."];
+}

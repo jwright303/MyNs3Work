@@ -1,0 +1,10 @@
+digraph "ns3::FatalImpl::anonymous_namespace{fatal-impl::cc}::GetStreamList"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::FatalImpl::anonymous\l_namespace\{fatal-impl::\lcc\}::GetStreamList",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the stream list, initializing it if necessary."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::FatalImpl::anonymous\l_namespace\{fatal-impl::\lcc\}::PeekStreamList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__fatalimpl.html#ga18b8a98636d4a7a21d09563728fd22b8",tooltip="Static variable pointing to the list of output streams to be flushed on fatal errors."];
+}

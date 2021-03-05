@@ -1,0 +1,17 @@
+digraph "Random Variables"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node5 [label="Core module tests",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__core-tests.html",tooltip="TestSuites for the Core module."];
+  Node3 [label="RNG Implementation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__rngimpl.html",tooltip=" "];
+  Node4 [label="Core module examples",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__core-examples.html",tooltip="Programs which illustrate use of core module functionality."];
+  Node1 [label="Random Variables",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ns-3 random numbers are provided via instances of ns3::RandomVariableStream."];
+  Node6 [label="Core module helper\l classes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__core-helpers.html",tooltip="Helper classes for the Core module."];
+  Node2 [label="Core",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__core.html",tooltip="The \"core\" module contains:"];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node4 [shape=plaintext, label="empirical-random-variable\l-example.cc\nsample-random-variable\l-stream.cc\nsample-random-variable.cc\nsample-rng-plot.py", color="darkgreen", dir="none", style="dashed"];
+  Node1->Node5 [shape=plaintext, label="many-uniform-random\l-variables-one-get-value\l-call-test-suite.cc\none-uniform-random\l-variable-many-get-value\l-calls-test-suite.cc", color="darkgreen", dir="none", style="dashed"];
+  Node1->Node6 [shape=plaintext, label="random-variable-stream\l-helper.cc\nrandom-variable-stream\l-helper.h", color="darkgreen", dir="none", style="dashed"];
+}

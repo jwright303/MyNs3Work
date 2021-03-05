@@ -1,0 +1,35 @@
+digraph "ns3::BaseStationNetDevice::BaseStationNetDevice"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::BaseStationNetDevice\l::BaseStationNetDevice",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::BaseStationNetDevice\l::InitBaseStationNetDevice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_base_station_net_device.html#a26fd7b4b847fabe35297df4a70d4858a",tooltip="initializes the BS net device and sets its parameters to the default values"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::MilliSeconds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__timecivil.html#gaf26127cf4571146b83a92ee18679c7a9",tooltip="Construct a Time in the indicated unit."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Time::FromInteger",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a3e742c67b2764e75ff95f9b754d43fe9",tooltip="Create a Time equal to value in unit unit."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Time::Time",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a8a39dc1b8cbbd7fe6d940e492d1b925e",tooltip="Default constructor, with value 0."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Time::Mark",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#aa7eef2a1119c1c4855d99f1e83d44c54",tooltip="Record a Time instance with the MarkedTimes."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Time::GetMarkingMutex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#addd8e672203391b3ae98ee475ce05272",tooltip=" "];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::Time::PeekInformation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a0b023c55c20582aa7c1781aacf128034",tooltip="Get the Information record for timeUnit for the current Resolution."];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::Time::PeekResolution",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a963e53522278fcbdf1ab9f7adbd0f5d6",tooltip="Get the current Resolution."];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::Time::SetDefaultNsResolution",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a6a872e62f71dfa817fef2c549473d980",tooltip="Set the default resolution."];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::Time::FromDouble",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a60e845f4a74e62495b86356afe604cb4",tooltip="Create a Time equal to value in unit unit."];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::Time::From",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a34e4acc13d0e08cc8cb9cd3b838b9baf",tooltip="Create a Time in the current unit."];
+  Node12 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::Seconds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__timecivil.html#ga33c34b816f8ff6628e33d5c8e9713b9e",tooltip="Construct a Time in the indicated unit."];
+  Node13 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,20 @@
+digraph "ns3::WifiHelper::Install"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::WifiHelper::Install",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WifiHelper::Install",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_helper.html#ae3cf8b14724154f49e73e651ff00c0bc",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Wifi80211pHelper\l::Install",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi80211p_helper.html#a513ab88d489ae9f25d0aaeefb7de7829",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="OcbWifiMacTestCase\l::ConfigureOcbMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ocb_wifi_mac_test_case.html#add1a92f13aa427098d671fb52200f2d6",tooltip="Configure OCB mode function."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="OcbWifiMacTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ocb_wifi_mac_test_case.html#a730877f90008a4a4e7fd547f964f0f08",tooltip="static-node:0 <-— mobile-node:1"];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="VanetRoutingExperiment\l::SetupAdhocDevices",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_vanet_routing_experiment.html#a8de4279cfaf91886970596e9ba8a4a75",tooltip="Set up the adhoc devices."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="VanetRoutingExperiment\l::ConfigureChannels",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_vanet_routing_experiment.html#adcb4d2d4146919dc6f2cbdc183068e6a",tooltip="Configure channels."];
+}

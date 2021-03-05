@@ -1,0 +1,22 @@
+digraph "ns3::UanPropModelThorp::GetPathLossDb"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::UanPropModelThorp\l::GetPathLossDb",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Computes pathloss between nodes a and b."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::UanPropModelThorp\l::GetAttenDbKm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_prop_model_thorp.html#a6a8658a67333d766c3e7d27005e308af",tooltip="Get the attenuation in dB / km."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::UanTxMode::GetCenter\lFreqHz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_tx_mode.html#a26c2ca7b372cf75d97c6dbb4ecd6fd7d",tooltip="Get the transmission center frequency."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::UanTxModeFactory\l::GetFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_tx_mode_factory.html#aaabdc7689817c8be0532933bbc4ed95a",tooltip="Construct and get the static global factory instance."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::UanTxModeFactory\l::GetModeItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_tx_mode_factory.html#afb272ecca21469db956cb5d1473472b6",tooltip="Get a mode by id."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::MobilityModel\l::GetDistanceFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mobility_model.html#a3eadc9abaf084587d5aa9e5d92e613fe",tooltip=" "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::CalculateDistance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#aaae60adf695e280c4882ced6041d1628",tooltip=" "];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::MobilityModel\l::DoGetPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mobility_model.html#a518f70bd8cb78d0031f9a26572434c34",tooltip=" "];
+}

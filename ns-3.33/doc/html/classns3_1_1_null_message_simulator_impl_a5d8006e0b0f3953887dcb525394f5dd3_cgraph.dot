@@ -1,0 +1,18 @@
+digraph "ns3::NullMessageSimulatorImpl::CalculateGuaranteeTime"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::NullMessageSimulator\lImpl::CalculateGuaranteeTime",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::RemoteChannelBundle\lManager::Find",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_remote_channel_bundle_manager.html#a143cfdce189ed68cc0917255ef0b849f",tooltip="Get the bundle corresponding to a remote rank."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::NullMessageSimulator\lImpl::GetInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_null_message_simulator_impl.html#ab5e219b843d754b0e812181af6115a53",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::NullMessageSimulator\lImpl::GetSafeTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_null_message_simulator_impl.html#ac3ac75383c83e269b9258bdb9de097c0",tooltip="Get the current SafeTime; the maximum time that events can be processed based on information received..."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Min",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__highprec.html#gacb0b89d5f4363bf77747ff1212f27430",tooltip="Minimum."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::NullMessageSimulator\lImpl::Next",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_null_message_simulator_impl.html#ab99e74bcca0c23a9be9723a1f33b2f6f",tooltip=" "];
+}

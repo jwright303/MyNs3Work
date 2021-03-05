@@ -1,0 +1,10 @@
+digraph "ns3::NixVector::PrintDec2BinNix"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::NixVector::PrintDec2\lBinNix",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Internal for pretty printing of nix-vector (no fill)"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::NixVector::DumpNixVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_nix_vector.html#aa830ff580fa6188fe5901957b41ae1da",tooltip="Print the NixVector."];
+}

@@ -1,0 +1,10 @@
+digraph "ns3::TcpTxBuffer::DeleteRetransmittedFlagFromHead"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::TcpTxBuffer::Delete\lRetransmittedFlagFromHead",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DeleteRetransmittedFlagFromHead."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TcpTxBuffer::Consistency\lCheck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_tx_buffer.html#a0d6e6e19c30a4bca5a83e987f89b8ecb",tooltip="Check if the values of sacked, lost, retrans, are in sync with the sent list."];
+}

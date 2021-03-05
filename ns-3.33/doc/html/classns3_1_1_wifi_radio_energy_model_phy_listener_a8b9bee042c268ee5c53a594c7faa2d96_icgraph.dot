@@ -1,0 +1,14 @@
+digraph "ns3::WifiRadioEnergyModelPhyListener::SwitchToIdle"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::WifiRadioEnergyModel\lPhyListener::SwitchToIdle",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="A helper function that makes scheduling m_changeStateCallback possible."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WifiRadioEnergyModel\lPhyListener::NotifyMaybeCcaBusyStart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_radio_energy_model_phy_listener.html#a06715f4a2ea8cc968eac8f8a7f8f720b",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WifiRadioEnergyModel\lPhyListener::NotifySwitchingStart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_radio_energy_model_phy_listener.html#ad30c8e743b3fa0fc1abc2e9d20c0eacb",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::WifiRadioEnergyModel\lPhyListener::NotifyTxStart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_radio_energy_model_phy_listener.html#ade41c617c080373e5a62696ddd34ccf0",tooltip="Switches the WifiRadioEnergyModel to TX state and switches back to IDLE after TX duration."];
+}

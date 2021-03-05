@@ -1,0 +1,20 @@
+digraph "ns3::NamesPriv::Rename"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::NamesPriv::Rename",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Internal implementation for Names::Rename(std::string,std::string)"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Names::Rename",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_names.html#a0ed4aa6358357bef3930cd19ba306373",tooltip="Rename a previously associated name."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::tests::BasicRenameTest\lCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1tests_1_1_basic_rename_test_case.html#a5d979af403a3318eae1a4d34f43e20eb",tooltip="Implementation to actually run this TestCase."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::tests::StringContext\lRenameTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1tests_1_1_string_context_rename_test_case.html#a68e3488855ade7e26d7b3262c4dcfe04",tooltip="Implementation to actually run this TestCase."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::tests::FullyQualified\lRenameTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1tests_1_1_fully_qualified_rename_test_case.html#ac769891e81e6a11a98e6b32d7403c039",tooltip="Implementation to actually run this TestCase."];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::tests::RelativeRename\lTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1tests_1_1_relative_rename_test_case.html#a21859b9f11e1424d981f50c1b3c3a343",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::NamesPriv::Rename",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_names_priv.html#a6f0e7c4335aac3b5ed4abe0b7cc43ebc",tooltip="Internal implementation for Names::Rename(std::string,std::string,std::string)"];
+}

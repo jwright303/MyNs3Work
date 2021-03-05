@@ -1,0 +1,14 @@
+digraph "ns3::Ucd::GetSerializedSize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Ucd::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::OfdmUcdChannelEncodings\l::GetSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ofdm_ucd_channel_encodings.html#a3287b8e878679bf92e2daeafc70dd1b4",tooltip="Get size."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::UcdChannelEncodings\l::GetSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ucd_channel_encodings.html#a2cc038fb3b2faab7690d95c088ff4f11",tooltip="Get size."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::OfdmUlBurstProfile\l::GetSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ofdm_ul_burst_profile.html#aa3885924c71b924935a6e0b5c3bd7ee3",tooltip="Get size."];
+}

@@ -1,0 +1,12 @@
+digraph "ns3::ThreeGppPropagationLossModel::GetShadowingCorrelationDistance"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::ThreeGppPropagation\lLossModel::GetShadowingCorrelation\lDistance",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Returns the shadow fading correlation distance."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ThreeGppPropagation\lLossModel::GetShadowing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_propagation_loss_model.html#a4e032ab6fd5089af1db60757d5c021cc",tooltip="Retrieves the shadowing value by looking at m_shadowingMap."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ThreeGppPropagation\lLossModel::DoCalcRxPower",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_propagation_loss_model.html#adaf716b7fd0c9f8b4cddd8403f42425b",tooltip="Computes the received power by applying the pathloss model described in 3GPP TR 38...."];
+}

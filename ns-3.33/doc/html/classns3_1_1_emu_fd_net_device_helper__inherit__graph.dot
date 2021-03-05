@@ -1,0 +1,19 @@
+digraph "ns3::EmuFdNetDeviceHelper"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ns3::EmuFdNetDeviceHelper",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="build a set of FdNetDevice objects attached to a physical network interface"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::FdNetDeviceHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_fd_net_device_helper.html",tooltip="build a set of FdNetDevice objects Normally we eschew multiple inheritance, however,..."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::PcapHelperForDevice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pcap_helper_for_device.html",tooltip="Base class providing common user-level pcap operations for helpers representing net devices."];
+  Node4 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::AsciiTraceHelperFor\lDevice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ascii_trace_helper_for_device.html",tooltip="Base class providing common user-level ascii trace operations for helpers representing net devices."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::DpdkNetDeviceHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dpdk_net_device_helper.html",tooltip="build a DpdkNetDevice object attached to a physical network interface"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::PlanetLabFdNetDevice\lHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_planet_lab_fd_net_device_helper.html",tooltip="build a set of FdNetDevice objects attached to a virtual TAP network interface"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::TapFdNetDeviceHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tap_fd_net_device_helper.html",tooltip="build a set of FdNetDevice objects attached to a virtual TAP network interface"];
+}

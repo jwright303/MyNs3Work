@@ -1,0 +1,28 @@
+digraph "ns3::Dcd"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Dcd",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="This class implements Downlink channel descriptor as described by \"IEEE Standard for Local and metrop..."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Header",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_header.html",tooltip="Protocol header serialization and deserialization."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Chunk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_chunk.html",tooltip="abstract base class for ns3::Header and ns3::Trailer"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ObjectBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html",tooltip="Anchor the ns-3 type and attribute system."];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_channelEncodings" ,fontname="Helvetica"];
+  Node5 [label="ns3::OfdmDcdChannelEncodings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ofdm_dcd_channel_encodings.html",tooltip="This class implements the OFDM DCD channel encodings as described by \"IEEE Standard for Local and met..."];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::DcdChannelEncodings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dcd_channel_encodings.html",tooltip="This class implements the DCD channel encodings as described by \"IEEE Standard for Local and metropol..."];
+  Node7 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_baseStationId" ,fontname="Helvetica"];
+  Node7 [label="ns3::Mac48Address",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac48_address.html",tooltip="an EUI-48 address"];
+  Node8 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_dlBurstProfiles" ,fontname="Helvetica"];
+  Node8 [label="std::vector\< ns3::OfdmDl\lBurstProfile \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node9 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node9 [label="ns3::OfdmDlBurstProfile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ofdm_dl_burst_profile.html",tooltip="This class implements the OFDM Downlink burst profile descriptor as described by \"IEEE Standard for L..."];
+  Node10 -> Node8 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::OfdmDlBurstProfile \>" ,fontname="Helvetica"];
+  Node10 [label="std::vector\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node11 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node11 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

@@ -1,0 +1,10 @@
+digraph "ns3::LrWpanCsmaCa::GetTimeToNextSlot"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LrWpanCsmaCa::\lGetTimeToNextSlot",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Locates the time to the next backoff period boundary in the SUPERFRAME and returns the amount of time..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LrWpanCsmaCa::\lStart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lr_wpan_csma_ca.html#a56a6a13db485d94a8449d0823985b503",tooltip="Start CSMA-CA algorithm (step 1), initialize NB, BE for both slotted and unslotted CSMA-CA."];
+}

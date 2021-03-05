@@ -1,0 +1,58 @@
+digraph "ns3::ThreeGppRmaPropagationLossModel"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::ThreeGppRmaPropagation\lLossModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Implements the pathloss model defined in 3GPP TR 38.901, Table 7.4.1-1 for the RMa scenario."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ThreeGppPropagation\lLossModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_propagation_loss_model.html",tooltip="Base class for the 3GPP propagation models."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::PropagationLossModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_propagation_loss_model.html",tooltip="Models the propagation loss through a transmission medium."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Object",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object.html",tooltip="A base class which provides memory management and object aggregation."];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::SimpleRefCount\l\< Object, ObjectBase,\l ObjectDeleter \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ref_count.html",tooltip=" "];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::ObjectBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html",tooltip="Anchor the ns-3 type and attribute system."];
+  Node7 -> Node5 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Object, ObjectBase,\l ObjectDeleter \>" ,fontname="Helvetica"];
+  Node7 [label="ns3::SimpleRefCount\l\< T, PARENT, DELETER \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ref_count.html",tooltip="A template-based reference counting class."];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::empty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1empty.html",tooltip="make Callback use a separate empty type"];
+  Node9 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_tid" ,fontname="Helvetica"];
+  Node9 [label="ns3::TypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html",tooltip="a unique identifier for an interface."];
+  Node10 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_aggregates" ,fontname="Helvetica"];
+  Node10 [label="ns3::Object::Aggregates",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_object_1_1_aggregates.html",tooltip="The list of Objects aggregated to this one."];
+  Node4 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" buffer" ,fontname="Helvetica"];
+  Node11 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_next" ,fontname="Helvetica"];
+  Node11 [label="ns3::Ptr\< ns3::Propagation\lLossModel \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ptr.html",tooltip=" "];
+  Node3 -> Node11 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_ptr" ,fontname="Helvetica"];
+  Node12 -> Node11 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::PropagationLossModel \>" ,fontname="Helvetica"];
+  Node12 [label="ns3::Ptr\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ptr.html",tooltip="Smart pointer class similar to boost::intrusive_ptr."];
+  Node13 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_normRandomVariable" ,fontname="Helvetica"];
+  Node13 [label="ns3::Ptr\< ns3::NormalRandom\lVariable \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ptr.html",tooltip=" "];
+  Node14 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_ptr" ,fontname="Helvetica"];
+  Node14 [label="ns3::NormalRandomVariable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_normal_random_variable.html",tooltip="The normal (Gaussian) distribution Random Number Generator (RNG) that allows stream numbers to be set..."];
+  Node15 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::RandomVariableStream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_variable_stream.html",tooltip="The basic uniform Random Number Generator (RNG)."];
+  Node4 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 -> Node15 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_rng" ,fontname="Helvetica"];
+  Node16 [label="ns3::RngStream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rng_stream.html",tooltip="Combined Multiple-Recursive Generator MRG32k3a."];
+  Node12 -> Node13 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::NormalRandomVariable \>" ,fontname="Helvetica"];
+  Node17 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_shadowingMap" ,fontname="Helvetica"];
+  Node17 [label="std::unordered_map\l\< uint32_t, ns3::ThreeGppPropagation\lLossModel::ShadowingMapItem \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node18 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node18 [label="ns3::ThreeGppPropagation\lLossModel::ShadowingMapItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_three_gpp_propagation_loss_model_1_1_shadowing_map_item.html",tooltip="Define a struct for the m_shadowingMap entries."];
+  Node19 -> Node17 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< uint32_t, ns3::ThreeGpp\lPropagationLossModel::Shadowing\lMapItem \>" ,fontname="Helvetica"];
+  Node19 [label="std::unordered_map\l\< K, T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node20 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" keys" ,fontname="Helvetica"];
+  Node20 [label="K",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node21 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node21 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node22 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_channelConditionModel" ,fontname="Helvetica"];
+  Node22 [label="ns3::Ptr\< ns3::ChannelCondition\lModel \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ptr.html",tooltip=" "];
+  Node23 -> Node22 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_ptr" ,fontname="Helvetica"];
+  Node23 [label="ns3::ChannelConditionModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_channel_condition_model.html",tooltip="Models the channel condition."];
+  Node4 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node22 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::ChannelConditionModel \>" ,fontname="Helvetica"];
+}

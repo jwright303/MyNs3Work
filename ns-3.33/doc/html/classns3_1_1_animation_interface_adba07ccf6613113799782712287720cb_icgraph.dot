@@ -1,0 +1,16 @@
+digraph "ns3::AnimationInterface::UpdateNodeColor"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::AnimationInterface\l::UpdateNodeColor",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Helper function to update the node color."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="modify",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$colors-link-description_8cc.html#a7a2a3abb755d0d1a31414355520d054b",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::AnimationInterface\l::WriteNodeColors",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_animation_interface.html#ac5c5f326ca346e340a0a3e9ec50d94ee",tooltip="Write node colors function."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::AnimationInterface\l::StartAnimation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_animation_interface.html#aed28bace6b97494e11179766449bb442",tooltip="Start animation function."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::AnimationInterface\l::AnimationInterface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_animation_interface.html#a88af7da6eb605ec7e9d8cb3fcc8a6466",tooltip="Constructor."];
+}

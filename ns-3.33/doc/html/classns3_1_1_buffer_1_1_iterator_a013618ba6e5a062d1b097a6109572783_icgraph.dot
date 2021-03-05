@@ -1,0 +1,12 @@
+digraph "ns3::Buffer::Iterator::WriteU64"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Buffer::Iterator\l::WriteU64",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="BufferTest::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_buffer_test.html#a4ffd025f50c962366167daef7df0ac58",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::EthernetHeader\l::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ethernet_header.html#ac281b6d6961217dce15bc52781bc43e3",tooltip=" "];
+}

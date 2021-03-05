@@ -1,0 +1,16 @@
+digraph "ns3::LteUeRrcProtocolReal::SetEnbRrcSapProvider"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LteUeRrcProtocolReal\l::SetEnbRrcSapProvider",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set ENB RRC SAP provider."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteUeRrcProtocolReal\l::DoSendIdealUeContextRemoveRequest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_rrc_protocol_real.html#ae90c17cc21f5134d9977fa6082dee64f",tooltip="Send ideal UE context remove request function."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LteUeRrcProtocolReal\l::DoSendMeasurementReport",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_rrc_protocol_real.html#ac41ee20df1ad7487e5567e42af85a240",tooltip="Send measurement report function."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::LteUeRrcProtocolReal\l::DoSendRrcConnectionReconfiguration\lCompleted",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_rrc_protocol_real.html#a3f28203afd2430174ef52e0a37708ff1",tooltip="Send RRC connection reconfiguration setup completed function."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::LteUeRrcProtocolReal\l::DoSendRrcConnectionRequest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_rrc_protocol_real.html#af1f7ba46dc2b2a1e13dcde81ec7afea4",tooltip="Send RRC connection request function."];
+}

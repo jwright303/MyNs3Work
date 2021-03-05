@@ -1,0 +1,14 @@
+digraph "ns3::RrcDlDcchMessage::SerializeDlDcchMessage"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::RrcDlDcchMessage\l::SerializeDlDcchMessage",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Serialize DL DCCH message function."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::RrcDlDcchMessage\l::PreSerialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_dl_dcch_message.html#a4b26e32ca0110ad25cf37ec1e403e6de",tooltip="This function serializes class attributes to m_serializationResult local Buffer."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::RrcConnectionReconfiguration\lHeader::PreSerialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_connection_reconfiguration_header.html#a33ad4ad4e4c4c3cf234a36979727fc61",tooltip="This function serializes class attributes to m_serializationResult local Buffer."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::RrcConnectionRelease\lHeader::PreSerialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_connection_release_header.html#ae950fbed1367219c3d7f183492e751ba",tooltip="This function serializes class attributes to m_serializationResult local Buffer."];
+}

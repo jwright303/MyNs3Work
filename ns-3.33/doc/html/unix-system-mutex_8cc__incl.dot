@@ -1,0 +1,57 @@
+digraph "src/core/model/unix-system-mutex.cc"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/core/model/unix\l-system-mutex.cc",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Mutex critical section primitive definitions for Unix-like systems."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="pthread.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cstring",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cerrno",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="fatal-error.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fatal-error_8h.html",tooltip="NS_FATAL_x macro definitions."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="iostream",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="exception",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="cstdlib",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="fatal-impl.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fatal-impl_8h.html",tooltip="ns3::FatalImpl::RegisterStream(), ns3::FatalImpl::UnregisterStream(), and ns3::FatalImpl::FlushStream..."];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ostream",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="log.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$log_8h.html",tooltip="Debug message logging."];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="string",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node11 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="stdint.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node11 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="map",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node11 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="vector",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node11 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="node-printer.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$node-printer_8h.html",tooltip="Declaration of ns3::NodePrinter function pointer type and ns3::DefaultNodePrinter function."];
+  Node16 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="time-printer.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$time-printer_8h.html",tooltip="Declaration of ns3::TimePrinter function pointer type and ns3::DefaultTimePrinter function."];
+  Node17 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="log-macros-enabled.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$log-macros-enabled_8h.html",tooltip="NS_LOG and related logging macro definitions."];
+  Node11 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="log-macros-disabled.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$log-macros-disabled_8h.html",tooltip="Definition of empty logging macros and the NS_LOG_NOOP_INTERNAL macro."];
+  Node1 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="system-mutex.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$system-mutex_8h.html",tooltip="System-independent mutex primitive, ns3::SystemMutex, and ns3::CriticalSection."];
+  Node20 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="ptr.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ptr_8h.html",tooltip="ns3::Ptr smart pointer declaration and implementation."];
+  Node21 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="assert.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$assert_8h.html",tooltip="NS_ASSERT() and NS_ASSERT_MSG() macro definitions."];
+  Node22 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,17 @@
+digraph "ns3::QueueDisc::GetStats"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::QueueDisc::GetStats",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Retrieve all the collected statistics."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QueueDiscTracesTestCase\l::CheckDroppedAfterDequeue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_queue_disc_traces_test_case.html#a9e48671867d367d93af00054792c599e",tooltip="Check that packets/bytes dropped after dequeue are consistent with what is expected."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QueueDiscTracesTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_queue_disc_traces_test_case.html#a7ad9e3425f5a7827cf41434ab969ba75",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QueueDiscTracesTestCase\l::CheckDroppedBeforeEnqueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_queue_disc_traces_test_case.html#ab8918af69cb52632e76b46af56577e36",tooltip="Check that packets/bytes dropped before enqueue are consistent with what is expected."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="TcPacketsInQueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fd-emu-tc_8cc.html#ac033629d87fc8f1ec168c5d741db329f",tooltip=" "];
+}

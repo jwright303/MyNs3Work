@@ -1,0 +1,51 @@
+digraph "LteSpectrumValueHelperTestSuite"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="LteSpectrumValueHelperTest\lSuite",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Test suite for LteSpectrumValueHelper."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TestSuite",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_test_suite.html",tooltip="A suite of tests to run."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::TestCase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_test_case.html",tooltip="encapsulates test code"];
+  Node4 -> Node3 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::NonCopyable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_non_copyable.html",tooltip="A base class for (non-Singleton) objects which shouldn't be copied."];
+  Node5 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_children" ,fontname="Helvetica"];
+  Node5 [label="std::vector\< ns3::TestCase * \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node6 -> Node5 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::TestCase * \>" ,fontname="Helvetica"];
+  Node6 [label="std::vector\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node7 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_dataDir\nm_name" ,fontname="Helvetica"];
+  Node8 [label="std::string",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="std::basic_string\<\l Char \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node10 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_runner" ,fontname="Helvetica"];
+  Node10 [label="ns3::TestRunnerImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_test_runner_impl.html",tooltip="Container for all tests."];
+  Node11 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::Singleton\< TestRunner\lImpl \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_singleton.html",tooltip=" "];
+  Node4 -> Node11 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node11 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< TestRunnerImpl \>" ,fontname="Helvetica"];
+  Node12 [label="ns3::Singleton\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_singleton.html",tooltip="A template singleton."];
+  Node4 -> Node12 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_suites" ,fontname="Helvetica"];
+  Node13 [label="std::vector\< TestSuite * \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node2 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node6 -> Node13 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< TestSuite * \>" ,fontname="Helvetica"];
+  Node8 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_tempDir" ,fontname="Helvetica"];
+  Node3 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_parent" ,fontname="Helvetica"];
+  Node14 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_result" ,fontname="Helvetica"];
+  Node14 [label="ns3::TestCase::Result",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_test_case_1_1_result.html",tooltip="Container for results from a TestCase."];
+  Node15 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" failure" ,fontname="Helvetica"];
+  Node15 [label="std::vector\< ns3::TestCase\lFailure \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node16 -> Node15 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node16 [label="ns3::TestCaseFailure",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_test_case_failure.html",tooltip="Container for details of a test failure."];
+  Node8 -> Node16 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" actual\ncond\nfile\nlimit\nmessage" ,fontname="Helvetica"];
+  Node6 -> Node15 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::TestCaseFailure \>" ,fontname="Helvetica"];
+  Node17 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" clock" ,fontname="Helvetica"];
+  Node17 [label="ns3::SystemWallClockMs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_system_wall_clock_ms.html",tooltip="Measure elapsed wall clock time in milliseconds."];
+  Node18 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_priv" ,fontname="Helvetica"];
+  Node18 [label="ns3::SystemWallClockMsPrivate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_system_wall_clock_ms_private.html",tooltip="System-dependent implementation for SystemWallClockMs."];
+}

@@ -1,0 +1,10 @@
+digraph "ns3::ThreeGppHttpServerTxBuffer::IsSocketAvailable"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::ThreeGppHttpServerTx\lBuffer::IsSocketAvailable",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="This method is typically used before calling other methods."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ThreeGppHttpServerTx\lBuffer::AddSocket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_server_tx_buffer.html#afa14cc440bac6d6a46112971beaa03e1",tooltip="Add a new socket and create an empty transmission buffer for it."];
+}

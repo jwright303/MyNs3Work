@@ -1,0 +1,16 @@
+digraph "ns3::Ipv4QueueDiscItem::Print"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Ipv4QueueDiscItem\l::Print",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Print the item contents."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::QueueDiscItem\l::GetAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc_item.html#aa9ea3d1c7d32f5aa290eaffa71a11a29",tooltip="Get the MAC address included in this item."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::QueueItem::GetPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_item.html#a7153f2c3e592aeae65ed329f51ffd436",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::QueueDiscItem\l::GetProtocol",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc_item.html#a77aaaba457a4b05b0b49103804a77a3c",tooltip="Get the L3 protocol included in this item."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::QueueDiscItem\l::GetTxQueueIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc_item.html#aeda55471077748c9e9a23a9feebfe4cf",tooltip="Get the transmission queue index included in this item."];
+}

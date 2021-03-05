@@ -1,0 +1,14 @@
+digraph "ns3::MinstrelHtWifiManager::UpdatePacketCounters"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::MinstrelHtWifiManager\l::UpdatePacketCounters",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Update the number of sample count variables."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::MinstrelHtWifiManager\l::DoReportAmpduTxStatus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_minstrel_ht_wifi_manager.html#ae46e486574f5eb6e591fe147f8cd388e",tooltip="Typically called per A-MPDU, either when a Block ACK was successfully received or when a BlockAckTime..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::MinstrelHtWifiManager\l::DoReportDataOk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_minstrel_ht_wifi_manager.html#aa0843d3f01c36ec861881c5770e55b03",tooltip="This method is a pure virtual method that must be implemented by the sub-class."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::MinstrelHtWifiManager\l::DoReportFinalDataFailed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_minstrel_ht_wifi_manager.html#a7f0e93d9dccdb7bbbe35ff9b6d117d53",tooltip="This method is a pure virtual method that must be implemented by the sub-class."];
+}

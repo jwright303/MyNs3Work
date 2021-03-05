@@ -1,0 +1,28 @@
+digraph "ns3::ThreeGppChannelConditionModel::GetChannelCondition"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::ThreeGppChannelCondition\lModel::GetChannelCondition",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Retrieve the condition of the channel between a and b."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThreeGppV2vUrbanLosNlosv\lChCondModelTestCase::Evaluate\lChannelCondition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_v2v_urban_los_nlosv_ch_cond_model_test_case.html#aa8d55f861e5bade2509f64ac730319f2",tooltip="Evaluates the channel condition between two nodes by calling the method GetChannelCondition on m_cond..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThreeGppV2vUrbanLosNlosv\lChCondModelTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_v2v_urban_los_nlosv_ch_cond_model_test_case.html#a3c2df4a7a3f3d79b69a9b82b5aed42aa",tooltip="Builds the simulation scenario and perform the tests."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThreeGppV2vHighwayLosNlosv\lChCondModelTestCase::EvaluateChannel\lCondition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_v2v_highway_los_nlosv_ch_cond_model_test_case.html#a4ed0de80e9723c449dbe65567ccf1505",tooltip="Evaluates the channel condition between two nodes by calling the method GetChannelCondition on m_cond..."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThreeGppV2vHighwayLosNlosv\lChCondModelTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_v2v_highway_los_nlosv_ch_cond_model_test_case.html#a6f70342d318085f5dd1ec9161fab5814",tooltip="Builds the simulation scenario and perform the tests."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThreeGppChannelCondition\lModelTestCase::EvaluateChannel\lCondition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_channel_condition_model_test_case.html#a5d1783b8b6eb685246c6f90d240cec2d",tooltip="Evaluates the channel condition between two nodes by calling the method GetChannelCondition on m_cond..."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThreeGppChannelCondition\lModelTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_channel_condition_model_test_case.html#a1e051fff0969bbc48d047f7a3a08ce0e",tooltip="Builds the simulation scenario and perform the tests."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="V2vUrbanProbChCondModelTest\lCase::EvaluateChannelCondition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_v2v_urban_prob_ch_cond_model_test_case.html#a5dacfb4db3bc39d0dcbaeee000370724",tooltip="Evaluates the channel condition between two nodes by calling the method GetChannelCondition on m_cond..."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="V2vUrbanProbChCondModelTest\lCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_v2v_urban_prob_ch_cond_model_test_case.html#a5e8a78e5af26ac34bec4ab6c18fde149",tooltip="Builds the simulation scenario and perform the tests."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="V2vHighwayProbChCondModel\lTestCase::EvaluateChannelCondition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_v2v_highway_prob_ch_cond_model_test_case.html#a0b793e4103942cc9f626a46c86fe34fc",tooltip="Evaluates the channel condition between two nodes by calling the method GetChannelCondition on m_cond..."];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="V2vHighwayProbChCondModel\lTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_v2v_highway_prob_ch_cond_model_test_case.html#aa973405f68efce293f6a395ab7a2af4f",tooltip="Builds the simulation scenario and perform the tests."];
+}

@@ -1,0 +1,36 @@
+digraph "ns3::RedQueueDisc::DropEarly"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::RedQueueDisc::\lDropEarly",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Check if a packet needs to be dropped due to probability mark."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::RedQueueDisc::\lCalculatePNew",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_red_queue_disc.html#a90befa18116859b950712fbb2a418776",tooltip="Returns a probability using these function parameters for the DropEarly function."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::UniformRandomVariable\l::GetValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uniform_random_variable.html#a03822d8c86ac51e9aa83bbc73041386b",tooltip="Get the next random value, as a double in the specified range ."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::RandomVariableStream\l::IsAntithetic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_variable_stream.html#ae8f50692f36f1403a22d0cbb9c488db2",tooltip="Check if antithetic values will be generated."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::max",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#a548291fa9e4e7d6a57814dfcbbebce9b",tooltip=" "];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::min",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#a66840605409c3caeff0d2a728b68dc6d",tooltip=" "];
+  Node3 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::RandomVariableStream\l::Peek",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_variable_stream.html#a72b37a5c0a574a51df77d378d9101936",tooltip="Get the pointer to the underlying RngStream."];
+  Node3 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::RngStream::RandU01",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rng_stream.html#a46be36426b8bc712e9de468b63558c22",tooltip="Generate the next random number for this stream."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::RedQueueDisc::\lModifyP",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_red_queue_disc.html#a13c713ce7e0d321a4a6f5686d600709a",tooltip="Returns a probability using these function parameters for the DropEarly function."];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::QueueDisc::GetMaxSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#a30acf59202fdbdc24b320d3500dc70d3",tooltip="Get the maximum size of the queue disc."];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::QueueDisc::GetInternal\lQueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#a41ba62e67ec4e9dda23d8eef1ab3e99b",tooltip="Get the i-th internal queue."];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::QueueDisc::GetNInternal\lQueues",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#ae47426b975eb58978099b9898b116802",tooltip="Get the number of internal queues."];
+  Node10 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::QueueDisc::GetNQueue\lDiscClasses",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#aa43972223ab0ed4f1057f96f8e348ddf",tooltip="Get the number of queue disc classes."];
+  Node10 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::QueueDisc::GetQueue\lDiscClass",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#aa41e320ffec30464ab594f5f8cc21780",tooltip="Get the i-th queue disc class."];
+  Node9 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::QueueSize::GetUnit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_size.html#a7c9e4dd4d2565b656c2917f93d95482e",tooltip="Get the underlying unit."];
+}

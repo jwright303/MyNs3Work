@@ -1,0 +1,20 @@
+digraph "ns3::MakeTimeChecker"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::MakeTimeChecker",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Helper to make a Time checker with bounded range."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Copy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#a952d99f6d759fee74dda19f308451bc1",tooltip="Return a deep copy of a Ptr."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::PeekPointer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#af2a7557fe9afdd98d8f6f8f6e412cf5a",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Create",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__ptr.html#ga086d8d4a76485a155f0408b85dcebede",tooltip="Create class instances by constructors with varying numbers of arguments and return them by Ptr."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::TimeValue::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time_value.html#adf5a08f0eb31965373473d3776c8be98",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::max",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#a548291fa9e4e7d6a57814dfcbbebce9b",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::min",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#a66840605409c3caeff0d2a728b68dc6d",tooltip=" "];
+}

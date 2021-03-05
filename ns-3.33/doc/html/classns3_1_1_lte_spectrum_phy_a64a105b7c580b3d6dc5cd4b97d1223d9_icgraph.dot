@@ -1,0 +1,44 @@
+digraph "ns3::LteSpectrumPhy::ChangeState"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LteSpectrumPhy\l::ChangeState",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Change state function."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteSpectrumPhy\l::EndRxData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_spectrum_phy.html#adb0ef7ffaee60976d3b79f31fb3129ca",tooltip="End receive data function."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LteSpectrumPhy\l::StartRxData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_spectrum_phy.html#a496c5216723459c21c02576f8a5056af",tooltip="Start receive data function."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::LteSpectrumPhy\l::StartRx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_spectrum_phy.html#af4041e1ab1f466d1c66b8f2f1c519657",tooltip="Notify the SpectrumPhy instance of an incoming signal."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::LteSpectrumPhy\l::EndRxDlCtrl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_spectrum_phy.html#a88ff185754afa38f1bceb9f1641bdabc",tooltip="End receive DL control function."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::LteSpectrumPhy\l::StartRxDlCtrl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_spectrum_phy.html#a2ea6de28b21dcae1c26d42aecac47341",tooltip="Start receive DL control function."];
+  Node6 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::LteSpectrumPhy\l::EndRxUlSrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_spectrum_phy.html#a71a205152af503902cd05d2f31f55227",tooltip="End receive UL SRS function."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::LteSpectrumPhy\l::StartRxUlSrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_spectrum_phy.html#a3023664623c55b331bee210d6b3cc5a5",tooltip="Start receive UL SRS function."];
+  Node8 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::LteSpectrumPhy\l::EndTxData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_spectrum_phy.html#a52f289e3692bf79dfe70d93c70e248fd",tooltip="End transmit data function."];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::LteSpectrumPhy\l::StartTxDataFrame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_spectrum_phy.html#a46c1be2d6a6eac5e333cf83d261744af",tooltip="Start a transmission of data frame in DL and UL."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::LteSpectrumPhy\l::EndTxDlCtrl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_spectrum_phy.html#acc36ac9ddcc5daff49b55f106b97856c",tooltip="End transmit DL control function."];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::LteSpectrumPhy\l::StartTxDlCtrlFrame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_spectrum_phy.html#aa8675acfda41553709799a9af7bb0b1c",tooltip="Start a transmission of control frame in DL."];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::LteSpectrumPhy\l::EndTxUlSrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_spectrum_phy.html#a7d2b8ee31f4ba86eb824da94fd2f6a34",tooltip="End transmit UL SRS function."];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::LteSpectrumPhy\l::StartTxUlSrsFrame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_spectrum_phy.html#aea6bcc7e1aae88e314abe2db3d63f61b",tooltip="Start a transmission of control frame in UL."];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::LteSpectrumPhy\l::SetState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_spectrum_phy.html#a13fa503d52656839a9e25ef5a973e426",tooltip="Set the state of the phy layer."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

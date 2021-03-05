@@ -1,0 +1,18 @@
+digraph "ns3::QueueDisc::AddQueueDiscClass"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::QueueDisc::AddQueue\lDiscClass",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Add a queue disc class to the tail of the list of classes."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PrioQueueDisc\l::CheckConfig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_prio_queue_disc.html#a0aaf390caf16eeda754f687f31c5d039",tooltip="Check whether the current configuration is correct."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::TbfQueueDisc::\lCheckConfig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tbf_queue_disc.html#a1aca751ec280d81d8b0d7d2e9e75fde6",tooltip="Check whether the current configuration is correct."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TestParentQueueDisc\l::CheckConfig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_parent_queue_disc.html#aed63edbc24253979902cea77e451aec7",tooltip="Check whether the current configuration is correct."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::QueueDiscFactory\l::CreateQueueDisc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc_factory.html#a54976e363c67dc502dc67bafbdb59669",tooltip="Create a queue disc with the currently stored configuration."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::FqCoDelQueueDisc\l::DoEnqueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_fq_co_del_queue_disc.html#a9763ff304b86d8c3d2f951d20e102d0a",tooltip="This function actually enqueues a packet into the queue disc."];
+}

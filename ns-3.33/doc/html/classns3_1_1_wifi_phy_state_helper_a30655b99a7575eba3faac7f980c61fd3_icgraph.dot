@@ -1,0 +1,12 @@
+digraph "ns3::WifiPhyStateHelper::IsStateOff"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::WifiPhyStateHelper\l::IsStateOff",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Check whether the current state is OFF."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WifiPhyStateHelper\l::SwitchFromOff",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#a2a7616c7cb18a5ef27285787a4fb2e5f",tooltip="Switch from off mode."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WifiPhyStateHelper\l::SwitchToOff",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_state_helper.html#acb2511cbb9040e3783bb890f4d3b65d8",tooltip="Switch to off mode."];
+}

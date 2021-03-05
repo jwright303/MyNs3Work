@@ -1,0 +1,14 @@
+digraph "ns3::RngSeedManager::SetRun"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::RngSeedManager\l::SetRun",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set the run number of simulation."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::olsr::Bug780Test\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1olsr_1_1_bug780_test.html#aea2f01c8e6af5f1363b67a23ccaaf030",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::olsr::HelloRegression\lTest::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1olsr_1_1_hello_regression_test.html#a469da2871e46fb6d56da5820f5aa1982",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::olsr::TcRegressionTest\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1olsr_1_1_tc_regression_test.html#ab3215c11b0586486c641af620fb1bc0b",tooltip="Implementation to actually run this TestCase."];
+}

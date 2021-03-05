@@ -1,0 +1,18 @@
+digraph "ns3::TapBridge::Filter"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::TapBridge::Filter",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="The host we are bridged to is in the evil real world."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TapBridge::ForwardTo\lBridgedDevice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tap_bridge.html#ab4390af3653278cc4ea265d3c7f4de15",tooltip="Forward a packet received from the tap device to the bridged ns-3 device."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::TapBridge::ReadCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tap_bridge.html#a8cf7414db717096f2b3a2a0e7026ed8f",tooltip="Callback to process packets that are read."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::TapBridge::StartTap\lDevice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tap_bridge.html#a15e7ac0069167eb1e1d63b3cefe86002",tooltip="Spin up the device."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::TapBridge::Start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tap_bridge.html#a729662b8454d1c8202add94ebf389bb9",tooltip="Set a start time for the device."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::TapBridge::TapBridge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tap_bridge.html#a59285065e82d8ba63306846fc4082f4b",tooltip=" "];
+}

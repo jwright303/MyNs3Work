@@ -1,0 +1,14 @@
+digraph "ns3::PendingData::OffsetFromSeq"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::PendingData::Offset\lFromSeq",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Subtracts seqFront from seqOffset after enforcing seqFront is less than seqOffset."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PendingData::CopyFromSeq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pending_data.html#ac49fbeb525992b5b033d3209dcf5688c",tooltip="Copy data starting from a give offset."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::PendingData::Remove\lToSeq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pending_data.html#a8a55613b348dee724f3bb5bc4599a333",tooltip="Permits object to clear any pending data between seqFront and seqOffset - 1)."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::PendingData::SizeFromSeq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pending_data.html#a9c9f7a2ab4c522ba19f9bf219f6620e8",tooltip="This method returns the number of bytes in the PendingData buffer beyond the sequence number specifie..."];
+}

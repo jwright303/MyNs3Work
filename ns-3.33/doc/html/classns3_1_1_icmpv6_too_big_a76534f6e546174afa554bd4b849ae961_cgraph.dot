@@ -1,0 +1,16 @@
+digraph "ns3::Icmpv6TooBig::Print"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Icmpv6TooBig::\lPrint",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Print information."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Icmpv6Header::\lGetChecksum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_header.html#a52f8e7426d0857236930abb7768484f5",tooltip="Get the checksum."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Icmpv6Header::\lGetCode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_header.html#a13d8f4dc5f9674af6a0fa15bf4b49d9a",tooltip="Get the code field."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Icmpv6TooBig::\lGetMtu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_too_big.html#aff6d0d36a1b0c25c12b4613046ab6f49",tooltip="Get the MTU field."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Icmpv6Header::\lGetType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_header.html#a34dd3bf798288e87e54ef2a2f8fd89ce",tooltip="Get the type field."];
+}

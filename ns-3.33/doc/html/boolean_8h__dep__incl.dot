@@ -1,0 +1,17 @@
+digraph "src/core/model/boolean.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/core/model/boolean.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ns3::BooleanValue attribute value declarations."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="src/core/model/boolean.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$boolean_8cc.html",tooltip="ns3::BooleanValue attribute value implementaation."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="src/core/model/calendar\l-scheduler.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$calendar-scheduler_8cc.html",tooltip="ns3::CalendarScheduler class implementation."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="src/core/model/random\l-variable-stream.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$random-variable-stream_8cc.html",tooltip="ns3::RandomVariableStream and related implementations"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="src/core/model/realtime\l-simulator-impl.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$realtime-simulator-impl_8cc.html",tooltip="ns3::RealTimeSimulatorImpl implementation."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="src/core/model/traced\l-value.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$traced-value_8h.html",tooltip="ns3::TracedValue declaration and template implementation."];
+}

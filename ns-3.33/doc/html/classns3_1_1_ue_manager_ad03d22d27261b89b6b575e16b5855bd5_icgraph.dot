@@ -1,0 +1,42 @@
+digraph "ns3::UeManager::StartDataRadioBearers"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::UeManager::StartData\lRadioBearers",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Start the data radio bearers that have been previously recorded to be started using RecordDataRadioBe..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::UeManager::RecvRrcConnection\lReconfigurationCompleted",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_manager.html#a767171084a3ea38162758d145b705e2a",tooltip="Implement the LteEnbRrcSapProvider::RecvRrcConnectionReconfigurationCompleted interface."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::UeManager::SwitchTo\lState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_manager.html#af2b5ad90fc6f16ffc4a91fbe8a522472",tooltip="Switch the UeManager to the given state."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::UeManager::InitialContext\lSetupRequest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_manager.html#a03e0a1647f63052e4a532d38b268415b",tooltip="Process Initial context setup request message from the MME."];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::UeManager::PrepareHandover",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_manager.html#a1d842520ee54f281ee7eefc2a62f7844",tooltip="Start the handover preparation and send the handover request."];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::UeManager::RecvHandover\lPreparationFailure",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_manager.html#ae666e05868312327e759a738ba1e19f3",tooltip="Take the necessary actions in response to the reception of an X2 HO preparation failure message."];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::UeManager::RecvHandover\lRequestAck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_manager.html#ad2e93daf91532b0fd263355b2416330d",tooltip="take the necessary actions in response to the reception of an X2 HANDOVER REQUEST ACK message"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::UeManager::RecvRrcConnection\lReestablishmentComplete",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_manager.html#ac37bbe0bc63e4fd32c098df8c2f531b8",tooltip="Implement the LteEnbRrcSapProvider::RecvRrcConnectionReestablishmentComplete interface."];
+  Node3 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::UeManager::RecvRrcConnection\lReestablishmentRequest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_manager.html#a02513c99e18c815fc58a05e4b135ecfa",tooltip="Implement the LteEnbRrcSapProvider::RecvRrcConnectionReestablishmentRequest interface."];
+  Node3 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::UeManager::RecvRrcConnection\lRequest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_manager.html#af0959818ae542240ccf1caa2b3da19ab",tooltip="Implement the LteEnbRrcSapProvider::RecvRrcConnectionRequest interface."];
+  Node3 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::UeManager::RecvRrcConnection\lSetupCompleted",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_manager.html#a603086a2beb1901cad3f30c6bfd32544",tooltip="Implement the LteEnbRrcSapProvider::RecvRrcConnectionSetupCompleted interface."];
+  Node3 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::UeManager::Schedule\lRrcConnectionReconfiguration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_manager.html#add763d882c14c2f1414167668f6ca095",tooltip="schedule an RRC Connection Reconfiguration procedure with the UE"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::UeManager::CmacUeConfig\lUpdateInd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_manager.html#a3502fd922f08dc8116176a63060d8067",tooltip="CMAC UE config update indication function."];
+  Node12 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::UeManager::SetPdsch\lConfigDedicated",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_manager.html#af41111c80a44e534b52ddf4d838edb0c",tooltip="Configure PdschConfigDedicated (i.e."];
+  Node12 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::UeManager::SetSrsConfiguration\lIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_manager.html#a8bc48fe95a32d47ef0a7a36fbaa4339b",tooltip="Set the SRS configuration index and do the necessary reconfiguration."];
+  Node12 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::UeManager::SetupData\lRadioBearer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_manager.html#a75f49cd54eb63c79c696779aa518cf19",tooltip="Setup a new data radio bearer, including both the configuration within the eNB and the necessary RRC ..."];
+  Node12 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::UeManager::SendUeContext\lRelease",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_manager.html#ad1a1e702fc813b4260bcafaa4f4562ba",tooltip="send the UE CONTEXT RELEASE X2 message to the source eNB, thus successfully terminating an X2 handove..."];
+}

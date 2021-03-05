@@ -1,0 +1,12 @@
+digraph "ns3::VhtOperation::GetChannelCenterFrequencySegment1"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::VhtOperation::\lGetChannelCenterFrequencySegment1",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Return the Channel Center Frequency Segment 1 field in the VHT Operation information element."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::operator\<\<",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#a130046800fb142349fb2315adcb8fbef",tooltip="output stream output operator"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::VhtOperation::\lSerializeInformationField",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_vht_operation.html#a2c2fdcf7ad4a559b10e38d7402d6683c",tooltip="Serialize information (i.e., the body of the IE, not including the Element ID and length octets)"];
+}

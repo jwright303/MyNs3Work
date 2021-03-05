@@ -1,0 +1,11 @@
+digraph "ns3::LteUeCcmRrcSapProvider::LcsConfig"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ns3::LteUeCcmRrcSapProvider\l::LcsConfig",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="LcsConfig structure."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" lcConfig" ,fontname="Helvetica"];
+  Node2 [label="ns3::LteUeCmacSapProvider\l::LogicalChannelConfig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_ue_cmac_sap_provider_1_1_logical_channel_config.html",tooltip="LogicalChannelConfig structure."];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" msu" ,fontname="Helvetica"];
+  Node3 [label="ns3::LteMacSapUser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_mac_sap_user.html",tooltip="Service Access Point (SAP) offered by the MAC to the RLC See Femto Forum MAC Scheduler Interface Spec..."];
+}

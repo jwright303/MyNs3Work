@@ -1,0 +1,27 @@
+digraph "ns3::WifiRadioEnergyModel::WifiRadioEnergyModel"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::WifiRadioEnergyModel\l::WifiRadioEnergyModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::DeviceEnergyModel\l::ChangeState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_device_energy_model.html#a332be7863f3e8258743811077dde7f39",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::MakeCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#af1dde3c04374147fca0cfe3b0766d664",tooltip="Build Callbacks for class method members which take varying numbers of arguments and potentially retu..."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Callback::Nullify",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_callback.html#ab24de4ac458fc5b1ac6f7a672c4c6cea",tooltip="Discard the implementation, set it to null."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::WifiRadioEnergyModel\lPhyListener::SetChangeStateCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_radio_energy_model_phy_listener.html#ac4c2d392a79f3f9ea60cf991a8894448",tooltip="Sets the change state callback."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Callback::IsNull",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_callback.html#a42eb007ca42c35b96daa497d6d42d5f2",tooltip="Check for null implementation."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Callback::DoPeekImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_callback.html#a82de10d58e899c61aec3867f9b1f2f33",tooltip=" "];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::PeekPointer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#af2a7557fe9afdd98d8f6f8f6e412cf5a",tooltip=" "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::WifiRadioEnergyModel\l::SetTxCurrentFromModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_radio_energy_model.html#ac4a5fadb7f13e80b744382552d937611",tooltip="Calls the CalcTxCurrent method of the TX current model to compute the TX current based on such model."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::WifiRadioEnergyModel\lPhyListener::SetUpdateTxCurrent\lCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_radio_energy_model_phy_listener.html#a95c5f8c236d73b8d6d94d172720d5c79",tooltip="Sets the update TX current callback."];
+  Node10 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

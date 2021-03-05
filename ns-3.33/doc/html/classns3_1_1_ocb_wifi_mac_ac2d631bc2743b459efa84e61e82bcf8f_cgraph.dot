@@ -1,0 +1,10 @@
+digraph "ns3::OcbWifiMac::RemoveReceiveVscCallback"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::OcbWifiMac::RemoveReceive\lVscCallback",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::VendorSpecificContent\lManager::DeregisterVscCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_vendor_specific_content_manager.html#abe2645201542dd7165365be27f1a5b89",tooltip=" "];
+}

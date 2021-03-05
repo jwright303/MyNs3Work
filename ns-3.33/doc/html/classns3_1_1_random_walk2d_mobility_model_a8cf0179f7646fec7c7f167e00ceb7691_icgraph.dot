@@ -1,0 +1,18 @@
+digraph "ns3::RandomWalk2dMobilityModel::Rebound"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::RandomWalk2dMobility\lModel::Rebound",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Performs the rebound of the node if it reaches a boundary."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::RandomWalk2dMobility\lModel::DoWalk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_mobility_model.html#a7264a6530d2c8d2ecef04eda098db5d4",tooltip="Walk according to position and velocity, until distance is reached, time is reached,..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::RandomWalk2dMobility\lModel::DoInitializePrivate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_mobility_model.html#a130059c3aaeeed619641392042bf36c1",tooltip="Perform initialization of the object before MobilityModel::DoInitialize ()"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::RandomWalk2dMobility\lModel::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_mobility_model.html#a3b8cbd84a8f2e5aced56a37f338369b7",tooltip="Initialize() implementation."];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::RandomWalk2dMobility\lModel::DoSetPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_mobility_model.html#a208225b18028947d3153166926fe6811",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

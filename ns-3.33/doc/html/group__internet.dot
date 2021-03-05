@@ -1,0 +1,29 @@
+digraph "Internet"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node2 [label="IPv4 Helper classes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__ipv4_helpers.html",tooltip=" "];
+  Node5 [label="IPv6 Helper classes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__ipv6_helpers.html",tooltip=" "];
+  Node9 [label="TCP",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__tcp.html",tooltip="This is an implementation of various Transmission Control Protocol flavors."];
+  Node10 [label="UDP",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__udp.html",tooltip="This is an implementation of the User Datagram Protocol described in RFC 768."];
+  Node3 [label="IPv4 Routing Protocols.",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__ipv4_routing.html",tooltip="The classes in this group implement different routing protocols for IPv4."];
+  Node6 [label="IPv6 Routing Protocols.",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__ipv6_routing.html",tooltip="The classes in this group implement different routing protocols for IPv6."];
+  Node4 [label="IPv4 classes and sub\l-modules",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__ipv4.html",tooltip=" "];
+  Node7 [label="IPv6 classes and sub\l-modules",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__ipv6.html",tooltip=" "];
+  Node11 [label="internet module tests",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__internet-test.html",tooltip=" "];
+  Node12 [label="Network Device",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__netdevice.html",tooltip=" "];
+  Node8 [label="NscTcp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__nsctcp.html",tooltip="An alternate implementation of TCP for ns-3 is provided by the Network Simulation Cradle (NSC) projec..."];
+  Node1 [label="Internet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="This section documents the API of the ns-3 internet module."];
+  Node1->Node2 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node4 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node5 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node6 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node7 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node8 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node9 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node10 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node11 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node12 [shape=plaintext, label="ns3::LoopbackNetDevice", color="orange", dir="none", style="dashed"];
+}

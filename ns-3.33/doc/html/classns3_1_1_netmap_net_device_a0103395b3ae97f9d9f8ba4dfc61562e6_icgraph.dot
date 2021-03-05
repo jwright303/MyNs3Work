@@ -1,0 +1,12 @@
+digraph "ns3::NetmapNetDevice::GetSpaceInNetmapTxRing"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::NetmapNetDevice\l::GetSpaceInNetmapTxRing",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the number of slots currently available in the netmap transmission ring."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::NetmapNetDevice\l::SyncAndNotifyQueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_netmap_net_device.html#ae0c7fb987e5e9406324d89ac2c37fdd8",tooltip="This function syncs netmap ring and notifies netdevice queue."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::NetmapNetDevice\l::DoFinishStartingDevice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_netmap_net_device.html#a7dbfbc89db959c93fbd6dc22a9a898ba",tooltip="Complete additional actions, if any, to spin up down the device."];
+}

@@ -1,0 +1,10 @@
+digraph "ThreeGppShadowingTestCase::ChangeChannelCondition"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThreeGppShadowingTestCase\l::ChangeChannelCondition",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ThreeGppPropagation\lLossModel::SetChannelConditionModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_propagation_loss_model.html#a583c11b2814b3ab85ab911c41e9f1abb",tooltip="Set the channel condition model used to determine the channel state (e.g., the LOS/NLOS condition)"];
+}

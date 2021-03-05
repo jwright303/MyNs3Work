@@ -1,0 +1,12 @@
+digraph "ns3::ByteTagIterator::Next"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::ByteTagIterator\l::Next",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ByteTagList::Iterator\l::GetOffsetStart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_byte_tag_list_1_1_iterator.html#a40cef1b2f8f3ba4182df87e392817d72",tooltip="Returns the offset from the start of the virtual byte buffer to the ByteTagList."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ByteTagList::Iterator\l::Next",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_byte_tag_list_1_1_iterator.html#af521864d800baab1d9c5262f59ce4433",tooltip="Returns the next Item from the ByteTagList."];
+}

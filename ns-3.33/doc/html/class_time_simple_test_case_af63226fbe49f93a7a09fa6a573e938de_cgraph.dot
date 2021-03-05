@@ -1,0 +1,46 @@
+digraph "TimeSimpleTestCase::DoTimeOperations"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="TimeSimpleTestCase\l::DoTimeOperations",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Tests the Time Operations."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Div",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__length.html#ga4b3e43e699dd36d6ef3cee2c822e6fb0",tooltip="This function provides a string parsing method that does not rely on istream, which has been found to..."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Rem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#a0ca3ed1b21934a974b9cb4460d36b084",tooltip="Remainder (modulus) from the quotient of two Times."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TimeSimpleTestCase\l::TestDivisionByDecimalTypes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_time_simple_test_case.html#ae73f416eedcc953160dd2ce55ead3877",tooltip="Test dividing a Time instance by various decimal types."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Seconds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__timecivil.html#ga33c34b816f8ff6628e33d5c8e9713b9e",tooltip="Construct a Time in the indicated unit."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Time::FromDouble",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a60e845f4a74e62495b86356afe604cb4",tooltip="Create a Time equal to value in unit unit."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Time::From",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a34e4acc13d0e08cc8cb9cd3b838b9baf",tooltip="Create a Time in the current unit."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::Time::Time",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a8a39dc1b8cbbd7fe6d940e492d1b925e",tooltip="Default constructor, with value 0."];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::Time::Mark",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#aa7eef2a1119c1c4855d99f1e83d44c54",tooltip="Record a Time instance with the MarkedTimes."];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::Time::GetMarkingMutex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#addd8e672203391b3ae98ee475ce05272",tooltip=" "];
+  Node4 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="TimeSimpleTestCase\l::TestDivision",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_time_simple_test_case.html#ac3cc049d6d108a740423d7f4de4092c7",tooltip="Helper function to handle boilerplate code for division tests."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="TimeSimpleTestCase\l::TestDivisionByIntegerTypes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_time_simple_test_case.html#ac1d5ad1462678785553a88bcd63b0a29",tooltip="Test dividing a Time instance by various integer types."];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::Time::GetTimeStep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a363390860dcce2d549b83b5fe3e08657",tooltip="Get the raw time value, in the current resolution unit."];
+  Node12 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="TimeSimpleTestCase\l::TestMultiplicationByDecimal\lTypes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_time_simple_test_case.html#a288e6b7dbc0e8ccd7c4370676bb32c9e",tooltip="Test multiplying a Time instance by various decimal types."];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::Time::GetDouble",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a1d2252cf32cd05098fd4d8baa92509e2",tooltip="Get the raw time value, in the current resolution unit."];
+  Node14 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="TimeSimpleTestCase\l::TestMultiplication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_time_simple_test_case.html#af98ca1f573871c0b1d2d7db8ef6a24c1",tooltip="Helper function to handle boilerplate code for multiplication tests."];
+  Node1 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="TimeSimpleTestCase\l::TestMultiplicationByInteger\lTypes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_time_simple_test_case.html#a2b809b8be9c42c56d1e07de52dbe9bca",tooltip="Test multiplying a Time instance by various integer types."];
+  Node17 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

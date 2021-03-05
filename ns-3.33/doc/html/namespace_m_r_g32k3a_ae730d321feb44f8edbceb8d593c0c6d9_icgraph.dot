@@ -1,0 +1,18 @@
+digraph "MRG32k3a::MultModM"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="MRG32k3a::MultModM",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Return (a*s + c) MOD m; a, s, c and m must be < 2^35."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MRG32k3a::MatVecModM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_m_r_g32k3a.html#af13ae870b17f99238843c3d4de4952ba",tooltip="Compute the vector v = A*s MOD m."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::RngStream::AdvanceNthBy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rng_stream.html#a6ec2451aa49df691a30bc4ca527b2355",tooltip="Advance state of the RNG by leaps and bounds."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="MRG32k3a::MatMatModM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_m_r_g32k3a.html#a2d23edfc3f573f50a93af3e7bbd3aebb",tooltip="Compute the matrix C = A*B MOD m."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="MRG32k3a::MatPowModM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_m_r_g32k3a.html#a88d8e88350ef00f157c96d7db0e972eb",tooltip="Compute the matrix B = (A^n Mod m); works even if A = B."];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="MRG32k3a::MatTwoPowModM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_m_r_g32k3a.html#aa0b977645894cb161ccbb74322f1bbdb",tooltip="Compute the matrix B = (A^(2^e) Mod m); works also if A = B."];
+}

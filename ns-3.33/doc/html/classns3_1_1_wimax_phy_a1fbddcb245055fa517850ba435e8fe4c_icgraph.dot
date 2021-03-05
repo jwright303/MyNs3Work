@@ -1,0 +1,19 @@
+digraph "ns3::WimaxPhy::GetSymbolDuration"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::WimaxPhy::GetSymbol\lDuration",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the OFDM symbol duration."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::SimpleOfdmWimaxPhy\l::CalculateDataRate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ofdm_wimax_phy.html#a1f8bbd76211b6cdda9477a5af6029b4a",tooltip="Calculate data rate."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SimpleOfdmWimaxPhy\l::DoSetDataRates",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ofdm_wimax_phy.html#ae036ca37d85b2ec3f63deb56fce726c7",tooltip="Set data rates."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::SimpleOfdmWimaxPhy\l::DoGetNrBytes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ofdm_wimax_phy.html#a7f56e86a3265997f6b52fa29edf6532f",tooltip="Get number of bytes."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::SimpleOfdmWimaxPhy\l::DoGetNrSymbols",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ofdm_wimax_phy.html#a7ff0a19091265fb271db92241e321fa5",tooltip="Get number of symbols."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::SimpleOfdmWimaxPhy\l::DoGetTransmissionTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ofdm_wimax_phy.html#ae3c8be50bedcd1e7f308080e7bef2cb1",tooltip="Get transmission time."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

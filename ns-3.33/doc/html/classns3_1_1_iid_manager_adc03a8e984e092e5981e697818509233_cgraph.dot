@@ -1,0 +1,18 @@
+digraph "ns3::IidManager::AllocateUid"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::IidManager::AllocateUid",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Create a new unique type id."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::IidManager::GetUid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_iid_manager.html#a57d8582dc3a317229cb74902625c98a0",tooltip="Get a type id by name."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::IidManager::Hasher",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_iid_manager.html#ac125cec331e0a7f55910e96aecec2091",tooltip="Hashing function."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Hasher::clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_hasher.html#a629108aa89019d84af8b2d85c7185f54",tooltip="Restore initial state."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Hasher::GetHash32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_hasher.html#a3d194d6c66ea950b9a89d3465f913012",tooltip="Compute 32-bit hash of a byte buffer."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::IidManager::LookupInformation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_iid_manager.html#a84af06b798b21fa700469a3ac5f65f3f",tooltip="Retrieve the information record for a type."];
+}

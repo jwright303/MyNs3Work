@@ -1,0 +1,16 @@
+digraph "ns3::Ipv4Address::IsSubnetDirectedBroadcast"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Ipv4Address::IsSubnet\lDirectedBroadcast",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Generate subnet-directed broadcast address corresponding to mask."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Ipv4Address::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_address.html#a154da9b1ff6eb451dc4840613fe43e73",tooltip="Get the host-order 32-bit IP address."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Ipv4Mask::GetInverse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_mask.html#a45402865feb06627904604b79fd7e0dc",tooltip="Return the inverse mask in host order."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Ipv4Mask::GetOnes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_mask.html#af712cbdf28c039025d4aa45fa7e243dd",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Ipv4Mask::Ipv4Mask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_mask.html#a4f877fcb3423f63debab168c83213627",tooltip="Will initialize to a garbage value (0x66666666)"];
+}

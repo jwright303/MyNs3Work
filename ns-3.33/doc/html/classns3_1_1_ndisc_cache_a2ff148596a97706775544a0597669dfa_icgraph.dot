@@ -1,0 +1,18 @@
+digraph "ns3::NdiscCache::Flush"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::NdiscCache::Flush",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Flush the cache."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::NdiscCache::~NdiscCache",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ndisc_cache.html#aa0ceae10ef1e04b49cbc134136d18262",tooltip="Destructor."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Icmpv6L4Protocol\l::CreateCache",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_l4_protocol.html#a2ef0a9fca4f92a30636372bd6f524847",tooltip="Create a neighbor cache."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::NdiscCache::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ndisc_cache.html#ad5fd696cc6a9a7f120d810f39bf73180",tooltip="Dispose this object."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Ipv6Interface\l::SetDown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_interface.html#a5302f39e1aa13505c14bca39e4b6ed3b",tooltip="Disable this interface."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Ipv6L3Protocol\l::SetDown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_l3_protocol.html#aac61d62990fdfa91000cffe7fd918062",tooltip="set an interface down."];
+}

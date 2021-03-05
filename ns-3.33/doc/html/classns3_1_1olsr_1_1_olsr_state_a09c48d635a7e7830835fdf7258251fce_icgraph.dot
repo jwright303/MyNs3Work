@@ -1,0 +1,10 @@
+digraph "ns3::olsr::OlsrState::GetMprSet"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::olsr::OlsrState\l::GetMprSet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Gets the MPR set."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::olsr::RoutingProtocol\l::GetMprSet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1olsr_1_1_routing_protocol.html#a010c09ae7dec09891d5aa3d85429a315",tooltip="Gets the MPR set."];
+}

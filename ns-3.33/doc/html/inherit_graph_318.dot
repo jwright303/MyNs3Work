@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ns3::EutraChannelNumbers",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_eutra_channel_numbers.html",tooltip="Table 5.7.3-1 \"E-UTRA channel numbers\" from 3GPP TS 36.101 The table was converted to C syntax doing ..."];
+}

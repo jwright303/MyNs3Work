@@ -1,0 +1,48 @@
+digraph "ns3::Time::Max"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Time::Max",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Maximum representable Time Not to be confused with Max(Time,Time)."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::FqCoDelQueueDisc\l::CheckConfig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_fq_co_del_queue_disc.html#a18368ef335c681f62b337862583068a7",tooltip="Check whether the current configuration is correct."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::PieQueueDisc::\lDoEnqueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pie_queue_disc.html#a583c0ac9ca43810a32af239e23e31614",tooltip="This function actually enqueues a packet into the queue disc."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::TcpVegas::EnableVegas",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_vegas.html#a9598876615fdef3542af10ff541e1d40",tooltip="Enable Vegas algorithm to start taking Vegas samples."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::TcpVegas::Congestion\lStateSet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_vegas.html#a0e82c50f7d326449fca838e46cbb9821",tooltip="Enable/disable Vegas algorithm depending on the congestion state."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::TcpVeno::EnableVeno",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_veno.html#a7ece86eb87a0b29cb1d13be11a963873",tooltip="Enable Veno algorithm to start Veno sampling."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::TcpVeno::Congestion\lStateSet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_veno.html#a39f34ca48e88063934c9c4f893d9c1dc",tooltip="Enable/disable Veno depending on the congestion state."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::TcpYeah::EnableYeah",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_yeah.html#ad2f91d04a90f689b9cfd05a26de6472e",tooltip="Enable YeAH algorithm to start taking YeAH samples."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::TcpYeah::Congestion\lStateSet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_yeah.html#ad3d8b9d44b3a29ab9f30aabc4af9c08a",tooltip="Enable/disable YeAH algorithm depending on the congestion state."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::TcpHtcp::GetSsThresh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_htcp.html#add36278610893b4eba23cf688f7779d8",tooltip="Get the slow start threshold after a loss event."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::ArpCache::Entry\l::GetTimeout",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_arp_cache_1_1_entry.html#a45db2d4cfc508a9d099e26c56d7c9953",tooltip="Returns the entry timeout."];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::CoDelQueueDisc\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_co_del_queue_disc.html#ae0ee4bf739d0a32330de43741a362f59",tooltip="Get the type ID."];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::FqCoDelQueueDisc\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_fq_co_del_queue_disc.html#ac1928d4a228c995d1c24f413fde82bd2",tooltip="Get the type ID."];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::PieQueueDisc::\lGetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pie_queue_disc.html#a77db6d3c88c9d7b3037d1c3bae6fb80f",tooltip="Get the type ID."];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::TcpVegas::IncreaseWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_vegas.html#ae80e9ac677116dada43dacda0f98a8b6",tooltip="Adjust cwnd following Vegas linear increase/decrease algorithm."];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::TcpVeno::IncreaseWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_veno.html#a5865787a20ea7c2c8beee2df5cefcdaa",tooltip="Adjust cwnd following Veno additive increase algorithm."];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::TcpYeah::IncreaseWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_yeah.html#aa1efa60adbcb1dfad8d188deef7ed2ea",tooltip="Adjust cwnd following YeAH dual-mode algorithm."];
+  Node1 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::MakeTimeChecker",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__attribute___time.html#gafa973743589be9a3b857d842a1b3f3c8",tooltip="Helper to make an unbounded Time checker."];
+  Node1 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ns3::TcpRateLinux::\lSkbDelivered",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_rate_linux.html#a2ec421fa97c9e10fa38dd824b3f8efd7",tooltip="Update the Rate information after an item is received."];
+  Node19 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="TcpRateLinuxBasicTest\l::SkbDelivered",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_rate_linux_basic_test.html#a040a3e59c958e9ab411224f3ef358d40",tooltip=" "];
+  Node20 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="TcpRateLinuxBasicTest\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_rate_linux_basic_test.html#a9db35df53d79296340221c71f0db80c2",tooltip="Implementation to actually run this TestCase."];
+}

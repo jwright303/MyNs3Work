@@ -1,0 +1,13 @@
+digraph "ns3::LteRrcSap::SystemInformationBlockType1"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ns3::LteRrcSap::SystemInformation\lBlockType1",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SystemInformationBlockType1 structure."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cellSelectionInfo" ,fontname="Helvetica"];
+  Node2 [label="ns3::LteRrcSap::CellSelectionInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_cell_selection_info.html",tooltip="CellSelectionInfo structure."];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cellAccessRelatedInfo" ,fontname="Helvetica"];
+  Node3 [label="ns3::LteRrcSap::CellAccess\lRelatedInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_cell_access_related_info.html",tooltip="CellAccessRelatedInfo structure."];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" plmnIdentityInfo" ,fontname="Helvetica"];
+  Node4 [label="ns3::LteRrcSap::PlmnIdentityInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_plmn_identity_info.html",tooltip="PlmnIdentityInfo structure."];
+}

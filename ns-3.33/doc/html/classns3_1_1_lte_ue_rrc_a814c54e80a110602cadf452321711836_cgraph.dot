@@ -1,0 +1,19 @@
+digraph "ns3::LteUeRrc::RadioLinkFailureDetected"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::LteUeRrc::RadioLink\lFailureDetected",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Radio link failure detected function."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteAsSapUser::\lNotifyConnectionReleased",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_as_sap_user.html#abaa7e7c062a605a1f30d3f3f80fb5d7e",tooltip="Notify the NAS that RRC Connection was released."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LteUeRrcSapUser\l::SendIdealUeContextRemoveRequest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_rrc_sap_user.html#a666355f61851e580f85c1f40579fdeee",tooltip="Send UE context remove request function."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::LteUeRrc::SwitchToState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_rrc.html#a15f1bea4c3c8d3f9949b234c0cfa12e6",tooltip="Switch the UE RRC to the given state."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::LteUeRrc::StartConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_rrc.html#ac4257b9ffbca42aba710a3f66a719785",tooltip="Start connection function."];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::ToString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#a3d1f7e1bec1972e2ae8d64673fcfcd9c",tooltip=" "];
+}

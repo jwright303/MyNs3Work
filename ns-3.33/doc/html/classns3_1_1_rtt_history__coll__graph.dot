@@ -1,0 +1,17 @@
+digraph "ns3::RttHistory"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ns3::RttHistory",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Helper class to store RTT measurements."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" seq" ,fontname="Helvetica"];
+  Node2 [label="ns3::SequenceNumber\l\< uint32_t, int32_t \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_sequence_number.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< uint32_t, int32_t \>" ,fontname="Helvetica"];
+  Node3 [label="ns3::SequenceNumber\l\< NUMERIC_TYPE, SIGNED\l_TYPE \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_sequence_number.html",tooltip="Generic \"sequence number\" class."];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" time" ,fontname="Helvetica"];
+  Node4 [label="ns3::Time",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html",tooltip="Simulation virtual time values and global simulation resolution."];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" g_markingTimes" ,fontname="Helvetica"];
+  Node5 [label="std::set\< K \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" keys" ,fontname="Helvetica"];
+  Node6 [label="K",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

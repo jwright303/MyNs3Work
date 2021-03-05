@@ -1,0 +1,21 @@
+digraph "ns3::UanTxModeFactory"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ns3::UanTxModeFactory",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Global database of UanTxMode objects, retrievable by id or name."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_modes" ,fontname="Helvetica"];
+  Node2 [label="std::map\< uint32_t,\l ns3::UanTxModeFactory\l::UanTxModeItem \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node3 [label="ns3::UanTxModeFactory\l::UanTxModeItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_uan_tx_mode_factory_1_1_uan_tx_mode_item.html",tooltip="Container for the UanTxMode properties."];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_name" ,fontname="Helvetica"];
+  Node4 [label="std::string",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="std::basic_string\<\l Char \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node2 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< uint32_t, ns3::UanTxMode\lFactory::UanTxModeItem \>" ,fontname="Helvetica"];
+  Node6 [label="std::map\< K, T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" keys" ,fontname="Helvetica"];
+  Node7 [label="K",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node8 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

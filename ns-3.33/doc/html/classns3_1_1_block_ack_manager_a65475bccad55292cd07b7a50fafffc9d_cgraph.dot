@@ -1,0 +1,12 @@
+digraph "ns3::BlockAckManager::NotifyMissedAck"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::BlockAckManager\l::NotifyMissedAck",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Invoked upon missed reception of an Ack frame after the transmission of a QoS data frame sent under a..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::BlockAckManager\l::ExistsAgreementInState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_manager.html#ac9035d264058c48aa9f84eea71aa0541",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::BlockAckManager\l::InsertInRetryQueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_manager.html#a9d49bfabc11967a76ad99272310d2c79",tooltip=" "];
+}

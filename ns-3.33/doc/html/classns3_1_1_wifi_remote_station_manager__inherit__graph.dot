@@ -1,0 +1,46 @@
+digraph "ns3::WifiRemoteStationManager"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::WifiRemoteStationManager",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="hold a list of per-remote-station state."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Object",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object.html",tooltip="A base class which provides memory management and object aggregation."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SimpleRefCount\l\< Object, ObjectBase,\l ObjectDeleter \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ref_count.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ObjectBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html",tooltip="Anchor the ns-3 type and attribute system."];
+  Node5 -> Node3 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Object, ObjectBase,\l ObjectDeleter \>" ,fontname="Helvetica"];
+  Node5 [label="ns3::SimpleRefCount\l\< T, PARENT, DELETER \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ref_count.html",tooltip="A template-based reference counting class."];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::empty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1empty.html",tooltip="make Callback use a separate empty type"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::AarfWifiManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_aarf_wifi_manager.html",tooltip="AARF Rate control algorithm."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::AarfcdWifiManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_aarfcd_wifi_manager.html",tooltip="an implementation of the AARF-CD algorithm"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::AmrrWifiManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_amrr_wifi_manager.html",tooltip="AMRR Rate control algorithm."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::AparfWifiManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_aparf_wifi_manager.html",tooltip="APARF Power and rate control algorithm."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::ArfWifiManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_arf_wifi_manager.html",tooltip="ARF Rate control algorithm."];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::CaraWifiManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_cara_wifi_manager.html",tooltip="implement the CARA rate control algorithm"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::ConstantRateWifiManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_constant_rate_wifi_manager.html",tooltip="use constant rates for data and RTS transmissions"];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::IdealWifiManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ideal_wifi_manager.html",tooltip="Ideal rate control algorithm."];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::MinstrelHtWifiManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_minstrel_ht_wifi_manager.html",tooltip="Implementation of Minstrel HT Rate Control Algorithm."];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::MinstrelWifiManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_minstrel_wifi_manager.html",tooltip="Implementation of Minstrel Rate Control Algorithm."];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::OnoeWifiManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_onoe_wifi_manager.html",tooltip="an implementation of the rate control algorithm developed by Atsushi Onoe"];
+  Node1 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::ParfWifiManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_parf_wifi_manager.html",tooltip="PARF Rate control algorithm."];
+  Node1 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ns3::RraaWifiManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rraa_wifi_manager.html",tooltip="Robust Rate Adaptation Algorithm."];
+  Node1 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="ns3::RrpaaWifiManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrpaa_wifi_manager.html",tooltip=" "];
+}

@@ -1,0 +1,24 @@
+digraph "ns3::LteRrcSap::MobilityControlInfo"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::LteRrcSap::Mobility\lControlInfo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="MobilityControlInfo structure."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" rachConfigDedicated" ,fontname="Helvetica"];
+  Node2 [label="ns3::LteRrcSap::RachConfig\lDedicated",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_rach_config_dedicated.html",tooltip="RachConfigDedicated structure."];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" carrierFreq" ,fontname="Helvetica"];
+  Node3 [label="ns3::LteRrcSap::CarrierFreq\lEutra",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_carrier_freq_eutra.html",tooltip="CarrierFreqEutra structure."];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" carrierBandwidth" ,fontname="Helvetica"];
+  Node4 [label="ns3::LteRrcSap::CarrierBandwidth\lEutra",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_carrier_bandwidth_eutra.html",tooltip="CarrierBandwidthEutra structure."];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" radioResourceConfigCommon" ,fontname="Helvetica"];
+  Node5 [label="ns3::LteRrcSap::RadioResource\lConfigCommon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_radio_resource_config_common.html",tooltip="RadioResourceConfigCommon structure."];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" rachConfigCommon" ,fontname="Helvetica"];
+  Node6 [label="ns3::LteRrcSap::RachConfig\lCommon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_rach_config_common.html",tooltip="RachConfigCommon structure."];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" txFailParam" ,fontname="Helvetica"];
+  Node7 [label="ns3::LteRrcSap::TxFailParam",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_tx_fail_param.html",tooltip="TxFailParams structure."];
+  Node8 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" raSupervisionInfo" ,fontname="Helvetica"];
+  Node8 [label="ns3::LteRrcSap::RaSupervisionInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_ra_supervision_info.html",tooltip="RaSupervisionInfo structure."];
+  Node9 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" preambleInfo" ,fontname="Helvetica"];
+  Node9 [label="ns3::LteRrcSap::PreambleInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_preamble_info.html",tooltip="PreambleInfo structure."];
+}

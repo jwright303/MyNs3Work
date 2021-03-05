@@ -1,0 +1,10 @@
+digraph "BulkSendBasicTestCase::SendTx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="BulkSendBasicTestCase\l::SendTx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="BulkSendBasicTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_bulk_send_basic_test_case.html#a38cdd752ff48f9af84d01f66ebbda50a",tooltip="Implementation to actually run this TestCase."];
+}

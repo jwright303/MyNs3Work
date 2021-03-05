@@ -1,0 +1,26 @@
+digraph "visualizer.core.Node.set_color"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="visualizer.core.Node.set\l_color",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set color function."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="visualizer.core.Node.\l_update_appearance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classvisualizer_1_1core_1_1_node.html#ae5b37840dd64cdf83640f3e4e0ac7f09",tooltip="Update the node aspect to reflect the selected/highlighted state."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="visualizer.core.Node.\l_update_position",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classvisualizer_1_1core_1_1_node.html#ac783a9a6e8c4799d2b38cf5cc5ce71f3",tooltip="Update position function."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="visualizer.core.Node.get\l_position",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classvisualizer_1_1core_1_1_node.html#a3282926af9cc338df801ba1789019e8e",tooltip="Get position function."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="visualizer.core.Channel.get\l_position",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classvisualizer_1_1core_1_1_channel.html#ae1cc74b9c19233d89a9b6479324b0e65",tooltip="Initializer function."];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="grid.ScaleRenderer.get\l_position",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classgrid_1_1_scale_renderer.html#a5bf2d7915195661ec85ff4fdf11b0e67",tooltip="Get Position."];
+  Node3 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="visualizer.core.Node.set\l_position",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classvisualizer_1_1core_1_1_node.html#ad5ef274a1963d3c93b6ec75515efd8ae",tooltip="Set position function."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="visualizer.core.Node.\l_update_svg_position",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classvisualizer_1_1core_1_1_node.html#a8ff483c6fb127e0fabe4c1175a955bb8",tooltip="Update svg position."];
+  Node3 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="visualizer.core.Channel.set\l_position",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classvisualizer_1_1core_1_1_channel.html#a1c867aded25c8b525413da8b645da0fb",tooltip="Initializer function."];
+  Node2 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="visualizer.base.transform\l_distance_simulation_to_canvas",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacevisualizer_1_1base.html#a653f2b3d1bace2cc520f4e286e86dbb9",tooltip=" "];
+}

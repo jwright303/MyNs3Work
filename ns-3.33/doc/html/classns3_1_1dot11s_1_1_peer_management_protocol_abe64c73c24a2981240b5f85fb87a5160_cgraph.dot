@@ -1,0 +1,51 @@
+digraph "ns3::dot11s::PeerManagementProtocol::CheckBeaconCollisions"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::dot11s::PeerManagement\lProtocol::CheckBeaconCollisions",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="BCA."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::dot11s::PeerManagement\lProtocol::GetBeaconCollisionAvoidance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dot11s_1_1_peer_management_protocol.html#a06caf37d66d474b58b96af587d06c6ae",tooltip="Get beacon collision avoidance."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::dot11s::PeerManagement\lProtocol::ShiftOwnBeacon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dot11s_1_1_peer_management_protocol.html#a9649a96c629c63b98c133fe258340aa9",tooltip="Shift own beacon function."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::UniformRandomVariable\l::GetValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uniform_random_variable.html#a03822d8c86ac51e9aa83bbc73041386b",tooltip="Get the next random value, as a double in the specified range ."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::RandomVariableStream\l::IsAntithetic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_variable_stream.html#ae8f50692f36f1403a22d0cbb9c488db2",tooltip="Check if antithetic values will be generated."];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::max",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#a548291fa9e4e7d6a57814dfcbbebce9b",tooltip=" "];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::min",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#a66840605409c3caeff0d2a728b68dc6d",tooltip=" "];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::RandomVariableStream\l::Peek",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_variable_stream.html#a72b37a5c0a574a51df77d378d9101936",tooltip="Get the pointer to the underlying RngStream."];
+  Node4 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::RngStream::RandU01",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rng_stream.html#a46be36426b8bc712e9de468b63558c22",tooltip="Generate the next random number for this stream."];
+  Node3 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::dot11s::PeerManagement\lProtocol::TuToTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dot11s_1_1_peer_management_protocol.html#adcc7f057f6fa22012b3ee72cf57e2082",tooltip="plugins"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::MicroSeconds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__timecivil.html#ga17465a639c8d1464e76538afdd78a9f0",tooltip="Construct a Time in the indicated unit."];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::Time::FromInteger",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a3e742c67b2764e75ff95f9b754d43fe9",tooltip="Create a Time equal to value in unit unit."];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::Time::Time",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a8a39dc1b8cbbd7fe6d940e492d1b925e",tooltip="Default constructor, with value 0."];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::Time::Mark",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#aa7eef2a1119c1c4855d99f1e83d44c54",tooltip="Record a Time instance with the MarkedTimes."];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::Time::GetMarkingMutex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#addd8e672203391b3ae98ee475ce05272",tooltip=" "];
+  Node12 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::Time::PeekInformation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a0b023c55c20582aa7c1781aacf128034",tooltip="Get the Information record for timeUnit for the current Resolution."];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::Time::PeekResolution",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a963e53522278fcbdf1ab9f7adbd0f5d6",tooltip="Get the current Resolution."];
+  Node17 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::Time::SetDefaultNsResolution",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a6a872e62f71dfa817fef2c549473d980",tooltip="Set the default resolution."];
+  Node18 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ns3::Time::FromDouble",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a60e845f4a74e62495b86356afe604cb4",tooltip="Create a Time equal to value in unit unit."];
+  Node19 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="ns3::Time::From",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a34e4acc13d0e08cc8cb9cd3b838b9baf",tooltip="Create a Time in the current unit."];
+  Node20 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="ns3::dot11s::PeerManagement\lProtocol::TimeToTu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dot11s_1_1_peer_management_protocol.html#a1e38bb4ee6161f0015dd60113a4a0acd",tooltip="plugins"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

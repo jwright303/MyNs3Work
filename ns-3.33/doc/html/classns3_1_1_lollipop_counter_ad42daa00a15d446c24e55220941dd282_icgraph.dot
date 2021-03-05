@@ -1,0 +1,12 @@
+digraph "ns3::LollipopCounter::AbsoluteMagnitudeOfDifference"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LollipopCounter\l::AbsoluteMagnitudeOfDifference",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Compute the Absolute Magnitude Of Difference between two counters."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LollipopCounter\l::IsComparable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lollipop_counter.html#aea15148623dc8d42a8d923f4c7cc6174",tooltip="Checks if two counters are comparable (i.e., not desynchronized)."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="LollipopCounterTest\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_lollipop_counter_test.html#a9bf60fb49f92c490b1217adc1574f85c",tooltip="Implementation to actually run this TestCase."];
+}

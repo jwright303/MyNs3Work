@@ -1,0 +1,56 @@
+digraph "ns3::create_view_config_default"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::create_view_config\l_default",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="This is the main view opening the widget, getting tooltips and drawing the tree of attributes."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::cell_data_function\l_col_0_config_default",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#a18dc38f97b2252c3e10d44f9dbbe366b",tooltip="This function writes the attribute or typeid name in the column 0."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::TypeId::GetName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#abc4965475a579c2afdc668d7a7d58374",tooltip="Get the name."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Singleton\< IidManager\l \>::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_singleton.html#a80a2cd3c25a27ea72add7a9f7a141ffa",tooltip="Get a pointer to the singleton instance."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::IidManager::GetName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_iid_manager.html#a6658aaa8120efd885e98addb76a6f1d4",tooltip="Get the name of a type id."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::IidManager::LookupInformation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_iid_manager.html#a84af06b798b21fa700469a3ac5f65f3f",tooltip="Retrieve the information record for a type."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::cell_data_function\l_col_1_config_default",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#a05481812e836368172135641dbada4b8",tooltip="This function writes data in the second column, this data is going to be editable if it is a NODE_ATT..."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::cell_edited_callback\l_config_default",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#ac95d50f779140a767284d124cfea71eb",tooltip="This functions is called whenever there is a change in the value of an attribute If the input value i..."];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::TypeId::GetAttribute\lFullName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#a750c20decd8786e40ae504f566345177",tooltip="Get the Attribute name by index."];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::TypeId::GetAttribute",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#a796434fa73c5e54a9a86f24144d13738",tooltip="Get Attribute information by index."];
+  Node10 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::IidManager::GetAttributeN",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_iid_manager.html#a5420e8cc959a9a111eb6f1519583b49b",tooltip="Get the number of attributes."];
+  Node9 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::Config::SetDefaultFailSafe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__config.html#gaf35c9ecdf51c959f397e973f9335de54",tooltip=" "];
+  Node12 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::TypeId::GetAttributeN",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#a1245644561332f12386451406295a8d8",tooltip="Get the number of attributes."];
+  Node12 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::TypeId::LookupByName\lFailSafe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#acceab1f57bfe3c3af02130277d409f14",tooltip="Get a TypeId by name."];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::TypeId::TypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#ab76e26690f1af4f1cffa6a72245e8928",tooltip="Default constructor."];
+  Node14 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::IidManager::GetUid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_iid_manager.html#a57d8582dc3a317229cb74902625c98a0",tooltip="Get a type id by name."];
+  Node14 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::TypeId::GetUid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#a429535085325d6f926724771446d9047",tooltip="Get the internal id of this TypeId."];
+  Node12 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::TypeId::SetAttribute\lInitialValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_type_id.html#a089c146e3e0a805304bee18c976556d7",tooltip="Set the initial value of an Attribute."];
+  Node18 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ns3::IidManager::SetAttribute\lInitialValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_iid_manager.html#a342b1e699a83fa8f14c7b3cc0409c199",tooltip="Set the initial value of an Attribute."];
+  Node19 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="ns3::cell_tooltip_callback\l_config_default",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#a614e487215e562d0b6ac0b3b3f443f20",tooltip="This function is used to display a tooltip whenever the user puts the mouse over a type ID or an attr..."];
+  Node20 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="ns3::get_col_number\l_from_tree_view_column",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#ab119da77d89c96aee14f59bd790cb503",tooltip="This function gets the column number 0 or 1 from the mouse click."];
+  Node20 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

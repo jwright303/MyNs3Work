@@ -1,0 +1,11 @@
+digraph "ns3::LteUeRrcSapProvider::CompleteSetupParameters"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ns3::LteUeRrcSapProvider\l::CompleteSetupParameters",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CompleteSetupParameters structure."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" srb0SapUser" ,fontname="Helvetica"];
+  Node2 [label="ns3::LteRlcSapUser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_rlc_sap_user.html",tooltip="Service Access Point (SAP) offered by the UM-RLC and AM-RLC entities to the PDCP entity See 3GPP 36...."];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" srb1SapUser" ,fontname="Helvetica"];
+  Node3 [label="ns3::LtePdcpSapUser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_pdcp_sap_user.html",tooltip="Service Access Point (SAP) offered by the PDCP entity to the RRC entity See 3GPP 36...."];
+}

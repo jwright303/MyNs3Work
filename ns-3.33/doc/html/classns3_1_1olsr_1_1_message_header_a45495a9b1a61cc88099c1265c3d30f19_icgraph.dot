@@ -1,0 +1,15 @@
+digraph "ns3::olsr::MessageHeader::GetTimeToLive"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::olsr::MessageHeader\l::GetTimeToLive",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the time to live."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::olsr::RoutingProtocol\l::ForwardDefault",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1olsr_1_1_routing_protocol.html#ac918fb6674847bee76fedaf16e15ba44",tooltip="OLSR's default forwarding algorithm."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::olsr::RoutingProtocol\l::RecvOlsr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1olsr_1_1_routing_protocol.html#afa449e39488b5c03609960e66553490e",tooltip="Receive an OLSR message."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::olsr::RoutingProtocol\l::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1olsr_1_1_routing_protocol.html#afe5419799e8d38ee32d82615de55ef22",tooltip="Initialize() implementation."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

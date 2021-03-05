@@ -1,0 +1,10 @@
+digraph "ns3::ZipfRandomVariable::GetValue"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::ZipfRandomVariable\l::GetValue",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Returns a random double from a Zipf distribution with the current n and alpha."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ZipfRandomVariable\l::GetInteger",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_zipf_random_variable.html#a1ca161dc237c5648f62ff260240c7fe1",tooltip="Returns a random unsigned integer from a Zipf distribution with the specified n and alpha."];
+}

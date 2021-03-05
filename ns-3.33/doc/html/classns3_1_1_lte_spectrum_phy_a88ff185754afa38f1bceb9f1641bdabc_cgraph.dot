@@ -1,0 +1,34 @@
+digraph "ns3::LteSpectrumPhy::EndRxDlCtrl"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::LteSpectrumPhy\l::EndRxDlCtrl",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="End receive DL control function."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteSpectrumPhy\l::ChangeState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_spectrum_phy.html#a64a105b7c580b3d6dc5cd4b97d1223d9",tooltip="Change state function."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LteMiErrorModel\l::GetPcfichPdcchError",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_mi_error_model.html#aafb97369cd64898fca6da09d9a881c06",tooltip="run the error-model algorithm for the specified PCFICH+PDCCH channels"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::SpectrumValue\l::ValuesBegin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_spectrum_value.html#a3b1adae7ee52561bf560d7b604d9947d",tooltip=" "];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::SpectrumValue\l::ValuesEnd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_spectrum_value.html#aa0e76e888fc6cba3b01bf638b6c4567f",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::UniformRandomVariable\l::GetValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uniform_random_variable.html#a03822d8c86ac51e9aa83bbc73041386b",tooltip="Get the next random value, as a double in the specified range ."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::RandomVariableStream\l::IsAntithetic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_variable_stream.html#ae8f50692f36f1403a22d0cbb9c488db2",tooltip="Check if antithetic values will be generated."];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::max",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#a548291fa9e4e7d6a57814dfcbbebce9b",tooltip=" "];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::min",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#a66840605409c3caeff0d2a728b68dc6d",tooltip=" "];
+  Node6 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::RandomVariableStream\l::Peek",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_variable_stream.html#a72b37a5c0a574a51df77d378d9101936",tooltip="Get the pointer to the underlying RngStream."];
+  Node6 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::RngStream::RandU01",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rng_stream.html#a46be36426b8bc712e9de468b63558c22",tooltip="Generate the next random number for this stream."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::Callback::IsNull",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_callback.html#a42eb007ca42c35b96daa497d6d42d5f2",tooltip="Check for null implementation."];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::Callback::DoPeekImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_callback.html#a82de10d58e899c61aec3867f9b1f2f33",tooltip=" "];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::PeekPointer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#af2a7557fe9afdd98d8f6f8f6e412cf5a",tooltip=" "];
+}

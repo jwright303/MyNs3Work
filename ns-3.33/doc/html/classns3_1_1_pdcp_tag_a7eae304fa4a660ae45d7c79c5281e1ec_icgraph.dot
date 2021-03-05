@@ -1,0 +1,12 @@
+digraph "ns3::PdcpTag::GetSenderTimestamp"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::PdcpTag::GetSenderTimestamp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the instant when the PDCP delivers the PDU to the MAC SAP provider."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LtePdcp::DoReceivePdu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_pdcp.html#a39ec507fd59bc8e650738717b4a471e5",tooltip="Interface provided to lower RLC entity."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LtePdcpSpecificLteRlc\lSapUser::ReceivePdcpPdu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_pdcp_specific_lte_rlc_sap_user.html#a6cd9bae35c5551566d0e41ae2e6866f0",tooltip="Called by the RLC entity to notify the PDCP entity of the reception of a new PDCP PDU."];
+}

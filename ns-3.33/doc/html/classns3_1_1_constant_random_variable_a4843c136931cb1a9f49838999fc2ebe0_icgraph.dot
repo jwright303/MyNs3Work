@@ -1,0 +1,14 @@
+digraph "ns3::ConstantRandomVariable::GetValue"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::ConstantRandomVariable\l::GetValue",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the next random value, as a double equal to the argument."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::test::RandomVariable\l::ConstantTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1test_1_1_random_variable_1_1_constant_test_case.html#a75bbe877f296f9fc82116822b7f5fa9d",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ThreeGppHttpVariables\l::GetEmbeddedObjectGenerationDelay",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_variables.html#a2db5acc1c4d0ab1c58cd75a740d0181b",tooltip="Returns the constant length of time needed by an HTTP server to generate an embedded object."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ThreeGppHttpVariables\l::GetMainObjectGenerationDelay",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_variables.html#a69d296f23c418839c2d9595179e34b9e",tooltip="Returns the constant length of time needed by an HTTP server to generate a main object."];
+}

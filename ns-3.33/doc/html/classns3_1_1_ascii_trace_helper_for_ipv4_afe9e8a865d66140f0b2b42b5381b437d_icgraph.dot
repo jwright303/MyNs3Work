@@ -1,0 +1,12 @@
+digraph "ns3::AsciiTraceHelperForIpv4::EnableAsciiIpv4Internal"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::AsciiTraceHelperFor\lIpv4::EnableAsciiIpv4Internal",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Enable ascii trace output on the indicated Ipv4 and interface pair."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::AsciiTraceHelperFor\lIpv4::EnableAsciiIpv4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ascii_trace_helper_for_ipv4.html#af8eabc53dedba6de2921a3fb2330b44d",tooltip="Enable ascii trace output on the indicated Ipv4 and interface pair."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::AsciiTraceHelperFor\lIpv4::EnableAsciiIpv4Impl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ascii_trace_helper_for_ipv4.html#acced6a7ba39a549057f84be7cf420e2f",tooltip="Enable ascii trace output on the Ipv4 and interface pair specified by a global node-id (of a previous..."];
+}

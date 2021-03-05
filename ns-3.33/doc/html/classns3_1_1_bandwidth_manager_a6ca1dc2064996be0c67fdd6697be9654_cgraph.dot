@@ -1,0 +1,14 @@
+digraph "ns3::BandwidthManager::SelectFlowForRequest"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::BandwidthManager\l::SelectFlowForRequest",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Select flow for request function."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ServiceFlow::GetQueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_service_flow.html#a63ef9f35b8c491f3078268a050cb5887",tooltip="Get pointer to queue."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ServiceFlow::GetSchedulingType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_service_flow.html#a6edb38eb5ff3e0903b0183036c9c2e9e",tooltip="Get scheduling type."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ServiceFlow::HasPackets",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_service_flow.html#a696774075b84a53d0fc4a41243c4c60c",tooltip="Check if packets are present."];
+}

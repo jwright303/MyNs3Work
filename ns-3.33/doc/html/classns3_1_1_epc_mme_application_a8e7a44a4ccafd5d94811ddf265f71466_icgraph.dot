@@ -1,0 +1,14 @@
+digraph "ns3::EpcMmeApplication::RemoveBearer"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::EpcMmeApplication\l::RemoveBearer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="This Function erases all contexts of bearer from MME side."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::EpcMmeApplication\l::DoRecvDeleteBearerRequest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_epc_mme_application.html#a6918148b2f6f84e513a47b77183609c0",tooltip="Process GTP-C Delete Bearer Request message."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::EpcMmeApplication\l::RecvFromS11Socket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_epc_mme_application.html#afac9f825eb86a8857e3b966918baa5f5",tooltip="Reads the S11 messages from a socket."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::EpcMmeApplication\l::AddSgw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_epc_mme_application.html#a1f560233b490b2d6299e28ad80a80f04",tooltip="Add a new SGW to the MME."];
+}

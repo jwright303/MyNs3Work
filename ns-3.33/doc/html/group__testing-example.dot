@@ -1,0 +1,12 @@
+digraph "Example use of TestSuite"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node2 [label="Core module tests",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__core-tests.html",tooltip="TestSuites for the Core module."];
+  Node1 [label="Example use of TestSuite",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node3 [label="Testing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__testing.html",tooltip="Tools to define and execute unit tests."];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node2 [shape=plaintext, label="sample-test-suite.cc", color="darkgreen", dir="none", style="dashed"];
+  Node1->Node3 [shape=plaintext, label="sample-test-suite.cc", color="darkgreen", dir="none", style="dashed"];
+}

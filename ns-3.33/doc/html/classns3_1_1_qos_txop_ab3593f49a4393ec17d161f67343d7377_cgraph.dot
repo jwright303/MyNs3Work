@@ -1,0 +1,32 @@
+digraph "ns3::QosTxop::PeekNextFrame"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::QosTxop::PeekNextFrame",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Peek the next frame to transmit to the given receiver and of the given TID from the block ack manager..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::QosTxop::GetBaAgreement\lEstablished",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_qos_txop.html#a98e743abd09cf221033357e70aa24b5a",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::QosTxop::GetBaBufferSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_qos_txop.html#a3773d38a11ba76fe1eb945d487b623f3",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::QosTxop::GetBaStarting\lSequence",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_qos_txop.html#af08c71053a07a9206f8e05fa2b08e3f4",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Mac48Address::\lIsGroup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac48_address.html#a56fbd59ebf507db02609a1e77c7c4656",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::IsInWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#afba55479deec541244248815e1a33924",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::QosTxop::IsQosOldPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_qos_txop.html#a6362a6341190652ed130498dcfa6b20c",tooltip="Check if the given MPDU is to be considered old according to the current starting sequence number of ..."];
+  Node7 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::QosUtilsIsOldPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__wifi.html#ga5cb9ea723837c5a036e622612f2d0bb0",tooltip="This function checks if packet with sequence number seqNumber is an \"old\" packet."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::WifiMacHeader\l::SetFragmentNumber",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_header.html#ad11306bd3a2edf81346a14a9c4fe7388",tooltip="Set the fragment number of the header."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::WifiMacHeader\l::SetNoMoreFragments",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_header.html#a3898df5358df4247926b74175f2789c3",tooltip="Un-set the More Fragment bit in the Frame Control Field."];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::WifiMacHeader\l::SetNoRetry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_header.html#a2dbe5e569e783f6d975c13daf3015f12",tooltip="Un-set the Retry bit in the Frame Control field."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::WifiMacHeader\l::SetSequenceNumber",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_header.html#a51634924960a25606596916eabdcc12e",tooltip="Set the sequence number of the header."];
+}

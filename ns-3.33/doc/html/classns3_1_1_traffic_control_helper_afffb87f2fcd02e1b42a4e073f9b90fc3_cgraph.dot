@@ -1,0 +1,12 @@
+digraph "ns3::TrafficControlHelper::AddChildQueueDiscs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::TrafficControlHelper\l::AddChildQueueDiscs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Helper function used to attach a child queue disc (of the given type and with the given attributes) t..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TrafficControlHelper\l::DoAddChildQueueDiscs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_traffic_control_helper.html#aec5372ae89caa1e77a8f6ffebbe5a72d",tooltip="Actual implementation of the AddChildQueueDiscs method."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::TrafficControlHelper\l::DoAddChildQueueDisc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_traffic_control_helper.html#a26359d72be214e8cf0cf7e72a8e40d5c",tooltip="Actual implementation of the AddChildQueueDisc method."];
+}

@@ -1,0 +1,10 @@
+digraph "ns3::Ipv4NixVectorHelper::Ipv4NixVectorHelper"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Ipv4NixVectorHelper\l::Ipv4NixVectorHelper",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Construct an Ipv4NixVectorHelper to make life easier while adding Nix-vector routing to nodes."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Ipv4NixVectorHelper\l::Copy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_nix_vector_helper.html#a97b203090a34d8a3d62c4294df2a85cb",tooltip=" "];
+}

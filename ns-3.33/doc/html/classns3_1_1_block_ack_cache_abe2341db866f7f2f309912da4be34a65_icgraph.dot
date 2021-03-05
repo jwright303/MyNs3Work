@@ -1,0 +1,12 @@
+digraph "ns3::BlockAckCache::ResetPortionOfBitmap"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::BlockAckCache\l::ResetPortionOfBitmap",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Reset portion of bitmap function."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::BlockAckCache\l::UpdateWithBlockAckReq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_cache.html#a269acd2840aa5d8eda4ae61ad6e9f441",tooltip="Update with block ack request function."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::BlockAckCache\l::UpdateWithMpdu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_cache.html#ad53e955bbd3e58e1833a90894e67e6eb",tooltip="Update with MPDU function."];
+}

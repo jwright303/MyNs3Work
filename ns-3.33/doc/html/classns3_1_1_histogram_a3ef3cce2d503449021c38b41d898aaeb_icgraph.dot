@@ -1,0 +1,12 @@
+digraph "ns3::Histogram::GetBinWidth"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Histogram::GetBinWidth",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Returns the bin width."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="HistogramTestCase::\lDoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_histogram_test_case.html#a8d45636a7bdcdb490eeb486acf5a47f1",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="RunBothModes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$empirical-random-variable-example_8cc.html#a1721e2124be9e3cd5998304200e41db6",tooltip=" "];
+}

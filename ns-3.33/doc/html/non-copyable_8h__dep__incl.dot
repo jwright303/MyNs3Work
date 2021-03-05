@@ -1,0 +1,31 @@
+digraph "src/core/model/non-copyable.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/core/model/non\l-copyable.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ns3::NonCopyable declaration."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="src/core/model/singleton.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$singleton_8h.html",tooltip="ns3::Singleton declaration and template implementation."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="src/core/model/config.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$config_8cc.html",tooltip="ns3::Config implementations."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="src/core/model/des\l-metrics.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$des-metrics_8h.html",tooltip="ns3::DesMetrics declaration."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="src/core/model/command\l-line.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$command-line_8cc.html",tooltip="ns3::CommandLine implementation."];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="src/core/model/des\l-metrics.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$des-metrics_8cc.html",tooltip="ns3::DesMetrics implementation."];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="src/core/model/simulator.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$simulator_8cc.html",tooltip="ns3::Simulator implementation, as well as implementation pointer, global scheduler implementation."];
+  Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="src/core/model/test.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$test_8cc.html",tooltip="ns3::TestCase, ns3::TestSuite, ns3::TestRunner implementations,"];
+  Node2 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="src/core/model/names.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$names_8cc.html",tooltip="ns3::Names, ns3::NamesNode and ns3::NamePriv implementations."];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="src/core/model/type\l-id.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$type-id_8cc.html",tooltip="ns3::TypeId and ns3::IidManager implementations."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="src/core/model/test.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$test_8h.html",tooltip="ns3::TestCase, ns3::TestSuite, ns3::TestRunner declarations, and NS_TEST_ASSERT macro definitions."];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="src/core/model/int64x64\l-cairo.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$int64x64-cairo_8cc.html",tooltip="Implementation of the ns3::int64x64_t type using the Cairo implementation."];
+  Node11 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

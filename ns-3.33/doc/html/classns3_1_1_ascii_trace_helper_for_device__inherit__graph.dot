@@ -1,0 +1,36 @@
+digraph "ns3::AsciiTraceHelperForDevice"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::AsciiTraceHelperFor\lDevice",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Base class providing common user-level ascii trace operations for helpers representing net devices."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::CsmaHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_csma_helper.html",tooltip="build a set of CsmaNetDevice objects"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::FdNetDeviceHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_fd_net_device_helper.html",tooltip="build a set of FdNetDevice objects Normally we eschew multiple inheritance, however,..."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::EmuFdNetDeviceHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_emu_fd_net_device_helper.html",tooltip="build a set of FdNetDevice objects attached to a physical network interface"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::DpdkNetDeviceHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dpdk_net_device_helper.html",tooltip="build a DpdkNetDevice object attached to a physical network interface"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::PlanetLabFdNetDevice\lHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_planet_lab_fd_net_device_helper.html",tooltip="build a set of FdNetDevice objects attached to a virtual TAP network interface"];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::TapFdNetDeviceHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tap_fd_net_device_helper.html",tooltip="build a set of FdNetDevice objects attached to a virtual TAP network interface"];
+  Node3 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::NetmapNetDeviceHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_netmap_net_device_helper.html",tooltip="build a set of FdNetDevice objects attached to a physical network interface"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::LrWpanHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lr_wpan_helper.html",tooltip="helps to manage and create IEEE 802.15.4 NetDevice objects"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::PointToPointHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_point_to_point_helper.html",tooltip="Build a set of PointToPointNetDevice objects."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::WifiPhyHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_helper.html",tooltip="create PHY objects"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::SpectrumWifiPhyHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_spectrum_wifi_phy_helper.html",tooltip="Make it easy to create and manage PHY objects for the spectrum model."];
+  Node11 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::YansWifiPhyHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_yans_wifi_phy_helper.html",tooltip="Make it easy to create and manage PHY objects for the YANS model."];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::YansWavePhyHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_yans_wave_phy_helper.html",tooltip="To trace WaveNetDevice, we have to overwrite the trace functions of class YansWifiPhyHelper."];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::WimaxHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wimax_helper.html",tooltip="helps to manage and create WimaxNetDevice objects"];
+}

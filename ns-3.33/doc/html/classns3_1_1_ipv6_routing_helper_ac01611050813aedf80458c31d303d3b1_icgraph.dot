@@ -1,0 +1,12 @@
+digraph "ns3::Ipv6RoutingHelper::Print"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Ipv6RoutingHelper\l::Print",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="prints the routing tables of a node."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Ipv6RoutingHelper\l::PrintRoutingTableAllAt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_routing_helper.html#a02468528d712df0b6358c6d7bc56b23b",tooltip="prints the routing tables of all nodes at a particular time."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Ipv6RoutingHelper\l::PrintRoutingTableAt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_routing_helper.html#a4f7287245996b0bb7bdfe9d27adac329",tooltip="prints the routing tables of a node at a particular time."];
+}

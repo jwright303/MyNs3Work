@@ -1,0 +1,10 @@
+digraph "ns3::EpcSgwApplication::RecvFromS5cSocket"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::EpcSgwApplication\l::RecvFromS5cSocket",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Method to be assigned to the recv callback of the S5-C socket."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::EpcSgwApplication\l::EpcSgwApplication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_epc_sgw_application.html#a688b3017da24ac5528505b3c1288f1a2",tooltip="Constructor that binds callback methods of sockets."];
+}

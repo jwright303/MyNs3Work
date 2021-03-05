@@ -1,0 +1,14 @@
+digraph "ns3::RngRsp::SetDlOperBurstProfile"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::RngRsp::SetDlOperBurst\lProfile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="set the DL oper burst profile"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::BSLinkManager\l::PerformInitialRanging",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_b_s_link_manager.html#a8c97286c0b9d58f6b175e7f4e82ccd36",tooltip="Perform initial ranging function."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::BSLinkManager\l::PerformRanging",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_b_s_link_manager.html#ae23a1b4507b6fc812727c1ab064c95ae",tooltip="Perform ranging function."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::BSLinkManager\l::ProcessRangingRequest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_b_s_link_manager.html#a26c81a16faddfeedbe19e47f4158fbb0",tooltip="process a ranging request message"];
+}

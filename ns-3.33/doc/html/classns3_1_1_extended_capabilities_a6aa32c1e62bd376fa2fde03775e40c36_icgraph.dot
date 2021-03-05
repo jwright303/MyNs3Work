@@ -1,0 +1,10 @@
+digraph "ns3::ExtendedCapabilities::SetExtendedCapabilitiesByte1"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::ExtendedCapabilities\l::SetExtendedCapabilitiesByte1",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set the first byte in the Extended Capabilities information element."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ExtendedCapabilities\l::DeserializeInformationField",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_extended_capabilities.html#a3de4b55cf654ff52a62bb4557c49490d",tooltip="Deserialize information (i.e., the body of the IE, not including the Element ID and length octets)"];
+}

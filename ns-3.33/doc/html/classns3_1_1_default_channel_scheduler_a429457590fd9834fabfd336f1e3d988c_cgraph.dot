@@ -1,0 +1,18 @@
+digraph "ns3::DefaultChannelScheduler::GetAssignedAccessType"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::DefaultChannelScheduler\l::GetAssignedAccessType",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WaveNetDevice\l::GetChannelCoordinator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wave_net_device.html#aa3edd1b02f0a039cd6e53d0d71139b77",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WaveNetDevice\l::GetPhy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wave_net_device.html#a2cf2753b35b5f0ad2257dd6041d6ee12",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::WaveNetDevice\l::GetPhys",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wave_net_device.html#a4b7ca83701873649815e2d3f1c363d3f",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::ChannelCoordinator\l::RegisterListener",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_channel_coordinator.html#affe23981ad449a98c6349cffc690ef6c",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::ChannelScheduler\l::SetWaveNetDevice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_channel_scheduler.html#ab4eb73cab44db60e732ca698eb075620",tooltip=" "];
+}

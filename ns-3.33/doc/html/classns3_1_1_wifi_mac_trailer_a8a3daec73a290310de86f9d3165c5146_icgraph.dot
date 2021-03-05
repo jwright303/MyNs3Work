@@ -1,0 +1,48 @@
+digraph "ns3::WifiMacTrailer::GetSerializedSize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::WifiMacTrailer\l::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::MacLow::CanTransmit\lNextCfFrame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac_low.html#ae4268e4023afc9b701c40832f57e8459",tooltip="This function decides if a CF frame can be transmitted in the current CFP."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::GetSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#ac78f3ac928570be14da972e15dcf5946",tooltip="Return the total size of the packet after WifiMacHeader and FCS trailer have been added."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::MacLow::CalculateOverall\lTxTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac_low.html#a77295a7a4b2e8787e8217f1e58b1746f",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::MacLow::CalculateTransmissionTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac_low.html#a753fdeae4fb18b9b4d3b48c61f721686",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::WaveMacLow::StartTransmission",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wave_mac_low.html#abf4a90e9984a73b24197706fb79118b1",tooltip=" "];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::TcpTxBuffer::GetPacket\lFromList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_tx_buffer.html#a3935705ed28789f4e438479d207f61c8",tooltip="Get a block (which is returned as Packet) from a list."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::TcpTxBuffer::GetNew\lSegment",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_tx_buffer.html#a7f8012f60263f1184f63d68f95d9fed6",tooltip="Get a block of data not transmitted yet and move it into SentList."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::TcpTxBuffer::CopyFrom\lSequence",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_tx_buffer.html#a7b376f6a4ccc3b43a2d038e8282fbf01",tooltip="Copy data from the range [seq, seq+numBytes) into a packet."];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::TcpTxBuffer::DiscardUpTo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_tx_buffer.html#abc21a693005857d1f2185a32fc490d29",tooltip="Discard data up to but not including this sequence number."];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="TcpRateLinuxWithBufferTest\l::TestWithSackBlocks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_rate_linux_with_buffer_test.html#ab14d877f5f6c3c8f1e5715a41104585f",tooltip="Test with arbitary SACK scenario."];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="TcpRateLinuxWithBufferTest\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_rate_linux_with_buffer_test.html#a3b5486d4efb798fb5847e46d61131664",tooltip="Implementation to actually run this TestCase."];
+  Node9 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="TcpTxBufferTestCase\l::TestMergeItemsWhenGetTransmitted\lSegment",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_tx_buffer_test_case.html#a14fcf71a938418d4d075a3e704a16e44",tooltip="Test the logic of merging items in GetTransmittedSegment() which is triggered by CopyFromSequence()"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="TcpTxBufferTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_tx_buffer_test_case.html#a004312af9ed95478a651632f8e5a7181",tooltip="Implementation to actually run this TestCase."];
+  Node9 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::TcpTxBuffer::GetTransmitted\lSegment",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_tx_buffer.html#a4de9715c65893a5cb8a869e72ed7bb10",tooltip="Get a block of data previously transmitted."];
+  Node15 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::Ipv6RawSocketImpl\l::GetRxAvailable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_raw_socket_impl.html#aabcc8ef20f13d94c5e3eddd5675be6a2",tooltip="Return number of bytes which can be returned from one or multiple calls to Recv."];
+  Node3 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::Ipv4RawSocketImpl\l::GetRxAvailable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_raw_socket_impl.html#a30fab88a97d1de12147535c31780e14b",tooltip="Return number of bytes which can be returned from one or multiple calls to Recv."];
+  Node3 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::PbbTlv::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_tlv.html#a967fcaeb5769ce7d766ef2db752f78bd",tooltip=" "];
+  Node3 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ns3::BSSchedulerRtps\l::Schedule",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_b_s_scheduler_rtps.html#a311c9c524b1a898c72afa35a9d7ac0dc",tooltip="Schedule function."];
+  Node3 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="ns3::BSSchedulerSimple\l::Schedule",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_b_s_scheduler_simple.html#ab0ef72a5223a70761910bcda7004f510",tooltip="the scheduling function for the downlink subframe."];
+}

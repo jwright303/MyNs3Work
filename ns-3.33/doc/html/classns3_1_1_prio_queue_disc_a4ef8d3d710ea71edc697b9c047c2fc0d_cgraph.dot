@@ -1,0 +1,20 @@
+digraph "ns3::PrioQueueDisc::DoEnqueue"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::PrioQueueDisc\l::DoEnqueue",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="This function actually enqueues a packet into the queue disc."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::QueueDisc::Classify",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#a560004f3fbca4e2cb9938fa3938f4be3",tooltip="Classify a packet by calling the packet filters, one at a time, until either a filter able to classif..."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$80211b_8c.html#ae7ffc1a8f84fa47a0812b2f2b9627132",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::QueueDisc::GetNPackets",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#a9b5a4899a463e6a926b18c2bf7f71d00",tooltip="Get the number of packets stored by the queue disc."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::QueueDisc::GetNQueue\lDiscClasses",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#aa43972223ab0ed4f1057f96f8e348ddf",tooltip="Get the number of queue disc classes."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::SocketPriorityTag\l::GetPriority",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_socket_priority_tag.html#a1d256d4ad07bc839ae401bd64f9d8420",tooltip="Get the tag's priority."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::QueueDisc::GetQueue\lDiscClass",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#aa41e320ffec30464ab594f5f8cc21780",tooltip="Get the i-th queue disc class."];
+}

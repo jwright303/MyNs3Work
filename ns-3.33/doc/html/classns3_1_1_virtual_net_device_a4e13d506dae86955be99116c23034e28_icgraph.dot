@@ -1,0 +1,24 @@
+digraph "ns3::VirtualNetDevice::Receive"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::VirtualNetDevice\l::Receive",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Tunnel::N0SocketRecv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tunnel.html#a0962f5cfffb52bdda390e04b9fd477fd",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Tunnel::Tunnel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tunnel.html#af5941266fdb3798bb27c026da801d28d",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Tunnel::N1SocketRecv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tunnel.html#aa361721cb2347cd6d7618ed10c07db53",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Tunnel::N3SocketRecv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tunnel.html#a28a444f24b83c91cb4114843a92b9c1a",tooltip=" "];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::EpcPgwApplication\l::SendToTunDevice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_epc_pgw_application.html#a19347bf9be79fd63380ca317b08eda67",tooltip="Send a data packet to the internet via the SGi interface of the PGW."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::EpcPgwApplication\l::RecvFromS5uSocket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_epc_pgw_application.html#a377d80102b59dd9ac2b9803e04ea2ba3",tooltip="Method to be assigned to the receiver callback of the S5-U socket."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::EpcPgwApplication\l::EpcPgwApplication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_epc_pgw_application.html#a0789b6f6e80002c2f90f5a2e08e63329",tooltip="Constructor that binds the tap device to the callback methods."];
+}

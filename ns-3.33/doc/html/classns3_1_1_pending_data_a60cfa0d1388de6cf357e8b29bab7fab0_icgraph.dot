@@ -1,0 +1,10 @@
+digraph "ns3::PendingData::Size"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::PendingData::Size",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Returns the size of the pending data."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PendingData::PendingData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pending_data.html#ab7b46ebf4baf2c6b165c90b44bfdad4a",tooltip="Copy constructor."];
+}

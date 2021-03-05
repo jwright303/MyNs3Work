@@ -1,0 +1,12 @@
+digraph "ns3::FfMacSchedSapProvider::SchedDlCqiInfoReq"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::FfMacSchedSapProvider\l::SchedDlCqiInfoReq",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SCHED_DL_CQI_INFO_REQ."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteEnbMac::DoSubframe\lIndication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_mac.html#ab26bc2757b329ea602410c1ae039b3be",tooltip="Subrame Indication function."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::EnbMacMemberLteEnbPhy\lSapUser::SubframeIndication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_enb_mac_member_lte_enb_phy_sap_user.html#adf6241549d4864e9ffd90930d9ab0989",tooltip="Trigger the start from a new frame (input from Phy layer)"];
+}

@@ -1,0 +1,23 @@
+digraph "ns3::olsr::anonymous_namespace{olsr-routing-protocol::cc}::CoverTwoHopNeighbors"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::olsr::anonymous\l_namespace\{olsr-routing\l-protocol::cc\}::CoverTwoHopNeighbors",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Remove all covered 2-hop neighbors from N2 set."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::olsr::RoutingProtocol\l::MprComputation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1olsr_1_1_routing_protocol.html#a9de13b00ccecc179f4fd3e6fcc3aef1f",tooltip="Computates MPR set of a node following RFC 3626 hints."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::olsr::RoutingProtocol\l::NeighborLoss",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1olsr_1_1_routing_protocol.html#afe342f9ee1d563e0691e12143f47233d",tooltip="Performs all actions needed when a neighbor loss occurs."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::olsr::RoutingProtocol\l::LinkTupleTimerExpire",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1olsr_1_1_routing_protocol.html#a468cf0d2f46d44f105dff8dffdabcb67",tooltip="Removes tuple_ if expired."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::olsr::RoutingProtocol\l::LinkSensing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1olsr_1_1_routing_protocol.html#a2a23a0fd6fa714fef6613afd3f5bc1d2",tooltip="Updates Link Set according to a new received HELLO message (following RFC 3626 specification)."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::olsr::RoutingProtocol\l::ProcessHello",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1olsr_1_1_routing_protocol.html#a9518c29e8994234ead40d408498237ce",tooltip="Processes a HELLO message following RFC 3626 specification."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::olsr::RoutingProtocol\l::RecvOlsr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1olsr_1_1_routing_protocol.html#afa449e39488b5c03609960e66553490e",tooltip="Receive an OLSR message."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::olsr::RoutingProtocol\l::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1olsr_1_1_routing_protocol.html#afe5419799e8d38ee32d82615de55ef22",tooltip="Initialize() implementation."];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

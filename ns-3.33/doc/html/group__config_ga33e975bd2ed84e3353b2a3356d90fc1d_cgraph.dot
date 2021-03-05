@@ -1,0 +1,20 @@
+digraph "ns3::Config::Disconnect"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Config::Disconnect",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Config::ConfigImpl\l::Disconnect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_config_1_1_config_impl.html#abd6c7a990f229c871f8ea486d7175ead",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Config::MatchContainer\l::Disconnect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_config_1_1_match_container.html#a578a5f5f24f309ae52c44643b99943c6",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Config::MatchContainer\l::GetN",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_config_1_1_match_container.html#a9e7455e824d416a6658b429165481d5f",tooltip=" "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Config::ConfigImpl\l::LookupMatches",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_config_1_1_config_impl.html#aef8d461e235704cdeb8a85581ba249fb",tooltip=" "];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Config::ConfigImpl\l::ParsePath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_config_1_1_config_impl.html#ab482a563857309e0e70beba3af32be71",tooltip="Break a Config path into the leading path and the last leaf token."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Singleton\< ConfigImpl\l \>::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_singleton.html#a80a2cd3c25a27ea72add7a9f7a141ffa",tooltip="Get a pointer to the singleton instance."];
+}

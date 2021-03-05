@@ -1,0 +1,10 @@
+digraph "ns3::LteUeMac::DoReportBufferStatus"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LteUeMac::DoReportBuffer\lStatus",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Report buffers status function."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::UeMemberLteMacSapProvider\l::ReportBufferStatus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_member_lte_mac_sap_provider.html#ad54a3a7e1d13643559bb9ff2a7b19aef",tooltip="Report the RLC buffer status to the MAC."];
+}

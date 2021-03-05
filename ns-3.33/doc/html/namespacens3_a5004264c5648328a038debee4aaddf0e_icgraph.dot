@@ -1,0 +1,53 @@
+digraph "ns3::DbmToW"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::DbmToW",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Convert from dBm to Watts."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LinearWifiTxCurrent\lModel::CalcTxCurrent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_linear_wifi_tx_current_model.html#a46b1218e4512d9e80c3ef25cdfed0501",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="WifiPhyThresholdsWeakWifi\lSignalTest::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wifi_phy_thresholds_weak_wifi_signal_test.html#aa91cd1cb14ddf211bd151be62e7a72b4",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="WifiPhyThresholdsWeakForeign\lSignalTest::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wifi_phy_thresholds_weak_foreign_signal_test.html#aad1875ee85a04d40060777e01b63a724",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="WifiPhyThresholdsStrongWifi\lSignalTest::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wifi_phy_thresholds_strong_wifi_signal_test.html#aa5aaeb6bbcebe65d8c3558bfbdb20c31",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="WifiPhyThresholdsStrongForeign\lSignalTest::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wifi_phy_thresholds_strong_foreign_signal_test.html#a38f75ac215fb95f0e367cb54373bedcd",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::YansWifiChannel\l::Receive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_yans_wifi_channel.html#abd64c17794a03f6f9747870b088eae23",tooltip="This method is scheduled by Send for each associated YansWifiPhy."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::YansWifiChannel\l::Send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_yans_wifi_channel.html#a5e0c886d0ca17defddafe6edcc2288ea",tooltip=" "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::WifiPhy::Send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#ae2f35b3d040230efc25a13d51a6a141f",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="TestAmpduReception\l::SendAmpduWithThreeMpdus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_ampdu_reception.html#a78da8669fb854461af9b5b26362d65f2",tooltip="Send A-MPDU with 3 MPDUs of different size (i-th MSDU will have 100 bytes more than (i-1)-th)."];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="TestAmpduReception\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_ampdu_reception.html#aeb4f6e9143c9d43d54a8ab413b667995",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="TestThresholdPreambleDetection\lWithoutFrameCapture::SendPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_threshold_preamble_detection_without_frame_capture.html#aaad8e18bfa83144a568b3f917815e154",tooltip="Send packet function."];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="TestThresholdPreambleDetection\lWithoutFrameCapture::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_threshold_preamble_detection_without_frame_capture.html#a5f449b4f3c59a0deab196e21f8b9e048",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="TestThresholdPreambleDetection\lWithFrameCapture::SendPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_threshold_preamble_detection_with_frame_capture.html#a3ee19053fa0ddcb5202c3350c010b79c",tooltip="Send packet function."];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="TestThresholdPreambleDetection\lWithFrameCapture::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_threshold_preamble_detection_with_frame_capture.html#a85e4669cc3f532b21e9d0b79190f63b6",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="TestPhyHeadersReception\l::SendPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_phy_headers_reception.html#a1298a9f1b235059ffafff8987a932625",tooltip="Send packet function."];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="TestPhyHeadersReception\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_phy_headers_reception.html#a85fbabbc3721c922867e878bd583cd90",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="TestSimpleFrameCaptureModel\l::SendPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_simple_frame_capture_model.html#a348682089c1a86a816801e848b9ed347",tooltip="Send packet function."];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="TestSimpleFrameCaptureModel\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_simple_frame_capture_model.html#a4ef1ad62ca9e24ceec8c53124fecedce",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="ns3::WifiPhy::SetCcaEdThreshold",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#a152ef4023aee4515c7cb2bc2423d84a9",tooltip="Sets the CCA threshold (dBm)."];
+  Node20 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="ns3::WifiPhy::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#a6ac379a25b68f6a8d72da740b58e0271",tooltip="Get the type ID."];
+  Node1 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="ns3::WifiPhy::SetRxSensitivity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#a6ea564b168c4cd97c59735e468034e39",tooltip="Sets the receive sensitivity threshold (dBm)."];
+  Node22 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="ns3::SpectrumWifiPhy\l::StartTx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_spectrum_wifi_phy.html#a2506b7651bed80b5db10843389bab297",tooltip=" "];
+}

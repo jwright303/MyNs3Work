@@ -1,0 +1,30 @@
+digraph "ns3::Ipv6RoutingTableEntry::GetDest"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Ipv6RoutingTableEntry\l::GetDest",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the destination."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::RipNg::Lookup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rip_ng.html#ac008f65e3fe915230191cb1099890489",tooltip="Lookup in the forwarding table for destination."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::RipNg::RouteInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rip_ng.html#ad85da69a6006cd5089e1a69e7a6be13b",tooltip="Route an input packet (to be forwarded or locally delivered)"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::RipNg::RouteOutput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rip_ng.html#acc42ebebc7e1b3ccb68c7be6b2f37f95",tooltip="Query routing cache for an existing route, for an outbound packet."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Ipv6StaticRouting\l::LookupStatic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_static_routing.html#a53cafb0907cefabca6894c9d4dc6c154",tooltip="Lookup in the forwarding table for destination."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Ipv6StaticRouting\l::RouteInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_static_routing.html#a33810db6250f018b4587dc34a43a80cb",tooltip="Route an input packet (to be forwarded or locally delivered)"];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Ipv6StaticRouting\l::RouteOutput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_static_routing.html#a494b7a870cc1af31ba11611128a067a6",tooltip="Query routing cache for an existing route, for an outbound packet."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::operator\<\<",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#ae91c6d0b80104fa271d55f0f60b6808b",tooltip="Stream insertion operator."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="StackHelper::PrintRouting\lTable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_stack_helper.html#aae6f63ca3cc195a39f5ac0d1098fd0a0",tooltip="Print the routing table."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::Ipv6StaticRouting\l::PrintRoutingTable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_static_routing.html#adcec5c4515ac7474137170619bc49de8",tooltip="Print the Routing Table entries."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::RipNg::PrintRouting\lTable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rip_ng.html#a8f0f68b25eb3f95485d24409569b4504",tooltip="Print the Routing Table entries."];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::Ipv6StaticRouting\l::RemoveRoute",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_static_routing.html#a9e1d32b4260bea10088c82bbf5906d06",tooltip="Remove a route from the routing table."];
+}

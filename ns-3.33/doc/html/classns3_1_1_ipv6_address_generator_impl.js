@@ -1,0 +1,25 @@
+var classns3_1_1_ipv6_address_generator_impl =
+[
+    [ "Entry", "classns3_1_1_ipv6_address_generator_impl_1_1_entry.html", "classns3_1_1_ipv6_address_generator_impl_1_1_entry" ],
+    [ "NetworkState", "classns3_1_1_ipv6_address_generator_impl_1_1_network_state.html", "classns3_1_1_ipv6_address_generator_impl_1_1_network_state" ],
+    [ "Ipv6AddressGeneratorImpl", "classns3_1_1_ipv6_address_generator_impl.html#a5a762f2352c92101ea9ed73d8a069538", null ],
+    [ "~Ipv6AddressGeneratorImpl", "classns3_1_1_ipv6_address_generator_impl.html#a3e7f0c5fd87e520f553f9e95f7c546e9", null ],
+    [ "AddAllocated", "classns3_1_1_ipv6_address_generator_impl.html#a66afcc32c159fb8d9b227a22ef9878d5", null ],
+    [ "GetAddress", "classns3_1_1_ipv6_address_generator_impl.html#a66f65c862a3a974bc54c954ea5dbc3dc", null ],
+    [ "GetNetwork", "classns3_1_1_ipv6_address_generator_impl.html#ade61174847228bfd63102b8af7dae3f0", null ],
+    [ "Init", "classns3_1_1_ipv6_address_generator_impl.html#ac5137550d994e0da6b942210b9836bb6", null ],
+    [ "InitAddress", "classns3_1_1_ipv6_address_generator_impl.html#ac96e9cab561abf1f94544dd535a36520", null ],
+    [ "IsAddressAllocated", "classns3_1_1_ipv6_address_generator_impl.html#ae93f60297b3c91a1f7d167f016656358", null ],
+    [ "IsNetworkAllocated", "classns3_1_1_ipv6_address_generator_impl.html#ad1071c3076dd81058b7af796c6fe2420", null ],
+    [ "NextAddress", "classns3_1_1_ipv6_address_generator_impl.html#afb2185b91099b54261f6da28db9fa7af", null ],
+    [ "NextNetwork", "classns3_1_1_ipv6_address_generator_impl.html#a9ff78bd07b2d61baa067144e44165dc3", null ],
+    [ "PrefixToIndex", "classns3_1_1_ipv6_address_generator_impl.html#a7e0e1e3a1a5d2a799c910ee8e7b7e563", null ],
+    [ "Reset", "classns3_1_1_ipv6_address_generator_impl.html#a354d201c23d26fa688f5304f44a1b780", null ],
+    [ "TestMode", "classns3_1_1_ipv6_address_generator_impl.html#a88df25c8dd71ea69fb699ab032aa4ddf", null ],
+    [ "m_base", "classns3_1_1_ipv6_address_generator_impl.html#a1e53eb1183330c04ef0a0d81e3a3c21e", null ],
+    [ "m_entries", "classns3_1_1_ipv6_address_generator_impl.html#ab7b8cc4871178edafc571d7a9449fef1", null ],
+    [ "m_netTable", "classns3_1_1_ipv6_address_generator_impl.html#a4b742848bb716936009880a429664323", null ],
+    [ "m_test", "classns3_1_1_ipv6_address_generator_impl.html#a6538e5a709f4060466c5253a0289cdf8", null ],
+    [ "MOST_SIGNIFICANT_BIT", "classns3_1_1_ipv6_address_generator_impl.html#a14a3d1c913a0273ff123b95ee8d36a3c", null ],
+    [ "N_BITS", "classns3_1_1_ipv6_address_generator_impl.html#abe99ce1055f3a7de9263da1d34ef2629", null ]
+];

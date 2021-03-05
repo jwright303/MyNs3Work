@@ -1,0 +1,28 @@
+digraph "ns3::LrWpanMacHeader::LrWpanMacHeader"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::LrWpanMacHeader\l::LrWpanMacHeader",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Constructor."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LrWpanMacHeader\l::SetDstAddrMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lr_wpan_mac_header.html#a8513915d98840c7e2dae25c7f69b71ad",tooltip="Set the Destination address mode."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LrWpanMacHeader\l::SetFrameVer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lr_wpan_mac_header.html#ad55a0aee08a4959b52fd3ea931c770a7",tooltip="Set the Frame version."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::LrWpanMacHeader\l::SetFrmCtrlRes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lr_wpan_mac_header.html#a2a36b5b67590856c81c3145552db22a4",tooltip="Set the Frame Control field \"Reserved\" bits."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::LrWpanMacHeader\l::SetNoAckReq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lr_wpan_mac_header.html#a00a595a39fa838159d1b49732d5d5e13",tooltip="Set the Frame Control field \"Ack. Request\" bit to false."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::LrWpanMacHeader\l::SetNoFrmPend",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lr_wpan_mac_header.html#afc3dd54d6787e320643903d2683bb36a",tooltip="Set the Frame Control field \"Frame Pending\" bit to false."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::LrWpanMacHeader\l::SetNoPanIdComp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lr_wpan_mac_header.html#ab02a8eed6b17d8ba05e5f5f0be8fab41",tooltip="Set the Frame Control field \"PAN ID Compression\" bit to false."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::LrWpanMacHeader\l::SetSecDisable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lr_wpan_mac_header.html#acc5e51156ce28e540d2def4ef0d108f4",tooltip="Set the Frame Control field \"Security Enabled\" bit to false."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::LrWpanMacHeader\l::SetSeqNum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lr_wpan_mac_header.html#a2f946242c5789121b782598374d6e213",tooltip="Set the Sequence number."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::LrWpanMacHeader\l::SetSrcAddrMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lr_wpan_mac_header.html#a3e0400af0ee70cf00d6d1373d9b02bc9",tooltip="Set the Source address mode."];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::LrWpanMacHeader\l::SetType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lr_wpan_mac_header.html#a6adb1cb7c43b2dfa867f4deef0c33c0b",tooltip="Set the Frame Control field \"Frame Type\" bits."];
+}

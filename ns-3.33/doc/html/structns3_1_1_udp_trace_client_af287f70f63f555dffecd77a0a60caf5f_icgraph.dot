@@ -1,0 +1,19 @@
+digraph "ns3::UdpTraceClient::LoadDefaultTrace"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::UdpTraceClient\l::LoadDefaultTrace",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Load the default trace."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::UdpTraceClient\l::LoadTrace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_udp_trace_client.html#a36014292a9c0214c0d8c63ed5dd056ac",tooltip="Load a trace file."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::UdpTraceClient\l::SetTraceFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_udp_trace_client.html#a3439722a8941b9c1ab3fd564dcdafeb0",tooltip="Set the trace file to be used by the application."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::UdpTraceClient\l::UdpTraceClient",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_udp_trace_client.html#a84242659bd33470aebf8f395c7413382",tooltip="Creates a traceBasedStreamer application."];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::UdpTraceClient\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_udp_trace_client.html#ace3de2afbfae12cb73fc78a55f22399c",tooltip="Get the type ID."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::UdpTraceClientHelper\l::UdpTraceClientHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_udp_trace_client_helper.html#a7098a22832d852a4f614b439be894409",tooltip="Create UdpTraceClientHelper which will make life easier for people trying to set up simulations with ..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

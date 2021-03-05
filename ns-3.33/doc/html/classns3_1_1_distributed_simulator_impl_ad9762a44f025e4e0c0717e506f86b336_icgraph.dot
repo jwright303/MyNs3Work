@@ -1,0 +1,12 @@
+digraph "ns3::DistributedSimulatorImpl::GetContext"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::DistributedSimulator\lImpl::GetContext",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the current simulation context."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::DistributedSimulator\lImpl::Schedule",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_distributed_simulator_impl.html#a274125ed69833d03e98c2e286daaa5ae",tooltip="Schedule a future event execution (in the same context)."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::DistributedSimulator\lImpl::ScheduleNow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_distributed_simulator_impl.html#abc8ef391cb69609920caa4eaf9788288",tooltip="Schedule an event to run at the current virtual time."];
+}

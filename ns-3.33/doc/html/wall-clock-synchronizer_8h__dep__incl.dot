@@ -1,0 +1,11 @@
+digraph "src/core/model/wall-clock-synchronizer.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/core/model/wall\l-clock-synchronizer.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ns3::WallClockSynchronizer declaration."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="src/core/model/realtime\l-simulator-impl.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$realtime-simulator-impl_8cc.html",tooltip="ns3::RealTimeSimulatorImpl implementation."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="src/core/model/wall\l-clock-synchronizer.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$wall-clock-synchronizer_8cc.html",tooltip="ns3::WallClockSynchronizer implementation."];
+}

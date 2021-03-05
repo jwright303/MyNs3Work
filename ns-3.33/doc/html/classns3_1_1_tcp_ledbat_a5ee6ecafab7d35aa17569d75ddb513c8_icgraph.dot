@@ -1,0 +1,15 @@
+digraph "ns3::TcpLedbat::MinCircBuf"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::TcpLedbat::MinCircBuf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Return the minimum delay of the buffer."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TcpLedbat::BaseDelay",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_ledbat.html#a376576d38e2467910d33ce0f0ea6d4ec",tooltip="Return the value of base delay."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::TcpLedbat::Congestion\lAvoidance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_ledbat.html#a592b6df30581c978ddabf095eb0300c6",tooltip="Reduce Congestion."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::TcpLedbat::Increase\lWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_ledbat.html#a9baf3c7c8d5572c3cf7c4249a2833748",tooltip="Adjust cwnd following LEDBAT algorithm."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,10 @@
+digraph "ns3::HeOperation::SetHeOperationParameters"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::HeOperation::SetHeOperation\lParameters",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set the HE Operation Parameters field in the HE Operation information element."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::HeOperation::Deserialize\lInformationField",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_he_operation.html#aa65c5d06e02d1218e70bb3bf92d56f74",tooltip="Deserialize information (i.e., the body of the IE, not including the Element ID and length octets)"];
+}

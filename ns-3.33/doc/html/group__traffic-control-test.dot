@@ -1,0 +1,11 @@
+digraph "traffic-control module tests"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node3 [label="Test suites",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__tests.html",tooltip="All test suites."];
+  Node1 [label="traffic-control module\l tests",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 [label="Traffic-control",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__traffic-control.html",tooltip="The Traffic Control layer aims at introducing an equivalent of the Linux Traffic Control infrastructu..."];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, label="AredQueueDiscTestCase\nAredQueueDiscTestItem\nAredQueueDiscTestSuite\nCobaltQueueDiscBasicEnqueue\lDequeue\nCobaltQueueDiscDropTest\nCobaltQueueDiscMarkTest\nCobaltQueueDiscTestItem\nCoDelQueueDiscBasicDrop\nCoDelQueueDiscBasicEnqueue\lDequeue\nCoDelQueueDiscBasicMark\n...", color="orange", dir="none", style="dashed"];
+}

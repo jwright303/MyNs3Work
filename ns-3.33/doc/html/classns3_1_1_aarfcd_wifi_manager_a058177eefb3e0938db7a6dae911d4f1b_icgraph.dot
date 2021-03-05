@@ -1,0 +1,12 @@
+digraph "ns3::AarfcdWifiManager::ResetRtsWnd"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::AarfcdWifiManager\l::ResetRtsWnd",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Reset the RTS window of the given station."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::AarfcdWifiManager\l::DoReportDataFailed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_aarfcd_wifi_manager.html#a612ab5074f5cdb94b64f8b5fe0936c05",tooltip="It is important to realize that \"recovery\" mode starts after failure of the first transmission after ..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::AarfcdWifiManager\l::DoReportDataOk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_aarfcd_wifi_manager.html#a4e23c4ab88729dfde9991dab23b8fc59",tooltip="This method is a pure virtual method that must be implemented by the sub-class."];
+}

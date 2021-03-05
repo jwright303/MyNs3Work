@@ -1,0 +1,54 @@
+digraph "ns3::GlobalRouteManagerImpl"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::GlobalRouteManagerImpl",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="A global router implementation."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_lsdb" ,fontname="Helvetica"];
+  Node2 [label="ns3::GlobalRouteManagerLSDB",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_route_manager_l_s_d_b.html",tooltip="The Link State DataBase (LSDB) of the Global Route Manager."];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_extdatabase" ,fontname="Helvetica"];
+  Node3 [label="std::vector\< ns3::Global\lRoutingLSA * \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node4 [label="ns3::GlobalRoutingLSA",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_routing_l_s_a.html",tooltip="a Link State Advertisement (LSA) for a router, used in global routing."];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_networkLSANetworkMask" ,fontname="Helvetica"];
+  Node5 [label="ns3::Ipv4Mask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_mask.html",tooltip="a class to represent an Ipv4 address mask"];
+  Node6 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_advertisingRtr\nm_linkStateId" ,fontname="Helvetica"];
+  Node6 [label="ns3::Ipv4Address",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_address.html",tooltip="Ipv4 addresses are stored in host order in this class."];
+  Node7 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_linkRecords" ,fontname="Helvetica"];
+  Node7 [label="std::list\< GlobalRouting\lLinkRecord * \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node8 [label="ns3::GlobalRoutingLinkRecord",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_routing_link_record.html",tooltip="A single link record for a link state advertisement."];
+  Node6 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_linkData\nm_linkId" ,fontname="Helvetica"];
+  Node9 -> Node7 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< GlobalRoutingLinkRecord * \>" ,fontname="Helvetica"];
+  Node9 [label="std::list\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node10 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node10 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node11 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_attachedRouters" ,fontname="Helvetica"];
+  Node11 [label="std::list\< Ipv4Address \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node11 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node9 -> Node11 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Ipv4Address \>" ,fontname="Helvetica"];
+  Node12 -> Node3 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::GlobalRoutingLSA * \>" ,fontname="Helvetica"];
+  Node12 [label="std::vector\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node10 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node13 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_database" ,fontname="Helvetica"];
+  Node13 [label="std::map\< Ipv4Address,\l GlobalRoutingLSA * \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node6 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" keys" ,fontname="Helvetica"];
+  Node14 -> Node13 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Ipv4Address, GlobalRouting\lLSA * \>" ,fontname="Helvetica"];
+  Node14 [label="std::map\< K, T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node15 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" keys" ,fontname="Helvetica"];
+  Node15 [label="K",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node10 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node16 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_spfroot" ,fontname="Helvetica"];
+  Node16 [label="ns3::SPFVertex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_s_p_f_vertex.html",tooltip="Vertex used in shortest path first (SPF) computations."];
+  Node4 -> Node16 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_lsa" ,fontname="Helvetica"];
+  Node6 -> Node16 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_nextHop\nm_vertexId" ,fontname="Helvetica"];
+  Node17 -> Node16 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_ecmpRootExits" ,fontname="Helvetica"];
+  Node17 [label="std::list\< NodeExit_t \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node9 -> Node17 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< NodeExit_t \>" ,fontname="Helvetica"];
+  Node18 -> Node16 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_children\nm_parents" ,fontname="Helvetica"];
+  Node18 [label="std::list\< SPFVertex * \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node16 -> Node18 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node9 -> Node18 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< SPFVertex * \>" ,fontname="Helvetica"];
+}

@@ -1,0 +1,18 @@
+digraph "ns3::InterferenceHelper::Add"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::InterferenceHelper::Add",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Add the PPDU-related signal to interference helper."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::InterferenceHelper\l::AppendEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_interference_helper.html#a2a316633728f72317cdbc816dba6a75a",tooltip="Append the given Event."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::InterferenceHelper\l::AddNiChangeEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_interference_helper.html#a24e1e369f66ac3a1d5d1548b7ae89e5e",tooltip="Add NiChange to the list at the appropriate position and return the iterator of the new event."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::InterferenceHelper\l::GetNextPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_interference_helper.html#a6cc97e5a6692efe87ce8d9f88a5be3f9",tooltip="Returns an iterator to the first NiChange that is later than moment."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::InterferenceHelper\l::GetPreviousPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_interference_helper.html#ac963412fb8fc95c09d25b3e666f3b574",tooltip="Returns an iterator to the last NiChange that is before than moment."];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

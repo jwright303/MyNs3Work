@@ -1,0 +1,19 @@
+digraph "src/core/model/simulator-impl.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/core/model/simulator\l-impl.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ns3::SimulatorImpl declaration."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="src/core/model/default\l-simulator-impl.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$default-simulator-impl_8h.html",tooltip="ns3::DefaultSimulatorImpl declaration."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="src/core/model/default\l-simulator-impl.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$default-simulator-impl_8cc.html",tooltip="ns3::DefaultSimulatorImpl implementation."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="src/core/model/realtime\l-simulator-impl.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$realtime-simulator-impl_8h.html",tooltip="ns3::RealtimeSimulatorImpl declaration."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="src/core/model/realtime\l-simulator-impl.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$realtime-simulator-impl_8cc.html",tooltip="ns3::RealTimeSimulatorImpl implementation."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="src/core/model/simulator\l-impl.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$simulator-impl_8cc.html",tooltip="ns3::SimulatorImpl implementation."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="src/core/model/simulator.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$simulator_8cc.html",tooltip="ns3::Simulator implementation, as well as implementation pointer, global scheduler implementation."];
+}

@@ -1,0 +1,28 @@
+digraph "ns3::LteRlcAmHeader"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::LteRlcAmHeader",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="The packet header for the AM Radio Link Control (RLC) protocol packets."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Header",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_header.html",tooltip="Protocol header serialization and deserialization."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Chunk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_chunk.html",tooltip="abstract base class for ns3::Header and ns3::Trailer"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ObjectBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html",tooltip="Anchor the ns-3 type and attribute system."];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_ackSn\nm_sequenceNumber" ,fontname="Helvetica"];
+  Node5 [label="ns3::SequenceNumber10",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_sequence_number10.html",tooltip="SequenceNumber10 class."];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_extensionBits\nm_extensionBits1\nm_extensionBits2" ,fontname="Helvetica"];
+  Node6 [label="std::list\< uint8_t \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node6 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< uint8_t \>" ,fontname="Helvetica"];
+  Node7 [label="std::list\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node8 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node9 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_nackSnList" ,fontname="Helvetica"];
+  Node9 [label="std::list\< int \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node9 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< int \>" ,fontname="Helvetica"];
+  Node10 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_lengthIndicators" ,fontname="Helvetica"];
+  Node10 [label="std::list\< uint16_t \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node10 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< uint16_t \>" ,fontname="Helvetica"];
+}

@@ -1,0 +1,10 @@
+digraph "ns3::LrWpanPhy::EndTx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LrWpanPhy::EndTx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Finish the transmission of a frame."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LrWpanPhy::PdDataRequest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lr_wpan_phy.html#a44d119b7c56658e97c99d9524e42f48f",tooltip="IEEE 802.15.4-2006 section 6.2.1.1 PD-DATA.request Request to transfer MPDU from MAC (transmitting)"];
+}

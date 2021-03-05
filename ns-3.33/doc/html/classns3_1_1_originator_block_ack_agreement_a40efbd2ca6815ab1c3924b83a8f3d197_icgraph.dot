@@ -1,0 +1,10 @@
+digraph "ns3::OriginatorBlockAckAgreement::NotifyAckedMpdu"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::OriginatorBlockAckAgreement\l::NotifyAckedMpdu",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Record that the given MPDU has been acknowledged and advance the transmit window if possible."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="OriginatorBlockAckWindow\lTest::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_originator_block_ack_window_test.html#afa79ee872643cc855c1003121f9c564e",tooltip="Implementation to actually run this TestCase."];
+}

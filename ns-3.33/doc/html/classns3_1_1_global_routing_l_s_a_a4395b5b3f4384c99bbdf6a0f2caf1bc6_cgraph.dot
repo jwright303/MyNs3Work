@@ -1,0 +1,28 @@
+digraph "ns3::GlobalRoutingLSA::GlobalRoutingLSA"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::GlobalRoutingLSA\l::GlobalRoutingLSA",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Copy constructor for a Global Routing Link State Advertisement."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::GlobalRoutingLSA\l::CopyLinkRecords",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_routing_l_s_a.html#ad8775b6edb27265dd462db55cf147c51",tooltip="Copy any Global Routing Link Records in a given Global Routing Link State Advertisement to the curren..."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::GlobalRoutingLinkRecord\l::GetLinkData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_routing_link_record.html#ae329213648a513bef41aca9efe8c951a",tooltip="Get the Link Data field of the Global Routing Link Record."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::GlobalRoutingLinkRecord\l::GetLinkId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_routing_link_record.html#ab56e5ee06ec3c740bf94795d50823c85",tooltip="Get the Link ID field of the Global Routing Link Record."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::GlobalRoutingLinkRecord\l::GetLinkType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_routing_link_record.html#a7160442a4e6dcbbe4508b2a14ac502d4",tooltip="Get the Link Type field of the Global Routing Link Record."];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::GlobalRoutingLinkRecord\l::GetMetric",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_routing_link_record.html#a03caf9027a31e85f13e4db1dda515b26",tooltip="Get the Metric Data field of the Global Routing Link Record."];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::GlobalRoutingLinkRecord\l::SetLinkData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_routing_link_record.html#a8d5328f737fc9b8a744a5cd2d0cc6434",tooltip="Set the Link Data field of the Global Routing Link Record."];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::GlobalRoutingLinkRecord\l::SetLinkId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_routing_link_record.html#a479e71adaa550c4d9d2e100edb642651",tooltip="Set the Link ID field of the Global Routing Link Record."];
+  Node2 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::GlobalRoutingLinkRecord\l::SetLinkType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_routing_link_record.html#af848628baf0e27699d057d06114a01f6",tooltip="Set the Link Type field of the Global Routing Link Record."];
+  Node2 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::GlobalRoutingLinkRecord\l::SetMetric",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_routing_link_record.html#a336b65b7fee309ef50ccfd962d4c04e8",tooltip="Set the Metric Data field of the Global Routing Link Record."];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::GlobalRoutingLSA\l::IsEmpty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_routing_l_s_a.html#ad6f6731267a94f7cb23319ec6ff8d980",tooltip="Check to see if the list of Global Routing Link Records present in the Global Routing Link State Adve..."];
+}

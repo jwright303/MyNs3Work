@@ -1,0 +1,10 @@
+digraph "ns3::test::RandomVariable::UniformTestCase::ChiSquaredTest"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::test::RandomVariable\l::UniformTestCase::ChiSquaredTest",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Compute the chi square value from a random variable."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::test::RandomVariable\l::UniformTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1test_1_1_random_variable_1_1_uniform_test_case.html#a3490f297557dc9d1652ed1504987850f",tooltip="Implementation to actually run this TestCase."];
+}

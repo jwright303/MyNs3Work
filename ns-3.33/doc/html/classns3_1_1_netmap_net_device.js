@@ -1,0 +1,27 @@
+var classns3_1_1_netmap_net_device =
+[
+    [ "NetmapNetDevice", "classns3_1_1_netmap_net_device.html#a796e5333c5aeba4086489033cac58cd0", null ],
+    [ "~NetmapNetDevice", "classns3_1_1_netmap_net_device.html#a29b6ffecaaaf7e626a4d7b9cccb1640a", null ],
+    [ "DoCreateFdReader", "classns3_1_1_netmap_net_device.html#ae016019e340c2803bb68bf4b192780fc", null ],
+    [ "DoFinishStartingDevice", "classns3_1_1_netmap_net_device.html#a7dbfbc89db959c93fbd6dc22a9a898ba", null ],
+    [ "DoFinishStoppingDevice", "classns3_1_1_netmap_net_device.html#a507338d58f4f93d4fb216c6bf067dbdc", null ],
+    [ "GetBytesInNetmapTxRing", "classns3_1_1_netmap_net_device.html#a7d968d679b2c9211130561ec86fdf68d", null ],
+    [ "GetSpaceInNetmapTxRing", "classns3_1_1_netmap_net_device.html#a0103395b3ae97f9d9f8ba4dfc61562e6", null ],
+    [ "GetTypeId", "classns3_1_1_netmap_net_device.html#a273841c4219636881a3eb892630f05d9", null ],
+    [ "SetNetDeviceQueue", "classns3_1_1_netmap_net_device.html#aa2a1b5d5fc4b01141294226ca873d159", null ],
+    [ "SetNetmapInterfaceRepresentation", "classns3_1_1_netmap_net_device.html#a5f537b65c68e7a9a9dd80948808da624", null ],
+    [ "SetRxRingsInfo", "classns3_1_1_netmap_net_device.html#a271c420e9e55d9f96486f2b475b9c940", null ],
+    [ "SetTxRingsInfo", "classns3_1_1_netmap_net_device.html#ae254d8eaf56ca9d23d21c5e1d754033f", null ],
+    [ "SyncAndNotifyQueue", "classns3_1_1_netmap_net_device.html#ae0c7fb987e5e9406324d89ac2c37fdd8", null ],
+    [ "Write", "classns3_1_1_netmap_net_device.html#a76b732b78e4a142af549dec817f70814", null ],
+    [ "m_nifp", "classns3_1_1_netmap_net_device.html#a92a7b5587a7259a2323f55a9a6111c61", null ],
+    [ "m_nRxRings", "classns3_1_1_netmap_net_device.html#a0a3511509393895ff61912461ff31629", null ],
+    [ "m_nRxRingsSlots", "classns3_1_1_netmap_net_device.html#a90061210aa610e7fd26743a0b3615144", null ],
+    [ "m_nTxRings", "classns3_1_1_netmap_net_device.html#a958bec9424144617d98ffd851b9d8654", null ],
+    [ "m_nTxRingsSlots", "classns3_1_1_netmap_net_device.html#a7bbf861c0240c3ca759ac84e35affa7a", null ],
+    [ "m_queue", "classns3_1_1_netmap_net_device.html#a632bcce41473697558d81180a78019f2", null ],
+    [ "m_syncAndNotifyQueuePeriod", "classns3_1_1_netmap_net_device.html#a7060df955d62ac4b77da11f146552fc3", null ],
+    [ "m_syncAndNotifyQueueThread", "classns3_1_1_netmap_net_device.html#a35dc18c33171c66bd97793c138fc6e18", null ],
+    [ "m_syncAndNotifyQueueThreadRun", "classns3_1_1_netmap_net_device.html#acb4a50b0de7808792e070e2a4dd57550", null ],
+    [ "m_totalQueuedBytes", "classns3_1_1_netmap_net_device.html#ac2410a04f1edfb8ea8dd497e24d21a8f", null ]
+];

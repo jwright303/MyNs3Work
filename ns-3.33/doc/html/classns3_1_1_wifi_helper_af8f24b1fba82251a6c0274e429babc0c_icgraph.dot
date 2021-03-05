@@ -1,0 +1,10 @@
+digraph "ns3::WifiHelper::SetAckPolicySelectorForAc"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::WifiHelper::SetAckPolicy\lSelectorForAc",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WifiHelper::WifiHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_helper.html#afcd1e26e0707db886f89f54a09aeb86d",tooltip="Create a Wifi helper in an empty state: all its parameters must be set before calling ns3::WifiHelper..."];
+}

@@ -1,0 +1,27 @@
+digraph "Core module examples"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node11 [label="String-value-formatting",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__string-value-formatting.html",tooltip="Check that StringValue parses complex values correctly."];
+  Node10 [label="Host Filesystem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__systempath.html",tooltip="Encapsulate OS-specific functions to manipulate file and directory paths."];
+  Node8 [label="Logging",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__logging.html",tooltip="Logging functions and macros."];
+  Node9 [label="Simulator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__simulator.html",tooltip="Control the virtual time and the execution of simulation events."];
+  Node3 [label="Command Line Parsing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__commandline.html",tooltip="A uniform way to specify program documentation, allowed command line arguments and help strings,..."];
+  Node5 [label="Smart Pointer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__ptr.html",tooltip="Heap memory management."];
+  Node1 [label="Core module examples",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Programs which illustrate use of core module functionality."];
+  Node4 [label="Random Variables",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__randomvariable.html",tooltip="ns-3 random numbers are provided via instances of ns3::RandomVariableStream."];
+  Node6 [label="Hash Functions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__hash.html",tooltip="Generic Hash function interface."];
+  Node7 [label="Length",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__length.html",tooltip="Management of lengths in real world units."];
+  Node2 [label="Core",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__core.html",tooltip="The \"core\" module contains:"];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, label="command-line-example.cc", color="darkgreen", dir="none", style="dashed"];
+  Node1->Node4 [shape=plaintext, label="empirical-random-variable\l-example.cc\nsample-random-variable\l-stream.cc\nsample-random-variable.cc\nsample-rng-plot.py", color="darkgreen", dir="none", style="dashed"];
+  Node1->Node5 [shape=plaintext, label="fatal-example.cc", color="darkgreen", dir="none", style="dashed"];
+  Node1->Node6 [shape=plaintext, label="hash-example.cc", color="darkgreen", dir="none", style="dashed"];
+  Node1->Node7 [shape=plaintext, label="length-example.cc", color="darkgreen", dir="none", style="dashed"];
+  Node1->Node8 [shape=plaintext, label="sample-log-time-format.cc\nsample-show-progress.cc", color="darkgreen", dir="none", style="dashed"];
+  Node1->Node9 [shape=plaintext, label="sample-simulator.cc\nsample-simulator.py", color="darkgreen", dir="none", style="dashed"];
+  Node1->Node10 [shape=plaintext, label="system-path-examples.cc", color="darkgreen", dir="none", style="dashed"];
+  Node1->Node11 [shape=plaintext, label="test-string-value-formatting.cc", color="darkgreen", dir="none", style="dashed"];
+}

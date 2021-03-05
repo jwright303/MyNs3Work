@@ -1,0 +1,37 @@
+digraph "ns3::MinMaxAvgTotalCalculator::getVariance"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::MinMaxAvgTotalCalculator\l::getVariance",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Returns the current variance."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="OneIntegerTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_one_integer_test_case.html#aee15b1016f3aa6790914defdd9bb9342",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="FiveIntegersTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_five_integers_test_case.html#ae59367f468ecf68bcc4b92bf4df5660c",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="FiveDoublesTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_five_doubles_test_case.html#aade3d729805620a3f161e0ede362e6f7",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Average::Var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_average.html#a31b0beabcd03d2347a8b8cb27504553b",tooltip="Unbiased estimate of variance."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="OneIntegerAverageTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_one_integer_average_test_case.html#a962250f65e253c4f61890b423f9b2e62",tooltip="Implementation to actually run this TestCase."];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="FiveIntegersAverageTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_five_integers_average_test_case.html#aab1153b04e5f0c96cbefe3b438ac1bd1",tooltip="Implementation to actually run this TestCase."];
+  Node5 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="FiveDoublesAverageTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_five_doubles_average_test_case.html#aacfcb4f28de8cd6cca19268e9695704d",tooltip="Implementation to actually run this TestCase."];
+  Node5 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::Average::Error90",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_average.html#a1300bf2da5f92b956abc538507e54475",tooltip="Margin of error of the mean for 90% confidence level."];
+  Node5 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::Average::Error95",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_average.html#ac8496bd229e1544ed253823059e6831a",tooltip="Margin of error of the mean for 95% confidence level."];
+  Node5 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::Average::Error99",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_average.html#ad66bd26986a69b2de2bdfb1a0802a360",tooltip="Margin of error of the mean for 99% confidence level."];
+  Node5 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::Average::Stddev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_average.html#ae71ce3aadee26578ffff2e47bf6c5a61",tooltip="Standard deviation."];
+  Node12 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::V4Ping::StopApplication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_v4_ping.html#afbf27c64128d147b0d51dfa09ce7b1c8",tooltip="Application specific shutdown code."];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::V4Ping::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_v4_ping.html#a78c38c5ceb8df123483c27421e2257ad",tooltip="Destructor implementation."];
+}

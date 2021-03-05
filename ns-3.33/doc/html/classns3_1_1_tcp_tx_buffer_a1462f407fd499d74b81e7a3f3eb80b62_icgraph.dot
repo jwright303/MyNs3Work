@@ -1,0 +1,10 @@
+digraph "ns3::TcpTxBuffer::IsLostRFC"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::TcpTxBuffer::IsLostRFC",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Decide if a segment is lost based on RFC 6675 algorithm."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TcpTxBuffer::BytesIn\lFlightRFC",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_tx_buffer.html#ac084ab5028fd9e7e5eaf05437c0d2069",tooltip="Calculate the number of bytes in flight per RFC 6675."];
+}

@@ -1,0 +1,12 @@
+digraph "OcbWifiMacTestCase::PhyTxTrace"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="OcbWifiMacTestCase\l::PhyTxTrace",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Phy transmit trace function."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="OcbWifiMacTestCase\l::PostDeviceConfiguration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ocb_wifi_mac_test_case.html#a6b536e2fc476ebf85d4cd0ae7490987c",tooltip="Post device configuration function."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="OcbWifiMacTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ocb_wifi_mac_test_case.html#a730877f90008a4a4e7fd547f964f0f08",tooltip="static-node:0 <-— mobile-node:1"];
+}

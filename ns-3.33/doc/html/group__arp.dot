@@ -1,0 +1,11 @@
+digraph "ARP protocol."
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node1 [label="ARP protocol.",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="The ARP protocol and its associated tables are responsible for the IPv4 - MAC address translation."];
+  Node2 [label="IPv4 classes and sub\l-modules",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__ipv4.html",tooltip=" "];
+  Node3 [label="Traffic-control",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__traffic-control.html",tooltip="The Traffic Control layer aims at introducing an equivalent of the Linux Traffic Control infrastructu..."];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, label="ns3::ArpQueueDiscItem", color="orange", dir="none", style="dashed"];
+}

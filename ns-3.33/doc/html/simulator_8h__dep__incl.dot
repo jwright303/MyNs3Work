@@ -1,0 +1,39 @@
+digraph "src/core/model/simulator.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/core/model/simulator.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ns3::Simulator declaration."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="src/core/model/default\l-simulator-impl.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$default-simulator-impl_8cc.html",tooltip="ns3::DefaultSimulatorImpl implementation."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="src/core/model/des\l-metrics.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$des-metrics_8cc.html",tooltip="ns3::DesMetrics implementation."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="src/core/model/event\l-id.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$event-id_8cc.html",tooltip="ns3::EventId implementation."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="src/core/model/node\l-printer.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$node-printer_8cc.html",tooltip="ns3::DefaultNodePrinter implementation."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="src/core/model/realtime\l-simulator-impl.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$realtime-simulator-impl_8cc.html",tooltip="ns3::RealTimeSimulatorImpl implementation."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="src/core/model/show\l-progress.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$show-progress_8cc.html",tooltip="ns3::ShowProgress implementation."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="src/core/model/simulation\l-singleton.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$simulation-singleton_8h.html",tooltip="ns3::SimulationSingleton declaration and template implementation."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="src/core/model/timer.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$timer_8cc.html",tooltip="ns3::Timer implementation."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="src/core/model/simulator.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$simulator_8cc.html",tooltip="ns3::Simulator implementation, as well as implementation pointer, global scheduler implementation."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="src/core/model/time\l-printer.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$time-printer_8cc.html",tooltip="ns3::DefaultTimePrinter implementation."];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="src/core/model/timer\l-impl.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$timer-impl_8h.html",tooltip="ns3::TimerImpl declaration and implementation."];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="src/core/model/timer.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$timer_8h.html",tooltip="ns3::Timer class declaration."];
+  Node13 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="src/core/model/watchdog.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$watchdog_8h.html",tooltip="ns3::Watchdog timer class declaration."];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="src/core/model/watchdog.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$watchdog_8cc.html",tooltip="ns3::Watchdog timer class implementation."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="src/core/model/unix\l-fd-reader.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unix-fd-reader_8cc.html",tooltip="ns3::FdReader implementation."];
+}

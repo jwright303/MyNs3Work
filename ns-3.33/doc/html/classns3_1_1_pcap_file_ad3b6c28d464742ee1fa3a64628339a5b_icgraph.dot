@@ -1,0 +1,20 @@
+digraph "ns3::PcapFile::Close"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::PcapFile::Close",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Close the underlying file."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PcapFile::~PcapFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pcap_file.html#ae70ee5d4e70678f92635233e36288764",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::PcapFileWrapper\l::Close",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pcap_file_wrapper.html#a3953c7fbf120b889a60969a5ec93a7bc",tooltip="Close the underlying pcap file."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::PcapFileWrapper\l::~PcapFileWrapper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pcap_file_wrapper.html#a7411aab7ddb9e89a8599c03b91cd2337",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Ns3TcpInteroperabilityTest\lCase::DoTeardown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ns3_tcp_interoperability_test_case.html#a13a91d5f3882d3ac42448bcc29ebcbfd",tooltip="Implementation to do any local setup required for this TestCase."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Ns3TcpLossTestCase\l::DoTeardown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ns3_tcp_loss_test_case.html#aec944c7c89b90381e63893e48ae3fd49",tooltip="Implementation to do any local setup required for this TestCase."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Ns3TcpStateTestCase\l::DoTeardown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ns3_tcp_state_test_case.html#a80c9b357d0d42b443efe4feb204c9846",tooltip="Implementation to do any local setup required for this TestCase."];
+}

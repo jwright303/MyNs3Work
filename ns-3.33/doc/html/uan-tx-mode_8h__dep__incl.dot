@@ -1,0 +1,36 @@
+digraph "src/uan/model/uan-tx-mode.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/uan/model/uan-tx\l-mode.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="src/uan/model/uan-channel.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$uan-channel_8cc.html",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="src/uan/model/uan-mac\l-aloha.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$uan-mac-aloha_8cc.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="src/uan/model/uan-mac\l-rc-gw.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$uan-mac-rc-gw_8cc.html",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="src/uan/model/uan-mac\l-rc.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$uan-mac-rc_8cc.html",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="src/uan/model/uan-phy\l-dual.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$uan-phy-dual_8cc.html",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="src/uan/model/uan-prop\l-model-ideal.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$uan-prop-model-ideal_8cc.html",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="src/uan/model/uan-prop\l-model-thorp.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$uan-prop-model-thorp_8cc.html",tooltip=" "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="src/uan/model/uan-transducer.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$uan-transducer_8h.html",tooltip=" "];
+  Node9 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="src/uan/model/uan-net\l-device.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$uan-net-device_8cc.html",tooltip=" "];
+  Node9 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="src/uan/model/uan-phy\l-gen.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$uan-phy-gen_8cc.html",tooltip=" "];
+  Node9 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="src/uan/model/uan-transducer-hd.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$uan-transducer-hd_8h.html",tooltip=" "];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="src/uan/model/uan-transducer\l-hd.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$uan-transducer-hd_8cc.html",tooltip=" "];
+  Node9 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="src/uan/model/uan-transducer.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$uan-transducer_8cc.html",tooltip=" "];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="src/uan/model/uan-tx\l-mode.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$uan-tx-mode_8cc.html",tooltip=" "];
+}

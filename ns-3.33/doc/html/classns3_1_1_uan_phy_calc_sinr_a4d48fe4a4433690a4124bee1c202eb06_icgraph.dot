@@ -1,0 +1,14 @@
+digraph "ns3::UanPhyCalcSinr::DbToKp"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::UanPhyCalcSinr\l::DbToKp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Convert dB re 1 uPa to kilopascals."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::UanPhyCalcSinrDual\l::CalcSinrDb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_phy_calc_sinr_dual.html#ae91107c0fc1da3a6f3c70db2d29938bb",tooltip="Calculate the SINR value for a packet."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::UanPhyCalcSinrDefault\l::CalcSinrDb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_phy_calc_sinr_default.html#a43c99316db2c1ad36428b9f58487a827",tooltip="Calculate the SINR value for a packet."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::UanPhyCalcSinrFhFsk\l::CalcSinrDb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_phy_calc_sinr_fh_fsk.html#a482c22fe961d64d5a624171f69fa34f9",tooltip="Calculate the SINR value for a packet."];
+}

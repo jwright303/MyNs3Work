@@ -1,0 +1,16 @@
+digraph "ns3::OriginatorBlockAckAgreement::AdvanceTxWindow"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::OriginatorBlockAckAgreement\l::AdvanceTxWindow",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Advance the transmit window so that the starting sequence number is the nearest unacknowledged MPDU."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::BlockAckWindow\l::Advance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_window.html#a5b9251c6163090e5751819fa3baa6710",tooltip="Advance the current winStart by the given number of positions."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::BlockAckWindow\l::Reset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_window.html#a07353e10e9876c6f3e310e8696b7f4ed",tooltip="Reset the window by clearing all the elements and setting winStart to the given value."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::BlockAckWindow\l::Init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_window.html#adb6893143136ff776615557026b4c295",tooltip="Initialize the window with the given starting sequence number and size."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::BlockAckWindow::At",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_window.html#ae55f3ebd7abd264d2680940f1a1ff798",tooltip="Get a reference to the element in the window having the given distance from the current winStart."];
+}

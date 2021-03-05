@@ -1,0 +1,16 @@
+digraph "ns3::FdMtFfMacScheduler::DoSchedUlTriggerReq"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::FdMtFfMacScheduler\l::DoSchedUlTriggerReq",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Sched UL trigger request function."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::FdMtFfMacScheduler\l::EstimateUlSinr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_fd_mt_ff_mac_scheduler.html#a122203c0bde6e999628485d24dee6e5e",tooltip="Estimate UL SNR function."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::FdMtFfMacScheduler\l::RefreshUlCqiMaps",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_fd_mt_ff_mac_scheduler.html#a42d3210d4a4f25cae1eaf3511e8d34e1",tooltip="Refresh UL CGI maps function."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::FfMacSchedSapUser\l::SchedUlConfigInd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ff_mac_sched_sap_user.html#a1b89636256701a84d990db7db8aea874",tooltip="SCHED_UL_CONFIG_IND."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::FdMtFfMacScheduler\l::UpdateUlRlcBufferInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_fd_mt_ff_mac_scheduler.html#af015295a34b7dac6aa23e22a38319c38",tooltip="Update UL RLC b uffer info function."];
+}

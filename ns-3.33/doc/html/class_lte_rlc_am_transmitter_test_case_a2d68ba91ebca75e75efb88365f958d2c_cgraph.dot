@@ -1,0 +1,30 @@
+digraph "LteRlcAmTransmitterTestCase::DoRun"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="LteRlcAmTransmitterTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteTestMac::GetLteMac\lSapProvider",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_test_mac.html#aca0bc578effe20c77f51c7a39c8f089e",tooltip="Get the MAC SAP provider."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LteRlc::GetLteMacSapUser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_rlc.html#aedccafdcdbe033678e745ddf39596b48",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::LteRlc::GetLteRlcSap\lProvider",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_rlc.html#afa179b42c75c75077ead4c8922296fbe",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::LteTestPdcp::GetLte\lRlcSapUser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_test_pdcp.html#a3893283fd40b527e935ae025ac1a813e",tooltip="Get the RLC SAP user."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::LteRlc::SetLcId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_rlc.html#aef0c2915410d97b67d6f659651ce626f",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::LteRlc::SetLteMacSap\lProvider",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_rlc.html#abb357e552cdaa153a8a8df168a882d53",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::LteTestMac::SetLteMac\lSapUser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_test_mac.html#a234317bfc20d9f149bfbd36546a50d4b",tooltip="Set the MAC SAP user."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::LteTestPdcp::SetLte\lRlcSapProvider",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_test_pdcp.html#a47f07d4c2e6e1b06d5d5103c7678cb06",tooltip="Set the RLC SAP provider."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::LteRlc::SetLteRlcSapUser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_rlc.html#a745f75219a16b0223786514395f7a43b",tooltip=" "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::LteTestMac::SetRlcHeaderType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_test_mac.html#acbe465027c32200d31d1785419993ddd",tooltip="Set RLC header type."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::LteRlc::SetRnti",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_rlc.html#aaa523544e1f9a29104a343333741f498",tooltip=" "];
+}

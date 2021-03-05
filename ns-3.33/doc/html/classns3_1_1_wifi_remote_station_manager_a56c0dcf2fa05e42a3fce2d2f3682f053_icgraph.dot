@@ -1,0 +1,36 @@
+digraph "ns3::WifiRemoteStationManager::GetUseNonErpProtection"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::WifiRemoteStationManager\l::GetUseNonErpProtection",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Return whether the device supports protection of non-ERP stations."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::AarfWifiManager\l::DoGetRtsTxVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_aarf_wifi_manager.html#a4c2d4fbb34d152c3c4fe4530681da512",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::AarfcdWifiManager\l::DoGetRtsTxVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_aarfcd_wifi_manager.html#a4c4e397e54ae8ff36a90a1e044825586",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::AmrrWifiManager\l::DoGetRtsTxVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_amrr_wifi_manager.html#a036c453d18e33475b8ad75922682d214",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::AparfWifiManager\l::DoGetRtsTxVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_aparf_wifi_manager.html#a091b6da1ff7d3d0ae61ca96dc4ee256b",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::ArfWifiManager\l::DoGetRtsTxVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_arf_wifi_manager.html#a56217b6af0b44febda8b48266562e284",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::CaraWifiManager\l::DoGetRtsTxVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_cara_wifi_manager.html#a2361885b5679a859cb55c0b29da0c1ad",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::OnoeWifiManager\l::DoGetRtsTxVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_onoe_wifi_manager.html#a235403aacb2b69d019b23a86263623d7",tooltip=" "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::ParfWifiManager\l::DoGetRtsTxVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_parf_wifi_manager.html#a693981d57d5f1bdce6a80acf2b0f36a2",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::RraaWifiManager\l::DoGetRtsTxVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rraa_wifi_manager.html#a68148d81b6e49676837ec93f43f6f005",tooltip=" "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::RrpaaWifiManager\l::DoGetRtsTxVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrpaa_wifi_manager.html#ae174e676f819aa2337f06d21408d007c",tooltip=" "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::MinstrelWifiManager\l::GetRtsTxVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_minstrel_wifi_manager.html#a8643a7d64b0cebcdba66207e36c2b1c6",tooltip="Get RTS transmit vector."];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::MinstrelWifiManager\l::DoGetRtsTxVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_minstrel_wifi_manager.html#a8284c7164c9e5813a9f377ad120f4e18",tooltip=" "];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::MacLow::StartTransmission",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac_low.html#aa477261c5209c13c66af9e2ae78b07e5",tooltip=" "];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::WaveMacLow::StartTransmission",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wave_mac_low.html#abf4a90e9984a73b24197706fb79118b1",tooltip=" "];
+}

@@ -1,0 +1,22 @@
+digraph "ns3::ApWifiMac::DeaggregateAmsduAndForward"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::ApWifiMac::Deaggregate\lAmsduAndForward",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="This method is called to de-aggregate an A-MSDU and forward the constituent packets up the stack."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ApWifiMac::ForwardDown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#ae182dec24a6e7fa1b2f2cc1d0d732465",tooltip="Forward the packet down to DCF/EDCAF (enqueue the packet)."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::RegularWifiMac\l::GetQosSupported",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_regular_wifi_mac.html#a23b58c52d462e580bd814db6d8af3fd0",tooltip="Return whether the device supports QoS."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::QosUtilsGetTidForPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__wifi.html#gaa7ad20082f78b63633d0557d24927150",tooltip="If a QoS tag is attached to the packet, returns a value < 8."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::SocketPriorityTag\l::GetPriority",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_socket_priority_tag.html#a1d256d4ad07bc839ae401bd64f9d8420",tooltip="Get the tag's priority."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::RegularWifiMac\l::ForwardUp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_regular_wifi_mac.html#aee6bc423d8f5227e3bf96e9e6a58ca76",tooltip="Forward the packet up to the device."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::RegularWifiMac\l::GetAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_regular_wifi_mac.html#aec7ede7cc93b6ec04d447b1649ab27e8",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::PeekPointer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#af2a7557fe9afdd98d8f6f8f6e412cf5a",tooltip=" "];
+}

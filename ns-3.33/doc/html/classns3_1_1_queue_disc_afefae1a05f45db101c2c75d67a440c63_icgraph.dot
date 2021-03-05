@@ -1,0 +1,39 @@
+digraph "ns3::QueueDisc::DoDequeue"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::QueueDisc::DoDequeue",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="This function actually extracts a packet from the queue disc."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::QueueDisc::Dequeue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#a6c13fc489822c1487f61c2289f2e3629",tooltip="Extract from the queue disc the packet that has been dequeued by calling Peek, if any,..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::QueueDisc::DequeuePacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#aab4beacb808b917dde38fe835c199f28",tooltip="Modelled after the Linux function dequeue_skb (net/sched/sch_generic.c)"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::QueueDisc::Restart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#a009f73a521cc0ebf309d8d15f8b190ea",tooltip="Modelled after the Linux function qdisc_restart (net/sched/sch_generic.c) Dequeue a packet (by callin..."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::QueueDisc::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#a424eceba41cb013436f353c622c082ff",tooltip="Modelled after the Linux function __qdisc_run (net/sched/sch_generic.c) Dequeues multiple packets,..."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::TbfQueueDisc::\lDoDequeue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tbf_queue_disc.html#adbd2533e54dd52ba3c4f064be5e0b87e",tooltip="This function actually extracts a packet from the queue disc."];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::TrafficControlLayer\l::ScanDevices",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_traffic_control_layer.html#a29028ea20e2bc393230348d4714fdc9d",tooltip="Collect information needed to determine how to handle packets destined to each of the NetDevices of t..."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::TrafficControlLayer\l::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_traffic_control_layer.html#ad9ba2e27ced5aa957e45effcbe71aba9",tooltip="Initialize() implementation."];
+  Node5 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::TrafficControlLayer\l::Send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_traffic_control_layer.html#aae45cb92c1adb038bac63d347632e627",tooltip="Called from upper layer to queue a packet for the transmission."];
+  Node2 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::PfifoFastQueueDisc\l::DoDequeue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pfifo_fast_queue_disc.html#aa5fe80fa033b5df94f626d99e99d52f3",tooltip="This function actually extracts a packet from the queue disc."];
+  Node2 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::PrioQueueDisc\l::DoDequeue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_prio_queue_disc.html#a31ba43338e41a4f242892aba43d79894",tooltip="This function actually extracts a packet from the queue disc."];
+  Node2 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::QueueDisc::DoPeek",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#aa523ecf57d926a7ff37700c636ef3926",tooltip="Return a copy of the next packet the queue disc will extract."];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::QueueDisc::Peek",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#a3d6f82575d5d7452e4958b3ef37a2fc1",tooltip="Get a copy of the next packet the queue discipline will extract."];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::PfifoFastQueueDisc\l::DoPeek",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pfifo_fast_queue_disc.html#a09b94db17594811f6b76ef17138fcc01",tooltip="Return a copy of the next packet the queue disc will extract."];
+  Node13 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::PrioQueueDisc\l::DoPeek",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_prio_queue_disc.html#a4dd6b0a3c439f693759903f7909e8902",tooltip="Return a copy of the next packet the queue disc will extract."];
+  Node13 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="QueueDiscTracesTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_queue_disc_traces_test_case.html#a7ad9e3425f5a7827cf41434ab969ba75",tooltip="Implementation to actually run this TestCase."];
+  Node2 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,22 @@
+digraph "ns3::LteStatsCalculator::SetDlOutputFilename"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LteStatsCalculator\l::SetDlOutputFilename",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set the name of the file where the downlink statistics will be stored."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::RadioBearerStatsCalculator\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_radio_bearer_stats_calculator.html#a2aacc2d4dcc4377e3a96e0891d867b60",tooltip="Register this type."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::MacStatsCalculator\l::SetDlOutputFilename",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac_stats_calculator.html#a645ec89ad8601f1deaa93e9c20fdeb2a",tooltip="Set the name of the file where the downlink statistics will be stored."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::MacStatsCalculator\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac_stats_calculator.html#ae1308fec317465b6251beb591a6fb330",tooltip="Register this type."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::PhyRxStatsCalculator\l::SetDlRxOutputFilename",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_phy_rx_stats_calculator.html#a9feb63009ac142ec65317b1028773e07",tooltip="Set the name of the file where the DL RX PHY statistics will be stored."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::PhyRxStatsCalculator\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_phy_rx_stats_calculator.html#a34e378bec2476f0edae2226d3f45a0ea",tooltip="Register this type."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::PhyTxStatsCalculator\l::SetDlTxOutputFilename",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_phy_tx_stats_calculator.html#a228593b9aab8e7ddc3b20f16a12cdc88",tooltip="Set the name of the file where the DL TX PHY statistics will be stored."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::PhyTxStatsCalculator\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_phy_tx_stats_calculator.html#a0e75ea7914acf2fa842860f02523fab1",tooltip="Register this type."];
+}

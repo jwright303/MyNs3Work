@@ -1,0 +1,50 @@
+digraph "ns3::MacLow::ReceiveMpdu"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::MacLow::ReceiveMpdu",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WifiMacHeader\l::GetAddr2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_header.html#a5d32ca3e3a34f1185df86927d4346430",tooltip="Return the address in the Address 2 field."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WifiRemoteStationManager\l::GetHeSupported",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#abf94bd5d22ad632148777a6c7e39bae0",tooltip="Return whether the device has HE capability support enabled."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::WifiPhy::GetDevice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#adf2fa40dcba4e52e9bc67c6ffc819170",tooltip="Return the device this PHY is associated with."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::WifiNetDevice\l::GetHeConfiguration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_net_device.html#af4a86ccc320631308e9f1023baecdd6b",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::WifiRemoteStationManager\l::GetHtSupported",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#ae2d1200da0ec74745ef9b496f9c0251f",tooltip="Return whether the device has HT capability support enabled."];
+  Node6 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::WifiNetDevice\l::GetHtConfiguration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_net_device.html#a20c98121e79afae35d03d9f5a3fa4ce8",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::WifiMacHeader\l::GetQosTid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_header.html#a07391fd5b12f7a90fe55325fcccc8e3a",tooltip="Return the Traffic ID of a QoS header."];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::WifiMacHeader\l::IsQosData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_header.html#a368b97ef91b953af76794112fd3681c2",tooltip="Return true if the Type is DATA and Subtype is one of the possible values for QoS Data."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::WifiMacHeader\l::GetSequenceNumber",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_header.html#a3d393ad4f9cfaca5ce0ac239a27f2763",tooltip="Return the sequence number of the header."];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::WifiRemoteStationManager\l::GetVhtSupported",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_remote_station_manager.html#a378e951feaf5fefbe0f32e0cfc0ce765",tooltip="Return whether the device has VHT capability support enabled."];
+  Node11 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::WifiNetDevice\l::GetVhtConfiguration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_net_device.html#aab971061bafb69989fa3873cb1c36eca",tooltip=" "];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::IsInWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3.html#afba55479deec541244248815e1a33924",tooltip=" "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::QosUtilsIsOldPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__wifi.html#ga5cb9ea723837c5a036e622612f2d0bb0",tooltip="This function checks if packet with sequence number seqNumber is an \"old\" packet."];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::MacLow::RxCompleteBuffered\lPacketsUntilFirstLost",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac_low.html#aeadf392d37d323fb81f0ef0766f2359a",tooltip=" "];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::MacLow::RxCompleteBuffered\lPacketsWithSmallerSequence",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac_low.html#aaed81a6cbf94baf2b2f17b9f96b8474d",tooltip=" "];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::QosUtilsMapSeqControl\lToUniqueInteger",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__wifi.html#ga841296fae895cac77a0e14183b8134e0",tooltip="Next function is useful to correctly sort buffered packets under block ack."];
+  Node1 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::MacLow::StoreMpduIf\lNeeded",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac_low.html#a9a1f45d86dee98b8b769052d0e6a678e",tooltip=" "];
+  Node18 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ns3::WifiMacHeader\l::GetSequenceControl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_header.html#ad4af293cb29d73a7661a93099e363b56",tooltip="Return the raw Sequence Control field."];
+  Node18 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

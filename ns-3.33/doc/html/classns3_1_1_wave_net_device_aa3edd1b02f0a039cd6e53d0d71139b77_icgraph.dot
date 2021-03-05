@@ -1,0 +1,21 @@
+digraph "ns3::WaveNetDevice::GetChannelCoordinator"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::WaveNetDevice\l::GetChannelCoordinator",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::VsaManager::DoSendVsa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_vsa_manager.html#a3d56f68f3b98bd45ccc6c56c9a6244db",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::VsaManager::DoRepeat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_vsa_manager.html#a5731f78c47436e8cb495052b1fe42f65",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::VsaManager::SendVsa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_vsa_manager.html#af896634c89ed0725215aa5da43445295",tooltip=" "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::DefaultChannelScheduler\l::GetAssignedAccessType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_default_channel_scheduler.html#a429457590fd9834fabfd336f1e3d988c",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::WaveNetDevice\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wave_net_device.html#a89ef5e155729b91ccf8c5e057bdb31af",tooltip="Get the type ID."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::WaveMacLow::SetWave\lNetDevice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wave_mac_low.html#ae281e92c043000830a4c85261501f50d",tooltip=" "];
+}

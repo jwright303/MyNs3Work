@@ -1,0 +1,18 @@
+digraph "ns3::HeapScheduler::Root"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::HeapScheduler\l::Root",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the root index of the heap."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::HeapScheduler\l::IsRoot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_heap_scheduler.html#a361ccabae4640f65ae389b0abc648501",tooltip="Test if an index is the root."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::HeapScheduler\l::BottomUp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_heap_scheduler.html#aee0e91bc6e951d1ad4a1425e9340164c",tooltip="Percolate a newly inserted Last item to its proper position."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::HeapScheduler\l::Insert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_heap_scheduler.html#ac30b67c69e468683bfc7e32f71bfc152",tooltip="Insert a new Event in the schedule."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::HeapScheduler\l::PeekNext",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_heap_scheduler.html#ada093f84e3cc3a43d95575e3e3f170ef",tooltip="Get a pointer to the next event."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::HeapScheduler\l::RemoveNext",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_heap_scheduler.html#a97e15b27a21ddedd4346d66b21d97144",tooltip="Remove the earliest event from the event list."];
+}

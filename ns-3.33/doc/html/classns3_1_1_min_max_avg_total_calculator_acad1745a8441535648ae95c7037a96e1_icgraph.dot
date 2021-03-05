@@ -1,0 +1,37 @@
+digraph "ns3::MinMaxAvgTotalCalculator::Update"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::MinMaxAvgTotalCalculator\l::Update",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Updates all variables of MinMaxAvgTotalCalculator."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThreeGppHttpObjectTestCase\l::ClientRxDelayCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_http_object_test_case.html#a2f1c070f0a8a5ce2b10231153b19c703",tooltip="Connected with RxDelay trace source of the client."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThreeGppHttpObjectTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_http_object_test_case.html#a41234f035937ee1b044864f3db643b7d",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThreeGppHttpObjectTestCase\l::ClientRxRttCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_http_object_test_case.html#ad4d13ba3fe30f0ba6352f78ca2c5ed82",tooltip="Connected with RxRtt trace source of the client."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="OneIntegerTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_one_integer_test_case.html#aee15b1016f3aa6790914defdd9bb9342",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="FiveIntegersTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_five_integers_test_case.html#ae59367f468ecf68bcc4b92bf4df5660c",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="FiveDoublesTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_five_doubles_test_case.html#aade3d729805620a3f161e0ede362e6f7",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::PacketSizeMinMaxAvg\lTotalCalculator::FrameUpdate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet_size_min_max_avg_total_calculator.html#a2e96ea817aa81f80dc96bff8c9a42342",tooltip="Increments the packet stats by the size of the packet."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::PacketSizeMinMaxAvg\lTotalCalculator::PacketUpdate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet_size_min_max_avg_total_calculator.html#af13660c85c0a619e05012f84b81db612",tooltip="Increments the packet stats by the size of the packet."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::Average::Update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_average.html#a223cb5172985f2cf4944488f4ac1186b",tooltip="Add new sample."];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="OneIntegerAverageTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_one_integer_average_test_case.html#a962250f65e253c4f61890b423f9b2e62",tooltip="Implementation to actually run this TestCase."];
+  Node10 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="FiveIntegersAverageTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_five_integers_average_test_case.html#aab1153b04e5f0c96cbefe3b438ac1bd1",tooltip="Implementation to actually run this TestCase."];
+  Node10 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="FiveDoublesAverageTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_five_doubles_average_test_case.html#aacfcb4f28de8cd6cca19268e9695704d",tooltip="Implementation to actually run this TestCase."];
+  Node10 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::V4Ping::Receive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_v4_ping.html#a87c38673f7b4c568d114c2815ff2aa78",tooltip="Receive an ICMP Echo."];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::V4Ping::StartApplication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_v4_ping.html#ac5176e135c81f0764bcd560c7fc71390",tooltip="Application specific startup code."];
+}

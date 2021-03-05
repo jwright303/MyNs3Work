@@ -1,0 +1,17 @@
+digraph "Statistics"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node3 [label="Data Output",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__dataoutput.html",tooltip="Classes in Data Output group are used to collect and prepare and output data for subsequent output in..."];
+  Node2 [label="Data Aggregators",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__aggregator.html",tooltip="Data aggregators are classes used to collect data and produce output specialized for various purpose,..."];
+  Node5 [label="Probes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__probes.html",tooltip="Probes are used to probe an underlying ns3 TraceSource exporting its value."];
+  Node4 [label="Gnuplot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gnuplot.html",tooltip="Classes in Gnuplot group are used to collect and prepare and output data for subsequent processing by..."];
+  Node1 [label="Statistics",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="The statistics module includes some useful features to ease data collection from experiments."];
+  Node6 [label="Stats module tests",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__stats-test.html",tooltip=" "];
+  Node1->Node2 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node4 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node5 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node6 [shape=plaintext, dir="back", style="solid"];
+}

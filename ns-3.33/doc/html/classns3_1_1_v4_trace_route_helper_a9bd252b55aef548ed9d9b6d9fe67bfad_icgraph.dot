@@ -1,0 +1,10 @@
+digraph "ns3::V4TraceRouteHelper::InstallPriv"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::V4TraceRouteHelper\l::InstallPriv",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Do the actual application installation in the node."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::V4TraceRouteHelper\l::Install",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_v4_trace_route_helper.html#a7d741efec945d541aaab34beb42a0f5c",tooltip="Install a TraceRoute application on the provided Node."];
+}

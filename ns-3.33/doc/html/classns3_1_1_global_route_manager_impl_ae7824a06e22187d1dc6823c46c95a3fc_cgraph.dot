@@ -1,0 +1,12 @@
+digraph "ns3::GlobalRouteManagerImpl::SPFVertexAddParent"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::GlobalRouteManagerImpl\l::SPFVertexAddParent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Adds a vertex to the list of children in each of its parents."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::SPFVertex::AddChild",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_s_p_f_vertex.html#ae15d2c3bc1fb5285f467b494d27869d9",tooltip="Get a borrowed SPFVertex pointer to the specified child of \"this\" SPFVertex."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SPFVertex::GetParent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_s_p_f_vertex.html#af06a05cbef13c14694d3cee4a4e20169",tooltip="Get a pointer to the SPFVector that is the parent of \"this\" SPFVertex."];
+}

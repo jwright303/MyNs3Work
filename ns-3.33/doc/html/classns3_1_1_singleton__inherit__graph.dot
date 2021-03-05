@@ -1,0 +1,30 @@
+digraph "ns3::Singleton&lt; T &gt;"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Singleton\< T \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="A template singleton."];
+  Node2 -> Node1 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::NonCopyable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_non_copyable.html",tooltip="A base class for (non-Singleton) objects which shouldn't be copied."];
+  Node1 -> Node3 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< TestRunnerImpl \>" ,fontname="Helvetica"];
+  Node3 [label="ns3::Singleton\< TestRunner\lImpl \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_singleton.html",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::TestRunnerImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_test_runner_impl.html",tooltip="Container for all tests."];
+  Node1 -> Node5 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< NamesPriv \>" ,fontname="Helvetica"];
+  Node5 [label="ns3::Singleton\< NamesPriv \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_singleton.html",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::NamesPriv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_names_priv.html",tooltip="The singleton root Names object."];
+  Node1 -> Node7 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ConfigImpl \>" ,fontname="Helvetica"];
+  Node7 [label="ns3::Singleton\< ConfigImpl \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_singleton.html",tooltip=" "];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::Config::ConfigImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_config_1_1_config_impl.html",tooltip="Config system implementation class."];
+  Node1 -> Node9 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< IidManager \>" ,fontname="Helvetica"];
+  Node9 [label="ns3::Singleton\< IidManager \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_singleton.html",tooltip=" "];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::IidManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_iid_manager.html",tooltip="TypeId information manager."];
+  Node1 -> Node11 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< DesMetrics \>" ,fontname="Helvetica"];
+  Node11 [label="ns3::Singleton\< DesMetrics \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_singleton.html",tooltip=" "];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::DesMetrics",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_des_metrics.html",tooltip="Event trace data collector for the DES Metrics project."];
+}

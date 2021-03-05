@@ -1,0 +1,38 @@
+digraph "ns3::Asn1Header::SerializeNull"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Asn1Header::SerializeNull",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Serialize nothing (null op)"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::RrcConnectionSetupComplete\lHeader::PreSerialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_connection_setup_complete_header.html#a78ce5b74bd4352fdaf590b60ceeab93c",tooltip="This function serializes class attributes to m_serializationResult local Buffer."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::RrcAsn1Header\l::SerializeMeasConfig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_asn1_header.html#af20ed09540145657a1a33a9ed8ba8be2",tooltip="Serialize measure config function."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::RrcConnectionReconfiguration\lHeader::PreSerialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_connection_reconfiguration_header.html#a33ad4ad4e4c4c3cf234a36979727fc61",tooltip="This function serializes class attributes to m_serializationResult local Buffer."];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::HandoverPreparation\lInfoHeader::PreSerialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_handover_preparation_info_header.html#a495f92ab2c16b77dc64ad0cb5c04415d",tooltip="This function serializes class attributes to m_serializationResult local Buffer."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::RrcAsn1Header\l::SerializePhysicalConfigDedicated",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_asn1_header.html#a1ba2d0e469798d97ba26c8fd62dcb3ac",tooltip="Serialize physical config dedicated function."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::RrcAsn1Header\l::SerializeRadioResourceConfig\lDedicated",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_asn1_header.html#a87451876b5c903f544df57a9a6a6242f",tooltip="Serialize radio resource config function."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::RrcConnectionSetupHeader\l::PreSerialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_connection_setup_header.html#a1e3846e508a17cf5b28c67e4c084096f",tooltip="This function serializes class attributes to m_serializationResult local Buffer."];
+  Node7 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::RrcConnectionReestablishment\lHeader::PreSerialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_connection_reestablishment_header.html#a7d8f2a15d79a395b430a4ba691479758",tooltip="This function serializes class attributes to m_serializationResult local Buffer."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::RrcAsn1Header\l::SerializePhysicalConfigDedicated\lSCell",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_asn1_header.html#a7b867d4a1c37b5a7954f93ff40b657d4",tooltip="Serialize physical config dedicated function."];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::RrcAsn1Header\l::SerializeRadioResourceDedicated\lSCell",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_asn1_header.html#a74507e2f044a5fbff077eca58146d87f",tooltip="Serialize radio resource dedicated SCell function."];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::RrcAsn1Header\l::SerializeNonCriticalExtension\lConfiguration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_asn1_header.html#a078c5e746bca21a95d780f4e5ac3d182",tooltip="Serialize non critical extension config function."];
+  Node12 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::RrcAsn1Header\l::SerializeRadioResourceConfig\lCommonSib",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_asn1_header.html#a450ba3a2a1b84628259b8a923a34276b",tooltip="Serialize radio resource config common SIB function."];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::RrcAsn1Header\l::SerializeSystemInformation\lBlockType2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_asn1_header.html#a0ff77a107f00e44de3a3f01e75dac2f0",tooltip="Serialize system information block type 2 function."];
+  Node14 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

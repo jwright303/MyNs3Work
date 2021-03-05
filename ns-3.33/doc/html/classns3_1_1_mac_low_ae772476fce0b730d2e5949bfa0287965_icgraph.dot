@@ -1,0 +1,10 @@
+digraph "ns3::MacLow::NotifySleepNow"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::MacLow::NotifySleepNow",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="This method is typically invoked by the PhyMacLowListener to notify the MAC layer that the device has..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PhyMacLowListener\l::NotifySleep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_phy_mac_low_listener.html#ad9effa3f5cf5f01b9d96679d3ec0c8b0",tooltip="Notify listeners that we went to sleep."];
+}

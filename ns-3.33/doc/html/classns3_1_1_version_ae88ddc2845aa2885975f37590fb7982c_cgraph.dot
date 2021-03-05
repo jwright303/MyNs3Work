@@ -1,0 +1,14 @@
+digraph "ns3::Version::BuildSummary"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Version::BuildSummary",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Constructs a string containing the most recent tag and status flags."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Version::ClosestAncestorTag",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_version.html#a8b477000b39ded8e28c4620fdc630870",tooltip="Returns the closest tag that is attached to a commit that is an ancestor of the current branch head."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Version::DirtyWorkingTree",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_version.html#a1cbf591d89d5d733586209f38dfeb53e",tooltip="Indicates whether there were uncommitted changes during the build."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Version::TagDistance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_version.html#ad59aef4d060408d1e83f8d36bd108963",tooltip="The number of commits between the current commit and the tag returned by ClosestAncestorTag()."];
+}

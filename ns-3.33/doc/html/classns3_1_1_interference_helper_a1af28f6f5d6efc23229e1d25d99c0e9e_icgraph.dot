@@ -1,0 +1,14 @@
+digraph "ns3::InterferenceHelper::SetNoiseFigure"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::InterferenceHelper\l::SetNoiseFigure",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set the noise figure."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="WifiErrorRateModelsTestCase\lMimo::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wifi_error_rate_models_test_case_mimo.html#a80c805e3cde3b802ea49f023415b5542",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WifiPhy::SetRxNoise\lFigure",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#ad570662ad0183e7427927f854da13b5b",tooltip="Sets the RX loss (dB) in the Signal-to-Noise-Ratio due to non-idealities in the receiver."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::WifiPhy::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy.html#a6ac379a25b68f6a8d72da740b58e0271",tooltip="Get the type ID."];
+}

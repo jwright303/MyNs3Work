@@ -1,0 +1,12 @@
+digraph "ns3::AsciiTraceHelperForIpv4::EnableAsciiIpv4Impl"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::AsciiTraceHelperFor\lIpv4::EnableAsciiIpv4Impl",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Enable ascii trace output on the Ipv4 and interface pair specified by a global node-id (of a previous..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::AsciiTraceHelperFor\lIpv4::EnableAsciiIpv4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ascii_trace_helper_for_ipv4.html#ae7359f4004aa13cc0685a3b6cc975366",tooltip="Enable ascii trace output the indicated Ipv4 and interface pair using an Ipv4 previously named using ..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::AsciiTraceHelperFor\lIpv4::EnableAsciiIpv4All",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ascii_trace_helper_for_ipv4.html#a848f30badae7f28c5c20533f49de34bb",tooltip="Enable ascii trace output on all Ipv4 and interface pairs existing in the set of all nodes created in..."];
+}

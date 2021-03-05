@@ -1,0 +1,10 @@
+digraph "ns3::DpdkNetDevice::LaunchCore"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::DpdkNetDevice\l::LaunchCore",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="A function to handle rx & tx operations."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::DpdkNetDevice\l::InitDpdk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dpdk_net_device.html#a23174f649ba187908093e2046225ca7b",tooltip="Initialize Dpdk."];
+}

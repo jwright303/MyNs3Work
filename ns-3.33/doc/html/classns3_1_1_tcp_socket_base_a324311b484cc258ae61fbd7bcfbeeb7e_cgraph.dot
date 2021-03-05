@@ -1,0 +1,14 @@
+digraph "ns3::TcpSocketBase::ConnectionSucceeded"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::TcpSocketBase\l::ConnectionSucceeded",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Schedule-friendly wrapper for Socket::NotifyConnectionSucceeded()"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TcpSocketBase\l::GetTxAvailable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_socket_base.html#a5415a0b68efc61672176f11c0fb9a28d",tooltip="Returns the number of bytes which can be sent in a single call to Send."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Socket::NotifyConnection\lSucceeded",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_socket.html#a2f55d195304131b356818bc74134c5a7",tooltip="Notify through the callback (if set) that the connection has been established."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Socket::NotifySend",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_socket.html#a34cd5de5b9feeadd6ba8973b954c3d5f",tooltip="Notify through the callback (if set) that some data have been sent."];
+}

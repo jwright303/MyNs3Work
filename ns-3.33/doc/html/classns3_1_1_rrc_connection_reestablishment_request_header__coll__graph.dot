@@ -1,0 +1,31 @@
+digraph "ns3::RrcConnectionReestablishmentRequestHeader"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ns3::RrcConnectionReestablishment\lRequestHeader",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="This class manages the serialization/deserialization of RRCConnectionReestablishmentRequest IE."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::RrcUlCcchMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_ul_ccch_message.html",tooltip="This class only serves to discriminate which message type has been received in uplink (ue to eNb) for..."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::RrcAsn1Header",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_asn1_header.html",tooltip="This class extends Asn1Header functions, adding serialization/deserialization of some Information ele..."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Asn1Header",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_asn1_header.html",tooltip="This class has the purpose to encode Information Elements according to ASN.1 syntax,..."];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Header",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_header.html",tooltip="Protocol header serialization and deserialization."];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Chunk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_chunk.html",tooltip="abstract base class for ns3::Header and ns3::Trailer"];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::ObjectBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html",tooltip="Anchor the ns-3 type and attribute system."];
+  Node8 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_serializationResult" ,fontname="Helvetica"];
+  Node8 [label="ns3::Buffer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_buffer.html",tooltip="automatically resized byte buffer"];
+  Node9 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_data" ,fontname="Helvetica"];
+  Node9 [label="ns3::Buffer::Data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_buffer_1_1_data.html",tooltip="This data structure is variable-sized through its last member whose size is determined at allocation ..."];
+  Node10 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" g_localStaticDestructor" ,fontname="Helvetica"];
+  Node10 [label="ns3::Buffer::LocalStatic\lDestructor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_buffer_1_1_local_static_destructor.html",tooltip="Local static destructor structure."];
+  Node11 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" g_freeList" ,fontname="Helvetica"];
+  Node11 [label="std::vector\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node12 -> Node11 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node12 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node13 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_ueIdentity" ,fontname="Helvetica"];
+  Node13 [label="ns3::LteRrcSap::ReestabUe\lIdentity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_lte_rrc_sap_1_1_reestab_ue_identity.html",tooltip="ReestabUeIdentity structure."];
+}

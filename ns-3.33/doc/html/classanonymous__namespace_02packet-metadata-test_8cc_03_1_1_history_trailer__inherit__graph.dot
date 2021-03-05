@@ -1,0 +1,15 @@
+digraph "anonymous_namespace{packet-metadata-test.cc}::HistoryTrailer&lt; N &gt;"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="anonymous_namespace\l\{packet-metadata-test.cc\}\l::HistoryTrailer\< N \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Template trailer-type class to check the proper trailer concatenation."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="anonymous_namespace\l\{packet-metadata-test.cc\}\l::HistoryTrailerBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classanonymous__namespace_02packet-metadata-test_8cc_03_1_1_history_trailer_base.html",tooltip="Base trailer-type class to check the proper trailer concatenation."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Trailer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_trailer.html",tooltip="Protocol trailer serialization and deserialization."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Chunk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_chunk.html",tooltip="abstract base class for ns3::Header and ns3::Trailer"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::ObjectBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html",tooltip="Anchor the ns-3 type and attribute system."];
+}

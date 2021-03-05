@@ -1,0 +1,28 @@
+digraph "WifiApp::Simulate"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="WifiApp::Simulate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Enacts simulation of an ns-3 wifi application."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="WifiApp::ConfigureApplications",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wifi_app.html#acd6503492b29fd6fa8fdb5294f5c36b4",tooltip="Configure applications."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="WifiApp::ConfigureChannels",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wifi_app.html#a5403723e14e754f18aa239e7e065bad6",tooltip="Configure channels."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="WifiApp::ConfigureDevices",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wifi_app.html#aee8f24cd14672226889e0572fe3cc4e3",tooltip="Configure devices."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="WifiApp::ConfigureMobility",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wifi_app.html#ae87293d372770735bf56f656aaac7124",tooltip="Configure mobility."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="WifiApp::ConfigureNodes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wifi_app.html#aa9f2613b65053b54e22a4bffc795782e",tooltip="Configure nodes."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="WifiApp::ConfigureTracing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wifi_app.html#ab837fec53e4142eca00c0749cb8f692d",tooltip="Configure tracing."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="WifiApp::ParseCommandLine\lArguments",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wifi_app.html#a5b5615c4bf7856b9730528673228eea0",tooltip="Process command line arguments."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="WifiApp::ProcessOutputs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wifi_app.html#af0f4fc85e025789248d1652acb556f4a",tooltip="Process outputs."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="WifiApp::RunSimulation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wifi_app.html#a8adb2f30283df664f715611818217adc",tooltip="Run the simulation."];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="WifiApp::SetDefaultAttribute\lValues",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wifi_app.html#aeff366712591e16d32a08a07a11b53cb",tooltip="Sets default attribute values."];
+}

@@ -1,0 +1,14 @@
+digraph "ns3::LteUePhy::ReportRsReceivedPower"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::LteUePhy::ReportRsReceived\lPower",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="generate a report based on the linear RS power perceived during CTRL frame NOTE: used only by UE for ..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::SpectrumValue\l::ConstValuesBegin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_spectrum_value.html#a0db0a570f567e39b9730ff9c70b807f3",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SpectrumValue\l::ConstValuesEnd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_spectrum_value.html#af535cd133b3a653e01a245b9009d32ad",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::LteUePowerControl\l::SetRsrp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_power_control.html#a6482febbed5a02ecd870c9061cf0e999",tooltip="Set RSRP function."];
+}

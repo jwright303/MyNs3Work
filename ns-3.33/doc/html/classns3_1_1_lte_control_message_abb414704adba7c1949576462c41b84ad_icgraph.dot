@@ -1,0 +1,26 @@
+digraph "ns3::LteControlMessage::SetMessageType"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LteControlMessage\l::SetMessageType",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set the type of the message."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::BsrLteControlMessage\l::BsrLteControlMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_bsr_lte_control_message.html#a9fb0278f2f99e5a73a158e2fa41bf4aa",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::DlCqiLteControlMessage\l::DlCqiLteControlMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dl_cqi_lte_control_message.html#a15ad0a37a7b982d99c94123855034e80",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::DlDciLteControlMessage\l::DlDciLteControlMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dl_dci_lte_control_message.html#aa215e92db0b71c2e7c0109692654a7e4",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::DlHarqFeedbackLteControl\lMessage::DlHarqFeedbackLteControl\lMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dl_harq_feedback_lte_control_message.html#a641e634bd381c9056225eff7c85196bb",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::MibLteControlMessage\l::MibLteControlMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mib_lte_control_message.html#ac48bb2e6836ea65228e5608c78ebbc1d",tooltip="Create a new instance of MIB control message."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::RachPreambleLteControl\lMessage::RachPreambleLteControl\lMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rach_preamble_lte_control_message.html#a59625465287569f2ecae133cc637a8c8",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::RarLteControlMessage\l::RarLteControlMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rar_lte_control_message.html#affe1bd4e4d8ab1f3fc90496d92899fb8",tooltip=" "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::Sib1LteControlMessage\l::Sib1LteControlMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_sib1_lte_control_message.html#a235acc55df6920a90218c64d0816716a",tooltip="Create a new instance of SIB1 control message."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::UlDciLteControlMessage\l::UlDciLteControlMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ul_dci_lte_control_message.html#a9730965620992fa528d59a1262174c89",tooltip=" "];
+}

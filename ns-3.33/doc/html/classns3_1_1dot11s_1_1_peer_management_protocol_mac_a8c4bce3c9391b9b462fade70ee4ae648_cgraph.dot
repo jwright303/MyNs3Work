@@ -1,0 +1,10 @@
+digraph "ns3::dot11s::PeerManagementProtocolMac::TxError"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::dot11s::PeerManagement\lProtocolMac::TxError",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Closes link when a proper number of successive transmissions have failed."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WifiMacHeader\l::GetAddr1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_header.html#aa1c4acbda4ace9f7a920c97d71bdd097",tooltip="Return the address in the Address 1 field."];
+}

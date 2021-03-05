@@ -1,0 +1,18 @@
+digraph "ns3::Length::As"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Length::As",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Create a Quantity in a specific unit from a Length."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Conversions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$length-example_8cc.html#a5d83104dfb22a80fcb70c5a90f4c1b32",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="DivAndMod",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$length-example_8cc.html#abc2c07562dd2d7e4b66d41c8c2fe1290",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Length::operator\<\<",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_length.html#ae59ca49e92a02723194cbc4361ed20fb",tooltip="Write a length value to an output stream."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="LengthTestCase::TestLength\lSerialization",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_length_test_case.html#a8af979b86902a1f8285a95391f7b7385",tooltip="Generic function for testing serialization of a Length object in various units."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="LengthValueTestCase\l::TestSetAttributeUsingString\lValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_length_value_test_case.html#ad0e692d68851c091d040e5d0cfbac65d",tooltip="Test that a StringValue is converted to LengthValue."];
+}

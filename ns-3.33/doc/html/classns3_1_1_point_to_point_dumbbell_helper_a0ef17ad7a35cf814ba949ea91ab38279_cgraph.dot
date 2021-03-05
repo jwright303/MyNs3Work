@@ -1,0 +1,25 @@
+digraph "ns3::PointToPointDumbbellHelper::PointToPointDumbbellHelper"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::PointToPointDumbbell\lHelper::PointToPointDumbbellHelper",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Create a PointToPointDumbbellHelper in order to easily create dumbbell topologies using p2p links."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::NetDeviceContainer::Add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_net_device_container.html#a7ca8bc1d7ec00fd4fcc63869987fbda5",tooltip="Append the contents of another NetDeviceContainer to the end of this container."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::NetDeviceContainer\l::Begin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_net_device_container.html#a4ddc336af319061f5b61c515f0453242",tooltip="Get an iterator which refers to the first NetDevice in the container."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::NetDeviceContainer::End",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_net_device_container.html#a436d9df206570861f96c3f278eaccb92",tooltip="Get an iterator which indicates past-the-last NetDevice in the container."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::NodeContainer\l::Create",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_node_container.html#a787f059e2813e8b951cc6914d11dfe69",tooltip="Create n nodes and append pointers to them to the end of this NodeContainer."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::NetDeviceContainer::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_net_device_container.html#ae114b3a9fc193fee40c07e4a4207aef4",tooltip="Get the Ptr<NetDevice> stored in this container at a given index."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::NodeContainer::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_node_container.html#aff885e5a6b02ca4a27f5725de647d96e",tooltip="Get the Ptr<Node> stored in this container at a given index."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::PointToPointHelper\l::Install",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_point_to_point_helper.html#ab9162fea3e88722666fed1106df1f9ec",tooltip=" "];
+  Node8 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::NodeContainer\l::GetN",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_node_container.html#a35aed8b8abb7b7988b086f66d15cdda9",tooltip="Get the number of Ptr<Node> stored in this container."];
+}

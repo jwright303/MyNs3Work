@@ -1,0 +1,14 @@
+digraph "ns3::PbbAddressBlock::PrefixBegin"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::PbbAddressBlock\l::PrefixBegin",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PbbAddressBlock\l::operator==",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_address_block.html#ae2c546ed8eb0159b91171f93c23b4462",tooltip="Equality operator for PbbAddressBlock."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::PbbAddressBlock\l::Print",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_address_block.html#ae5ddbe78a69a372be0c25938a9625446",tooltip="Pretty-prints the contents of this address block, with specified indentation."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::PbbAddressBlock\l::Serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pbb_address_block.html#a377f271eaac72b6755b25842e13badc5",tooltip="Serializes this address block into the specified buffer."];
+}

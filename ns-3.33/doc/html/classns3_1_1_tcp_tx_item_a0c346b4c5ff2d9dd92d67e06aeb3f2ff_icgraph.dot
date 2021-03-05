@@ -1,0 +1,21 @@
+digraph "ns3::TcpTxItem::GetRateInformation"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::TcpTxItem::GetRateInformation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get (to modify) the Rate Information of this item."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="TcpRateLinuxBasicTest\l::SendSkb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_rate_linux_basic_test.html#a0fbd8d7feba71e22aa4650c599cb6bb6",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="TcpRateLinuxBasicTest\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_rate_linux_basic_test.html#a9db35df53d79296340221c71f0db80c2",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TcpRateLinuxBasicTest\l::SkbDelivered",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_rate_linux_basic_test.html#a040a3e59c958e9ab411224f3ef358d40",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::TcpRateLinux::\lSkbDelivered",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_rate_linux.html#a2ec421fa97c9e10fa38dd824b3f8efd7",tooltip="Update the Rate information after an item is received."];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::TcpRateLinux::\lSkbSent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_rate_linux.html#a972a0d35104576e48dc44e04358c31b9",tooltip="Put the rate information inside the sent skb."];
+  Node6 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

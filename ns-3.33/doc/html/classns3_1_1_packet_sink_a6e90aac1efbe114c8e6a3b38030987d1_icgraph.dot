@@ -1,0 +1,14 @@
+digraph "ns3::PacketSink::GetTotalRx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::PacketSink::GetTotalRx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="CalculateThroughput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$wifi-tcp_8cc.html#aa68d2f6acf9d0c6888ff7fec7a8ffc20",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="LteAggregationThroughput\lScaleTestCase::GetThroughput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_lte_aggregation_throughput_scale_test_case.html#aadd4b222005ec0f5e4069b451f1e5e79",tooltip="Get throughput function."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="LteAggregationThroughput\lScaleTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_lte_aggregation_throughput_scale_test_case.html#aa474e3be7370c0505fa3e2a532e2da8c",tooltip="Setup the simulation, run it, and verify the result."];
+}

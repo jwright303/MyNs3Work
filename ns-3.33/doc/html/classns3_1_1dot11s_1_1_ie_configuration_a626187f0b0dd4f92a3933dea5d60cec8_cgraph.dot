@@ -1,0 +1,10 @@
+digraph "ns3::dot11s::IeConfiguration::GetInformationFieldSize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::dot11s::IeConfiguration\l::GetInformationFieldSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Length of serialized information (i.e., the length of the body of the IE, not including the Element I..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::dot11s::Dot11sMeshCapability\l::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dot11s_1_1_dot11s_mesh_capability.html#a8192d9c5a5b9cba407de5b495aa4f6e1",tooltip="Size of the field in bytes when serialized."];
+}

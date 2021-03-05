@@ -1,0 +1,32 @@
+digraph "ns3::MakeDataRateChecker"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::MakeDataRateChecker",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::OnOffApplication\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_on_off_application.html#a7e8932f513ab370e05db14f28389a2ec",tooltip="Get the type ID."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::CsmaChannel::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_csma_channel.html#a58ca8d59505018b8a4bfe9288bbd2066",tooltip="Get the type ID."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::TcpSocketState\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_socket_state.html#af48304b9a8dc7099f802a3d6d2ab0db2",tooltip="Get the type ID."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::NoBackhaulEpcHelper\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_no_backhaul_epc_helper.html#ab5b232fa5c857675bfd8355e9420927e",tooltip="Register this type."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::NoBackhaulEpcHelper\l::GetInstanceTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_no_backhaul_epc_helper.html#aef1061c235532a9f418cfd1988b94462",tooltip="Get the most derived TypeId for this Object."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::PointToPointEpcHelper\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_point_to_point_epc_helper.html#a47b968da010b784487a99cf20b1867cf",tooltip="Register this type."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::PointToPointEpcHelper\l::GetInstanceTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_point_to_point_epc_helper.html#a240133fa0f899b35af7406e7012f4c1e",tooltip="Get the most derived TypeId for this Object."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::SimpleNetDevice\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_net_device.html#a7408afc44fb59d120b5510882eb70339",tooltip="Get the type ID."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::PointToPointNetDevice\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_point_to_point_net_device.html#a045e48d24e615c82db1a9a952a9725b5",tooltip="Get the TypeId."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::HalfDuplexIdealPhy\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_half_duplex_ideal_phy.html#af4705566e19a5fd9a6df811f20f20cd6",tooltip="Get the type ID."];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::RedQueueDisc::\lGetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_red_queue_disc.html#a21c255fe1a7f38a3250af49ef1dac963",tooltip="Get the type ID."];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::TbfQueueDisc::\lGetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tbf_queue_disc.html#aa092b8643330c046b3a4f481f9c286b4",tooltip="Get the type ID."];
+}

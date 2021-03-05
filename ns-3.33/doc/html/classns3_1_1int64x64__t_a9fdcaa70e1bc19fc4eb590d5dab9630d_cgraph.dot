@@ -1,0 +1,12 @@
+digraph "ns3::int64x64_t::Div"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::int64x64_t::Div",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Implement /=."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::output_sign",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__highprec.html#gaeeaaf0f56a7e311cabc5db7213d91779",tooltip="Compute the sign of the result of multiplying or dividing Q64.64 fixed precision operands."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::int64x64_t::Udiv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1int64x64__t.html#a5496d89f106271bc4c484ff421d120b4",tooltip="Unsigned division of Q64.64 values."];
+}

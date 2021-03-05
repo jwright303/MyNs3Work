@@ -1,0 +1,49 @@
+digraph "ns3::WifiNetDevice::GetPhy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::WifiNetDevice\l::GetPhy",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="NodeStatistics::NodeStatistics",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_statistics.html#a5855f42ef20d344b477410a65ad7ce55",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="TestInterBssConstantObss\lPdAlgo::CheckPhyState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_inter_bss_constant_obss_pd_algo.html#a7086d2c6fe8aa7c1dc254d9cd2972b49",tooltip="Check if the Phy State for a device is an expected value."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TestInterBssConstantObss\lPdAlgo::SetupSimulation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_inter_bss_constant_obss_pd_algo.html#a1fcecbaf5e5d034b9e28266f26f4b836",tooltip="Setup the simulation."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="TestInterBssConstantObss\lPdAlgo::RunOne",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_inter_bss_constant_obss_pd_algo.html#a1d52c1dd60b72b32b4a87f6933d81992",tooltip="Run one function."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="TestInterBssConstantObss\lPdAlgo::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_inter_bss_constant_obss_pd_algo.html#afa56c796f4bf1e721232f43b672ba259",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::ConstantObssPdAlgorithm\l::ConnectWifiNetDevice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_constant_obss_pd_algorithm.html#ac3359d5c45980262b19fd69c5812bce5",tooltip="Connect the WifiNetDevice and setup eventual callbacks."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::WifiRadioEnergyModel\lHelper::DoInstall",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_radio_energy_model_helper.html#ab3d00ebcc43b4caacd9ca8e2565b8421",tooltip=" "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::WifiPhyHelper\l::EnablePcapInternal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_phy_helper.html#a1d0dc819ef2e257409b6b84924d07085",tooltip="Enable pcap output the indicated net device."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::WaveNetDevice\l::GetChannel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wave_net_device.html#a5a6b97a2ae7afd185886c1dc97ce44d3",tooltip=" "];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::WaveNetDevice\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wave_net_device.html#a89ef5e155729b91ccf8c5e057bdb31af",tooltip="Get the type ID."];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::WifiNetDevice\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_net_device.html#a94194d4a4f27318dd13627ab9d8a2bce",tooltip="Get the type ID."];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="GetYansWifiPhyPtr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$wifi-phy-configuration_8cc.html#a50ec12cbf31121934173cb4a44215e73",tooltip=" "];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="SetChannelFrequencyTest\l::GetYansWifiPhyPtr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_set_channel_frequency_test.html#a5258f8f74a6b43400abdce2fda0a843e",tooltip="Get yans wifi phy function."];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="SetChannelFrequencyTest\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_set_channel_frequency_test.html#a05984ce2c264229592bed4981ff05518",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::ObssPdAlgorithm\l::ResetPhy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_obss_pd_algorithm.html#aafbbfff7cb82663d1181073a88dcc777",tooltip="Reset PHY to IDLE."];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::ConstantObssPdAlgorithm\l::ReceiveHeSig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_constant_obss_pd_algorithm.html#aa1f4f2b2b3a3103fd4921d713ea7bf95",tooltip=" "];
+  Node17 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="InterferenceHelperSequence\lTest::SwitchCh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_interference_helper_sequence_test.html#a234954d61db7af02e56247aec19ca33d",tooltip="Switch channel function."];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="InterferenceHelperSequence\lTest::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_interference_helper_sequence_test.html#a22be6f3a29ef1f34b740d8b5689f2160",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="StaWifiMacScanningTestCase\l::TurnApOff",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sta_wifi_mac_scanning_test_case.html#a8322278800cabda42647750134d5f53b",tooltip="Turn the AP node off."];
+  Node20 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="StaWifiMacScanningTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sta_wifi_mac_scanning_test_case.html#ad94530d624a785506cde8c8beb130361",tooltip="Implementation to actually run this TestCase."];
+}

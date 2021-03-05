@@ -1,0 +1,10 @@
+digraph "ns3::DpdkNetDevice::FreeBuffer"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::DpdkNetDevice\l::FreeBuffer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Free the given packet buffer."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::DpdkNetDevice\l::DoFinishStoppingDevice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dpdk_net_device.html#a85b887df248b204f4a4af246a5176269",tooltip="Complete additional actions, if any, to tear down the device."];
+}

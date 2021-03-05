@@ -1,0 +1,10 @@
+digraph "ns3::FdBetFfMacScheduler::HarqProcessAvailability"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::FdBetFfMacScheduler\l::HarqProcessAvailability",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Return the availability of free process for the RNTI specified."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::FdBetFfMacScheduler\l::DoSchedDlTriggerReq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_fd_bet_ff_mac_scheduler.html#a4e1f422a62da413de04f83ecb9abefc0",tooltip="Sched DL trigger request function."];
+}

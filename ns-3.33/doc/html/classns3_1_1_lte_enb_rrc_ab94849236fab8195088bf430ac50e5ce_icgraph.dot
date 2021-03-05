@@ -1,0 +1,48 @@
+digraph "ns3::LteEnbRrc::ComponentCarrierToCellId"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LteEnbRrc::Component\lCarrierToCellId",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="convert the component carrier id to cell id"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteEnbRrc::AddUe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_rrc.html#a524c7c09828bc1c66cd39de54001dd01",tooltip="Allocate a new RNTI for a new UE."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LteEnbRrc::DoAllocate\lTemporaryCellRnti",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_rrc.html#adc904dd5bf00926b962d7cde4ce114d1",tooltip="Allocate temporary cell RNTI function."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::EnbRrcMemberLteEnbCmac\lSapUser::AllocateTemporaryCellRnti",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_enb_rrc_member_lte_enb_cmac_sap_user.html#a1351a4b6fc3e5efc4b5a6b3c4d2e7dd3",tooltip="request the allocation of a Temporary C-RNTI"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::LteEnbRrc::DoRecvHandover\lRequest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_rrc.html#a26c697a526a9538f8778481f7cf08906",tooltip="Receive handover request function."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::LteEnbRrc::Connection\lRejectedTimeout",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_rrc.html#accc2939d256646bf19abd915f13c0d68",tooltip="Method triggered a while after sending RRC Connection Rejected."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::UeManager::RecvRrcConnection\lRequest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_manager.html#af0959818ae542240ccf1caa2b3da19ab",tooltip="Implement the LteEnbRrcSapProvider::RecvRrcConnectionRequest interface."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::LteEnbRrc::Connection\lRequestTimeout",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_rrc.html#ad7992d8a886b60ee953879d9b5d37dca",tooltip="Method triggered when a UE is expected to request for connection but does not do so in a reasonable t..."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::UeManager::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_manager.html#ae7036651fc161b02ede5c77f57a35982",tooltip="Initialize() implementation."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::LteEnbRrc::Connection\lSetupTimeout",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_rrc.html#ac0af0fbbf09bc66c0ebd5be00c69aa7c",tooltip="Method triggered when a UE is expected to complete a connection setup procedure but does not do so in..."];
+  Node10 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::LteEnbRrc::DoTrigger\lHandover",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_rrc.html#af49f5004e84050871c872de398f4defe",tooltip="Trigger handover function."];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::LteEnbRrc::Handover\lJoiningTimeout",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_rrc.html#a8374075a52ca40290d3f15e253ef94ff",tooltip="Method triggered when a UE is expected to join the cell for a handover but does not do so in a reason..."];
+  Node12 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::LteEnbRrc::Handover\lLeavingTimeout",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_rrc.html#a3ded0535ab2c7f5b1346cf787745d06d",tooltip="Method triggered when a UE is expected to leave a cell for a handover but no feedback is received in ..."];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::UeManager::RecvHandover\lRequestAck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ue_manager.html#ad2e93daf91532b0fd263355b2416330d",tooltip="take the necessary actions in response to the reception of an X2 HANDOVER REQUEST ACK message"];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::LteEnbRrc::RemoveUe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_rrc.html#a0e507111feeaf6e7f34555b6141525f7",tooltip="remove a UE from the cell"];
+  Node15 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::LteEnbRrc::DoRecvIdeal\lUeContextRemoveRequest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_rrc.html#af525cb25bb4708215791355726126f1d",tooltip="Part of the RRC protocol."];
+  Node15 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::LteEnbRrc::DoRecvUe\lContextRelease",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_enb_rrc.html#acd8dc1935301185b71e736d04128d1fd",tooltip="Receive UE context release function."];
+  Node15 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

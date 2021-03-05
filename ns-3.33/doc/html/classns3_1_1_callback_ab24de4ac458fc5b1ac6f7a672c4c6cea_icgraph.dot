@@ -1,0 +1,54 @@
+digraph "ns3::Callback::Nullify"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Callback::Nullify",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Discard the implementation, set it to null."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::AcousticModemEnergy\lModel::AcousticModemEnergyModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_acoustic_modem_energy_model.html#a9332ef84f0e5ea3266ccef6f43deedb4",tooltip="Constructor."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::AcousticModemEnergy\lModelHelper::AcousticModemEnergy\lModelHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_acoustic_modem_energy_model_helper.html#af2566000591e0895a16ff726de1395e7",tooltip="Construct a helper which is used to add a radio energy model to a node."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::UanPhyGen::UanPhyGen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_phy_gen.html#a233a0cade16f6fa26fb85ff8438adc70",tooltip="Constructor."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::WifiRadioEnergyModel\l::WifiRadioEnergyModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_radio_energy_model.html#a6b0e21d95458627bd77d2dc7cbed349b",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::WifiRadioEnergyModel\lHelper::WifiRadioEnergyModelHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_radio_energy_model_helper.html#a81f4ebb66b91bd709eaf8fbf4e920c67",tooltip="Construct a helper which is used to add a radio energy model to a node."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::WifiRadioEnergyModel\lPhyListener::WifiRadioEnergyModel\lPhyListener",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_radio_energy_model_phy_listener.html#a105af33f3679404721a590d8723fff8d",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::Ipv4EndPoint::\l~Ipv4EndPoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_end_point.html#a2feacfcc57c1ad8054f89495cf4e075c",tooltip=" "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::Ipv6EndPoint::\l~Ipv6EndPoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_end_point.html#a8b38a96dc23b632b6f1d203f38d2dad8",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::NetDeviceQueue\l::~NetDeviceQueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_net_device_queue.html#a20ac6106fe315652e8e0b8977b20b395",tooltip=" "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::Icmpv6L4Protocol\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_l4_protocol.html#a6aae989edf64bb22eaaab064d04ba725",tooltip="Dispose this object."];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::UanPhyGen::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uan_phy_gen.html#a95b71d8af21c788d018e55275d6633e3",tooltip="Destructor implementation."];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::Icmpv4L4Protocol\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv4_l4_protocol.html#aef6985eb19d9b18323efcd9bd0a074ac",tooltip="Destructor implementation."];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::NscTcpL4Protocol\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_nsc_tcp_l4_protocol.html#ab3f77171a13c3e8f96717f26a6b716b9",tooltip="Destructor implementation."];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::TcpL4Protocol\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_l4_protocol.html#a9d2286b9af7437138f6c1c8ecdaa048d",tooltip="Destructor implementation."];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::UdpL4Protocol\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_udp_l4_protocol.html#ac65581352483fff231c47521455b9ce9",tooltip="Destructor implementation."];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::AcousticModemEnergy\lModel::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_acoustic_modem_energy_model.html#a37a4c65a4c1d9b8bd24ae620ed86308f",tooltip="Destructor implementation."];
+  Node1 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::WifiRadioEnergyModel\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_radio_energy_model.html#a7d7b71b58994dff4386b8d8926ff0e95",tooltip="Destructor implementation."];
+  Node1 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ns3::SubscriberStationNet\lDevice::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_subscriber_station_net_device.html#ab96e90bdc3192e51179510a4a1f59c51",tooltip="Destructor implementation."];
+  Node1 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="NullifyCallbackTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_nullify_callback_test_case.html#ae20af2bdd79c85be1b075171568c4ecc",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="ns3::FdReader::Stop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_fd_reader.html#a0d30fe465fc06dc41a66a439e84f61b6",tooltip="Stop the read thread and reset internal state."];
+  Node21 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="ns3::FdReader::~FdReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_fd_reader.html#ae69d0181118f371221ac3c339004314b",tooltip="Destructor."];
+  Node21 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="ns3::FdReader::DestroyEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_fd_reader.html#a7de041cbd9bfab170576ddd6fa83eea9",tooltip="Event handler scheduled for destroy time to halt the thread."];
+  Node23 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="ns3::FdReader::Start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_fd_reader.html#aad8139555df8e9fd58e819f19547a42d",tooltip="Start a new read thread."];
+}

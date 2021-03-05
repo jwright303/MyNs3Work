@@ -1,0 +1,12 @@
+digraph "ns3::WifiRemoteStationManager::RecordGotAssocTxOk"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::WifiRemoteStationManager\l::RecordGotAssocTxOk",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Records that we got an ACK for the association response we sent."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ApWifiMac::TxOk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#a42c321554bcf340cf7d3da46ad95b836",tooltip="The packet we sent was successfully received by the receiver (i.e."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ApWifiMac::ApWifiMac",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#a6fda79b577eb79eaabceb05a36e27b44",tooltip=" "];
+}

@@ -1,0 +1,10 @@
+digraph "IdealRateManagerChannelWidthTest::SendPacket"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="IdealRateManagerChannelWidth\lTest::SendPacket",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Triggers the transmission of a 1000 Byte-long data packet from the source device."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="IdealRateManagerChannelWidth\lTest::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ideal_rate_manager_channel_width_test.html#a1f92f2719f1b3b364cda5e1024c8c389",tooltip="Implementation to actually run this TestCase."];
+}

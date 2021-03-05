@@ -1,0 +1,10 @@
+digraph "ns3::WimaxConnection::GetSchedulingType"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::WimaxConnection\l::GetSchedulingType",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ServiceFlow::GetSchedulingType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_service_flow.html#a6edb38eb5ff3e0903b0183036c9c2e9e",tooltip="Get scheduling type."];
+}

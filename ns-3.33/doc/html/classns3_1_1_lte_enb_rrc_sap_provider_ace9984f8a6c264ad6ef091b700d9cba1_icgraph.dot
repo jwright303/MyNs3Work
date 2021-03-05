@@ -1,0 +1,12 @@
+digraph "ns3::LteEnbRrcSapProvider::RecvIdealUeContextRemoveRequest"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LteEnbRrcSapProvider\l::RecvIdealUeContextRemoveRequest",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Receive ideal UE context remove request from the UE RRC."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteUeRrcProtocolIdeal\l::DoSendIdealUeContextRemoveRequest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_rrc_protocol_ideal.html#a411b4c00fd16f05ec14ffb55a622a4c2",tooltip="Send Ideal UE context remove request function."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::LteUeRrcProtocolReal\l::DoSendIdealUeContextRemoveRequest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ue_rrc_protocol_real.html#ae90c17cc21f5134d9977fa6082dee64f",tooltip="Send ideal UE context remove request function."];
+}

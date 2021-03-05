@@ -1,0 +1,12 @@
+digraph "ns3::DoubleProbe::TraceSink"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::DoubleProbe::TraceSink",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Method to connect to an underlying ns3::TraceSource of type double."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::DoubleProbe::Connect\lByObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_double_probe.html#a595c0fdc7e7c2e466cc8e9fc847580b0",tooltip="connect to a trace source attribute provided by a given object"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::DoubleProbe::Connect\lByPath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_double_probe.html#a0f34962630dbb3af28c74c8b517824a7",tooltip="connect to a trace source provided by a config path"];
+}

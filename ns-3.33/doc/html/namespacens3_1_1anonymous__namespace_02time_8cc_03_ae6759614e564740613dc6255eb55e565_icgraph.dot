@@ -1,0 +1,10 @@
+digraph "ns3::anonymous_namespace{time::cc}::Scale"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::anonymous_namespace\l\{time::cc\}::Scale",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Scale a unit to the smallest unit."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::anonymous_namespace\l\{time::cc\}::InitUnitValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacens3_1_1anonymous__namespace_02time_8cc_03.html#ab967ffaddf628c94794ec59f1b55701f",tooltip="Initializer for UNIT_VALUE."];
+}

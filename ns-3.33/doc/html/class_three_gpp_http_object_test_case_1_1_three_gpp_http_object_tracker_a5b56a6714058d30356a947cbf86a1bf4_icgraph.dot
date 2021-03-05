@@ -1,0 +1,21 @@
+digraph "ThreeGppHttpObjectTestCase::ThreeGppHttpObjectTracker::ObjectSent"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ThreeGppHttpObjectTestCase\l::ThreeGppHttpObjectTracker\l::ObjectSent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Shall be invoked when a whole object has been transmitted."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThreeGppHttpObjectTestCase\l::ClientTxEmbeddedObjectRequest\lCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_http_object_test_case.html#a3d7003b9fe71e4790d1fce64f1305cb5",tooltip="Connected with TxEmbeddedObjectRequest trace source of the client."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThreeGppHttpObjectTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_http_object_test_case.html#a41234f035937ee1b044864f3db643b7d",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThreeGppHttpObjectTestCase\l::ClientTxMainObjectRequestCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_http_object_test_case.html#a46bbab85fb6de89e135c743dee88be4b",tooltip="Connected with TxMainObjectRequest trace source of the client."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThreeGppHttpObjectTestCase\l::ServerEmbeddedObjectCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_http_object_test_case.html#ab7615e03dc3c6c5a22c8e1abe7cc22ab",tooltip="Connected with EmbeddedObject trace source of the server."];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThreeGppHttpObjectTestCase\l::ServerMainObjectCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_http_object_test_case.html#afb51eda6a8686dc81c3f0461f60fdf81",tooltip="Connected with MainObject trace source of the server."];
+  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

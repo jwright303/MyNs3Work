@@ -1,0 +1,30 @@
+digraph "ns3::Gnuplot2dDataset::Add"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Gnuplot2dDataset::Add",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Experiment::AdvancePosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_experiment.html#a9265be2c746949600ca26fafe63057fb",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Experiment::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_experiment.html#a15cdba434e2674b0c59485bd2a94cb72",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ChangeSignalAndReportRate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$wifi-manager-example_8cc.html#adeb3e022073e20a0edcca5f97eec50d9",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Experiment::CheckThroughput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_experiment.html#a76057ca34684d8ae83bcb48748936833",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Experiment::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_experiment.html#a285438b7f699a66739293558a6ba0456",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="anonymous_namespace\l\{gnuplot-example::cc\}\l::Create2DPlotFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceanonymous__namespace_02gnuplot-example_8cc_03.html#a48148f58505f5a68bf78fcf4267eca5c",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="anonymous_namespace\l\{gnuplot-example::cc\}\l::Create2DPlotWithErrorBarsFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceanonymous__namespace_02gnuplot-example_8cc_03.html#a11b023238c45ea2f5b6be648547a9c17",tooltip=" "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Experiment::IncrementCw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_experiment.html#ab252998a0101be7d45e2c766eb0e2c85",tooltip="Compute average throughput for a set of runs, then increment CW."];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Experiment::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_experiment.html#a2e7dad008a78e106fdbde1917d0bca1b",tooltip="Run an experiment across a range of congestion window values."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="TestDeterministic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main-propagation-loss_8cc.html#a4e5137292d7c72e9726190680c642e7d",tooltip=" "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="TestDeterministicByTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main-propagation-loss_8cc.html#a093207d9d8a33b2bfc987434a52eeecc",tooltip=" "];
+}

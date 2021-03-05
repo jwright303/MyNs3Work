@@ -1,0 +1,20 @@
+digraph "ns3::Time::GetDouble"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Time::GetDouble",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the raw time value, in the current resolution unit."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::BsmApplication\l::StartApplication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_bsm_application.html#a2caf2e381d781dfde58e39f19a220523",tooltip="Called at time specified by Start."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="TimeSimpleTestCase\l::TestMultiplicationByDecimal\lTypes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_time_simple_test_case.html#a288e6b7dbc0e8ccd7c4370676bb32c9e",tooltip="Test multiplying a Time instance by various decimal types."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TimeSimpleTestCase\l::DoTimeOperations",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_time_simple_test_case.html#af63226fbe49f93a7a09fa6a573e938de",tooltip="Tests the Time Operations."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="TimeSimpleTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_time_simple_test_case.html#a4420daddc0f37503638626397ec83f41",tooltip="Runs the Simple Time test case."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::TcpHtcp::UpdateBeta",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_htcp.html#a839688dcc8178d960f750d62ca375602",tooltip="Updates the multiplicative decrease factor beta for H-TCP."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::TcpHtcp::GetSsThresh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_htcp.html#add36278610893b4eba23cf688f7779d8",tooltip="Get the slow start threshold after a loss event."];
+}

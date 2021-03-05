@@ -1,0 +1,26 @@
+digraph "ns3::Socket::SetConnectCallback"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Socket::SetConnectCallback",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Specify callbacks to allow the caller to determine if the connection succeeds of fails."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TcpSocketBase\l::TcpSocketBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_socket_base.html#a88ad90b1dca7d8a470225c9351198736",tooltip="Clone a TCP socket, for use upon receiving a connection request in LISTEN state."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="TcpEndPointBug2211Test\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_end_point_bug2211_test.html#ab0f069f68fbb6b3e69a42e090be8215c",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TcpSynConnectionFailedTest\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_syn_connection_failed_test.html#aa77e55d2425eb8b7527953f552e2c816",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::ThreeGppHttpClient\l::OpenConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_client.html#af7baacf9ee03e8e47a1694bff146031f",tooltip="Initialize m_socket to connect to the destination web server at m_remoteServerAddress and m_remoteSer..."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::ThreeGppHttpClient\l::StartApplication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_client.html#a0fcfc1bf98f9570603572288324f2f89",tooltip="Application specific startup code."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::BulkSendApplication\l::StartApplication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_bulk_send_application.html#aa3537015cd452ab46e5c80dc36caf865",tooltip="Application specific startup code."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::OnOffApplication\l::StartApplication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_on_off_application.html#a0d9d5f0f60ec877c788c5c0e55c9587b",tooltip="Application specific startup code."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::ThreeGppHttpClient\l::StopApplication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_client.html#a731696bac90f8805b3a3267f7f56dfc8",tooltip="Application specific shutdown code."];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::ThreeGppHttpClient\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_client.html#a7d6c1e0b0c38303279873ac892af5a02",tooltip="Destructor implementation."];
+}

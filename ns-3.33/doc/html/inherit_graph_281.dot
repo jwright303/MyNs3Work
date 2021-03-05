@@ -1,0 +1,16 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ns3::EpcS11Sap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_epc_s11_sap.html",tooltip="EpcS11Sap."];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="ns3::EpcS11SapMme",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_epc_s11_sap_mme.html",tooltip="MME side of the S11 Service Access Point (SAP), provides the MME methods to be called when an S11 mes..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::MemberEpcS11SapMme\< C \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_member_epc_s11_sap_mme.html",tooltip="Template for the implementation of the EpcS11SapMme as a member of an owner class of type C to which ..."];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::EpcS11SapSgw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_epc_s11_sap_sgw.html",tooltip="SGW side of the S11 Service Access Point (SAP), provides the SGW methods to be called when an S11 mes..."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::MemberEpcS11SapSgw\< C \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_member_epc_s11_sap_sgw.html",tooltip="Template for the implementation of the EpcS11SapSgw as a member of an owner class of type C to which ..."];
+}

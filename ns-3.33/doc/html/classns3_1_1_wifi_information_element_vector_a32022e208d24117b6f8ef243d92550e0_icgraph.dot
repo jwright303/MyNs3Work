@@ -1,0 +1,12 @@
+digraph "ns3::WifiInformationElementVector::DeserializeSingleIe"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::WifiInformationElement\lVector::DeserializeSingleIe",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Needed when you try to deserialize a lonely IE inside other header."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WifiInformationElement\lVector::Deserialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_information_element_vector.html#a55f8bd01be65a014b0143c1d170417af",tooltip="Deserialize a number of WifiInformationElements."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::MeshInformationElement\lVector::DeserializeSingleIe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mesh_information_element_vector.html#afc490f34bbbeb9cf3738fc8a491c38f7",tooltip="Needed when you try to deserialize a lonely IE inside other header."];
+}

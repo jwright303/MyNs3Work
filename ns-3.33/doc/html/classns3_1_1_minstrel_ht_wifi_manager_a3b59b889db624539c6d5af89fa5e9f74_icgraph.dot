@@ -1,0 +1,32 @@
+digraph "ns3::MinstrelHtWifiManager::RateInit"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::MinstrelHtWifiManager\l::RateInit",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Initialize Minstrel Table."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::MinstrelHtWifiManager\l::CheckInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_minstrel_ht_wifi_manager.html#a7f94804a34efa6121bdfd5d01ac34694",tooltip="Check for initializations."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::MinstrelHtWifiManager\l::DoGetDataTxVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_minstrel_ht_wifi_manager.html#abc2436c9c8dabb7c78907f478e1bb8c7",tooltip=" "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::MinstrelHtWifiManager\l::DoGetRtsTxVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_minstrel_ht_wifi_manager.html#a8628d42b27a3bf5cbbd4ea0ec2a79307",tooltip=" "];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::MinstrelHtWifiManager\l::DoNeedRetransmission",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_minstrel_ht_wifi_manager.html#a82e4438440288e8418b501893a11bacb",tooltip=" "];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::MinstrelHtWifiManager\l::DoReportAmpduTxStatus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_minstrel_ht_wifi_manager.html#ae46e486574f5eb6e591fe147f8cd388e",tooltip="Typically called per A-MPDU, either when a Block ACK was successfully received or when a BlockAckTime..."];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::MinstrelHtWifiManager\l::DoReportDataFailed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_minstrel_ht_wifi_manager.html#aa586c8a920a75e94428f44b560aefc7e",tooltip="This method is a pure virtual method that must be implemented by the sub-class."];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::MinstrelHtWifiManager\l::DoReportDataOk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_minstrel_ht_wifi_manager.html#aa0843d3f01c36ec861881c5770e55b03",tooltip="This method is a pure virtual method that must be implemented by the sub-class."];
+  Node2 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::MinstrelHtWifiManager\l::DoReportFinalDataFailed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_minstrel_ht_wifi_manager.html#a7f0e93d9dccdb7bbbe35ff9b6d117d53",tooltip="This method is a pure virtual method that must be implemented by the sub-class."];
+  Node2 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::MinstrelHtWifiManager\l::DoReportFinalRtsFailed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_minstrel_ht_wifi_manager.html#a9891afb45c6fd574a040dfef9d85014f",tooltip="This method is a pure virtual method that must be implemented by the sub-class."];
+  Node2 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::MinstrelHtWifiManager\l::DoReportRtsFailed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_minstrel_ht_wifi_manager.html#a755d4934c2a8ea5392c23aed6ae85851",tooltip="This method is a pure virtual method that must be implemented by the sub-class."];
+  Node2 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::MinstrelHtWifiManager\l::UpdateRate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_minstrel_ht_wifi_manager.html#abb282b56803faf26139d0db929b09b22",tooltip="Update rate."];
+  Node12 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

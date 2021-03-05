@@ -1,0 +1,16 @@
+digraph "ns3::SQLiteOutput::CheckError"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::SQLiteOutput::\lCheckError",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Check any error in the db."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::SQLiteOutput::\lSpinExec",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_s_q_lite_output.html#a0e822640b711c7e00a30e546d98951de",tooltip="Execute a command until the return value is OK or an ERROR."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SQLiteOutput::\lWaitExec",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_s_q_lite_output.html#ac78b32400708aa93a0903b1a037f24b5",tooltip="Execute a command, waiting on a system semaphore."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::SQLiteOutput::\lWaitExec",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_s_q_lite_output.html#a061bb8816fe30c4b1a44f070cb48f9b7",tooltip="Execute a command, waiting on a system semaphore."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::SQLiteOutput::\lWaitPrepare",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_s_q_lite_output.html#a19864dd72c2d5bc4b4e4165286f761fd",tooltip="Prepare a statement, waiting on a system semaphore."];
+}

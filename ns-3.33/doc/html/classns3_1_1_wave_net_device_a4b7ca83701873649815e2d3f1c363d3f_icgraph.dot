@@ -1,0 +1,14 @@
+digraph "ns3::WaveNetDevice::GetPhys"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::WaveNetDevice\l::GetPhys",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WaveHelper::AssignStreams",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wave_helper.html#a0dfb77567421c264b7f227eb6b306dee",tooltip="Assign a fixed random variable stream number to the random variables used by the Phy and Mac aspects ..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::YansWavePhyHelper\l::EnablePcapInternal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_yans_wave_phy_helper.html#a6bcc70f08dc2e44676089f334c4345b0",tooltip="Enable pcap output the indicated net device."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::DefaultChannelScheduler\l::GetAssignedAccessType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_default_channel_scheduler.html#a429457590fd9834fabfd336f1e3d988c",tooltip=" "];
+}

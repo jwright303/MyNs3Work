@@ -1,0 +1,42 @@
+digraph "ns3::test::RandomVariable::TestCaseBase::ChiSquared"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::test::RandomVariable\l::TestCaseBase::ChiSquared",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Compute the chi squared value of a sampled distribution compared to the expected distribution."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::test::RandomVariable\l::UniformTestCase::ChiSquaredTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1test_1_1_random_variable_1_1_uniform_test_case.html#a12293bf566fdca839a09152feb423fbd",tooltip="Compute the chi square value from a random variable."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::test::RandomVariable\l::UniformTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1test_1_1_random_variable_1_1_uniform_test_case.html#a3490f297557dc9d1652ed1504987850f",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::test::RandomVariable\l::UniformAntitheticTestCase\l::ChiSquaredTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1test_1_1_random_variable_1_1_uniform_antithetic_test_case.html#a2ad82b23c04ccfafd2a215364d98a5af",tooltip="Compute the chi square value from a random variable."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::test::RandomVariable\l::NormalTestCase::ChiSquaredTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1test_1_1_random_variable_1_1_normal_test_case.html#a1f5042094bfe955d0a365a5278c4b23f",tooltip="Compute the chi square value from a random variable."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::test::RandomVariable\l::NormalAntitheticTestCase\l::ChiSquaredTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1test_1_1_random_variable_1_1_normal_antithetic_test_case.html#aa8a689fdf70c3abd0e76eaef557017f5",tooltip="Compute the chi square value from a random variable."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::test::RandomVariable\l::ExponentialTestCase::\lChiSquaredTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1test_1_1_random_variable_1_1_exponential_test_case.html#ad036ddf6a75650e09b3d82938129e632",tooltip="Compute the chi square value from a random variable."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::test::RandomVariable\l::ExponentialAntitheticTestCase\l::ChiSquaredTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1test_1_1_random_variable_1_1_exponential_antithetic_test_case.html#aaad4575e20ba7b9fd2e76a1df1dab346",tooltip="Compute the chi square value from a random variable."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::test::RandomVariable\l::ParetoTestCase::ChiSquaredTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1test_1_1_random_variable_1_1_pareto_test_case.html#a87e3ee38467a6411db76c7ac0028117e",tooltip="Compute the chi square value from a random variable."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::test::RandomVariable\l::ParetoAntitheticTestCase\l::ChiSquaredTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1test_1_1_random_variable_1_1_pareto_antithetic_test_case.html#a6aaa3483ff09d9dbe75f42746f1efa3e",tooltip="Compute the chi square value from a random variable."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::test::RandomVariable\l::WeibullTestCase::ChiSquaredTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1test_1_1_random_variable_1_1_weibull_test_case.html#a9393b83e9b4c672d17e869f10e6bf38f",tooltip="Compute the chi square value from a random variable."];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::test::RandomVariable\l::WeibullAntitheticTestCase\l::ChiSquaredTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1test_1_1_random_variable_1_1_weibull_antithetic_test_case.html#ab78d1dbf5229da04aa6fa466c5d35e45",tooltip="Compute the chi square value from a random variable."];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::test::RandomVariable\l::LogNormalTestCase::ChiSquaredTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1test_1_1_random_variable_1_1_log_normal_test_case.html#a976514fdba12b243f53432ecdc4bf25f",tooltip="Compute the chi square value from a random variable."];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::test::RandomVariable\l::LogNormalAntitheticTestCase\l::ChiSquaredTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1test_1_1_random_variable_1_1_log_normal_antithetic_test_case.html#ad4804c46352668d5b1cf7b79e0a9adbd",tooltip="Compute the chi square value from a random variable."];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::test::RandomVariable\l::GammaTestCase::ChiSquaredTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1test_1_1_random_variable_1_1_gamma_test_case.html#a995c6a2f4aa76c99288dfdf6723bae4a",tooltip="Compute the chi square value from a random variable."];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::test::RandomVariable\l::GammaAntitheticTestCase\l::ChiSquaredTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1test_1_1_random_variable_1_1_gamma_antithetic_test_case.html#ae324573c684187168615b65b89da2178",tooltip="Compute the chi square value from a random variable."];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::test::RandomVariable\l::ErlangTestCase::ChiSquaredTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1test_1_1_random_variable_1_1_erlang_test_case.html#a42a18fb96963de9ce4424a34117759c1",tooltip="Compute the chi square value from a random variable."];
+  Node1 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::test::RandomVariable\l::ErlangAntitheticTestCase\l::ChiSquaredTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1test_1_1_random_variable_1_1_erlang_antithetic_test_case.html#a0411250108df1a8c9b71d61698262aae",tooltip="Compute the chi square value from a random variable."];
+}

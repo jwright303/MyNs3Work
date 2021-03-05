@@ -1,0 +1,17 @@
+digraph "ns3::ThreeGppHttpClient::ReceiveEmbeddedObject"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::ThreeGppHttpClient\l::ReceiveEmbeddedObject",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Receive a packet of embedded object from the destination web server."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ThreeGppHttpClient\l::ReceivedDataCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_client.html#ae67fed74a7aff8ad27098bdaea37ae6c",tooltip="Invoked when m_socket receives some packet data."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ThreeGppHttpClient\l::ConnectionSucceededCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_client.html#a7516067e98bc29325cbfade8249d7778",tooltip="Invoked when a connection is established successfully on m_socket."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ThreeGppHttpClient\l::OpenConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_client.html#af7baacf9ee03e8e47a1694bff146031f",tooltip="Initialize m_socket to connect to the destination web server at m_remoteServerAddress and m_remoteSer..."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::ThreeGppHttpClient\l::StartApplication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_client.html#a0fcfc1bf98f9570603572288324f2f89",tooltip="Application specific startup code."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

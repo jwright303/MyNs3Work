@@ -1,0 +1,32 @@
+digraph "ns3::LteFfConverter::fpS11dot3toDouble"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::LteFfConverter\l::fpS11dot3toDouble",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Convert from fixed point S11.3 notation to double."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LteFfrEnhancedAlgorithm\l::DoReportUlCqiInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_ffr_enhanced_algorithm.html#ab06ccad47f57cf4852b38a304392b67a",tooltip="DoReportUlCqiInfo."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::CqaFfMacScheduler\l::DoSchedUlCqiInfoReq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_cqa_ff_mac_scheduler.html#a99136625091e1b531f939cb18f780689",tooltip="Sched UL CGI Info Request."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::FdBetFfMacScheduler\l::DoSchedUlCqiInfoReq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_fd_bet_ff_mac_scheduler.html#a1ff91d2e3ae86674d17804a9d268786b",tooltip="Sched UL CGI info request function."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::FdMtFfMacScheduler\l::DoSchedUlCqiInfoReq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_fd_mt_ff_mac_scheduler.html#a62464e80900f6e4551a54bdcab554c7b",tooltip="Sched UL CQI info request function."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::FdTbfqFfMacScheduler\l::DoSchedUlCqiInfoReq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_fd_tbfq_ff_mac_scheduler.html#a15711a9aaa411036ac353d1688170c58",tooltip="Sched UL CQI info request function."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::PfFfMacScheduler\l::DoSchedUlCqiInfoReq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pf_ff_mac_scheduler.html#aee839d62cb98ea021c3f8f92f7348ada",tooltip="Sched UL CQI info request."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::PssFfMacScheduler\l::DoSchedUlCqiInfoReq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pss_ff_mac_scheduler.html#a076446d288bea04ee5eeb8c6dda4ce45",tooltip="Sched UL CQI info request function."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::RrFfMacScheduler\l::DoSchedUlCqiInfoReq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rr_ff_mac_scheduler.html#a7e3e72a957e11b4038c1a89604ff302b",tooltip="Sched UL CQI info request."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::TdBetFfMacScheduler\l::DoSchedUlCqiInfoReq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_td_bet_ff_mac_scheduler.html#ac923455a7dbe7baac8b3997224ddcbea",tooltip="Sched UL CQI info request."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::TdMtFfMacScheduler\l::DoSchedUlCqiInfoReq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_td_mt_ff_mac_scheduler.html#a3d2cef3b0d098a40663603511b53991f",tooltip="Sched UL CQI info request."];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::TdTbfqFfMacScheduler\l::DoSchedUlCqiInfoReq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_td_tbfq_ff_mac_scheduler.html#a71e35a0d5f1c22753fae4777ffda3e01",tooltip="Sched UL CQI info request."];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::TtaFfMacScheduler\l::DoSchedUlCqiInfoReq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tta_ff_mac_scheduler.html#aef3dcd18a72c95847900d6f0ddc9d087",tooltip="Sched UL CQI info request function."];
+}

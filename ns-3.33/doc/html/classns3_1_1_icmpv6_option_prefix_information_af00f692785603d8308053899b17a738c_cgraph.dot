@@ -1,0 +1,24 @@
+digraph "ns3::Icmpv6OptionPrefixInformation::Icmpv6OptionPrefixInformation"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Icmpv6OptionPrefixInformation\l::Icmpv6OptionPrefixInformation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Constructor."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Icmpv6OptionPrefixInformation\l::SetFlags",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_option_prefix_information.html#a76d4d16a225d0a273d1920d37fd24337",tooltip="Set the flags."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Icmpv6OptionHeader\l::SetLength",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_option_header.html#ae4a34624523bdfe2355e2ecefa022515",tooltip="Set the length of the option."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Icmpv6OptionPrefixInformation\l::SetPreferredTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_option_prefix_information.html#ab329e95c80f0d20344ab78d1208e14b8",tooltip="Set the preferred time of the information."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Icmpv6OptionPrefixInformation\l::SetPrefix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_option_prefix_information.html#a3b8d5080ea33c4a9711f1c6caab2b990",tooltip="Set the IPv6 prefix."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Icmpv6OptionPrefixInformation\l::SetPrefixLength",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_option_prefix_information.html#a8ff2a9422e79f88f79dc430a0740fa4f",tooltip="Set the prefix length."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Icmpv6OptionPrefixInformation\l::SetReserved",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_option_prefix_information.html#a204f5b5d78296ec975cf6a07b866d756",tooltip="Set the reserved field (normally it will be 0x00000000)."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::Icmpv6OptionHeader\l::SetType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_option_header.html#a05189e19a5b625aeafd808962821a27c",tooltip="Set the type of the option."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::Icmpv6OptionPrefixInformation\l::SetValidTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_option_prefix_information.html#a347652a0be0124b4fbd167116d0a84f1",tooltip="Set the valid time of the information."];
+}

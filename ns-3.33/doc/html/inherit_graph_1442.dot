@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ns3::TypeTraits\< T\l \>::PtrBase\< ns3::Ptr\l\< U \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_type_traits_1_1_ptr_base_3_01ns3_1_1_ptr_3_01_u_01_4_01_4.html",tooltip="Base type of a Ptr."];
+}

@@ -1,0 +1,16 @@
+digraph "ns3::PointerChecker::GetPointeeTypeId"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::PointerChecker\l::GetPointeeTypeId",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the TypeId of the base type."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="StaticInformation::\lDoGather",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_static_information.html#a069effffe5ecd58b6cc7eeb86d4eed0e",tooltip="Gather attribute, configuration path information for tid."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="PrintAttributesTid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$print-introspected-doxygen_8cc.html#af7d3e211ca4107638fd7b5699f569ff8",tooltip="Print direct Attributes for this TypeId."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="PrintAttributes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$print-introspected-doxygen_8cc.html#ae1835e579578f69543dea8a8ef9a6d1b",tooltip="Print the Attributes block for tid, including Attributes declared in base classes."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="PrintTypeIdBlocks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$print-introspected-doxygen_8cc.html#a62645d02d71b5d1622ccb9f16d5fa412",tooltip="Print the doxy block for each TypeId."];
+}

@@ -1,0 +1,20 @@
+digraph "ns3::operator&lt;&lt;"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::operator\<\<",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="output stream output operator"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::SuperframeField\l::GetBeaconOrder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_superframe_field.html#ad3ed321d9c50937c5d1d2367c9f00fb7",tooltip="Get the Superframe Specification Beacon Order field."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SuperframeField\l::GetFinalCapSlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_superframe_field.html#a70def6a877a39a98326a8e956a3961aa",tooltip="Check if the Final CAP Slot bit is enabled."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::SuperframeField\l::GetFrameOrder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_superframe_field.html#ae9b7645b0b170234f59ecc0a960b8d19",tooltip="Get the Superframe Specification Frame Order field."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::SuperframeField\l::IsAssocPermit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_superframe_field.html#acfdc8b0085fb772441a4ec5b216437cc",tooltip="Check if the Association Permit bit is enabled."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::SuperframeField\l::IsBattLifeExt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_superframe_field.html#a0e9791bfa405e1148d4b88426e66328b",tooltip="Check if the Battery Life Extension bit is enabled."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::SuperframeField\l::IsPanCoor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_superframe_field.html#af97186907b5d0e4e30df8b583c6802c7",tooltip="Check if the PAN Coordinator bit is enabled."];
+}

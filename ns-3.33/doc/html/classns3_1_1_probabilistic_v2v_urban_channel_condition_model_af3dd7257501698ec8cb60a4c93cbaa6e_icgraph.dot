@@ -1,0 +1,10 @@
+digraph "ns3::ProbabilisticV2vUrbanChannelConditionModel::ComputePlos"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::ProbabilisticV2vUrban\lChannelConditionModel::\lComputePlos",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Compute the LOS probability."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ProbabilisticV2vUrban\lChannelConditionModel::\lComputePnlos",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_probabilistic_v2v_urban_channel_condition_model.html#a428010aa4940c2f9e1fb1a360861bbcc",tooltip="Compute the NLOS probability."];
+}

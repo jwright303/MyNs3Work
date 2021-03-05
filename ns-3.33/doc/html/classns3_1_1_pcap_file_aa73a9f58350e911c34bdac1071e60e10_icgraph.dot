@@ -1,0 +1,20 @@
+digraph "ns3::PcapFile::ReadAndVerifyFileHeader"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::PcapFile::ReadAndVerify\lFileHeader",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Read and verify a Pcap file header."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PcapFile::Open",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pcap_file.html#a064e8494e28e823d0bb4e40549f9f483",tooltip="Create a new pcap file or open an existing pcap file."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::PcapFile::Diff",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pcap_file.html#a2819d3aa000846e3527b8c798a67598c",tooltip="Compare two PCAP files packet-by-packet."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Ns3TcpInteroperabilityTest\lCase::DoSetup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ns3_tcp_interoperability_test_case.html#af18785722baa5f4826f281efacaabe60",tooltip="Implementation to do any local setup required for this TestCase."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Ns3TcpLossTestCase\l::DoSetup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ns3_tcp_loss_test_case.html#a08237ed89cdb33439db0d70432dc773a",tooltip="Implementation to do any local setup required for this TestCase."];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Ns3TcpStateTestCase\l::DoSetup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ns3_tcp_state_test_case.html#ab40bcdfe18d73d1d52edf573894ce112",tooltip="Implementation to do any local setup required for this TestCase."];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::PcapFileWrapper\l::Open",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_pcap_file_wrapper.html#a351ffbe082feafac5f6fba9ea13f5886",tooltip="Create a new pcap file or open an existing pcap file."];
+}

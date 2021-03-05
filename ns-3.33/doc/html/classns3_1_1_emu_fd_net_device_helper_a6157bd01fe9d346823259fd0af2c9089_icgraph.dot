@@ -1,0 +1,12 @@
+digraph "ns3::EmuFdNetDeviceHelper::CreateFileDescriptor"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::EmuFdNetDeviceHelper\l::CreateFileDescriptor",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Call out to a separate process running as suid root in order to get a raw socket."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::EmuFdNetDeviceHelper\l::SetFileDescriptor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_emu_fd_net_device_helper.html#ad636b54239c572ff0e10d35f55586467",tooltip="Sets a file descriptor on the FileDescriptorNetDevice."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::EmuFdNetDeviceHelper\l::InstallPriv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_emu_fd_net_device_helper.html#af1fec8e1f99c996e297507a1cb3fe084",tooltip="This method creates an ns3::FdNetDevice attached to a physical network interface."];
+}

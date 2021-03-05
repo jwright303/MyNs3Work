@@ -1,0 +1,25 @@
+digraph "ThreeGppV2vUrbanPropagationLossModelTestCase::DoRun"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThreeGppV2vUrbanPropagation\lLossModelTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Build the simulation scenario and run the tests."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PropagationLossModel\l::CalcRxPower",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_propagation_loss_model.html#a962c62e339e9890f70ea5bb87a12b075",tooltip="Returns the Rx Power taking into account all the PropagationLossModel(s) chained to the current one."];
+  Node2 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::PropagationLossModel\l::DoCalcRxPower",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_propagation_loss_model.html#aa6bb73e4132dc5d8e1b49750955838bb",tooltip="Returns the Rx Power taking into account only the particular PropagationLossModel."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ObjectBase::SetAttribute",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html#ac60245d3ea4123bbc9b1d391f1f6592f",tooltip="Set a single attribute, raising fatal errors if unsuccessful."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::ObjectBase::DoSet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html#afe5f2f7b2fabc99aa33f9bb434e3b695",tooltip="Attempt to set the value referenced by the accessor spec to a valid value according to the checker,..."];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::ObjectBase::GetInstance\lTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html#abe5b43a6f5b99a92a4c3122db31f06fb",tooltip="Get the most derived TypeId for this Object."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::ThreeGppPropagation\lLossModel::SetChannelConditionModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_propagation_loss_model.html#a583c11b2814b3ab85ab911c41e9f1abb",tooltip="Set the channel condition model used to determine the channel state (e.g., the LOS/NLOS condition)"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::MobilityModel\l::SetPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mobility_model.html#ac584b3d5a309709d2f13ed6ada1e7640",tooltip=" "];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::MobilityModel\l::DoSetPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mobility_model.html#aa2f52cd86754da71ac649413c049785e",tooltip=" "];
+}

@@ -1,0 +1,10 @@
+digraph "TimerImpl Implementation"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node1 [label="TimerImpl Implementation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 [label="Virtual Time Timer\l and Watchdog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__timer.html",tooltip="The Timer and Watchdog objects both facilitate scheduling functions to execute a specified virtual ti..."];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node2 [shape=plaintext, label="timer-impl.h", color="darkgreen", dir="none", style="dashed"];
+}

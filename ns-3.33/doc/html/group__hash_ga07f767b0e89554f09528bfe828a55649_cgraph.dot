@@ -1,0 +1,10 @@
+digraph "ns3::Hash64"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Hash64",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Compute 64-bit hash of a byte buffer, using the default hash function."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Hasher::GetHash64",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_hasher.html#a45f2b962235b67a23f34bce8d4752327",tooltip="Compute 64-bit hash of a byte buffer."];
+}

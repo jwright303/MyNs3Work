@@ -1,0 +1,18 @@
+digraph "ns3::int64x64::test::Int64x64Bug455TestCase::DoRun"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::int64x64::test\l::Int64x64Bug455TestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::int64x64::test\l::Int64x64Bug455TestCase\l::Check",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1int64x64_1_1test_1_1_int64x64_bug455_test_case.html#a2f804771e031d459c8bd61645b347b13",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::TestCase::GetName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_test_case.html#ae3b2b294f9104f53e66e5c27d34a5a98",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::TestCase::GetParent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_test_case.html#a8fe1e18cff0ca8e62e6f9f8125cc628e",tooltip="Get the parent of this TestCsse."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::int64x64_t::GetDouble",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1int64x64__t.html#ad4fd5a21e426f206aca10112cf5f4948",tooltip="Get this value as a double."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

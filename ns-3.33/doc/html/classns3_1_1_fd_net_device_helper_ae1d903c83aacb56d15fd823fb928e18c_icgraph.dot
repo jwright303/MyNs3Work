@@ -1,0 +1,12 @@
+digraph "ns3::FdNetDeviceHelper::SetTypeId"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::FdNetDeviceHelper\l::SetTypeId",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set the TypeId of the Objects to be created by this helper."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::DpdkNetDeviceHelper\l::DpdkNetDeviceHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dpdk_net_device_helper.html#afcd2aa6e1d5348113b85eb1a5c509e76",tooltip="Construct a DpdkNetDeviceHelper and initialize DPDK EAL."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::NetmapNetDeviceHelper\l::NetmapNetDeviceHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_netmap_net_device_helper.html#afd7f23f10aaac2aa5a70b06f3c387bd7",tooltip=" "];
+}

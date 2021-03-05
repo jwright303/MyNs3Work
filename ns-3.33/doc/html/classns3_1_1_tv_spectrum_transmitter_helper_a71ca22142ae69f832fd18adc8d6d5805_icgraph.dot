@@ -1,0 +1,10 @@
+digraph "ns3::TvSpectrumTransmitterHelper::InstallRandomRegionalTransmitters"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::TvSpectrumTransmitter\lHelper::InstallRandomRegionalTransmitters",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Installs each randomly generated regional TV transmitter."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TvSpectrumTransmitter\lHelper::CreateRegionalTvTransmitters",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tv_spectrum_transmitter_helper.html#aebb24cb396c43e4f0355c04b2506bb35",tooltip="Generates and installs (starts transmission on the spectrum channel) a random number of TV transmitte..."];
+}

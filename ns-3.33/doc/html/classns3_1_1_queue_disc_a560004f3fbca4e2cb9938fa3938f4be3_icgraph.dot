@@ -1,0 +1,12 @@
+digraph "ns3::QueueDisc::Classify"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::QueueDisc::Classify",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Classify a packet by calling the packet filters, one at a time, until either a filter able to classif..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::FqCoDelQueueDisc\l::DoEnqueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_fq_co_del_queue_disc.html#a9763ff304b86d8c3d2f951d20e102d0a",tooltip="This function actually enqueues a packet into the queue disc."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::PrioQueueDisc\l::DoEnqueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_prio_queue_disc.html#a4ef8d3d710ea71edc697b9c047c2fc0d",tooltip="This function actually enqueues a packet into the queue disc."];
+}

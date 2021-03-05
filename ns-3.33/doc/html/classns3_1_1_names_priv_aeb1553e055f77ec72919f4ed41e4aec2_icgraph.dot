@@ -1,0 +1,18 @@
+digraph "ns3::NamesPriv::Find"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::NamesPriv::Find",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Internal implementation for ns3::Names::Find(std::string)"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::NamesPriv::Add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_names_priv.html#a3fba0ecac0cb448f429097581b7d61b3",tooltip="Internal implementation for Names::Add(std::string,std::string,Ptr<Object>)"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::NamesPriv::Find",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_names_priv.html#a712dfaa8882f8148ebe40e6ebcb10f9f",tooltip="Internal implementation for ns3::Names::Find(std::string,std::string)"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Names::FindInternal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_names.html#a1d022d5483c79de459ce17e89d98d3f4",tooltip="Non-templated internal version of Names::Find."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Names::Find",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_names.html#a9d07094fb3d716d08733af05c1593555",tooltip="Given a name path string, look to see if there's an object in the system with that associated to it."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::NamesPriv::Rename",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_names_priv.html#a6f0e7c4335aac3b5ed4abe0b7cc43ebc",tooltip="Internal implementation for Names::Rename(std::string,std::string,std::string)"];
+}

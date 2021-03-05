@@ -1,0 +1,18 @@
+digraph "ns3::LiIonEnergySource::DecreaseRemainingEnergy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::LiIonEnergySource\l::DecreaseRemainingEnergy",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LiIonEnergySource\l::HandleEnergyDrainedEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_li_ion_energy_source.html#a9877b583fe62f4f4787e465b28cda8c8",tooltip="Handles the remaining energy going to zero event."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::EnergySource::\lGetNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_energy_source.html#a69a126d86379918f8fd7b349c4db3f5e",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::EnergySource::\lNotifyEnergyDrained",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_energy_source.html#af93e047506b5bed57c14f10e28725e9f",tooltip="This function notifies all DeviceEnergyModel of energy depletion event."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::DeviceEnergyModelContainer\l::Begin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_device_energy_model_container.html#a52731d5f6c8c091bcb6c23a4dcc31910",tooltip="Get an iterator which refers to the first DeviceEnergyModel pointer in the container."];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::DeviceEnergyModelContainer::End",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_device_energy_model_container.html#a1cdf491947cf1fd55e85fa91cbc22bac",tooltip="Get an iterator which refers to the last DeviceEnergyModel pointer in the container."];
+}

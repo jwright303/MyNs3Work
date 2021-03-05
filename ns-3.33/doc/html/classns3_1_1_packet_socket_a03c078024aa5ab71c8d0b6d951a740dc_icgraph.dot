@@ -1,0 +1,10 @@
+digraph "ns3::PacketSocket::RecvFrom"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::PacketSocket::\lRecvFrom",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Read a single packet from the socket and retrieve the sender address."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::PacketSocket::Recv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet_socket.html#a8f19cc86b32a0a80a2738be64e05b202",tooltip="Read data from the socket."];
+}

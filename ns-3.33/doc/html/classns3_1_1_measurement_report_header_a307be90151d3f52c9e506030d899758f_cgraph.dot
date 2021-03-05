@@ -1,0 +1,41 @@
+digraph "ns3::MeasurementReportHeader::PreSerialize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::MeasurementReportHeader\l::PreSerialize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="This function serializes class attributes to m_serializationResult local Buffer."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Asn1Header::Finalize\lSerialization",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_asn1_header.html#a7ea2784cdeba4cb24ca486a210074284",tooltip="Finalizes an in progress serialization."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Asn1Header::Serialize\lChoice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_asn1_header.html#a6b9aa3abf0b1b552f067e2aaeeca5421",tooltip="Serialize a Choice (set of options)"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Asn1Header::Serialize\lBoolean",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_asn1_header.html#adb25cb989e7f04d0491355a956e2ed4b",tooltip="Serialize a bool."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Asn1Header::Serialize\lInteger",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_asn1_header.html#a86beac22ada368cede5f5c9568262d67",tooltip="Serialize an Integer."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::RrcAsn1Header\l::SerializeMeasResults",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_asn1_header.html#a1b7b729b68264a62842ff62334157c5d",tooltip="Serialize measure results function."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Asn1Header::Serialize\lBitstring",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_asn1_header.html#a4f665dfb37fa2b3b3395084900830490",tooltip="Serialize a bitstring."];
+  Node6 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::RrcAsn1Header\l::SerializePlmnIdentity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_asn1_header.html#ad4910e97c57087cdd40364d0fe775406",tooltip="Serialize PLMN identity function."];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::Asn1Header::SerializeEnum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_asn1_header.html#af5d58dd369857830451dac957c4476b8",tooltip="Serialize an Enum."];
+  Node9 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::Asn1Header::Serialize\lSequence",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_asn1_header.html#a66794c18e0f8c3e0c40720eaf38c5922",tooltip="Serialize a sequence."];
+  Node10 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::Asn1Header::Serialize\lSequenceOf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_asn1_header.html#ae7262de8c019ae6e19a442ce523cb9c3",tooltip="Serialize a Sequence."];
+  Node11 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::RrcUlDcchMessage\l::SerializeUlDcchMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_rrc_ul_dcch_message.html#ac639bbf7eb586d1d40cabcfae2e73b76",tooltip="Serialize UL DCCH message function."];
+  Node12 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

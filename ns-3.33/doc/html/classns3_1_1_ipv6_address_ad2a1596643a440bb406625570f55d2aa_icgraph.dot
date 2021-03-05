@@ -1,0 +1,19 @@
+digraph "ns3::Ipv6Address::GetIpv4MappedAddress"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Ipv6Address::GetIpv4\lMappedAddress",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Return the Ipv4 address."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TcpSocketBase\l::Connect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_socket_base.html#aabd08c9eb0ee3c88c855eb7268e392bf",tooltip="Initiate a connection to a remote host."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::UdpSocketImpl\l::DoSendTo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_udp_socket_impl.html#a4c3672c1127cbe31678d8d18751d3f4c",tooltip="Send a packet to a specific destination and port (IPv6)"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::TcpL4Protocol\l::SendPacketV6",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_l4_protocol.html#a558a2802d0a80aedd31aab609cacb3f1",tooltip="Send a packet via TCP (IPv6)"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::TcpL4Protocol\l::SendPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_l4_protocol.html#ac9564d7d7d6a765a74fe88499fa025e1",tooltip="Send a packet via TCP (IP-agnostic)"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::TcpL4Protocol\l::NoEndPointsFound",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_l4_protocol.html#a16c65189190c60da860bc60681c01324",tooltip="Check if RST packet should be sent, and in case, send it."];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

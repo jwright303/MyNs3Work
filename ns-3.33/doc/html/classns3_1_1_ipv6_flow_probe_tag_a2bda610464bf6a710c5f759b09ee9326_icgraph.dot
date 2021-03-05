@@ -1,0 +1,15 @@
+digraph "ns3::Ipv6FlowProbeTag::GetPacketSize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Ipv6FlowProbeTag\l::GetPacketSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the packet size."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Ipv6FlowProbe\l::QueueDiscDropLogger",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_flow_probe.html#a1f0d7560a3a5f7fc3bc999825067037b",tooltip="Log a packet being dropped by a queue disc."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Ipv6FlowProbe\l::Ipv6FlowProbe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_flow_probe.html#aa276e5ac5c1a0162bd987f235a8164a5",tooltip="Constructor."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Ipv6FlowProbe\l::QueueDropLogger",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv6_flow_probe.html#a5219691c8446ab59564014e9658d3187",tooltip="Log a packet being dropped by a queue."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

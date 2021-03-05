@@ -1,0 +1,20 @@
+digraph "ns3::BuildRarListElement_s"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ns3::BuildRarListElement_s",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="See section 4.3.10 buildRARListElement."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_grant" ,fontname="Helvetica"];
+  Node2 [label="ns3::UlGrant_s",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_ul_grant__s.html",tooltip="Substitutive structure for specifying BuildRarListElement_s::m_grant field."];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_dci" ,fontname="Helvetica"];
+  Node3 [label="ns3::DlDciListElement_s",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_dl_dci_list_element__s.html",tooltip="See section 4.3.1 dlDciListElement."];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_tbsSize" ,fontname="Helvetica"];
+  Node4 [label="std::vector\< uint16_t \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< uint16_t \>" ,fontname="Helvetica"];
+  Node5 [label="std::vector\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node6 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_mcs\nm_ndi\nm_rv" ,fontname="Helvetica"];
+  Node7 [label="std::vector\< uint8_t \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node7 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< uint8_t \>" ,fontname="Helvetica"];
+}

@@ -1,0 +1,17 @@
+digraph "ns3::EpcX2Sap::ResourceStatusUpdateParams"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ns3::EpcX2Sap::ResourceStatus\lUpdateParams",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Parameters of the RESOURCE STATUS UPDATE message."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cellMeasurementResultList" ,fontname="Helvetica"];
+  Node2 [label="std::vector\< ns3::EpcX2Sap\l::CellMeasurementResultItem \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node3 [label="ns3::EpcX2Sap::CellMeasurement\lResultItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_epc_x2_sap_1_1_cell_measurement_result_item.html",tooltip="Cell Measurement Result Item as it is used in the RESOURCE STATUS UPDATE message."];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dlCompositeAvailableCapacity\nulCompositeAvailableCapacity" ,fontname="Helvetica"];
+  Node4 [label="ns3::EpcX2Sap::Composite\lAvailCapacity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_epc_x2_sap_1_1_composite_avail_capacity.html",tooltip="Composite Available Capacity as it is used in the RESOURCE STATUS UPDATE message."];
+  Node5 -> Node2 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ns3::EpcX2Sap::CellMeasurement\lResultItem \>" ,fontname="Helvetica"];
+  Node5 [label="std::vector\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node6 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

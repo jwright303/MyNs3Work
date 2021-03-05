@@ -1,0 +1,16 @@
+digraph "ns3::WimaxPhy::GetFrameDurationSec"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::WimaxPhy::GetFrameDurationSec",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the frame duration This method is redundant with GetFrameDuration ()"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WimaxPhy::GetFrameDuration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wimax_phy.html#a6cf6a0d88530556d2ebac8435ed8f9f9",tooltip="Get the frame duration."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::SimpleOfdmWimaxPhy\l::DoGetFrameDurationCode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ofdm_wimax_phy.html#aaa0e888c1cb771e25f915a3c8ca598d6",tooltip="Get frame duration code."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::SimpleOfdmWimaxPhy\l::DoSetPhyParameters",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_simple_ofdm_wimax_phy.html#a4040031e0195e01fe0117a3da514597e",tooltip="Set Phy parameters."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::WimaxPhy::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wimax_phy.html#a58a835ff9290a6eca54acba7cf6e8fac",tooltip="Get the type ID."];
+}

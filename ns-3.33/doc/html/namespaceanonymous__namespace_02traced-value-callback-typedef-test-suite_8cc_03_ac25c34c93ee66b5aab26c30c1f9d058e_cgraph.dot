@@ -1,0 +1,12 @@
+digraph "anonymous_namespace{traced-value-callback-typedef-test-suite.cc}::TracedValueCbSink&lt; Time &gt;"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="anonymous_namespace\l\{traced-value-callback\l-typedef-test-suite.cc\}\l::TracedValueCbSink\< Time \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="TracedValueCbSink specialization for Time."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Time::GetInteger",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a7a5959fa70f40903715caa7d0443aae8",tooltip="Get the raw time value, in the current resolution unit."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Time::GetTimeStep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_time.html#a363390860dcce2d549b83b5fe3e08657",tooltip="Get the raw time value, in the current resolution unit."];
+}

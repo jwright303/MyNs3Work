@@ -1,0 +1,24 @@
+digraph "src/mpi/model/parallel-communication-interface.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/mpi/model/parallel\l-communication-interface.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Declaration of class ns3::ParallelCommunicationInterface."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="src/mpi/model/granted\l-time-window-mpi-interface.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$granted-time-window-mpi-interface_8h.html",tooltip="Declaration of classes ns3::SentBuffer and ns3::GrantedTimeWindowMpiInterface."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="src/mpi/model/distributed\l-simulator-impl.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$distributed-simulator-impl_8cc.html",tooltip="Implementation of classes ns3::LbtsMessage and ns3::DistributedSimulatorImpl."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="src/mpi/model/granted\l-time-window-mpi-interface.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$granted-time-window-mpi-interface_8cc.html",tooltip="Implementation of classes ns3::SentBuffer and ns3::GrantedTimeWindowMpiInterface."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="src/mpi/model/mpi-interface.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mpi-interface_8cc.html",tooltip="Implementation of class ns3::MpiInterface."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="src/mpi/model/null\l-message-mpi-interface.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$null-message-mpi-interface_8h.html",tooltip="Declaration of classes ns3::NullMessageSentBuffer and ns3::NullMessageMpiInterface."];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="src/mpi/model/null\l-message-mpi-interface.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$null-message-mpi-interface_8cc.html",tooltip="Implementation of classes ns3::NullMessageSentBuffer and ns3::NullMessageMpiInterface."];
+  Node6 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="src/mpi/model/null\l-message-simulator-impl.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$null-message-simulator-impl_8cc.html",tooltip="Implementation of class ns3::NullMessageSimulatorImpl."];
+  Node6 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="src/mpi/model/remote\l-channel-bundle.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remote-channel-bundle_8cc.html",tooltip="Implementation of class ns3::RemoteChannelBundle."];
+}

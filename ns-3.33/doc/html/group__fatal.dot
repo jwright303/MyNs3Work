@@ -1,0 +1,11 @@
+digraph "Fatal Error Handlers"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node3 [label="Fatal Implementation.",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__fatalimpl.html",tooltip=" "];
+  Node1 [label="Fatal Error Handlers",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Functions to help clean up when a fatal error is encountered."];
+  Node2 [label="Core",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__core.html",tooltip="The \"core\" module contains:"];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, dir="back", style="solid"];
+}

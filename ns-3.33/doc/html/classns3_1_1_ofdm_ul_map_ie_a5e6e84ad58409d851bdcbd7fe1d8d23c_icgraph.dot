@@ -1,0 +1,53 @@
+digraph "ns3::OfdmUlMapIe::SetDuration"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::OfdmUlMapIe::SetDuration",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set duration."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::UplinkSchedulerMBQo\lS::AddUplinkAllocation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_m_b_qo_s.html#a23b74ad65ec3d22b55d25648addd7486",tooltip="Add uplink allocation."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::UplinkSchedulerMBQo\lS::AllocateInitialRangingInterval",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_m_b_qo_s.html#a6a9a487024bc6253cb5cada269994d24",tooltip="Allocate initial ranging interval."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::UplinkSchedulerMBQo\lS::Schedule",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_m_b_qo_s.html#abd019c4994078b9b6e6c012af5e34ac5",tooltip="Schedule function."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::UplinkSchedulerMBQo\lS::ServiceBandwidthRequests",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_m_b_qo_s.html#a366a69170776175fcf651cb29e46fdf4",tooltip="Service bandwidth requests."];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::UplinkSchedulerMBQo\lS::ServiceBandwidthRequestsBytes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_m_b_qo_s.html#a9880f5e1bce7b93ddff11623f29d4865",tooltip="Service bandwidth requests bytes."];
+  Node6 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::UplinkSchedulerMBQo\lS::ServiceUnsolicitedGrants",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_m_b_qo_s.html#a3cbff7d3b7d31739806421f0eb2b1cc6",tooltip="Service unsolicited grants."];
+  Node7 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::UplinkSchedulerRtps\l::AddUplinkAllocation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_rtps.html#aea8d8f5701bf3b5f992d1b43471340d2",tooltip="Add Uplink Allocation function."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::UplinkSchedulerRtps\l::AllocateInitialRangingInterval",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_rtps.html#adc340ccabe8e7dcaec455bdfd111d632",tooltip="Allocate Initial Ranging Interval function."];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::UplinkSchedulerRtps\l::Schedule",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_rtps.html#a3863d85ca853d4b8b1033a38d0ff9dcd",tooltip="Schedule function."];
+  Node8 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::UplinkSchedulerRtps\l::ServiceBandwidthRequests",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_rtps.html#a0aa40f551a0bf51ca2197ff85190f572",tooltip="Service bandwidth requests function."];
+  Node8 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::UplinkSchedulerRtps\l::ServiceUnsolicitedGrants",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_rtps.html#ab101ce69266831aad941b4c553d82026",tooltip="Service Unsolicited Grants function."];
+  Node12 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::UplinkSchedulerRtps\l::ULSchedulerRTPSConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_rtps.html#aee60dd2773cd1404f6efe04373b567ea",tooltip="Uplink Scheduler for rtPS connections."];
+  Node13 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::UplinkSchedulerSimple\l::AddUplinkAllocation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_simple.html#a078c18f311ce90cbceab11a54cd4606e",tooltip="Add uplink allocation."];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::UplinkSchedulerSimple\l::AllocateInitialRangingInterval",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_simple.html#a113550ccdc47d1ee91efe0b3cc801824",tooltip="Allocate Initial Ranging Interval function."];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::UplinkSchedulerSimple\l::Schedule",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_simple.html#a227a6c6e858bcff7dc626064d12df9df",tooltip="Schedule function."];
+  Node14 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::UplinkSchedulerSimple\l::ServiceBandwidthRequests",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_simple.html#a0e90e6596f780980d49cf6968cebb5c2",tooltip="Service bandwidth requests function."];
+  Node14 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::UplinkSchedulerSimple\l::ServiceUnsolicitedGrants",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_uplink_scheduler_simple.html#ab30024e72d773b5d0838b7d2222c8a1d",tooltip="Service Unsolicited Grants function."];
+  Node18 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

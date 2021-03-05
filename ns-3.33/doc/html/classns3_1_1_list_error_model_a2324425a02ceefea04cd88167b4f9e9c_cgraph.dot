@@ -1,0 +1,14 @@
+digraph "ns3::ListErrorModel::DoCorrupt"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::ListErrorModel\l::DoCorrupt",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Corrupt a packet according to the specified model."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Packet::GetUid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet.html#ab9f0b7e9cf21b7271eda0094e6ff2792",tooltip="Returns the packet's Uid."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::PacketMetadata\l::GetUid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_packet_metadata.html#aff25afa4a4e4304185feaeda79d0415f",tooltip="Get the packet Uid."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ErrorModel::IsEnabled",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_error_model.html#a349f92d8ea3a22711416bd8cf970a127",tooltip=" "];
+}

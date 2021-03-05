@@ -1,0 +1,24 @@
+digraph "ns3::FdNetDeviceHelper::InstallPriv"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::FdNetDeviceHelper\l::InstallPriv",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="This method creates an ns3::FdNetDevice and associates it to a node."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::FdNetDeviceHelper\l::Install",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_fd_net_device_helper.html#a37f21e05db2c909d15b70969732e8b84",tooltip="This method creates a FdNetDevice and associates it to a node."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::EmuEpcHelper::\lEmuEpcHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_emu_epc_helper.html#a10b42d66910c4ee73006f40eea1a1de1",tooltip="Constructor."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::EmuEpcHelper::\lAddEnb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_emu_epc_helper.html#abaff0cf3ed70c034b5e0fd22dc89a7ba",tooltip="Add an eNB to the EPC."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::DpdkNetDeviceHelper\l::InstallPriv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dpdk_net_device_helper.html#af83dba0e207bb28b9bfee66a2c101831",tooltip="This method creates an ns3::FdNetDevice attached to a physical network interface."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::EmuFdNetDeviceHelper\l::InstallPriv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_emu_fd_net_device_helper.html#af1fec8e1f99c996e297507a1cb3fe084",tooltip="This method creates an ns3::FdNetDevice attached to a physical network interface."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::NetmapNetDeviceHelper\l::InstallPriv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_netmap_net_device_helper.html#a1330830790a108f1ebcdf8e9f7319b89",tooltip="This method creates an ns3::FdNetDevice attached to a physical network interface."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::PlanetLabFdNetDevice\lHelper::InstallPriv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_planet_lab_fd_net_device_helper.html#a244310cd940f8c73f0accde34f42c1b7",tooltip="This method creates an ns3::FdNetDevice attached to a virtual TAP network interface."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::TapFdNetDeviceHelper\l::InstallPriv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tap_fd_net_device_helper.html#a106e5a301230cb9be050450552235c21",tooltip="This method creates an ns3::FdNetDevice attached to a virtual TAP network interface."];
+}

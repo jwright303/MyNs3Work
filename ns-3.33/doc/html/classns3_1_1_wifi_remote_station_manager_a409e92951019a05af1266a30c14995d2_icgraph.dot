@@ -1,0 +1,53 @@
+digraph "ns3::WifiRemoteStationManager::SetUseNonErpProtection"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::WifiRemoteStationManager\l::SetUseNonErpProtection",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Enable or disable protection for non-ERP stations."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ApWifiMac::GetUseNon\lErpProtection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#a99262866c3bafd7f32e8c121f8f23883",tooltip="Return whether protection for non-ERP stations is used in the BSS."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ApWifiMac::GetErpInformation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#a47a20776593ad424dcaa1949cefc687c",tooltip="Return the ERP information of the current AP."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ApWifiMac::SendAssocResp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#ad7fef463a6076916fa1f5a989e56f13d",tooltip="Forward an association or a reassociation response packet to the DCF."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::ApWifiMac::Receive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#af264125e11c4d132d18966a6aa02ace5",tooltip="This method acts as the MacRxMiddle receive callback and is invoked to notify us that a frame has bee..."];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::ApWifiMac::SendOneBeacon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#a6c8cbc0fc95f3eaf4840d4ffcf78fac5",tooltip="Forward a beacon packet to the beacon special DCF."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::ApWifiMac::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#a398b0e04d5c31b7459358a459beff098",tooltip="Initialize() implementation."];
+  Node6 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::ApWifiMac::SetBeacon\lGeneration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#a09ad3b96835cb8fac18783423d3e57a7",tooltip="Enable or disable beacon generation of the AP."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::ApWifiMac::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#aa7cd3c1ec15889267ab5b5e183b91d2b",tooltip="Get the type ID."];
+  Node3 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::ApWifiMac::SendProbeResp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#a0a9fcbd87326c5c56644deb3504038df",tooltip="Forward a probe response packet to the DCF."];
+  Node10 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::StaWifiMac::UpdateAp\lInfoFromBeacon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_sta_wifi_mac.html#a242fea4aa708280497d93f94dbb8a142",tooltip="Update associated AP's information from beacon."];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::StaWifiMac::Receive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_sta_wifi_mac.html#a3ccd3b2dd36c5b80ba53eb57b6c96e96",tooltip="Handle a received packet."];
+  Node11 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::StaWifiMac::Scanning\lTimeout",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_sta_wifi_mac.html#a0813f90cc1f856b0907845686caa592f",tooltip="This method is called after wait beacon timeout or wait probe request timeout has occurred."];
+  Node13 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::StaWifiMac::StartScanning",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_sta_wifi_mac.html#a9c007448763eb89846914c4c836cacc1",tooltip="Start the scanning process which trigger active or passive scanning based on the active probing flag."];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::StaWifiMac::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_sta_wifi_mac.html#a8e2b0a291d2643f8b9f62bc2562e2ba8",tooltip="Initialize() implementation."];
+  Node14 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::StaWifiMac::SetActive\lProbing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_sta_wifi_mac.html#acd68ef0ad1aec613b5ba224988d559ea",tooltip="Enable or disable active probing."];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::StaWifiMac::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_sta_wifi_mac.html#a9a7063e5d183bb288d8ab157a102196c",tooltip="Get the type ID."];
+  Node14 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::StaWifiMac::TryToEnsure\lAssociated",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_sta_wifi_mac.html#a545fb78eb8b89ee48512820e31d76a81",tooltip="Try to ensure that we are associated with an AP by taking an appropriate action depending on the curr..."];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ns3::StaWifiMac::Enqueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_sta_wifi_mac.html#a27afdb3ba3ef301e240362f379d570f2",tooltip=" "];
+  Node18 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="ns3::StaWifiMac::MissedBeacons",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_sta_wifi_mac.html#a973a8b9cda122dd3b22cda3c4073bcd1",tooltip="This method is called after we have not received a beacon from the AP."];
+  Node20 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="ns3::StaWifiMac::Restart\lBeaconWatchdog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_sta_wifi_mac.html#a873848ee518a0190f8feb3551f3d5969",tooltip="Restarts the beacon timer."];
+  Node21 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

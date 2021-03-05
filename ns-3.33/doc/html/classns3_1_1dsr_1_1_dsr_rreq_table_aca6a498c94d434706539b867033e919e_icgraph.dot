@@ -1,0 +1,12 @@
+digraph "ns3::dsr::DsrRreqTable::PurgeNeighbor"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::dsr::DsrRreqTable\l::PurgeNeighbor",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Remove all expired black list entries."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::dsr::DsrRreqTable\l::FindUnidirectional",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dsr_1_1_dsr_rreq_table.html#ace03e175386a30c49d4837c5a266e762",tooltip="Verify if entry is unidirectional or not(e.g."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::dsr::DsrRreqTable\l::MarkLinkAsUnidirectional",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1dsr_1_1_dsr_rreq_table.html#a9d1db35e25977a32b073342587cdf672",tooltip="Mark entry as unidirectional (e.g."];
+}

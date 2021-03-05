@@ -1,0 +1,18 @@
+digraph "ThreeGppHttpObjectTestCase::ThreeGppHttpObjectTracker::ObjectReceived"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ThreeGppHttpObjectTestCase\l::ThreeGppHttpObjectTracker\l::ObjectReceived",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Shall be invoked after all parts of a complete object have been received."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThreeGppHttpObjectTestCase\l::ClientRxEmbeddedObjectCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_http_object_test_case.html#a5af610cf4f38e7c04d48d41d89a8fafb",tooltip="Connected with RxEmbeddedObject trace source of the client."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThreeGppHttpObjectTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_http_object_test_case.html#a41234f035937ee1b044864f3db643b7d",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThreeGppHttpObjectTestCase\l::ClientRxMainObjectCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_http_object_test_case.html#a822ffb8363cc562ee63cce8c9f8bee97",tooltip="Connected with RxMainObject trace source of the client."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThreeGppHttpObjectTestCase\l::ServerRxCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_http_object_test_case.html#a730b5c0f32c5c714713d7b4be03ac1ea",tooltip="Connected with Rx trace source of the server."];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

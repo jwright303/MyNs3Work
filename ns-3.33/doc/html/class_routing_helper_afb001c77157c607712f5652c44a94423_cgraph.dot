@@ -1,0 +1,10 @@
+digraph "RoutingHelper::OnOffTrace"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="RoutingHelper::OnOffTrace",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Trace the receipt of an on-off-application generated packet."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="RoutingStats::IncTxBytes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_routing_stats.html#a60b24410c8bc02d85a39782d32ed12a4",tooltip="Increment the number of bytes transmitted."];
+}

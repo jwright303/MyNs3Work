@@ -1,0 +1,45 @@
+digraph "ns3::ConstantVelocityHelper::Pause"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::ConstantVelocityHelper\l::Pause",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Pause mobility at current position."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::RandomDirection2dMobility\lModel::BeginPause",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_direction2d_mobility_model.html#a95bf0e9129301ca8cf51fcd1bf665a17",tooltip="Pause, cancel currently scheduled event, schedule end of pause event."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::RandomDirection2dMobility\lModel::SetDirectionAndSpeed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_direction2d_mobility_model.html#a29c1abbed69775374f52c5635cadd5d9",tooltip="Set new velocity and direction, and schedule next pause event"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::RandomDirection2dMobility\lModel::DoInitializePrivate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_direction2d_mobility_model.html#a8240bba0ddc6f386bda3ebf96b383a6a",tooltip="Sets a new random direction and calls SetDirectionAndSpeed."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::RandomDirection2dMobility\lModel::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_direction2d_mobility_model.html#acda447352283b800003b657128927cc6",tooltip="Initialize() implementation."];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::RandomDirection2dMobility\lModel::DoSetPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_direction2d_mobility_model.html#ae35094b50443320f1ebab5beed22cc34",tooltip=" "];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::RandomDirection2dMobility\lModel::ResetDirectionAndSpeed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_direction2d_mobility_model.html#acc1e4eab8e75a20854938b0616bb9c79",tooltip="Set a new direction and speed."];
+  Node7 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::RandomWaypointMobility\lModel::DoInitializePrivate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_waypoint_mobility_model.html#a54eb8b2d814d3dfe78f5b189d1e40cf8",tooltip="Begin current pause event, schedule future walk event."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::RandomWaypointMobility\lModel::BeginWalk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_waypoint_mobility_model.html#a2bdd46473a659a69038bd71efe730c0f",tooltip="Get next position, begin moving towards it, schedule future pause event."];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::RandomWaypointMobility\lModel::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_waypoint_mobility_model.html#ab3c24223f92f3b81d9b9b3d916e57808",tooltip="Initialize() implementation."];
+  Node8 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::RandomWaypointMobility\lModel::DoSetPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_waypoint_mobility_model.html#aaa7ec1c8816486310082042724e3d76b",tooltip=" "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::SteadyStateRandomWaypoint\lMobilityModel::DoInitializePrivate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_steady_state_random_waypoint_mobility_model.html#a661b708216d6f6c38443d061b0d02c96",tooltip="Configure random variables based on attributes; calculate the steady state probability that node is i..."];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::SteadyStateRandomWaypoint\lMobilityModel::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_steady_state_random_waypoint_mobility_model.html#a9e27c674274fb626dca8e0a6ddf3f8f3",tooltip="Initialize() implementation."];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::SteadyStateRandomWaypoint\lMobilityModel::Start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_steady_state_random_waypoint_mobility_model.html#afb5dffc7e7b3e1d2f66f98c1300ca443",tooltip="Start a pause period and schedule the ending of the pause."];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::SteadyStateRandomWaypoint\lMobilityModel::BeginWalk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_steady_state_random_waypoint_mobility_model.html#a6db94d1dee3fe984ad422fd9bed2d7db",tooltip="Start a motion period and schedule the ending of the motion."];
+  Node15 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::SteadyStateRandomWaypoint\lMobilityModel::DoSetPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_steady_state_random_waypoint_mobility_model.html#a2ffb24cd477f0a23487e914ca50366bc",tooltip=" "];
+  Node14 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::SteadyStateRandomWaypoint\lMobilityModel::SteadyStateBeginWalk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_steady_state_random_waypoint_mobility_model.html#a4ff1b8e152ae2b5481baf39a91174c5d",tooltip="Use provided destination to calculate travel delay, and schedule a Start() event at that time."];
+  Node17 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

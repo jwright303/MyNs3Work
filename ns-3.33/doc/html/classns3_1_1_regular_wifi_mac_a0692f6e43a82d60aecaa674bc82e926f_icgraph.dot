@@ -1,0 +1,24 @@
+digraph "ns3::RegularWifiMac::SetQosSupported"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::RegularWifiMac\l::SetQosSupported",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Enable or disable QoS support for the device."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::RegularWifiMac\l::ConfigureStandard",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_regular_wifi_mac.html#a99aff32071f7c8ec59d20d0b37ca2fe9",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::MeshWifiInterfaceMac\l::ConfigureStandard",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mesh_wifi_interface_mac.html#a9363fd9a86b1ff8dbb6e9cc9b0d0cd09",tooltip="Finish configuration based on the WifiStandard being provided."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AmpduAggregationTest\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ampdu_aggregation_test.html#a7414dc8d4dd982ab4c1eaadb5b2c693d",tooltip="Implementation to actually run this TestCase."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="TwoLevelAggregationTest\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_two_level_aggregation_test.html#a40c6f5f8be6c48673d0bfd218d95afe0",tooltip="Implementation to actually run this TestCase."];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="HeAggregationTest::\lDoRunSubTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_he_aggregation_test.html#a2a6873db3bb78489db82a54591b429f3",tooltip="Run test for a given buffer size."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="HeAggregationTest::\lDoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_he_aggregation_test.html#a064486621a42555204608de0af51006c",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::RegularWifiMac\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_regular_wifi_mac.html#a8f882e251de837e5cc2022b25604dc01",tooltip="Get the type ID."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::InfrastructureWifiMac\l::SetQosSupported",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_infrastructure_wifi_mac.html#a2a989f95af0fc5f0d0769adf9a0d2ded",tooltip="Enable or disable QoS support for the device."];
+}

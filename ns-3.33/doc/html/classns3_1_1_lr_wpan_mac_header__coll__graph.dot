@@ -1,0 +1,17 @@
+digraph "ns3::LrWpanMacHeader"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ns3::LrWpanMacHeader",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Represent the Mac Header with the Frame Control and Sequence Number fields."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Header",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_header.html",tooltip="Protocol header serialization and deserialization."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Chunk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_chunk.html",tooltip="abstract base class for ns3::Header and ns3::Trailer"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::ObjectBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_object_base.html",tooltip="Anchor the ns-3 type and attribute system."];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_addrExtDstAddr\nm_addrExtSrcAddr" ,fontname="Helvetica"];
+  Node5 [label="ns3::Mac64Address",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac64_address.html",tooltip="an EUI-64 address"];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_addrShortDstAddr\nm_addrShortSrcAddr" ,fontname="Helvetica"];
+  Node6 [label="ns3::Mac16Address",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac16_address.html",tooltip="This class can contain 16 bit addresses."];
+}

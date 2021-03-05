@@ -1,0 +1,18 @@
+digraph "ns3::LrWpanNetDevice::GetMulticast"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::LrWpanNetDevice\l::GetMulticast",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the MAC multicast address corresponding to the IPv6 address provided."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LrWpanNetDevice\l::BuildPseudoMacAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lr_wpan_net_device.html#ac8be64e9c1cd6959e1c79ba18090ca91",tooltip="Builds a \"pseudo 48-bit address\" from the PanId and Short Address The form is PanId : 0x0 : 0x0 : Sho..."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Mac48Address::\lCopyFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac48_address.html#a62033fab3f2c573f0cc0be1121d493d2",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Mac16Address::\lCopyTo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac16_address.html#a799b7967b6ee701db1c9929001c4edda",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Mac16Address::\lGetMulticast",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac16_address.html#a24941de7e76ece8aba9f9b90d19b1f91",tooltip="Returns the multicast address associated with an IPv6 address according to RFC 4944 Section 9."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Mac16Address::\lCopyFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mac16_address.html#aaffb29efb8e2c61e2e844c1634a2f1d4",tooltip=" "];
+}

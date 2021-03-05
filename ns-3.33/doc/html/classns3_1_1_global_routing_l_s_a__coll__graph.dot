@@ -1,0 +1,25 @@
+digraph "ns3::GlobalRoutingLSA"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::GlobalRoutingLSA",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="a Link State Advertisement (LSA) for a router, used in global routing."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_networkLSANetworkMask" ,fontname="Helvetica"];
+  Node2 [label="ns3::Ipv4Mask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_mask.html",tooltip="a class to represent an Ipv4 address mask"];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_advertisingRtr\nm_linkStateId" ,fontname="Helvetica"];
+  Node3 [label="ns3::Ipv4Address",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ipv4_address.html",tooltip="Ipv4 addresses are stored in host order in this class."];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_linkRecords" ,fontname="Helvetica"];
+  Node4 [label="std::list\< GlobalRouting\lLinkRecord * \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node5 [label="ns3::GlobalRoutingLinkRecord",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_global_routing_link_record.html",tooltip="A single link record for a link state advertisement."];
+  Node3 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_linkData\nm_linkId" ,fontname="Helvetica"];
+  Node6 -> Node4 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< GlobalRoutingLinkRecord * \>" ,fontname="Helvetica"];
+  Node6 [label="std::list\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node7 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_attachedRouters" ,fontname="Helvetica"];
+  Node8 [label="std::list\< Ipv4Address \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node6 -> Node8 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Ipv4Address \>" ,fontname="Helvetica"];
+}

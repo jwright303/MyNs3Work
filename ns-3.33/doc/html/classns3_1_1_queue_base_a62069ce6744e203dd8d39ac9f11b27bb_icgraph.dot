@@ -1,0 +1,16 @@
+digraph "ns3::QueueBase::GetNPackets"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::QueueBase::GetNPackets",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WifiMacQueue::\lGetNPackets",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_queue.html#a92442b9bcee82cf9e32b9f335e717558",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WifiMacQueue::\lInsert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_queue.html#a7cb79cdb123d3c04bc066c2d5d0a1ad1",tooltip="Enqueue the given Wifi MAC queue item before the given position."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::WifiMacQueue::\lEnqueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_queue.html#a6b038d486e33d1bd79dc19bf6648e240",tooltip="Enqueue the given Wifi MAC queue item at the end of the queue."];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::WifiMacQueue::\lPushFront",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_mac_queue.html#a1b092fe9093b778a6f293b63dcd27ade",tooltip="Enqueue the given Wifi MAC queue item at the front of the queue."];
+}

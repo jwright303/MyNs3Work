@@ -1,0 +1,10 @@
+digraph "ThreeGppV2vUrbanLosNlosvChCondModelTestCase::EvaluateChannelCondition"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ThreeGppV2vUrbanLosNlosv\lChCondModelTestCase::Evaluate\lChannelCondition",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Evaluates the channel condition between two nodes by calling the method GetChannelCondition on m_cond..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThreeGppV2vUrbanLosNlosv\lChCondModelTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_three_gpp_v2v_urban_los_nlosv_ch_cond_model_test_case.html#a3c2df4a7a3f3d79b69a9b82b5aed42aa",tooltip="Builds the simulation scenario and perform the tests."];
+}

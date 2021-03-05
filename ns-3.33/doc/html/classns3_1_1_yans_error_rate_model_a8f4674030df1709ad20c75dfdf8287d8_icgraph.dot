@@ -1,0 +1,12 @@
+digraph "ns3::YansErrorRateModel::GetQamBer"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::YansErrorRateModel\l::GetQamBer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Return BER of QAM-m with the given parameters."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::YansErrorRateModel\l::GetFecQamBer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_yans_error_rate_model.html#ac38a323524a41b112e9774afa24241aa",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::YansErrorRateModel\l::DoGetChunkSuccessRate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_yans_error_rate_model.html#af89a17618fe3ab8a80030a9ebd4aeab9",tooltip="A pure virtual method that must be implemented in the subclass."];
+}

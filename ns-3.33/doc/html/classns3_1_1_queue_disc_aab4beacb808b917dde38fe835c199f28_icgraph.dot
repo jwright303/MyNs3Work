@@ -1,0 +1,20 @@
+digraph "ns3::QueueDisc::DequeuePacket"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::QueueDisc::DequeuePacket",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Modelled after the Linux function dequeue_skb (net/sched/sch_generic.c)"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::QueueDisc::Restart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#a009f73a521cc0ebf309d8d15f8b190ea",tooltip="Modelled after the Linux function qdisc_restart (net/sched/sch_generic.c) Dequeue a packet (by callin..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::QueueDisc::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_queue_disc.html#a424eceba41cb013436f353c622c082ff",tooltip="Modelled after the Linux function __qdisc_run (net/sched/sch_generic.c) Dequeues multiple packets,..."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::TbfQueueDisc::\lDoDequeue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tbf_queue_disc.html#adbd2533e54dd52ba3c4f064be5e0b87e",tooltip="This function actually extracts a packet from the queue disc."];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::TrafficControlLayer\l::ScanDevices",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_traffic_control_layer.html#a29028ea20e2bc393230348d4714fdc9d",tooltip="Collect information needed to determine how to handle packets destined to each of the NetDevices of t..."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::TrafficControlLayer\l::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_traffic_control_layer.html#ad9ba2e27ced5aa957e45effcbe71aba9",tooltip="Initialize() implementation."];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::TrafficControlLayer\l::Send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_traffic_control_layer.html#aae45cb92c1adb038bac63d347632e627",tooltip="Called from upper layer to queue a packet for the transmission."];
+}

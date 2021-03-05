@@ -1,0 +1,12 @@
+digraph "ns3::TimeMinMaxAvgTotalCalculator::Update"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::TimeMinMaxAvgTotalCalculator\l::Update",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Updates all variables of TimeMinMaxAvgTotalCalculator."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Receiver::Receive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_receiver.html#a73ca029ca3770da94ad852df1afe9b64",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Receiver::StartApplication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_receiver.html#a851b0ffffb76526c5c6d0506f0008fe1",tooltip="Application specific startup code."];
+}

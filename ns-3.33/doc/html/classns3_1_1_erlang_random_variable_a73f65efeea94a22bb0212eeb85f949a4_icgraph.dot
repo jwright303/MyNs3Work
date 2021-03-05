@@ -1,0 +1,10 @@
+digraph "ns3::ErlangRandomVariable::GetValue"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::ErlangRandomVariable\l::GetValue",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Returns a random double from an Erlang distribution with the current k and lambda."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ErlangRandomVariable\l::GetInteger",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_erlang_random_variable.html#ac09b5763ce698aed7dd662f9459ecd9a",tooltip="Returns a random unsigned integer from an Erlang distribution with the specified k and lambda."];
+}

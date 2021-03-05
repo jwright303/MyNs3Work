@@ -1,0 +1,29 @@
+digraph "ns3::CalendarScheduler::IsEmpty"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::CalendarScheduler\l::IsEmpty",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Test if the schedule is empty."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::CalendarScheduler\l::DoRemoveNext",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_calendar_scheduler.html#a42c114e7a4bb68943b63fa9dfc841610",tooltip="Remove the earliest event."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::CalendarScheduler\l::CalculateNewWidth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_calendar_scheduler.html#a259100bf1a7128f6bfd27edfc2acd089",tooltip="Compute the new bucket size, based on up to the first 25 entries."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::CalendarScheduler\l::Resize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_calendar_scheduler.html#ab626f95ab5482e5e6e2a9d5f74363d6c",tooltip="Resize to a new number of buckets, with automatically computed width."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::CalendarScheduler\l::ResizeDown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_calendar_scheduler.html#ad177bb1ae48629ed93d2ffc55aa52312",tooltip="Halve the number of buckets if necessary."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::CalendarScheduler\l::Remove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_calendar_scheduler.html#aee9db8a165f257bc94b51ffedc9b98d8",tooltip="Remove a specific event from the event list."];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::CalendarScheduler\l::RemoveNext",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_calendar_scheduler.html#ad86df04ee956851c73dfcc38d0fb3ac6",tooltip="Remove the earliest event from the event list."];
+  Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::CalendarScheduler\l::ResizeUp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_calendar_scheduler.html#a6ad5ca9624349ac1a4a3ce565333385f",tooltip="Double the number of buckets if necessary."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::CalendarScheduler\l::Insert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_calendar_scheduler.html#aaf70c05e7468c8c232d4a309ce7c52c3",tooltip="Insert a new Event in the schedule."];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::CalendarScheduler\l::PeekNext",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_calendar_scheduler.html#a715c6c2ca35e0c7df8ed9335c837e32a",tooltip="Get a pointer to the next event."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

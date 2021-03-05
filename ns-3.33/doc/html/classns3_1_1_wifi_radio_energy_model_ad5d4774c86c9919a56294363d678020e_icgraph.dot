@@ -1,0 +1,16 @@
+digraph "ns3::WifiRadioEnergyModel::SetWifiRadioState"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::WifiRadioEnergyModel\l::SetWifiRadioState",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::WifiRadioEnergyModel\l::ChangeState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_radio_energy_model.html#a329d64a275e2e09c49c7752528d68033",tooltip="Changes state of the WifiRadioEnergyMode."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::WifiRadioEnergyModel\l::HandleEnergyChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_radio_energy_model.html#a7133964abb308e00ea7cab3daea10f81",tooltip="Handles energy changed."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::WifiRadioEnergyModel\l::SetEnergySource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_radio_energy_model.html#a2721fe6046ad3e76aec3080e1eb77880",tooltip="Sets pointer to EnergySouce installed on node."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="BasicEnergyUpdateTest\l::StateSwitchTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_basic_energy_update_test.html#ac28faac8cc32c522656387796dee83fc",tooltip=" "];
+}

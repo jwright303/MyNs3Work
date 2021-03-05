@@ -1,0 +1,58 @@
+digraph "ns3::OfdmDlMapIe::SetDiuc"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::OfdmDlMapIe::SetDiuc",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set DIUC field."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::BSSchedulerRtps\l::AddDownlinkBurst",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_b_s_scheduler_rtps.html#ab58c3772737a8fcd20ec05680253b087",tooltip="This function adds a downlink burst to the list of downlink bursts scheduled for the next downlink su..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::BSSchedulerRtps\l::BSSchedulerBasicConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_b_s_scheduler_rtps.html#a9245c54c83bcde5e7178dacbbfc745c6",tooltip="schedules the basic connections"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::BSSchedulerRtps\l::Schedule",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_b_s_scheduler_rtps.html#a311c9c524b1a898c72afa35a9d7ac0dc",tooltip="Schedule function."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::BSSchedulerRtps\l::BSSchedulerBEConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_b_s_scheduler_rtps.html#a74fd827556c1b6f8b58ecdb2720a36d5",tooltip="schedules the BE connection"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::BSSchedulerRtps\l::BSSchedulerBroadcastConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_b_s_scheduler_rtps.html#ad041a6417c9cf0ddc40116ac877015ab",tooltip="schedules the broadcast connections"];
+  Node6 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::BSSchedulerRtps\l::BSSchedulerInitialRanging\lConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_b_s_scheduler_rtps.html#aa679d00c7063da179a3d2401e4a37f8e",tooltip="schedules the IR connections"];
+  Node7 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::BSSchedulerRtps\l::BSSchedulerNRTPSConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_b_s_scheduler_rtps.html#ae148375221d20545e3f54ac024c933c4",tooltip="schedules the NRTPS connections"];
+  Node8 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::BSSchedulerRtps\l::BSSchedulerPrimaryConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_b_s_scheduler_rtps.html#a2bd7697f2451b3fa6865c858e7c2556f",tooltip="schedules the primary connection"];
+  Node9 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::BSSchedulerRtps\l::BSSchedulerRTPSConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_b_s_scheduler_rtps.html#acb75718835482da98c9b7eafc756dc4c",tooltip="Downlink Scheduler for rtPS connections."];
+  Node10 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::BSSchedulerRtps\l::BSSchedulerUGSConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_b_s_scheduler_rtps.html#a71243a521e00bd88f39b681a0f14ed91",tooltip="schedules the UGS connection"];
+  Node11 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::BSSchedulerSimple\l::AddDownlinkBurst",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_b_s_scheduler_simple.html#af79d1e83a763249efdb65d62173442cd",tooltip="This function adds a downlink burst to the list of downlink bursts scheduled for the next downlink su..."];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::BSSchedulerSimple\l::Schedule",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_b_s_scheduler_simple.html#ab0ef72a5223a70761910bcda7004f510",tooltip="the scheduling function for the downlink subframe."];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::BaseStationNetDevice\l::CreateDlMap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_base_station_net_device.html#ab03962233fca4f8e6581c87ce34b8170",tooltip="Create DL map."];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::BaseStationNetDevice\l::CreateMapMessages",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_base_station_net_device.html#a5bbf169891f8a3b28b952039ed63253f",tooltip="creates the MAC management messages DL-MAP and UL-MAP"];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::BaseStationNetDevice\l::StartDlSubFrame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_base_station_net_device.html#a27bab37fd4944f4c8fa93c5911effab3",tooltip="Start DL subframe function."];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::BaseStationNetDevice\l::StartFrame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_base_station_net_device.html#a5c6904d46b239de002ea4d947c996099",tooltip="Start frame function."];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::BaseStationNetDevice\l::EndFrame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_base_station_net_device.html#abc0935e4af2375b6ebf5b62f2e041703",tooltip="End frame function."];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ns3::BaseStationNetDevice\l::EndUlSubFrame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_base_station_net_device.html#acb6787d90c40a8b2e8ce2c504a172f7a",tooltip="End UL subframe function."];
+  Node19 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="ns3::BaseStationNetDevice\l::StartUlSubFrame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_base_station_net_device.html#adb3fc441a44d0b6e9c1d032b73a3d34b",tooltip="Start UL subframe function."];
+  Node20 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="ns3::BaseStationNetDevice\l::EndDlSubFrame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_base_station_net_device.html#a0d20b289eddae756199cc8d11d4db589",tooltip="End DL subframe function."];
+  Node21 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="ns3::BaseStationNetDevice\l::Start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_base_station_net_device.html#a67d7c6397e8a2333e6be4c68224653ef",tooltip="Start device."];
+}

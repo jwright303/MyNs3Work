@@ -1,0 +1,34 @@
+digraph "ns3::SubscriberStationNetDevice::ProcessDcd"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::SubscriberStationNet\lDevice::ProcessDcd",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Process DCD."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::DcdChannelEncodings\l::GetBsEirp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dcd_channel_encodings.html#a4ff0dd63d6b8c109aa1343300367a488",tooltip="Get BS EIRP field."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Dcd::GetChannelEncodings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dcd.html#a9356060d9db8cbff8c4bbd9a1ab9bb81",tooltip="Get channel encodings field."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Dcd::GetConfiguration\lChangeCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dcd.html#ab350c857a81b9a9fcfed9851314f56fb",tooltip="Get configuration change count field."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::WimaxNetDevice\l::GetCurrentDcd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wimax_net_device.html#a18a8191502afa0ed7d502a9907f82c3a",tooltip="Get the current DCD."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::OfdmDlBurstProfile\l::GetDiuc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ofdm_dl_burst_profile.html#ac483ff4b8f8d990137d2a05b2f13e7a4",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Dcd::GetDlBurstProfiles",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dcd.html#aca83555c6a30fa297cb53ca162688ebb",tooltip="Get DL burst profile field."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::DcdChannelEncodings\l::GetEirxPIrMax",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dcd_channel_encodings.html#aa284fe7643ce14708f7d0295c8efc1ec",tooltip="Get EIRX IR MAX field."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::OfdmDlBurstProfile\l::GetFecCodeType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ofdm_dl_burst_profile.html#a6a14a2fa8fd719d8e6efa58bf229800f",tooltip=" "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::OfdmDcdChannelEncodings\l::GetFrameDurationCode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ofdm_dcd_channel_encodings.html#a6cf1521781553d8549d23226df469749",tooltip="Get frame duration code field."];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::WimaxNetDevice\l::GetPhy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wimax_net_device.html#a6a815b32ac3f6e44e5cad9d5350b7b5e",tooltip="Get the physical layer object."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::WimaxNetDevice\l::SetCurrentDcd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wimax_net_device.html#ab117daf48e12811b746173822f3869dd",tooltip="Set the current DCD."];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::OfdmDlBurstProfile\l::SetDiuc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ofdm_dl_burst_profile.html#ae3d4ef4e16c600092b10354749fb6d2f",tooltip="Set DIUC field."];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::OfdmDlBurstProfile\l::SetFecCodeType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ofdm_dl_burst_profile.html#a820825183214aaa1c788ea3a1f3b240d",tooltip="Set FEC code type."];
+}

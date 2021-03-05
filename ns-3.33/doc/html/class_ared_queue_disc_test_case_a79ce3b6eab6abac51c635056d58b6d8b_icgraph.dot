@@ -1,0 +1,12 @@
+digraph "AredQueueDiscTestCase::EnqueueWithDelay"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="AredQueueDiscTestCase\l::EnqueueWithDelay",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Enqueue with delay function."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AredQueueDiscTestCase\l::RunAredDiscTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ared_queue_disc_test_case.html#a45a2ead2729f7fe8f85d85846d68d69c",tooltip="Run ARED queue disc test function."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AredQueueDiscTestCase\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ared_queue_disc_test_case.html#a195e997827d606a561c71b81aeecdcf3",tooltip="Implementation to actually run this TestCase."];
+}

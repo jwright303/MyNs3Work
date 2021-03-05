@@ -1,0 +1,10 @@
+digraph "ns3::SystemThread::Start"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::SystemThread::\lStart",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Start a thread of execution, running the provided callback."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::SystemThread::\lDoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_system_thread.html#a6455cbb73fe1fc831b9a0e73641a5bc1",tooltip="Invoke the callback in the new thread."];
+}

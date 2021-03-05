@@ -1,0 +1,53 @@
+digraph "ns3::Object::Dispose"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Object::Dispose",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Dispose of this Object."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Icmpv6L4Protocol\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_l4_protocol.html#a6aae989edf64bb22eaaab064d04ba725",tooltip="Dispose this object."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::NoBackhaulEpcHelper\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_no_backhaul_epc_helper.html#aa82e25ffa09407f0c5a8b6a975aba710",tooltip="Destructor implementation."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::EmuEpcHelper::\lDoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_emu_epc_helper.html#a4e8f0a693cb3d0ac02b558832b9da4f6",tooltip="Destructor implementation."];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::PointToPointEpcHelper\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_point_to_point_epc_helper.html#ab5c23d36d6ebaf64ea8447c54f9863f4",tooltip="Destructor implementation."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::RegularWifiMac\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_regular_wifi_mac.html#aaa1859a22112b2d594ac9d6f19fecfac",tooltip="Destructor implementation."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::MeshWifiInterfaceMac\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_mesh_wifi_interface_mac.html#ad3fffe8a6cf217762bdfa95d677c97f5",tooltip="Real d-tor."];
+  Node6 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::ApWifiMac::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_ap_wifi_mac.html#a6a889756f44c64698ddeac55437a1e0f",tooltip="Destructor implementation."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::ArpL3Protocol\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_arp_l3_protocol.html#a090a5c1267fc1008cdefbca6473e5316",tooltip="Destructor implementation."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::LteSimpleHelper\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lte_simple_helper.html#aada8f3c2d5cc5da5321e5d268881742c",tooltip="Destructor implementation."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::NodeListPriv::\lDoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_node_list_priv.html#a364a07542b9c164307aad0a8918e7748",tooltip="Dispose the nodes in the list."];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::Node::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_node.html#a7439dab03d43c058044f1f95154c6645",tooltip="The dispose method."];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::WaveNetDevice\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wave_net_device.html#aa1d99811f4322194aea16bab5b96d2e6",tooltip="Destructor implementation."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::WifiNetDevice\l::DoDispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wifi_net_device.html#af7bc39f73e50aecb0dabf775e1c9739e",tooltip="Destructor implementation."];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="Ipv4RawSocketImplTest\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ipv4_raw_socket_impl_test.html#a94a6b1e1e8aeec37dcb6e8c8788b1e66",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="Ipv6RawSocketImplTest\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ipv6_raw_socket_impl_test.html#a38877abe88d646fe0c8fd155a481049c",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="UdpSocketImplTest::\lDoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_udp_socket_impl_test.html#a186599e6487c7c550383f236042f3cd4",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="Udp6SocketImplTest\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_udp6_socket_impl_test.html#af467c8026f6038eb3c82745bc7de77a9",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="AmpduAggregationTest\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ampdu_aggregation_test.html#a7414dc8d4dd982ab4c1eaadb5b2c693d",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="TwoLevelAggregationTest\l::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_two_level_aggregation_test.html#a40c6f5f8be6c48673d0bfd218d95afe0",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="HeAggregationTest::\lDoRunSubTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_he_aggregation_test.html#a2a6873db3bb78489db82a54591b429f3",tooltip="Run test for a given buffer size."];
+  Node21 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="HeAggregationTest::\lDoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_he_aggregation_test.html#a064486621a42555204608de0af51006c",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="InterferenceExperiment::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_interference_experiment.html#ae31524d224c311c36d8b1dd5fcc9f269",tooltip="Run function."];
+}

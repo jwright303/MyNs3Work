@@ -1,0 +1,12 @@
+digraph "ns3::EutranMeasurementMapping::QuantizeRsrq"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::EutranMeasurementMapping\l::QuantizeRsrq",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Quantize an RSRQ value according to the measurement mapping of TS 36.133."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::EutranMeasurementMapping\l::Db2RsrqRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_eutran_measurement_mapping.html#adcd875f25361c17646c45695b9b6e8c4",tooltip="convert an RSRQ value in dB to the corresponding range as per 3GPP TS 36.133 section 9...."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::EutranMeasurementMapping\l::RsrqRange2Db",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_eutran_measurement_mapping.html#a8c1e02fbc1226718eb0914cf13362147",tooltip="converts an RSRQ range to dB as per 3GPP TS 36.133 section 9.1.7 RSRQ Measurement Report Mapping"];
+}

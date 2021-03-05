@@ -1,0 +1,14 @@
+digraph "ns3::TcpGeneralTest::GetPropagationDelay"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::TcpGeneralTest\l::GetPropagationDelay",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the channel Propagation Delay."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="TcpPacingTest::UpdateExpected\lInterval",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_pacing_test.html#a8fdc406040b28db3bcea98f440fba6bc",tooltip="Update the expected interval at which next packet will be sent."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="TcpPacingTest::CWndTrace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_pacing_test.html#a0ffdf26becb1a21f3bd61830871bff07",tooltip="Tracks the congestion window changes."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TcpPacingTest::RttTrace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tcp_pacing_test.html#a1db4570c171fd5dc0346523557e3bd47",tooltip="Rtt changes."];
+}

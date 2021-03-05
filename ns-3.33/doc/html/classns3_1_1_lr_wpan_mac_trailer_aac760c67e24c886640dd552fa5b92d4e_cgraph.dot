@@ -1,0 +1,10 @@
+digraph "ns3::LrWpanMacTrailer::SetFcs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::LrWpanMacTrailer\l::SetFcs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Calculate and set the FCS value based on the given packet."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::LrWpanMacTrailer\l::GenerateCrc16",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_lr_wpan_mac_trailer.html#a834005b6ad953ca027a5782a93613718",tooltip="Calculate the 16-bit FCS value."];
+}

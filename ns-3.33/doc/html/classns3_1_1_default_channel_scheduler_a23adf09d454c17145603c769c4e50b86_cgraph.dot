@@ -1,0 +1,12 @@
+digraph "ns3::DefaultChannelScheduler::DoInitialize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::DefaultChannelScheduler\l::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Initialize() implementation."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ChannelScheduler\l::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_channel_scheduler.html#a1f2861fccda9236e6d129b5a2b0db675",tooltip="Initialize() implementation."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::ChannelScheduler\l::AssignDefaultCchAccess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_channel_scheduler.html#a9259512c27abac5635dd9c86efc7945c",tooltip="This method will assign default CCH access for CCH."];
+}

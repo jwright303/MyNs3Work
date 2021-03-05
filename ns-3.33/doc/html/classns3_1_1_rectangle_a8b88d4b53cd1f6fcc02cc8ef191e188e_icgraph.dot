@@ -1,0 +1,48 @@
+digraph "ns3::Rectangle::CalculateIntersection"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Rectangle::Calculate\lIntersection",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::DoWalk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#a63ebca7a4a83b193c354a5464937e03c",tooltip="Walk according to position and velocity, until distance is reached, time is reached,..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::AvoidBuilding",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#a05a7121624c2bfbe7d1e29199e025105",tooltip="Avoid a building."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::DoInitializePrivate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#a39ee7621a685f4830826422d8b53cd99",tooltip="Perform initialization of the object before MobilityModel::DoInitialize ()"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#a696a4be370bc98059dfa1e70492d91de",tooltip="Initialize() implementation."];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::DoSetPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#aca4f9034c94849ec4d724423ae4ed696",tooltip=" "];
+  Node4 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::RandomWalk2dOutdoor\lMobilityModel::Rebound",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_outdoor_mobility_model.html#a52d0d6108e2c65240e9844b47742d7c5",tooltip="Performs the rebound of the node if it reaches a boundary."];
+  Node7 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::RandomWalk2dMobility\lModel::DoWalk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_mobility_model.html#a7264a6530d2c8d2ecef04eda098db5d4",tooltip="Walk according to position and velocity, until distance is reached, time is reached,..."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::RandomWalk2dMobility\lModel::DoInitializePrivate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_mobility_model.html#a130059c3aaeeed619641392042bf36c1",tooltip="Perform initialization of the object before MobilityModel::DoInitialize ()"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::RandomWalk2dMobility\lModel::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_mobility_model.html#a3b8cbd84a8f2e5aced56a37f338369b7",tooltip="Initialize() implementation."];
+  Node9 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::RandomWalk2dMobility\lModel::DoSetPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_mobility_model.html#a208225b18028947d3153166926fe6811",tooltip=" "];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::RandomWalk2dMobility\lModel::Rebound",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_walk2d_mobility_model.html#a8cf0179f7646fec7c7f167e00ceb7691",tooltip="Performs the rebound of the node if it reaches a boundary."];
+  Node12 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::RandomDirection2dMobility\lModel::SetDirectionAndSpeed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_direction2d_mobility_model.html#a29c1abbed69775374f52c5635cadd5d9",tooltip="Set new velocity and direction, and schedule next pause event"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::RandomDirection2dMobility\lModel::DoInitializePrivate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_direction2d_mobility_model.html#a8240bba0ddc6f386bda3ebf96b383a6a",tooltip="Sets a new random direction and calls SetDirectionAndSpeed."];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::RandomDirection2dMobility\lModel::DoInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_direction2d_mobility_model.html#acda447352283b800003b657128927cc6",tooltip="Initialize() implementation."];
+  Node14 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::RandomDirection2dMobility\lModel::DoSetPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_direction2d_mobility_model.html#ae35094b50443320f1ebab5beed22cc34",tooltip=" "];
+  Node13 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ns3::RandomDirection2dMobility\lModel::ResetDirectionAndSpeed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_direction2d_mobility_model.html#acc1e4eab8e75a20854938b0616bb9c79",tooltip="Set a new direction and speed."];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ns3::RandomDirection2dMobility\lModel::BeginPause",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_random_direction2d_mobility_model.html#a95bf0e9129301ca8cf51fcd1bf665a17",tooltip="Pause, cancel currently scheduled event, schedule end of pause event."];
+  Node18 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

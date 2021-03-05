@@ -1,0 +1,11 @@
+digraph "WAVE module"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node3 [label="Packet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__packet.html",tooltip=" "];
+  Node2 [label="wave module tests",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__wave-test.html",tooltip=" "];
+  Node1 [label="WAVE module",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1->Node2 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, label="ns3::HigherLayerTxVectorTag", color="orange", dir="none", style="dashed"];
+}

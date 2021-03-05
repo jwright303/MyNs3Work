@@ -1,0 +1,39 @@
+digraph "ns3::Node::GetNApplications"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Node::GetNApplications",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::NoBackhaulEpcHelper\l::AddEnb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_no_backhaul_epc_helper.html#aa1cdaed2fa4b5f0683c30b6090b37540",tooltip="Add an eNB to the EPC."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::EmuEpcHelper::\lAddEnb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_emu_epc_helper.html#abaff0cf3ed70c034b5e0fd22dc89a7ba",tooltip="Add an eNB to the EPC."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::PointToPointEpcHelper\l::AddEnb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_point_to_point_epc_helper.html#a6636cc9c0501b719bd81ed13efd3c589",tooltip="Add an eNB to the EPC."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="EpcS1uDlTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_epc_s1u_dl_test_case.html#a2ac9313672e6c5e2a5a33f98a77ffec2",tooltip="Implementation to actually run this TestCase."];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="EpcS1uUlTestCase::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_epc_s1u_ul_test_case.html#a6fa27997312de46d9b0f3ab2221a24fa",tooltip="Implementation to actually run this TestCase."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::OnOffHelper::Assign\lStreams",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_on_off_helper.html#a85670455fe0522c2040fbdddb6d4d1fb",tooltip="Assign a fixed random variable stream number to the random variables used by this model."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::WaveBsmHelper\l::AssignStreams",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_wave_bsm_helper.html#ae70eefd2d78ae539e65ea27468a525d2",tooltip="Assign a fixed random variable stream number to the random variables used by this model."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="VanetRoutingExperiment\l::SetupWaveMessages",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_vanet_routing_experiment.html#ac1c715525bd264c2dbf121540cc20490",tooltip="Set up generation of IEEE 1609 WAVE messages, as a Basic Safety Message (BSM)."];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="VanetRoutingExperiment\l::ConfigureApplications",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_vanet_routing_experiment.html#ac9ec4394e60b165e355ddbe1eecc78fd",tooltip="Configure applications."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::V4Ping::GetApplicationId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_v4_ping.html#a6ed50ce02fa1e9c9973bcf8f09841fdc",tooltip="Return the application ID in the node."];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::V4Ping::Receive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_v4_ping.html#a87c38673f7b4c568d114c2815ff2aa78",tooltip="Receive an ICMP Echo."];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ns3::V4Ping::StartApplication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_v4_ping.html#ac5176e135c81f0764bcd560c7fc71390",tooltip="Application specific startup code."];
+  Node11 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ns3::V4Ping::Send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_v4_ping.html#a26d3a4285998df72a37dfa62b9097e4b",tooltip="Send one Ping (ICMP ECHO) to the destination."];
+  Node14 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ns3::V4TraceRoute::\lGetApplicationId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_v4_trace_route.html#a29b7f83dff49acaed9301349174992a7",tooltip="Return the application ID in the node."];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ns3::V4TraceRouteHelper\l::PrintTraceRouteAt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_v4_trace_route_helper.html#a2e3f1472ea13e8e975aaf208077365e2",tooltip="Print the resulting trace routes from given node."];
+}

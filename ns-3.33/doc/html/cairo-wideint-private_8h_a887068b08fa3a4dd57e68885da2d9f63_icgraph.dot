@@ -1,0 +1,16 @@
+digraph "_cairo_uint64x64_128_mul"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="_cairo_uint64x64_128_mul",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="_cairo_int64x64_128_mul",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cairo-wideint-private_8h.html#a68bf647b9742a77355fa953257a25601",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="_cairo_uint128_mul",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cairo-wideint-private_8h.html#a5b0f85c73ef6ea5bd146f7c455fb5a10",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::int64x64_t::Umul",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1int64x64__t.html#a1aaf2c7c5952219ada53ec78c31b43bc",tooltip="Unsigned multiplication of Q64.64 values."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::int64x64_t::UmulByInvert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1int64x64__t.html#a32b089058a51a868f81280207d914678",tooltip="Unsigned multiplication of Q64.64 and Q0.128 values."];
+}

@@ -1,0 +1,31 @@
+digraph "ns3::BlockAckWindow::Init"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::BlockAckWindow\l::Init",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Initialize the window with the given starting sequence number and size."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::OriginatorBlockAckAgreement\l::InitTxWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_originator_block_ack_agreement.html#a14ce11fa7ad5e4bca2c2e6300e5329dd",tooltip="Initialize the originator's transmit window by setting its size and starting sequence number equal to..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="OriginatorBlockAckWindow\lTest::DoRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_originator_block_ack_window_test.html#afa79ee872643cc855c1003121f9c564e",tooltip="Implementation to actually run this TestCase."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::BlockAckManager\l::UpdateAgreement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_manager.html#ac5b719210486783186579641e599d362",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::BlockAckWindow\l::Reset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_window.html#a07353e10e9876c6f3e310e8696b7f4ed",tooltip="Reset the window by clearing all the elements and setting winStart to the given value."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::BlockAckWindow\l::Advance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_block_ack_window.html#a5b9251c6163090e5751819fa3baa6710",tooltip="Advance the current winStart by the given number of positions."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::OriginatorBlockAckAgreement\l::AdvanceTxWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_originator_block_ack_agreement.html#a3db399f9c86d469688d2742f7acda443",tooltip="Advance the transmit window so that the starting sequence number is the nearest unacknowledged MPDU."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ns3::OriginatorBlockAckAgreement\l::NotifyAckedMpdu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_originator_block_ack_agreement.html#a40efbd2ca6815ab1c3924b83a8f3d197",tooltip="Record that the given MPDU has been acknowledged and advance the transmit window if possible."];
+  Node8 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::OriginatorBlockAckAgreement\l::NotifyDiscardedMpdu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_originator_block_ack_agreement.html#ab31ce9c21ae434370f824685676fc60c",tooltip="Advance the transmit window beyond the MPDU that has been reported to be discarded."];
+  Node9 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::OriginatorBlockAckAgreement\l::NotifyTransmittedMpdu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_originator_block_ack_agreement.html#a46f9e62120edd34a3b9ead56379d784a",tooltip="Advance the transmit window so as to include the transmitted MPDU, if the latter is not an old packet..."];
+  Node10 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

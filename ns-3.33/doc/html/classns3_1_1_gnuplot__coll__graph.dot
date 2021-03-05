@@ -1,0 +1,23 @@
+digraph "ns3::Gnuplot"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ns3::Gnuplot",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="a simple class to generate gnuplot-ready plotting commands from a set of datasets."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_datasets" ,fontname="Helvetica"];
+  Node2 [label="std::vector\< GnuplotDataset \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node3 [label="ns3::GnuplotDataset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_gnuplot_dataset.html",tooltip="Abstract class to store a plot line to be used by ns3::Gnuplot."];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_data" ,fontname="Helvetica"];
+  Node4 [label="ns3::GnuplotDataset\l::Data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structns3_1_1_gnuplot_dataset_1_1_data.html",tooltip="Structure storing the data to plot."];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_extra\nm_title" ,fontname="Helvetica"];
+  Node5 [label="std::string",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="std::basic_string\<\l Char \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_defaultExtra" ,fontname="Helvetica"];
+  Node7 -> Node2 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< GnuplotDataset \>" ,fontname="Helvetica"];
+  Node7 [label="std::vector\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node8 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_extra\nm_outputFilename\nm_terminal\nm_title\nm_xLegend\nm_yLegend" ,fontname="Helvetica"];
+}

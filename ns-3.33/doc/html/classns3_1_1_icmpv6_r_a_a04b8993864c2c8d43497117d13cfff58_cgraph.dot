@@ -1,0 +1,30 @@
+digraph "ns3::Icmpv6RA::Icmpv6RA"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ns3::Icmpv6RA::Icmpv6RA",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Constructor."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Icmpv6Header::\lSetCode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_header.html#aa08a37a07a6a11973b2603e69d6e859c",tooltip="Set the code field."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::Icmpv6RA::SetCurHop\lLimit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_r_a.html#a5a507ccaa90dde3818a86e7744d7ef46",tooltip="Set the IPv6 maximum number of jumps."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::Icmpv6RA::SetFlagH",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_r_a.html#a4c3df0d2356b15dcbb5e003e1774a289",tooltip="Set the H flag."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::Icmpv6RA::SetFlagM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_r_a.html#a60e350a958ac8ddf084ef82120dbdf82",tooltip="Set the M flag."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::Icmpv6RA::SetFlagO",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_r_a.html#a5af84e63d720d64e1a43727ecba29f77",tooltip="Set the O flag."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::Icmpv6RA::SetFlags",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_r_a.html#a1625da27db1384e8994178cd5ecc8972",tooltip="Setflags."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$80211b_8c.html#ae7ffc1a8f84fa47a0812b2f2b9627132",tooltip=" "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ns3::Icmpv6RA::SetLifeTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_r_a.html#a103f5d0fefed7ba9adcf96ed92d2c47f",tooltip="Set the node Life time (Neighbor Discovery)."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ns3::Icmpv6RA::SetReachableTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_r_a.html#a66568d3ab181bd0c187d634d78d91c24",tooltip="Set the node Reachable time (Neighbor Discovery)."];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ns3::Icmpv6RA::SetRetransmissionTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_r_a.html#a4d725d41eded89e8f40f781412adac8a",tooltip="Set the node Retransmission time (Neighbor Discovery)."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ns3::Icmpv6Header::\lSetType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_header.html#acd72c655fc99e3b4399501bd14149c52",tooltip="Set the type."];
+}

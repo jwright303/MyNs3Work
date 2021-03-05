@@ -1,0 +1,17 @@
+digraph "ns3::DhcpHeader::GetTran"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::DhcpHeader::GetTran",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the transaction id."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::DhcpServer::SendAck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dhcp_server.html#ace0985d3fafb7048b6a1f10a99c2ef64",tooltip="Sends DHCP ACK (or NACK) after receiving Request."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::DhcpServer::NetHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dhcp_server.html#acc55231b1b1e6ef243e7fb0295209fe8",tooltip="Handles incoming packets from the network."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::DhcpServer::StartApplication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dhcp_server.html#ab3c7516bfe4275063212414342201940",tooltip="Starts the DHCP Server application."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::DhcpServer::SendOffer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_dhcp_server.html#aedb1487d987f9aa542aae3ad326b9c0b",tooltip="Sends DHCP offer after receiving DHCP Discover."];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

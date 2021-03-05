@@ -1,0 +1,18 @@
+digraph "ns3::TcpHeader::EnableChecksums"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::TcpHeader::EnableChecksums",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Enable checksum calculation for TCP."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TcpL4Protocol\l::SendPacketV4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_l4_protocol.html#ab95de6c05d98a9d4d3d31ed4cb8f5505",tooltip="Send a packet via TCP (IPv4)"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::TcpL4Protocol\l::SendPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_l4_protocol.html#ac9564d7d7d6a765a74fe88499fa025e1",tooltip="Send a packet via TCP (IP-agnostic)"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::TcpL4Protocol\l::NoEndPointsFound",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_l4_protocol.html#a16c65189190c60da860bc60681c01324",tooltip="Check if RST packet should be sent, and in case, send it."];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::TcpL4Protocol\l::SendPacketV6",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tcp_l4_protocol.html#a558a2802d0a80aedd31aab609cacb3f1",tooltip="Send a packet via TCP (IPv6)"];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

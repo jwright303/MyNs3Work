@@ -1,0 +1,10 @@
+digraph "ns3::ThreeGppHttpVariables::SetNumOfEmbeddedObjectsMax"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::ThreeGppHttpVariables\l::SetNumOfEmbeddedObjectsMax",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::ThreeGppHttpVariables\l::GetTypeId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_three_gpp_http_variables.html#a2380b83e08e24387feb3ad07c3ee89a4",tooltip="Returns the object TypeId."];
+}

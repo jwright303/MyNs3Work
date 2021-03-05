@@ -1,0 +1,21 @@
+digraph "ns3::HeapScheduler::IsLessStrictly"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::HeapScheduler\l::IsLessStrictly",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Compare (less than) two items."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::HeapScheduler\l::BottomUp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_heap_scheduler.html#aee0e91bc6e951d1ad4a1425e9340164c",tooltip="Percolate a newly inserted Last item to its proper position."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ns3::HeapScheduler\l::Insert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_heap_scheduler.html#ac30b67c69e468683bfc7e32f71bfc152",tooltip="Insert a new Event in the schedule."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ns3::HeapScheduler\l::Smallest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_heap_scheduler.html#a5e36ea8ecbeb2f9bb67b0476d5546695",tooltip="Minimum of two items."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ns3::HeapScheduler\l::TopDown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_heap_scheduler.html#a0971d4c2698e5be6dfef535ef9143162",tooltip="Percolate a deletion bubble down the heap."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ns3::HeapScheduler\l::Remove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_heap_scheduler.html#a81d475b379794f8c4f257d7a506ac372",tooltip="Remove a specific event from the event list."];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ns3::HeapScheduler\l::RemoveNext",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_heap_scheduler.html#a97e15b27a21ddedd4346d66b21d97144",tooltip="Remove the earliest event from the event list."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

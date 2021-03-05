@@ -1,0 +1,10 @@
+digraph "ns3::EpcX2HandoverPreparationFailureHeader::GetSerializedSize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::EpcX2HandoverPreparation\lFailureHeader::GetSerializedSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::EpcX2HandoverPreparation\lFailureHeader::Deserialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_epc_x2_handover_preparation_failure_header.html#ad92fd70a3a5292d19e6df4c30bca0826",tooltip=" "];
+}

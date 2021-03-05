@@ -1,0 +1,10 @@
+digraph "ns3::TvSpectrumTransmitter::SetupTx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::TvSpectrumTransmitter\l::SetupTx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Sets up signal to be transmitted."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::TvSpectrumTransmitter\l::Start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_tv_spectrum_transmitter.html#a4e04495d66e499a4e91abda6e17cdd2b",tooltip="Starts the TV Transmitter's transmission on the spectrum channel."];
+}

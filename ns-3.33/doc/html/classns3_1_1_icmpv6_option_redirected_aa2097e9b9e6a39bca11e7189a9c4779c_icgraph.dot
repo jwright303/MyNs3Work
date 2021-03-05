@@ -1,0 +1,10 @@
+digraph "ns3::Icmpv6OptionRedirected::SetPacket"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ns3::Icmpv6OptionRedirected\l::SetPacket",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set the redirected packet."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ns3::Icmpv6L4Protocol\l::SendRedirection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns3_1_1_icmpv6_l4_protocol.html#a775f19603b15e25f287f54096a3f26cb",tooltip="Send an ICMPv6 Redirection."];
+}
